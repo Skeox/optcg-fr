@@ -25,3 +25,4 @@ dist-ssr
 
 # Caches de construction (HTML officiel, images)
 .cache
+*.traineddata

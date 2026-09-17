@@ -1,0 +1,717 @@
+{
+ "5229": {
+  "name": "Romance Dawn",
+  "slug": "Romance-Dawn",
+  "foreign": false
+ },
+ "5230": {
+  "name": "Promos",
+  "slug": "Promos",
+  "foreign": false
+ },
+ "5237": {
+  "name": "Starter Deck: Straw Hat Crew",
+  "slug": "STARTER-DECK-Straw-Hat-Crew",
+  "foreign": false
+ },
+ "5238": {
+  "name": "Starter Deck: Worst Generation",
+  "slug": "Starter-Deck-Worst-Generation",
+  "foreign": false
+ },
+ "5239": {
+  "name": "Starter Deck: The Seven Warlords of the Sea",
+  "slug": "Starter-Deck-The-Seven-Warlords-of-the-Sea",
+  "foreign": false
+ },
+ "5240": {
+  "name": "Starter Deck: Animal Kingdom Pirates",
+  "slug": "Starter-Deck-Animal-Kingdom-Pirates",
+  "foreign": false
+ },
+ "5244": {
+  "name": "One Piece Products",
+  "slug": "One-Piece-Products",
+  "foreign": false
+ },
+ "5255": {
+  "name": "Starter Deck: ONE PIECE FILM edition",
+  "slug": "Starter-Deck-ONE-PIECE-FILM-edition",
+  "foreign": false
+ },
+ "5262": {
+  "name": "Special Tournament Promos",
+  "slug": "Special-Tournaments-Promos",
+  "foreign": false
+ },
+ "5263": {
+  "name": "Paramount War",
+  "slug": "Paramount-War",
+  "foreign": false
+ },
+ "5265": {
+  "name": "Starter Deck: Absolute Justice",
+  "slug": "Starter-Deck-Absolute-Justice",
+  "foreign": false
+ },
+ "5267": {
+  "name": "Premium Bandai Products",
+  "slug": "Premium-Bandai-Products",
+  "foreign": false
+ },
+ "5300": {
+  "name": "Promos: Paramount War",
+  "slug": "Promos-Paramount-War",
+  "foreign": false
+ },
+ "5302": {
+  "name": "Reprints",
+  "slug": "Reprints",
+  "foreign": false
+ },
+ "5303": {
+  "name": "Unnumbered Promos",
+  "slug": "Unnumbered-Promos",
+  "foreign": false
+ },
+ "5312": {
+  "name": "Judge Promos",
+  "slug": "Judge-Promos",
+  "foreign": false
+ },
+ "5364": {
+  "name": "Pillars of Strength",
+  "slug": "Pillars-of-Strength",
+  "foreign": false
+ },
+ "5365": {
+  "name": "Kingdoms of Intrigue",
+  "slug": "Kingdoms-of-Intrigue",
+  "foreign": false
+ },
+ "5366": {
+  "name": "Starter Deck: Monkey.D.Luffy",
+  "slug": "Starter-Deck-MonkeyDLuffy",
+  "foreign": false
+ },
+ "5367": {
+  "name": "Starter Deck: Yamato",
+  "slug": "Starter-Deck-Yamato",
+  "foreign": false
+ },
+ "5377": {
+  "name": "Starter Deck: Big Mom Pirates",
+  "slug": "Starter-Deck-Big-Mom-Pirates",
+  "foreign": false
+ },
+ "5380": {
+  "name": "Ultra Deck: The Three Captains",
+  "slug": "Ultra-Deck-The-Three-Captains",
+  "foreign": false
+ },
+ "5413": {
+  "name": "Promos: Pillars of Strengt",
+  "slug": "Promos-Pillars-of-Strength",
+  "foreign": false
+ },
+ "5426": {
+  "name": "Awakening of the New Era",
+  "slug": "Awakening-of-the-New-Era",
+  "foreign": false
+ },
+ "5427": {
+  "name": "Starter Deck: Uta",
+  "slug": "Starter-Deck-Uta",
+  "foreign": false
+ },
+ "5481": {
+  "name": "Awakening of the New Era (Non-English)",
+  "slug": "Awakening-of-the-New-Era-Japanese",
+  "foreign": true
+ },
+ "5482": {
+  "name": "Pillars of Strength (Japanese)",
+  "slug": "Pillars-of-Strength-Japanese",
+  "foreign": true
+ },
+ "5483": {
+  "name": "Paramount War (Japanese)",
+  "slug": "Paramount-War-Japanese",
+  "foreign": true
+ },
+ "5484": {
+  "name": "Romance Dawn (Japanese)",
+  "slug": "Romance-Dawn-Japanese",
+  "foreign": true
+ },
+ "5485": {
+  "name": "Kingdoms of Intrigue (Non-English)",
+  "slug": "Kingdoms-of-Intrigue-Japanese",
+  "foreign": true
+ },
+ "5486": {
+  "name": "Promos: Kingdoms of Intrigue",
+  "slug": "Promos-Kingdoms-of-Intrigue",
+  "foreign": false
+ },
+ "5510": {
+  "name": "Unnumbered Promos (Non-English)",
+  "slug": "Unnumbered-Promos-Japanese",
+  "foreign": true
+ },
+ "5511": {
+  "name": "Promos (Japanese)",
+  "slug": "Promos-Japanese",
+  "foreign": true
+ },
+ "5524": {
+  "name": "Wings of the Captain",
+  "slug": "Wings-of-the-Captain",
+  "foreign": false
+ },
+ "5551": {
+  "name": "Wings of the Captain (Non-English)",
+  "slug": "Wings-of-the-Captain-Japanese",
+  "foreign": true
+ },
+ "5558": {
+  "name": "Ultimate Deck - The Three Captains (Non-English)",
+  "slug": "Ultimate-Deck-The-Three-Captains-Japanese",
+  "foreign": true
+ },
+ "5565": {
+  "name": "Promos: Awakening of the New Era",
+  "slug": "Promos-Awakening-of-the-New-Era",
+  "foreign": false
+ },
+ "5580": {
+  "name": "Memorial Collection (Non-English)",
+  "slug": "Memorial-Collection-Japanese",
+  "foreign": true
+ },
+ "5585": {
+  "name": "Memorial Collection",
+  "slug": "Memorial-Collection",
+  "foreign": false
+ },
+ "5586": {
+  "name": "500 Years into the Future",
+  "slug": "500-Years-into-the-Future",
+  "foreign": false
+ },
+ "5587": {
+  "name": "500 Years into the Future (Non-English)",
+  "slug": "500-Years-into-the-Future-Japanese",
+  "foreign": true
+ },
+ "5591": {
+  "name": "Starter Deck: Uta (Non-English)",
+  "slug": "Starter-Deck-Uta-Japanese",
+  "foreign": true
+ },
+ "5592": {
+  "name": "Starter Deck: Zoro & Sanji (Non-English)",
+  "slug": "Starter-Deck-Zoro-Sanji-Japanese",
+  "foreign": true
+ },
+ "5593": {
+  "name": "Starter Deck: Zoro & Sanji",
+  "slug": "Starter-Deck-Zoro-Sanji",
+  "foreign": false
+ },
+ "5594": {
+  "name": "Ultimate Deck: The Three Brothers (Non-English)",
+  "slug": "Ultra-Deck-The-Three-Brothers-Japanese",
+  "foreign": true
+ },
+ "5595": {
+  "name": "Ultra Deck: The Three Brothers",
+  "slug": "Ultimate-Deck-The-Three-Brothers",
+  "foreign": false
+ },
+ "5598": {
+  "name": "Special Tournament Promos (Non-English)",
+  "slug": "Special-Tournament-Promos-Japanese",
+  "foreign": true
+ },
+ "5610": {
+  "name": "Two Legends",
+  "slug": "Two-Legends",
+  "foreign": false
+ },
+ "5611": {
+  "name": "Starter Deck: 3D2Y",
+  "slug": "Starter-Deck-3D2Y",
+  "foreign": false
+ },
+ "5622": {
+  "name": "Promos: Wings of the Captain",
+  "slug": "Promos-Wings-of-the-Captain",
+  "foreign": false
+ },
+ "5624": {
+  "name": "Romance Dawn (Pre-Errata)",
+  "slug": "Romance-Dawn-Pre-Errata",
+  "foreign": true
+ },
+ "5744": {
+  "name": "Two Legends (Non-English)",
+  "slug": "Two-Legends-Non-English",
+  "foreign": true
+ },
+ "5747": {
+  "name": "Starter Deck: Edward.Newgate",
+  "slug": "Starter-Deck-EdwardNewgate",
+  "foreign": false
+ },
+ "5748": {
+  "name": "Starter Deck: Green Uta",
+  "slug": "Starter-Deck-Green-Uta",
+  "foreign": false
+ },
+ "5749": {
+  "name": "Starter Deck: Donquixote Doflamingo",
+  "slug": "Starter-Deck-Donquixote-Doflamingo",
+  "foreign": false
+ },
+ "5750": {
+  "name": "Starter Deck: Purple Monkey.D.Luffy",
+  "slug": "Starter-Deck-Purple-MonkeyDLuffy",
+  "foreign": false
+ },
+ "5751": {
+  "name": "Starter Deck: Smoker",
+  "slug": "Starter-Deck-Smoker",
+  "foreign": false
+ },
+ "5752": {
+  "name": "Starter Deck: Charlotte Katakuri",
+  "slug": "Starter-Deck-Charlotte-Katakuri",
+  "foreign": false
+ },
+ "5755": {
+  "name": "Emperors in the New World",
+  "slug": "Emperors-in-the-New-World",
+  "foreign": false
+ },
+ "5803": {
+  "name": "Promos: 500 Years into the Future",
+  "slug": "Promos-500-Years-into-the-Future",
+  "foreign": false
+ },
+ "5804": {
+  "name": "The Best (Non-English)",
+  "slug": "The-Best-Non-English",
+  "foreign": true
+ },
+ "5805": {
+  "name": "The Best",
+  "slug": "The-Best",
+  "foreign": false
+ },
+ "5850": {
+  "name": "Starter Deck: 3D2Y (Japanese)",
+  "slug": "Starter-Deck-3D2Y-Japanese",
+  "foreign": true
+ },
+ "5887": {
+  "name": "Emperors in the New World (Non-English)",
+  "slug": "Emperors-in-the-New-World-Non-English",
+  "foreign": true
+ },
+ "5896": {
+  "name": "Promos: Two Legends",
+  "slug": "Promos-Two-Legends",
+  "foreign": false
+ },
+ "5968": {
+  "name": "Starter Deck: Edward.Newgate (Non-English)",
+  "slug": "Starter-Deck-EdwardNewgate-Non-English",
+  "foreign": true
+ },
+ "5969": {
+  "name": "Starter Deck: Green Uta (Non-English)",
+  "slug": "Starter-Deck-Green-Uta-Non-English",
+  "foreign": true
+ },
+ "5970": {
+  "name": "Starter Deck: Donquixote Doflamingo (Non-English)",
+  "slug": "Starter-Deck-Donquixote-Doflamingo-Non-English",
+  "foreign": true
+ },
+ "5971": {
+  "name": "Starter Deck: Purple Monkey.D.Luffy (Non-English)",
+  "slug": "Starter-Deck-Purple-MonkeyDLuffy-Non-English",
+  "foreign": true
+ },
+ "5972": {
+  "name": "Starter Deck: Smoker (Non-English)",
+  "slug": "Starter-Deck-Smoker-Non-English",
+  "foreign": true
+ },
+ "5973": {
+  "name": "Starter Deck: Charlotte Katakuri (Non-English)",
+  "slug": "Starter-Deck-Charlotte-Katakuri-Non-English",
+  "foreign": true
+ },
+ "5974": {
+  "name": "Royal Blood",
+  "slug": "Royal-Blood",
+  "foreign": false
+ },
+ "5975": {
+  "name": "Royal Blood (Non-English)",
+  "slug": "Royal-Blood-Non-English",
+  "foreign": true
+ },
+ "5979": {
+  "name": "Promos: Emperors in the New World",
+  "slug": "Promos-Emperors-in-the-New-World",
+  "foreign": false
+ },
+ "5998": {
+  "name": "Starter Deck: EX Gear 5",
+  "slug": "Ultra-Deck-EX-Gear-5",
+  "foreign": false
+ },
+ "5999": {
+  "name": "Starter Deck: EX Gear 5 (Non English)",
+  "slug": "Starter-Deck-EX-Gear-5-Non-English",
+  "foreign": true
+ },
+ "6018": {
+  "name": "Anime 25th Collection (Non-English)",
+  "slug": "Anime-25th-Collection-Japanese",
+  "foreign": true
+ },
+ "6028": {
+  "name": "Anime 25th Collection",
+  "slug": "Anime-25th-Collection",
+  "foreign": false
+ },
+ "6029": {
+  "name": "Starter Deck: Straw Hat Crew (Non-English)",
+  "slug": "Starter-Deck-Straw-Hat-Crew-Non-English",
+  "foreign": true
+ },
+ "6030": {
+  "name": "Starter Deck: Worst Generation (Non-English)",
+  "slug": "Starter-Deck-Worst-Generation-Non-English",
+  "foreign": true
+ },
+ "6031": {
+  "name": "Starter Deck: The Seven Warlords of the Sea (Non-English)",
+  "slug": "Starter-Deck-The-Seven-Warlords-of-the-Sea-Non-English",
+  "foreign": true
+ },
+ "6032": {
+  "name": "Starter Deck: Animal Kingdom Pirates (Non-English)",
+  "slug": "Starter-Deck-Animal-Kingdom-Pirates-Non-English",
+  "foreign": true
+ },
+ "6033": {
+  "name": "A Fist of Divine Speed",
+  "slug": "A-Fist-of-Divine-Speed",
+  "foreign": false
+ },
+ "6034": {
+  "name": "A Fist of Divine Speed (Non-English)",
+  "slug": "A-Fist-of-Divine-Speed-Non-English",
+  "foreign": true
+ },
+ "6090": {
+  "name": "Promos: Royal Blood",
+  "slug": "Promos-Royal-Blood",
+  "foreign": false
+ },
+ "6138": {
+  "name": "Starter Deck: EX Ace & Newgate (Non-English)",
+  "slug": "Starter-Deck-EX-Ace-Newgate-Non-English",
+  "foreign": true
+ },
+ "6147": {
+  "name": "Starter Deck: Green Yellow Yamato",
+  "slug": "Starter-Deck-Green-Yellow-Yamato",
+  "foreign": false
+ },
+ "6148": {
+  "name": "Starter Deck: Black Marshall.D.Teach",
+  "slug": "Starter-Deck-Black-MarshallDTeach",
+  "foreign": false
+ },
+ "6149": {
+  "name": "Starter Deck: Purple Black Monkey.D.Luffy",
+  "slug": "Starter-Deck-Purple-Black-MonkeyDLuffy",
+  "foreign": false
+ },
+ "6150": {
+  "name": "Starter Deck: Blue Buggy",
+  "slug": "Starter-Deck-Blue-Buggy",
+  "foreign": false
+ },
+ "6151": {
+  "name": "Starter Deck: Green Jewelry Bonney",
+  "slug": "Starter-Deck-Green-Jewlery-Bonney",
+  "foreign": false
+ },
+ "6152": {
+  "name": "Starter Deck: Red Shanks",
+  "slug": "Starter-Deck-Red-Shanks",
+  "foreign": false
+ },
+ "6157": {
+  "name": "Legacy of the Master (Non-English)",
+  "slug": "Bonds-of-Master-and-Disciple-Non-English",
+  "foreign": true
+ },
+ "6160": {
+  "name": "Promos: A Fist of Divine Speed",
+  "slug": "Promos-A-Fist-of-Divine-Speed",
+  "foreign": false
+ },
+ "6186": {
+  "name": "Legacy of the Master",
+  "slug": "Legacy-of-the-Master",
+  "foreign": false
+ },
+ "6187": {
+  "name": "Carrying on his Will",
+  "slug": "Carrying-on-his-Will",
+  "foreign": false
+ },
+ "6215": {
+  "name": "Starter Deck: Yamato (Non-English)",
+  "slug": "Starter-Deck-Yamato-Non-English",
+  "foreign": true
+ },
+ "6224": {
+  "name": "Starter Deck: Green Yellow Yamato (Non-English)",
+  "slug": "Starter-Deck-Green-Yellow-Yamato-Non-English",
+  "foreign": true
+ },
+ "6225": {
+  "name": "Starter Deck: Black Marshall.D.Teach (Non-English)",
+  "slug": "Starter-Deck-Black-MarshallDTeach-Non-English",
+  "foreign": true
+ },
+ "6226": {
+  "name": "Starter Deck: Purple Black Monkey.D.Luffy (Non-English)",
+  "slug": "Starter-Deck-Purple-Black-MonkeyDLuffy-Non-English",
+  "foreign": true
+ },
+ "6227": {
+  "name": "Starter Deck: Blue Buggy (Non-English)",
+  "slug": "Starter-Deck-Blue-Buggy-Non-English",
+  "foreign": true
+ },
+ "6228": {
+  "name": "Starter Deck: Green Jewelry Bonney (Non-English)",
+  "slug": "Starter-Deck-Green-Jewelry-Bonney-Non-English",
+  "foreign": true
+ },
+ "6229": {
+  "name": "Starter Deck: Red Shanks (Non-English)",
+  "slug": "Starter-Deck-Red-Shanks-Non-English",
+  "foreign": true
+ },
+ "6233": {
+  "name": "The Best Vol. 2 (Non-English)",
+  "slug": "The-Best-Vol-2-Non-English",
+  "foreign": true
+ },
+ "6242": {
+  "name": "The Best Vol.2",
+  "slug": "The-Best-Vol2",
+  "foreign": false
+ },
+ "6264": {
+  "name": "Promos: Legacy of the Master",
+  "slug": "Promos-Legacy-of-the-Master",
+  "foreign": false
+ },
+ "6270": {
+  "name": "Starter Deck: EX Ace & Newgate",
+  "slug": "Starter-Deck-EX-Ace-Newgate",
+  "foreign": false
+ },
+ "6277": {
+  "name": "Carrying on his Will (Non-English)",
+  "slug": "Carrying-on-his-Will-Non-English",
+  "foreign": true
+ },
+ "6338": {
+  "name": "Learn Together Deck Set 01",
+  "slug": "Learn-Together-Deck-Set-01",
+  "foreign": false
+ },
+ "6372": {
+  "name": "Promos: Carrying on his Will",
+  "slug": "Promos-Carrying-on-his-Will",
+  "foreign": false
+ },
+ "6379": {
+  "name": "Heroines Edition (Asia Region Legal)",
+  "slug": "Heroines-Edition-Asia-Region-Legal",
+  "foreign": true
+ },
+ "6411": {
+  "name": "The Azure Sea's Seven (Asia Region Legal)",
+  "slug": "The-Azure-Seas-Seven-Asia-Region-Legal",
+  "foreign": true
+ },
+ "6432": {
+  "name": "The Azure Sea's Seven",
+  "slug": "The-Azure-Seas-Seven",
+  "foreign": false
+ },
+ "6444": {
+  "name": "Starter Deck: Egghead",
+  "slug": "Starter-Deck-Egghead",
+  "foreign": false
+ },
+ "6445": {
+  "name": "Starter Deck: Egghead (Asia Region Legal)",
+  "slug": "Starter-Deck-Egghead-Asia-Region-Legal",
+  "foreign": true
+ },
+ "6446": {
+  "name": "Promos: The Azure Sea's Seven",
+  "slug": "Promos-The-Azure-Seas-Seven",
+  "foreign": false
+ },
+ "6449": {
+  "name": "Heroines Edition",
+  "slug": "Heroines-Edition",
+  "foreign": false
+ },
+ "6456": {
+  "name": "Adventure on Kami’s Island",
+  "slug": "Adventure-on-Kamis-Island",
+  "foreign": false
+ },
+ "6457": {
+  "name": "The Time of Battle",
+  "slug": "OP16",
+  "foreign": false
+ },
+ "6478": {
+  "name": "Egghead Crisis (Asia Region Legal)",
+  "slug": "Egghead-Crisis-Asia-Region-Legal",
+  "foreign": true
+ },
+ "6492": {
+  "name": "The World’s Strongest Warriors",
+  "slug": "OP17",
+  "foreign": false
+ },
+ "6498": {
+  "name": "Mini Promo Cards",
+  "slug": "Mini-Promo-Cards",
+  "foreign": false
+ },
+ "6501": {
+  "name": "Demo Decks",
+  "slug": "Demo-Decks",
+  "foreign": false
+ },
+ "6504": {
+  "name": "Adventure on Kami’s Island (Asia Region Legal)",
+  "slug": "Adventure-on-Kamis-Island-Asia-Region-Legal",
+  "foreign": true
+ },
+ "6552": {
+  "name": "Promos: Adventure on Kami’s Island",
+  "slug": "Promos-Adventure-on-Kamis-Island",
+  "foreign": false
+ },
+ "6560": {
+  "name": "Starter Deck: EX Luffy & Ace (Asia Region Legal)",
+  "slug": "Starter-Deck-EX-Luffy-Ace-Asia-Region-Legal",
+  "foreign": true
+ },
+ "6606": {
+  "name": "The Time of Battle (Asia Region Legal)",
+  "slug": "The-Time-of-Battle-Asia-Region-Legal",
+  "foreign": true
+ },
+ "6608": {
+  "name": "Starter Deck: EX Luffy & Ace",
+  "slug": "Starter-Deck-EX-Luffy-Ace",
+  "foreign": false
+ },
+ "6609": {
+  "name": "Promos: The Time of Battle",
+  "slug": "Promos-The-Time-of-Battle",
+  "foreign": false
+ },
+ "6625": {
+  "name": "Premium Bandai Products (Asia Region Legal)",
+  "slug": "Premium-Bandai-Products-Asia-Region-Legal",
+  "foreign": true
+ },
+ "6645": {
+  "name": "Starter Deck: Yellow Eustass \"Captain\" Kid",
+  "slug": "Starter-Deck-Yellow-Eustass-Captain-Kid",
+  "foreign": false
+ },
+ "6646": {
+  "name": "Starter Deck: Red/Black Sabo",
+  "slug": "Starter-Deck-RedBlack-Sabo",
+  "foreign": false
+ },
+ "6647": {
+  "name": "Starter Deck: Purple Charlotte Katakuri",
+  "slug": "Starter-Deck-Purple-Charlotte-Katakuri",
+  "foreign": false
+ },
+ "6648": {
+  "name": "Starter Deck: Blue Kuzan",
+  "slug": "Starter-Deck-Blue-Kuzan",
+  "foreign": false
+ },
+ "6649": {
+  "name": "Starter Deck: Green Roronoa Zoro",
+  "slug": "Starter-Deck-Green-Roronoa-Zoro",
+  "foreign": false
+ },
+ "6650": {
+  "name": "Starter Deck: Red Monkey.D.Luffy",
+  "slug": "Starter-Deck-Red-MonkeyDLuffy",
+  "foreign": false
+ },
+ "6677": {
+  "name": "Store Tournament Promos",
+  "slug": "Store-Tournament-Promos",
+  "foreign": false
+ },
+ "6678": {
+  "name": "Store Tournament Promos (Asia Region Legal)",
+  "slug": "Store-Tournament-Promos-Asia-Region-Legal",
+  "foreign": true
+ },
+ "6684": {
+  "name": "Winner Cards",
+  "slug": "Winner-Cards",
+  "foreign": false
+ },
+ "6685": {
+  "name": "Winner Cards (Asia Region Legal)",
+  "slug": "Winner-Cards-Asia-Region-Legal",
+  "foreign": true
+ },
+ "6707": {
+  "name": "Promos: The World’s Strongest Warriors",
+  "slug": "Promos-The-Worlds-Strongest-Warriors",
+  "foreign": false
+ },
+ "6712": {
+  "name": "Starter Deck: Green Roronoa Zoro (Asia Region Legal)",
+  "slug": "Starter-Deck-Green-Roronoa-Zoro-Asia-Region-Legal",
+  "foreign": true
+ },
+ "6723": {
+  "name": "The World’s Strongest Warriors (Asia Region Legal)",
+  "slug": "The-Worlds-Strongest-Warriors-Asia-Region-Legal",
+  "foreign": true
+ }
+}

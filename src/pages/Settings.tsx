@@ -5,7 +5,7 @@ import { db, exportBackup, importBackup, type Backup } from '../db';
 import { fmtDate } from '../lib/format';
 
 export default function Settings() {
-  const { catalogue, prices, history, reload, owned } = useData();
+  const { catalogue, prices, history, pricesFr, manualFr, reload, owned } = useData();
   const [toast, show] = useToast();
   const file = useRef<HTMLInputElement>(null);
   const [mode, setMode] = useState<'merge' | 'replace'>('merge');
@@ -36,6 +36,7 @@ export default function Settings() {
     if (!confirm(`Supprimer toute la collection (${owned.size} cartes) ? Cette action est irréversible.`)) return;
     await db.collection.clear();
     await db.overrides.clear();
+    await db.vfPrices.clear();
     show('Collection vidée');
   };
 
@@ -62,6 +63,7 @@ export default function Settings() {
         <div className="text-ink-2">Catalogue FR : {catalogue?.cards.length} variantes, généré le {fmtDate(catalogue?.generatedAt)}</div>
         <div className="text-ink-2">Prix Cardmarket : {prices?.count} produits, guide du {fmtDate(prices?.updatedAt)}</div>
         <div className="text-ink-2">Historique serveur : {history?.dates.length ?? 0} relevés hebdomadaires</div>
+        <div className="text-ink-2">Prix VF saisis à la main : {manualFr.size}{pricesFr ? ` · relevé VF importé : ${Object.keys(pricesFr.products).length} produits (${fmtDate(pricesFr.updatedAt)})` : ''}</div>
         <button className="btn-ghost w-full" onClick={reload}>Recharger les données</button>
       </section>
 
@@ -72,7 +74,7 @@ export default function Settings() {
 
       <section className="panel space-y-1 text-xs text-ink-2">
         <div className="font-bold text-ink">À propos</div>
-        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha ni à Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Prix : guide public quotidien de Cardmarket, tous langages confondus — le lien "annonces en français" permet de vérifier le prix réel des cartes VF.</p>
+        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha ni à Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Prix : guide public quotidien de Cardmarket, toutes langues confondues. Le lien « annonces en français » ouvre la page filtrée VF ; le prix VF constaté peut être saisi dans la fiche et devient alors la référence.</p>
       </section>
       <Toast msg={toast} />
     </div>

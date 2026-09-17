@@ -66,6 +66,20 @@ export interface Prices {
   byCode: Record<string, number[]>;
 }
 
+/** Relevé des annonces en français (scripts/update-prices-fr.mjs), par produit Cardmarket. */
+export interface PriceFr {
+  at: string; // date du relevé AAAA-MM-JJ
+  n: number; // nombre d'annonces en français
+  from: number | null; // prix le plus bas en français
+  med: number | null; // médiane des annonces affichées (30 moins chères)
+  nm: number | null; // moins cher en état NM/MT
+}
+
+export interface PricesFr {
+  updatedAt: string | null;
+  products: Record<string, PriceFr>;
+}
+
 export interface History {
   dates: string[];
   trend: Record<string, (number | null)[]>; // centimes

@@ -1,4 +1,4 @@
-import type { Card, Catalogue, CmProduct, Prices, Series } from '../types';
+import type { Card, Catalogue, CmProduct, PriceFr, Prices, Series } from '../types';
 
 export const CM_LANG_FR = 2; // paramètre "language" de Cardmarket : 2 = français
 
@@ -18,10 +18,16 @@ export function searchUrl(code: string): string {
   return `https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=${encodeURIComponent(code)}`;
 }
 
-/** Prix de référence d'un produit : tendance, sinon moyenne 7 j, moyenne, ou prix mini. */
+/** Prix de référence d'un produit (toutes langues) : tendance, sinon moyenne 7 j, moyenne, ou prix mini. */
 export function refPrice(p: CmProduct | undefined | null): number | null {
   if (!p) return null;
   return p.trend ?? p.avg7 ?? p.avg ?? p.low ?? null;
+}
+
+/** Prix de référence VF : médiane des annonces françaises si assez d'annonces, sinon le prix le plus bas. */
+export function refPriceFr(f: PriceFr | undefined | null): number | null {
+  if (!f || !f.n) return null;
+  return (f.n >= 4 ? f.med : null) ?? f.from ?? f.med ?? null;
 }
 
 export interface Indexes {

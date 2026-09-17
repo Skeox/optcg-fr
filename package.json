@@ -12,10 +12,14 @@
     "data:cards:force": "node scripts/build-catalogue.mjs --force",
     "data:prices": "node scripts/update-prices.mjs",
     "data:hashes": "node scripts/build-hashes.mjs",
-    "data:all": "npm run data:cards && npm run data:prices && npm run data:hashes",
-    "icons": "node scripts/make-icons.mjs"
+    "data:all": "npm run data:cards && npm run data:prices && npm run data:hashes && npm run data:images",
+    "icons": "node scripts/make-icons.mjs",
+    "data:images": "node scripts/build-images.mjs"
   },
   "dependencies": {
+    "@capacitor/cli": "^7.6.9",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/ios": "^8.5.2",
     "@tailwindcss/vite": "^4.3.3",
     "dexie": "^4.4.6",
     "dexie-react-hooks": "^4.4.0",

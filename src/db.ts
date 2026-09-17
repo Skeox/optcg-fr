@@ -18,6 +18,7 @@ export interface Snapshot {
   date: string; // AAAA-MM-JJ
   trend: number | null;
   low: number | null;
+  fr?: number | null; // prix de référence VF au moment du relevé
 }
 
 export interface Setting {
@@ -25,11 +26,19 @@ export interface Setting {
   value: unknown;
 }
 
+/** Prix VF constaté à la main sur Cardmarket (annonces filtrées en français). */
+export interface VfPrice {
+  cardId: string;
+  price: number;
+  date: string; // AAAA-MM-JJ
+}
+
 class OptcgDb extends Dexie {
   collection!: Table<CollectionEntry, string>;
   overrides!: Table<CmOverride, string>;
   snapshots!: Table<Snapshot, string>;
   settings!: Table<Setting, string>;
+  vfPrices!: Table<VfPrice, string>;
 
   constructor() {
     super('optcg-fr');
@@ -39,6 +48,7 @@ class OptcgDb extends Dexie {
       snapshots: 'key, productId, date',
       settings: 'key',
     });
+    this.version(2).stores({ vfPrices: 'cardId, date' });
   }
 }
 
@@ -72,6 +82,7 @@ export interface Backup {
   overrides: CmOverride[];
   snapshots: Snapshot[];
   settings: Setting[];
+  vfPrices?: VfPrice[];
 }
 
 export async function exportBackup(): Promise<Backup> {
@@ -83,20 +94,23 @@ export async function exportBackup(): Promise<Backup> {
     overrides: await db.overrides.toArray(),
     snapshots: await db.snapshots.toArray(),
     settings: await db.settings.toArray(),
+    vfPrices: await db.vfPrices.toArray(),
   };
 }
 
 export async function importBackup(b: Backup, mode: 'replace' | 'merge') {
   if (b.app !== 'optcg-fr') throw new Error('Fichier de sauvegarde invalide');
-  await db.transaction('rw', db.collection, db.overrides, db.snapshots, db.settings, async () => {
+  await db.transaction('rw', db.collection, db.overrides, db.snapshots, db.settings, db.vfPrices, async () => {
     if (mode === 'replace') {
       await db.collection.clear();
       await db.overrides.clear();
       await db.snapshots.clear();
+      await db.vfPrices.clear();
     }
     await db.collection.bulkPut(b.collection ?? []);
     await db.overrides.bulkPut(b.overrides ?? []);
     await db.snapshots.bulkPut(b.snapshots ?? []);
     await db.settings.bulkPut(b.settings ?? []);
+    await db.vfPrices.bulkPut(b.vfPrices ?? []);
   });
 }

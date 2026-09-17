@@ -1,8 +1,8 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
-import type { Card, Catalogue, CmProduct, Hashes, History, Prices } from '../types';
-import { buildIndexes, defaultProductFor, refPrice, type Indexes } from '../lib/cardmarket';
-import { db, type CollectionEntry, type CmOverride } from '../db';
+import type { Card, Catalogue, CmProduct, Hashes, History, PriceFr, Prices, PricesFr } from '../types';
+import { buildIndexes, defaultProductFor, refPrice, refPriceFr, type Indexes } from '../lib/cardmarket';
+import { db, type CollectionEntry, type CmOverride, type VfPrice } from '../db';
 
 const BASE = import.meta.env.BASE_URL;
 
@@ -27,7 +27,15 @@ export interface DataCtx {
   productFor: (card: Card) => CmProduct | undefined;
   /** false si l'association automatique carte FR ↔ produit Cardmarket est douteuse */
   mappingSure: (card: Card) => boolean;
+  /** relevé des annonces en français pour le produit retenu, s'il existe (fichier prices-fr.json) */
+  frFor: (card: Card) => PriceFr | undefined;
+  /** prix VF saisi à la main dans l'app pour cette carte */
+  manualFr: Map<string, VfPrice>;
+  /** prix de référence : VF saisi > annonces VF relevées > tendance toutes langues */
   priceFor: (card: Card) => number | null;
+  /** 'vf' si priceFor vient des annonces françaises (saisie ou relevé) */
+  priceKind: (card: Card) => 'vf' | 'global' | null;
+  pricesFr: PricesFr | null;
   hashes: () => Promise<Hashes>;
 }
 
@@ -39,6 +47,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const [catalogue, setCatalogue] = useState<Catalogue | null>(null);
   const [prices, setPrices] = useState<Prices | null>(null);
   const [history, setHistory] = useState<History | null>(null);
+  const [pricesFr, setPricesFr] = useState<PricesFr | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [tick, setTick] = useState(0);
@@ -54,6 +63,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
         setPrices(pr);
         setError(null);
         loadJson<History>('history.json').then((h) => !cancelled && setHistory(h)).catch(() => undefined);
+        loadJson<PricesFr>('prices-fr.json').then((f) => !cancelled && setPricesFr(f)).catch(() => undefined);
       } catch (e) {
         if (!cancelled) setError((e as Error).message);
       } finally {
@@ -68,6 +78,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const ownedList = useLiveQuery(() => db.collection.toArray(), [], [] as CollectionEntry[]);
   const overrideList = useLiveQuery(() => db.overrides.toArray(), [], [] as CmOverride[]);
   const owned = useMemo(() => new Map(ownedList.map((e) => [e.cardId, e])), [ownedList]);
+  const vfList = useLiveQuery(() => db.vfPrices.toArray(), [], [] as VfPrice[]);
+  const manualFr = useMemo(() => new Map(vfList.map((v) => [v.cardId, v])), [vfList]);
   const overrides = useMemo(() => new Map(overrideList.map((o) => [o.cardId, o.productId])), [overrideList]);
 
   const productCache = useMemo(() => new Map<string, { product: CmProduct; sure: boolean } | undefined>(), [idx, prices]);
@@ -83,7 +95,16 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const productFor = useMemo(() => (card: Card) => resolve(card)?.product, [resolve]);
   const mappingSure = useMemo(() => (card: Card) => resolve(card)?.sure ?? true, [resolve]);
 
-  const priceFor = useMemo(() => (card: Card) => refPrice(productFor(card)), [productFor]);
+  const frFor = useMemo(() => (card: Card) => {
+    const p = productFor(card);
+    return p ? pricesFr?.products[p.id] : undefined;
+  }, [productFor, pricesFr]);
+  const vfPrice = useMemo(() => (card: Card) => manualFr.get(card.id)?.price ?? refPriceFr(frFor(card)), [manualFr, frFor]);
+  const priceFor = useMemo(() => (card: Card) => vfPrice(card) ?? refPrice(productFor(card)), [productFor, vfPrice]);
+  const priceKind = useMemo(() => (card: Card): 'vf' | 'global' | null => {
+    if (vfPrice(card) != null) return 'vf';
+    return refPrice(productFor(card)) != null ? 'global' : null;
+  }, [productFor, vfPrice]);
 
   // Instantané quotidien des prix des cartes possédées (suivi local, indépendant du serveur).
   useEffect(() => {
@@ -95,16 +116,16 @@ export function DataProvider({ children }: { children: ReactNode }) {
         const card = idx.byId.get(e.cardId);
         const p = card && productFor(card);
         if (!p) continue;
-        rows.push({ key: `${p.id}|${date}`, productId: p.id, date, trend: p.trend, low: p.low });
+        rows.push({ key: `${p.id}|${date}`, productId: p.id, date, trend: p.trend, low: p.low, fr: vfPrice(card) });
       }
       if (rows.length) await db.snapshots.bulkPut(rows);
     })().catch(() => undefined);
-  }, [prices, idx, ownedList, productFor]);
+  }, [prices, idx, ownedList, productFor, vfPrice]);
 
   const value: DataCtx = {
     catalogue, prices, history, idx, loading, error,
     reload: () => setTick((t) => t + 1),
-    owned, overrides, productFor, mappingSure, priceFor,
+    owned, overrides, productFor, mappingSure, frFor, manualFr, priceFor, priceKind, pricesFr,
     hashes: () => (hashesPromise ??= loadJson<Hashes>('hashes.json')),
   };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

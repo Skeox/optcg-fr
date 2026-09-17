@@ -34,9 +34,10 @@ export function ColorDots({ colors, size = 'h-2.5 w-2.5' }: { colors: string[]; 
 }
 
 export function CardTile({ card, showQty = true }: { card: Card; showQty?: boolean }) {
-  const { owned, priceFor } = useData();
+  const { owned, priceFor, priceKind } = useData();
   const qty = owned.get(card.id)?.qty ?? 0;
   const price = priceFor(card);
+  const vf = priceKind(card) === 'vf';
   return (
     <Link to={`/carte/${encodeURIComponent(card.id)}`} className="group block">
       <div className="relative">
@@ -52,7 +53,7 @@ export function CardTile({ card, showQty = true }: { card: Card; showQty?: boole
         <div className="truncate text-sm font-semibold leading-tight">{card.name}</div>
         <div className="flex items-center justify-between text-xs text-ink-2">
           <span className="flex items-center gap-1"><ColorDots colors={card.colors} />{card.code} · {card.rarity}</span>
-          <span className="font-semibold text-ink">{fmtEur(price, { compact: true })}</span>
+          <span className="font-semibold text-ink">{vf && <span className="mr-1 rounded bg-ok/20 px-1 text-[10px] font-bold text-ok">VF</span>}{fmtEur(price, { compact: true })}</span>
         </div>
       </div>
     </Link>

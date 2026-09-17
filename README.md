@@ -20,7 +20,15 @@ Tout est stocké localement sur le téléphone (IndexedDB). Aucune donnée perso
 
 La version française a démarré avec OP-09 et ST-15 (février 2025). Les cartes plus anciennes (OP-01 à OP-08) n'existent en VF que via les réimpressions des Premium Boosters *The Best* (PRB-01/02) : elles figurent donc dans le catalogue sous ces séries.
 
-**Limite connue** : le guide des prix Cardmarket ne distingue pas les langues. Le prix affiché est celui du produit toutes langues confondues ; le bouton *Voir les annonces en français* ouvre la page Cardmarket filtrée sur les cartes VF pour vérifier le prix réel. Chaque variante FR (base, alternative _p1, _p2…) est associée automatiquement à la version Cardmarket correspondante (V1, V2…) ; si l'association est fausse, choisissez le bon produit dans la fiche carte (*Produits Cardmarket pour ce code*).
+### Prix en français : ce qui est possible et ce qui ne l'est pas
+
+Le guide de prix public de Cardmarket ne distingue pas les langues : le prix automatique est celui du produit **toutes langues confondues** (tendance, mini, moyennes). La page produit filtrée (`?language=2`) affiche bien les seules annonces VF (« De x € », nombre d'annonces), mais :
+
+- Cardmarket **bloque les navigateurs automatisés** (« Sorry, you have been blocked ») et n'accepte plus de nouvelles demandes d'accès à son API. L'application ne cherche pas à contourner cette protection.
+- Le prix VF se saisit donc **à la main** : dans la fiche carte, *Voir les annonces en français* ouvre la page filtrée VF ; on tape ensuite le prix constaté dans *Prix VF constaté*. Ce prix (daté, badge « VF ») devient la référence pour la carte, la valeur de la collection, les doublons et les manquantes. En pratique, seules les cartes qui valent quelque chose méritent cette saisie.
+- Si vous obtenez un jour un accès API officiel, l'app lit aussi un fichier `public/data/prices-fr.json` au format `{ updatedAt, products: { <idProduct>: { at, n, from, med, nm } } }` (n = nombre d'annonces VF, from = prix mini VF, med = médiane, nm = mini en état NM), prioritaire sur le prix toutes langues.
+
+Chaque variante FR (base, alternative _p1, _p2…) est associée automatiquement à la version Cardmarket correspondante (V1, V2…) ; si l'association est fausse, choisissez le bon produit dans la fiche carte (*Produits Cardmarket pour ce code*).
 
 ## Développement (Windows)
 
@@ -35,6 +43,7 @@ Scripts de données :
 - `npm run data:cards` — reconstruit le catalogue FR (cache HTML dans `.cache/html`, `--force` pour re-télécharger) ;
 - `npm run data:prices` — met à jour les prix et l'historique hebdomadaire ;
 - `npm run data:hashes` — télécharge les images manquantes (`.cache/images`) et calcule les empreintes ;
+- `npm run data:images` — génère les miniatures locales (`public/images/cards`, ~75 Mo) ;
 - `npm run icons` — régénère les icônes PWA.
 
 Quand une nouvelle série sort en VF, ajoutez-la dans `scripts/series-fr.json` (id de la page officielle + extension Cardmarket) et dans `scripts/cm-expansions.json` si l'extension Cardmarket est nouvelle, puis relancez `npm run data:all`.
@@ -45,10 +54,19 @@ La caméra exige HTTPS : le plus simple est GitHub Pages.
 
 1. Créez un dépôt GitHub (par ex. `optcg-fr`) et poussez ce projet sur la branche `main`.
 2. Dans *Settings › Pages*, choisissez **Source : GitHub Actions**.
-3. Le workflow `.github/workflows/deploy.yml` construit le site et le publie à `https://<votre-compte>.github.io/optcg-fr/`. Il tourne aussi **chaque jour** pour rafraîchir les prix Cardmarket (commit automatique de `prices.json` / `history.json`).
+3. Le workflow `.github/workflows/deploy.yml` construit le site et le publie à `https://<votre-compte>.github.io/optcg-fr/`. Il tourne aussi **chaque jour** pour rafraîchir les prix Cardmarket (commit automatique de `prices.json` / `history.json`), **sans que votre PC soit allumé**.
 4. Sur l'iPhone, ouvrez l'URL dans **Safari**, puis *Partager › Sur l'écran d'accueil*. L'application s'ouvre ensuite en plein écran comme une app native et fonctionne hors ligne (sauf mise à jour des prix).
 
 Si le dépôt est privé, GitHub Pages nécessite un compte GitHub Pro ; en dépôt public, seules les données de cartes/prix sont exposées (jamais votre collection, qui reste sur le téléphone).
+
+### Application native (.ipa) via un sideloader
+
+Le workflow `.github/workflows/ios-ipa.yml` (lancement manuel dans l'onglet *Actions*, ou tag `ios-*`) enveloppe le site dans Capacitor sur un runner macOS et produit un **.ipa non signé** (artefact `OPTCG-FR-unsigned-ipa`). Installez-le avec [Sideloadly](https://sideloadly.io) ou AltStore, qui le signent avec votre identifiant Apple :
+
+- compte Apple gratuit : l'app expire au bout de **7 jours** et doit être re-signée (AltStore le fait automatiquement quand le PC/AltServer est sur le même Wi-Fi), 3 apps maximum ;
+- compte développeur payant (99 €/an) : validité 1 an.
+
+Les données (collection, prix saisis) restent dans l'app entre deux re-signatures tant que l'identifiant de bundle `fr.bertrand.optcg` ne change pas. Comparée à la PWA, la version native n'apporte rien de plus fonctionnellement (même moteur WebKit, même caméra) ; elle évite seulement Safari.
 
 ### Alternative sans GitHub
 

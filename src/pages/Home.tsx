@@ -43,8 +43,9 @@ export default function Home() {
     const byDate = new Map<string, number>();
     for (const s of snapshots) {
       const q = qtyByProduct.get(s.productId);
-      if (!q || s.trend == null) continue;
-      byDate.set(s.date, (byDate.get(s.date) ?? 0) + q * s.trend);
+      const v = s.fr ?? s.trend;
+      if (!q || v == null) continue;
+      byDate.set(s.date, (byDate.get(s.date) ?? 0) + q * v);
     }
     const dates = [...byDate.keys()].sort();
     return { dates, values: dates.map((d) => byDate.get(d)!) };
@@ -59,7 +60,7 @@ export default function Home() {
       <PageHeader title="Ma collection" sub={<>Prix Cardmarket du {fmtDate(prices?.updatedAt)}</>} />
 
       <div className="panel">
-        <div className="label">Valeur estimée (tendance Cardmarket)</div>
+        <div className="label">Valeur estimée (annonces VF Cardmarket, sinon tendance)</div>
         <div className="mt-1 text-4xl font-black tracking-tight">{fmtEur(stats.value)}</div>
         <div className="mt-1 text-sm text-ink-2">
           {stats.copies} exemplaires · {stats.unique} cartes différentes

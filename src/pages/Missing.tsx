@@ -6,7 +6,7 @@ import { fmtEur } from '../lib/format';
 import type { Card } from '../types';
 
 export default function Missing() {
-  const { catalogue, owned, priceFor, productFor } = useData();
+  const { catalogue, owned, priceFor, productFor, frFor } = useData();
   const [baseOnly, setBaseOnly] = useState(true);
   const [openSeries, setOpenSeries] = useState<string | null>(null);
 
@@ -21,12 +21,12 @@ export default function Missing() {
         cards = cards.filter((c) => c.variant === min.get(c.code));
       }
       const missing = cards.filter((c) => !(owned.get(c.id)?.qty ?? 0));
-      const costLow = missing.reduce((t, c) => t + (productFor(c)?.low ?? priceFor(c) ?? 0), 0);
+      const costLow = missing.reduce((t, c) => t + (frFor(c)?.from ?? productFor(c)?.low ?? priceFor(c) ?? 0), 0);
       const costTrend = missing.reduce((t, c) => t + (priceFor(c) ?? 0), 0);
       const sorted = missing.slice().sort((a, b) => (priceFor(b) ?? 0) - (priceFor(a) ?? 0));
       return { s, total: cards.length, missing: sorted, costLow, costTrend };
     });
-  }, [catalogue, owned, priceFor, productFor, baseOnly]);
+  }, [catalogue, owned, priceFor, productFor, frFor, baseOnly]);
 
   const totals = data.reduce((t, d) => ({ n: t.n + d.missing.length, low: t.low + d.costLow, trend: t.trend + d.costTrend }), { n: 0, low: 0, trend: 0 });
   if (!catalogue) return null;

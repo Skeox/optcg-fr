@@ -14,7 +14,8 @@
     "data:hashes": "node scripts/build-hashes.mjs",
     "data:all": "npm run data:cards && npm run data:prices && npm run data:hashes && npm run data:images",
     "icons": "node scripts/make-icons.mjs",
-    "data:images": "node scripts/build-images.mjs"
+    "data:images": "node scripts/build-images.mjs",
+    "data:prices-fr": "node scripts/update-prices-fr.mjs"
   },
   "dependencies": {
     "@capacitor/cli": "^7.6.9",

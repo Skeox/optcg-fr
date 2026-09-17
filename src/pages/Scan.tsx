@@ -3,7 +3,8 @@ import { Link } from 'react-router';
 import { useData } from '../data/catalogue';
 import { CardImage, PageHeader, Toast, useToast, VariantBadge } from '../components/ui';
 import { confidence, cropFromCover, cropWhole, distance, probesOfCanvas, rank, type Match, type Probe } from '../lib/scan';
-import { readCardCode, warmUpOcr } from '../lib/ocr';
+import { readCardText, warmUpOcr } from '../lib/ocr';
+import { buildNameIndex } from '../lib/names';
 import { fmtEur } from '../lib/format';
 import { addQty } from '../db';
 import type { Card, Hashes } from '../types';
@@ -18,6 +19,7 @@ export default function Scan() {
   const [matches, setMatches] = useState<Match[]>([]);
   const [ocrState, setOcrState] = useState<'idle' | 'running' | 'done' | 'failed'>('idle');
   const [ocrCode, setOcrCode] = useState<string | null>(null);
+  const [ocrName, setOcrName] = useState<string | null>(null);
   const [captured, setCaptured] = useState<string | null>(null);
   const [selected, setSelected] = useState<Card | null>(null);
   const [qty, setQty] = useState(1);
@@ -64,25 +66,27 @@ export default function Scan() {
   }, [mode]);
 
   const guide = useMemo(() => ({ wPct: 0.76 }), []);
+  const nameIndex = useMemo(() => (catalogue ? buildNameIndex(catalogue.cards) : null), [catalogue]);
 
   const analyse = useCallback(async (cardCanvas: HTMLCanvasElement) => {
     if (!hashes || !catalogue) return;
     setCaptured(cardCanvas.toDataURL('image/jpeg', 0.7));
-    setSelected(null); setQty(1); setOcrCode(null); setManual('');
+    setSelected(null); setQty(1); setOcrCode(null); setOcrName(null); setManual('');
     const probes = probesOfCanvas(cardCanvas, hashes.art, hashes.size);
     probeRef.current = probes;
-    setMatches(rank(probes, hashes, catalogue.cards, null));
+    setMatches(rank(probes, hashes, catalogue.cards, { code: null, name: null }));
     setMode('result');
     setOcrState('running');
     try {
-      const { code } = await readCardCode(cardCanvas);
+      const { code, name } = await readCardText(cardCanvas, nameIndex);
       setOcrCode(code);
+      setOcrName(name?.name ?? null);
       setOcrState('done');
-      if (code && probeRef.current === probes) setMatches(rank(probes, hashes, catalogue.cards, code));
+      if ((code || name) && probeRef.current === probes) setMatches(rank(probes, hashes, catalogue.cards, { code, name: name?.name ?? null }));
     } catch {
       setOcrState('failed');
     }
-  }, [hashes, catalogue]);
+  }, [hashes, catalogue, nameIndex]);
 
   const capture = () => {
     const v = videoRef.current, box = boxRef.current;
@@ -147,7 +151,11 @@ export default function Scan() {
             <div className="flex-1 text-sm">
               <div className="font-semibold">
                 {ocrState === 'running' && 'Lecture du code…'}
-                {ocrState === 'done' && (ocrCode ? <>Code lu : <span className="text-accent">{ocrCode}</span></> : 'Code non lu — classement par image')}
+                {ocrState === 'done' && (
+                  ocrCode || ocrName
+                    ? <>{ocrCode && <>Code lu : <span className="text-accent">{ocrCode}</span></>}{ocrCode && ocrName && ' · '}{ocrName && <>Nom lu : <span className="text-accent">{ocrName}</span></>}</>
+                    : 'Ni code ni nom lus — classement par image'
+                )}
                 {ocrState === 'failed' && 'OCR indisponible — classement par image'}
               </div>
               <div className="text-ink-2">Touchez la bonne carte pour l'ajouter.</div>
@@ -213,7 +221,7 @@ function MatchRow({ m, all, on, onSelect, price, owned }: { m: Match; all: Match
         <div className="truncate font-semibold">{m.card.name}</div>
         <div className="text-xs text-ink-2">{m.card.code} · {m.card.rarity} · <VariantBadge card={m.card} />{owned > 0 && <> · possédée ×{owned}</>}</div>
         <div className="mt-0.5 flex items-center gap-2 text-xs">
-          <span className={`rounded-full px-2 py-0.5 font-semibold ${color}`}>{conf}{m.codeMatch ? ' · code ✓' : ''}</span>
+          <span className={`rounded-full px-2 py-0.5 font-semibold ${color}`}>{conf}{m.codeMatch ? ' · code ✓' : ''}{m.nameMatch ? ' · nom ✓' : ''}</span>
           <span className="text-ink-2">d={Math.round(distance(m))}</span>
         </div>
       </div>

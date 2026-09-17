@@ -1,5 +1,6 @@
 import type { Card, Hashes } from '../types';
 import { dhash, hamming } from './hash';
+import { normalizeName } from './names';
 
 export const CARD_W = 600;
 export const CARD_H = 838;
@@ -10,6 +11,7 @@ export interface Match {
   dFull: number;
   dArt: number;
   codeMatch: boolean;
+  nameMatch: boolean;
 }
 
 export interface Probe { full: string; art: string }
@@ -19,19 +21,44 @@ export interface Probe { full: string; art: string }
 const PROBE_CROPS: [number, number, number, number][] = [
   [0, 0, 0, 0], [2, 2, 2, 2], [4, 3, 4, 3], [3, 0, 0, 3], [0, 3, 3, 0], [1, 1, 1, 1], [5, 4, 5, 4],
 ];
+// … et sur quelques rotations (degrés) : une carte posée légèrement de travers est courante.
+const PROBE_ROTATIONS = [0, -3, 3];
+
+function rotated(src: HTMLCanvasElement, deg: number): HTMLCanvasElement {
+  if (deg === 0) return src;
+  const c = document.createElement('canvas');
+  c.width = src.width; c.height = src.height;
+  const ctx = c.getContext('2d')!;
+  ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = 'high';
+  ctx.translate(c.width / 2, c.height / 2);
+  ctx.rotate((deg * Math.PI) / 180);
+  ctx.drawImage(src, -c.width / 2, -c.height / 2);
+  return c;
+}
 
 export function probesOfCanvas(cardCanvas: HTMLCanvasElement, art: Hashes['art'], n: number): Probe[] {
   const w = cardCanvas.width, h = cardCanvas.height;
-  return PROBE_CROPS.map(([l, t, r, b]) => {
-    const sx = (w * l) / 100, sy = (h * t) / 100, sw = w * (1 - (l + r) / 100), sh = h * (1 - (t + b) / 100);
-    const full = dhash(cardCanvas, sx, sy, sw, sh, n);
-    const artHash = dhash(cardCanvas, sx + sw * art.left, sy + sh * art.top, sw * art.width, sh * art.height, n);
-    return { full, art: artHash };
+  return PROBE_ROTATIONS.flatMap((deg) => {
+    const src = rotated(cardCanvas, deg);
+    return PROBE_CROPS.map(([l, t, r, b]) => {
+      const sx = (w * l) / 100, sy = (h * t) / 100, sw = w * (1 - (l + r) / 100), sh = h * (1 - (t + b) / 100);
+      const full = dhash(src, sx, sy, sw, sh, n);
+      const artHash = dhash(src, sx + sw * art.left, sy + sh * art.top, sw * art.width, sh * art.height, n);
+      return { full, art: artHash };
+    });
   });
 }
 
-export function rank(probes: Probe[], hashes: Hashes, cards: Card[], code: string | null, limit = 8): Match[] {
+export interface Clues { code: string | null; name: string | null }
+
+/**
+ * Classe les cartes par ressemblance d'image, corrigée par les indices lus (OCR) : le code
+ * imprimé identifie la carte à coup sûr ; le nom réduit fortement les candidats (homonymes et
+ * versions alternatives restent départagés par l'image).
+ */
+export function rank(probes: Probe[], hashes: Hashes, cards: Card[], clues: Clues, limit = 8): Match[] {
   const out: Match[] = [];
+  const wantName = clues.name ? normalizeName(clues.name) : null;
   for (const card of cards) {
     const e = hashes.entries[card.id];
     if (!e) continue;
@@ -43,10 +70,12 @@ export function rank(probes: Probe[], hashes: Hashes, cards: Card[], code: strin
       const d = 0.4 * dFull + 0.6 * dArt;
       if (d < best) { best = d; bFull = dFull; bArt = dArt; }
     }
-    const codeMatch = code != null && card.code === code;
+    const codeMatch = clues.code != null && card.code === clues.code;
+    const nameMatch = wantName != null && normalizeName(card.name) === wantName;
     let score = best;
-    if (code != null) score += codeMatch ? -40 : 25;
-    out.push({ card, score, dFull: bFull, dArt: bArt, codeMatch });
+    if (clues.code != null) score += codeMatch ? -40 : 25;
+    if (wantName != null) score += nameMatch ? -30 : 15;
+    out.push({ card, score, dFull: bFull, dArt: bArt, codeMatch, nameMatch });
   }
   out.sort((a, b) => a.score - b.score);
   return out.slice(0, limit);
@@ -56,12 +85,19 @@ export function distance(m: Match): number {
   return 0.4 * m.dFull + 0.6 * m.dArt;
 }
 
-/** Confiance d'après la distance absolue et l'écart avec le candidat suivant (hors même code). */
+/** Confiance d'après les indices lus, la distance absolue et l'écart avec le candidat suivant. */
 export function confidence(m: Match, matches: Match[]): 'haute' | 'moyenne' | 'faible' {
   const d = distance(m);
   const next = matches.find((x) => x.card.code !== m.card.code);
   const margin = next ? distance(next) - d : 0;
   if (m.codeMatch && d < 85) return 'haute';
+  if (m.nameMatch) {
+    // Même nom lu : l'image doit encore départager les homonymes et les versions alternatives.
+    const sibling = matches.find((x) => x !== m && x.nameMatch);
+    const siblingMargin = sibling ? distance(sibling) - d : 99;
+    if (d < 95 && siblingMargin >= 8) return 'haute';
+    return 'moyenne';
+  }
   if (d < 60 && margin >= 15) return 'haute';
   if (d < 75 || (d < 90 && margin >= 20) || m.codeMatch) return 'moyenne';
   return 'faible';

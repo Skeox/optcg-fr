@@ -75,8 +75,9 @@ Les données (collection, prix saisis) restent dans l'app entre deux re-signatur
 
 ## Conseils pour le scan
 
-- Posez la carte à plat, lumière uniforme, sans reflet sur la surface brillante, et alignez-la dans le cadre.
-- L'application classe les cartes par ressemblance d'image (illustration) et lit le code imprimé en bas à gauche (OCR) pour départager les versions. Les alternatives d'une même carte apparaissent côte à côte : vérifiez la miniature avant d'ajouter.
+- Posez la carte à plat, lumière uniforme, sans reflet sur la surface brillante, et alignez-la dans le cadre **en entier, bord inférieur compris** : c'est là que se lisent le nom et le code.
+- L'application classe les cartes par ressemblance d'image (illustration) et lit (OCR) le **nom** imprimé en bas, grand et contrasté, ainsi que le petit code (ex. `OP17-117`) quand il est net. Le nom réduit les candidats aux homonymes et versions alternatives, que l'image départage ensuite ; les alternatives apparaissent côte à côte : vérifiez la miniature avant d'ajouter.
+- Les images officielles servant de référence portent un filigrane « SAMPLE » absent des vraies cartes : la distance d'image affichée (`d=`) reste donc élevée même pour la bonne carte, c'est attendu.
 - Si rien ne convient, saisissez le code (ex. `OP09-001`) dans le champ sous la liste.
 
 ## Structure

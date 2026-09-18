@@ -103,12 +103,17 @@ export function confidence(m: Match, matches: Match[]): 'haute' | 'moyenne' | 'f
   return 'faible';
 }
 
+// Mode « bas de la carte » : bande horizontale (nom, type, traits, code) photographiée de près.
+export const BAND_W = 1600;
+export const BAND_H = 400;
+
 /** Extrait la zone du cadre-guide depuis une vidéo/image affichée en "object-fit: cover". */
 export function cropFromCover(
   src: HTMLVideoElement | HTMLImageElement | HTMLCanvasElement,
   srcW: number, srcH: number,
   viewW: number, viewH: number,
   guide: { x: number; y: number; w: number; h: number },
+  outW = CARD_W, outH = CARD_H,
 ): HTMLCanvasElement {
   const scale = Math.max(viewW / srcW, viewH / srcH);
   const dw = srcW * scale, dh = srcH * scale;
@@ -116,23 +121,23 @@ export function cropFromCover(
   const sx = (guide.x - ox) / scale, sy = (guide.y - oy) / scale;
   const sw = guide.w / scale, sh = guide.h / scale;
   const c = document.createElement('canvas');
-  c.width = CARD_W; c.height = CARD_H;
+  c.width = outW; c.height = outH;
   const ctx = c.getContext('2d')!;
   ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = 'high';
-  ctx.drawImage(src, sx, sy, sw, sh, 0, 0, CARD_W, CARD_H);
+  ctx.drawImage(src, sx, sy, sw, sh, 0, 0, outW, outH);
   return c;
 }
 
-/** Pour une photo importée : on suppose la carte cadrée sur toute l'image (recadrage au ratio carte). */
-export function cropWhole(img: HTMLImageElement | ImageBitmap): HTMLCanvasElement {
+/** Pour une photo importée : on suppose le sujet cadré sur toute l'image (recadrage centré au ratio voulu). */
+export function cropWhole(img: HTMLImageElement | ImageBitmap, outW = CARD_W, outH = CARD_H): HTMLCanvasElement {
   const w = img.width, h = img.height;
-  const target = CARD_W / CARD_H;
+  const target = outW / outH;
   let sw = w, sh = h, sx = 0, sy = 0;
   if (w / h > target) { sw = h * target; sx = (w - sw) / 2; } else { sh = w / target; sy = (h - sh) / 2; }
   const c = document.createElement('canvas');
-  c.width = CARD_W; c.height = CARD_H;
+  c.width = outW; c.height = outH;
   const ctx = c.getContext('2d')!;
   ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = 'high';
-  ctx.drawImage(img, sx, sy, sw, sh, 0, 0, CARD_W, CARD_H);
+  ctx.drawImage(img, sx, sy, sw, sh, 0, 0, outW, outH);
   return c;
 }

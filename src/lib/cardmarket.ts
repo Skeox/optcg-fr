@@ -18,14 +18,6 @@ export function searchUrl(code: string): string {
   return `https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=${encodeURIComponent(code)}&language=${CM_LANG_FR}`;
 }
 
-/** Minimum relevé sur les annonces Cardmarket françaises, hors frais de port.
- * Le guide public et CardTrader ne peuvent pas remplacer un relevé VF absent.
- */
-export function minimumFrPrice(quote: { price: number } | undefined): number | null {
-  const price = quote?.price;
-  return typeof price === 'number' && Number.isFinite(price) && price > 0 ? price : null;
-}
-
 export interface Indexes {
   byId: Map<string, Card>;
   byCode: Map<string, Card[]>;

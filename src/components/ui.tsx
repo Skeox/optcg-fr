@@ -4,6 +4,7 @@ import type { Card } from '../types';
 import { useData, imageUrl } from '../data/catalogue';
 import { COLOR_CLASS, fmtEur, variantLabel } from '../lib/format';
 import { addQty } from '../db';
+import { productUrl, searchUrl } from '../lib/cardmarket';
 
 export function CardImage({ card, className = '', eager = false }: { card: Card; className?: string; eager?: boolean }) {
   const { catalogue } = useData();
@@ -34,11 +35,13 @@ export function ColorDots({ colors, size = 'h-2.5 w-2.5' }: { colors: string[]; 
 }
 
 export function CardTile({ card, showQty = true }: { card: Card; showQty?: boolean }) {
-  const { owned, priceFor, priceKind } = useData();
+  const { owned, priceFor, priceKind, productFor } = useData();
   const qty = owned.get(card.id)?.qty ?? 0;
   const price = priceFor(card);
   const vf = priceKind(card) === 'vf';
+  const product = productFor(card);
   return (
+    <div>
     <Link to={`/carte/${encodeURIComponent(card.id)}`} className="group block">
       <div className="relative">
         <CardImage card={card} className={qty === 0 && showQty ? 'opacity-60 grayscale-[35%]' : ''} />
@@ -57,6 +60,8 @@ export function CardTile({ card, showQty = true }: { card: Card; showQty?: boole
         </div>
       </div>
     </Link>
+    <a className="mt-1 block text-right text-[10px] text-accent" href={product ? productUrl(product) : searchUrl(card.code)} target="_blank" rel="noreferrer">Cardmarket · français ↗</a>
+    </div>
   );
 }
 

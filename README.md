@@ -3,7 +3,7 @@
 Application web installable sur iPhone (PWA, sans App Store) pour :
 
 - **scanner** ses cartes VF avec l'appareil photo et les ajouter à sa collection (nombre d'exemplaires) ;
-- consulter le **minimum Cardmarket français** relevé pour chaque carte et son évolution ;
+- consulter le **minimum CardTrader français** relevé pour chaque carte et son évolution ;
 - parcourir **toutes les cartes VF** (catalogue officiel Bandai FR) avec recherche et filtres (série, couleur, type, rareté, possédées / manquantes / doublons) ;
 - voir ce qui **manque** par série et ce que cela coûterait ;
 - repérer ses **doublons** et exporter la liste (texte ou CSV) pour la mise en vente.
@@ -23,20 +23,19 @@ Le site GitHub Pages et la base Turso ne suffisent pas seuls : le service Node d
 | Donnée | Source | Fichier généré |
 | --- | --- | --- |
 | Cartes VF (noms, textes, images, séries) | Site officiel `fr.onepiece-cardgame.com/cardlist` | `public/data/cards.json` |
-| Prix Cardmarket (jeu n°18) | Fichiers publics quotidiens `downloads.s3.cardmarket.com` (catalogue produits + guide des prix) | `public/data/prices.json`, `public/data/history.json` |
+| Catalogue Cardmarket et archive des prix toutes langues (jeu n°18) | Fichiers publics quotidiens `downloads.s3.cardmarket.com` (catalogue produits + guide des prix) | `public/data/prices.json`, `public/data/history.json` |
+| Prix minimums français | API officielle CardTrader, annonces françaises en EUR | `public/data/prices-fr.json` |
 | Empreintes d'images pour le scan | Calculées (dHash 256 bits) sur les images officielles, filigrane « SAMPLE » retiré | `public/data/hashes.json` |
 
 La version française a démarré avec OP-09 et ST-15 (février 2025). Les cartes plus anciennes (OP-01 à OP-08) n'existent en VF que via les réimpressions des Premium Boosters *The Best* (PRB-01/02) : elles figurent donc dans le catalogue sous ces séries.
 
 ### Prix en français : minimum uniquement
 
-Le prix de référence est le **minimum des annonces Cardmarket en français, hors frais de port**. Les liens produit et recherche ajoutent le filtre language=2. La langue de l'interface Cardmarket ne suffit pas à filtrer les annonces.
+Le prix de référence est le **minimum des annonces françaises CardTrader, en euros, tous états et hors frais de port**. Les prix sont récupérés automatiquement chaque jour par le workflow GitHub, avec le secret existant CARDTRADER_TOKEN. La collecte utilise le filtre language=fr puis vérifie la langue et la devise de chaque annonce. Les lots, cartes gradées, vendeurs en vacances et annonces sans stock sont exclus. Un échec de collecte conserve le précédent relevé.
 
-**La récupération automatique des prix VF n'est pas disponible.** Le guide public quotidien ne contient pas de distinction par langue, et la lecture automatique des pages Cardmarket renvoie HTTP 403 dans l'environnement de développement. Le guide reste téléchargé pour les associations de produits et l'archive historique ; ses montants ne sont plus utilisés comme prix des cartes françaises.
+La fiche et les vignettes conservent un lien Cardmarket sous le prix, filtré sur les annonces françaises (language=2). Le catalogue Cardmarket sert aux correspondances entre éditions et variantes ; ses prix ne servent plus aux estimations.
 
-Dans la fiche carte, ouvrez *Voir les annonces en français*, vérifiez l'édition et la variante, puis saisissez le prix de l'annonce française la moins chère dans *Minimum VF (€)*. Le relevé est daté. Les saisies VF existantes sont conservées : vérifiez qu'elles correspondent bien au minimum souhaité. Tous les états sont inclus ; aucun filtre NM n'est imposé.
-
-Sans relevé VF, le prix reste indisponible. Les totaux indiquent leur couverture partielle ; les doublons et exports utilisent la même référence. Les courbes ne mélangent plus les relevés VF avec les anciens prix toutes langues. Les relevés CardTrader (prices-fr.json, script optionnel npm run data:prices-fr avec CARDTRADER_TOKEN) restent séparés et ne remplacent jamais un prix Cardmarket VF.
+La collection, les doublons, les cartes manquantes et les exports utilisent tous le minimum CardTrader VF. Sans annonce française connue, le prix reste indisponible et les totaux signalent leur couverture partielle. Les anciens prix saisis restent conservés dans les sauvegardes mais ne remplacent plus les prix CardTrader. Les nouveaux instantanés et graphiques sont séparés des anciens relevés Cardmarket.
 
 Chaque variante FR (base, alternative _p1, _p2…) est associée automatiquement à la version Cardmarket correspondante (V1, V2…) ; si l'association est fausse, choisissez le bon produit dans la fiche carte (*Produits Cardmarket pour ce code*).
 
@@ -65,7 +64,7 @@ La caméra exige HTTPS : le plus simple est GitHub Pages.
 
 1. Créez un dépôt GitHub (par ex. `optcg-fr`) et poussez ce projet sur la branche `main`.
 2. Dans *Settings › Pages*, choisissez **Source : GitHub Actions**.
-3. Le workflow `.github/workflows/deploy.yml` construit le site et le publie à `https://<votre-compte>.github.io/optcg-fr/`. Il tourne aussi **chaque jour** pour rafraîchir les prix Cardmarket (commit automatique de `prices.json` / `history.json`), **sans que votre PC soit allumé**.
+3. Le workflow `.github/workflows/deploy.yml` construit le site et le publie à `https://<votre-compte>.github.io/optcg-fr/`. Il tourne aussi **chaque jour** pour rafraîchir les prix CardTrader FR et le catalogue Cardmarket (commit automatique de `prices.json` / `history.json`), **sans que votre PC soit allumé**.
 4. Sur l'iPhone, ouvrez l'URL dans **Safari**, puis *Partager › Sur l'écran d'accueil*. L'application s'ouvre ensuite en plein écran comme une app native et fonctionne hors ligne (sauf mise à jour des prix).
 
 Si le dépôt est privé, GitHub Pages nécessite un compte GitHub Pro ; en dépôt public, seules les données de cartes/prix sont exposées (jamais votre collection, qui reste sur le téléphone).

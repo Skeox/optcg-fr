@@ -11,7 +11,7 @@ const items = [
 ];
 
 export default function More() {
-  const { catalogue, prices } = useData();
+  const { catalogue, pricesFr } = useData();
   return (
     <div className="space-y-3">
       <PageHeader title="Plus" />
@@ -22,7 +22,7 @@ export default function More() {
         </Link>
       ))}
       <p className="pt-4 text-xs text-ink-2">
-        Catalogue officiel FR du {fmtDate(catalogue?.generatedAt)} · {catalogue?.cards.length} variantes · Prix Cardmarket du {fmtDate(prices?.updatedAt)}.
+        Catalogue officiel FR du {fmtDate(catalogue?.generatedAt)} · {catalogue?.cards.length} variantes · Prix CardTrader FR du {fmtDate(pricesFr?.updatedAt)}.
       </p>
     </div>
   );

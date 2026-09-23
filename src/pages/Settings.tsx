@@ -6,7 +6,7 @@ import BackupSettings from '../components/BackupSettings';
 import { fmtDate } from '../lib/format';
 
 export default function Settings() {
-  const { catalogue, prices, history, pricesFr, manualFr, reload, owned } = useData();
+  const { catalogue, prices, pricesFr, reload, owned } = useData();
   const [toast, show] = useToast();
   const file = useRef<HTMLInputElement>(null);
   const [mode, setMode] = useState<'merge' | 'replace'>('merge');
@@ -61,9 +61,8 @@ export default function Settings() {
       <section className="panel space-y-2 text-sm">
         <div className="font-bold">Données</div>
         <div className="text-ink-2">Catalogue FR : {catalogue?.cards.length} variantes, généré le {fmtDate(catalogue?.generatedAt)}</div>
-        <div className="text-ink-2">Catalogue Cardmarket : {prices?.count} produits, guide du {fmtDate(prices?.updatedAt)} (prix toutes langues exclus des estimations)</div>
-        <div className="text-ink-2">Archive toutes langues : {history?.dates.length ?? 0} relevés hebdomadaires, non utilisée dans les courbes VF</div>
-        <div className="text-ink-2">Prix VF saisis à la main : {manualFr.size}{pricesFr ? ` · relevé CardTrader (indicatif) :${Object.keys(pricesFr.products).length} produits (${fmtDate(pricesFr.updatedAt)})` : ''}</div>
+        <div className="text-ink-2">Prix CardTrader français : {pricesFr ? `${Object.keys(pricesFr.products).length} produits · relevé du ${fmtDate(pricesFr.updatedAt)}` : 'Relevé indisponible'} · minimum en euros, hors frais de port</div>
+        <div className="text-ink-2">Catalogue Cardmarket : {prices?.count} produits, utilisé pour les liens et les associations de versions.</div>
         <button className="btn-ghost w-full" onClick={reload}>Recharger les données</button>
       </section>
 
@@ -74,7 +73,7 @@ export default function Settings() {
 
       <section className="panel space-y-1 text-xs text-ink-2">
         <div className="font-bold text-ink">À propos</div>
-        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha ni à Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Prix : minimum des annonces Cardmarket françaises, hors frais de port, relevé et saisi dans la fiche. La récupération automatique VF n'est pas disponible. Sans relevé, le prix reste indisponible ; ni le guide toutes langues ni CardTrader ne remplacent un prix VF.</p>
+        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha, CardTrader ou Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Prix : minimum des annonces françaises CardTrader disponibles en euros, tous états, hors frais de port, actualisé quotidiennement. Les liens Cardmarket ouvrent les annonces filtrées en français. Sans relevé CardTrader VF, le prix reste indisponible.</p>
       </section>
       <Toast msg={toast} />
     </div>

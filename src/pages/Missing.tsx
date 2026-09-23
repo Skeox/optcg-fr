@@ -33,7 +33,7 @@ export default function Missing() {
 
   return (
     <div className="space-y-3">
-      <PageHeader title="Cartes manquantes" sub={`${totals.n} cartes · minimums VF connus : ${fmtEur(totals.n > 0 && totals.unpriced === totals.n ? null : totals.low)}`} />
+      <PageHeader title="Cartes manquantes" sub={`${totals.n} cartes · minimums CardTrader VF : ${fmtEur(totals.n > 0 && totals.unpriced === totals.n ? null : totals.low)}`} />
       {totals.unpriced > 0 && <p className="text-xs text-ink-2">Total partiel : {totals.unpriced} carte(s) sans prix VF.</p>}
       <label className="flex items-center gap-2 text-sm text-ink-2">
         <input type="checkbox" checked={baseOnly} onChange={(e) => setBaseOnly(e.target.checked)} />

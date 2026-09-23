@@ -9,6 +9,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { summarizeFrenchOffers } from './lib/cardtrader-prices.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'public', 'data');
@@ -31,19 +32,21 @@ const wanted = new Set(Object.keys(prices.products).map(Number)); // produits Ca
 const codeRe = /\b([A-Z]{1,3}\d{2}-\d{3}|P-\d{3})\b/;
 
 let calls = 0;
+let lastCall = 0;
 async function get(pathname, params = {}) {
   const url = new URL(API + pathname);
   for (const [k, v] of Object.entries(params)) if (v != null) url.searchParams.set(k, v);
   for (let attempt = 0; ; attempt++) {
+    await new Promise((resolve) => setTimeout(resolve, Math.max(0, 1100 - (Date.now() - lastCall))));
+    lastCall = Date.now();
     calls++;
-    const res = await fetch(url, { headers: { Authorization: `Bearer ${TOKEN}`, Accept: 'application/json' } });
+    const res = await fetch(url, { headers: { Authorization: `Bearer ${TOKEN}`, Accept: 'application/json' }, signal: AbortSignal.timeout(30_000) });
     if (res.status === 429 && attempt < 5) { await new Promise((r) => setTimeout(r, 2000 * (attempt + 1))); continue; }
     if (!res.ok) throw new Error(`${url.pathname} -> HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
     return res.json();
   }
 }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const median = (xs) => { if (!xs.length) return null; const s = xs.slice().sort((a, b) => a - b); const m = s.length >> 1; return s.length % 2 ? s[m] : Math.round(((s[m - 1] + s[m]) / 2) * 100) / 100; };
 
 // 1. Jeu One Piece et ses extensions
 const games = await get('/games');
@@ -54,9 +57,10 @@ console.log(`CardTrader : jeu "${game.display_name}" (#${game.id}), ${expansions
 
 // 2. Pour chaque extension : fiches (blueprints) -> ids Cardmarket, puis annonces en français
 const prev = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : { products: {} };
-const out = { updatedAt: new Date().toISOString(), source: 'cardtrader', currency: null, products: { ...prev.products } };
+// Un relevé complet remplace les anciennes annonces qui ne sont plus disponibles.
+const out = { updatedAt: new Date().toISOString(), source: 'cardtrader', currency: 'EUR', products: ONLY ? { ...prev.products } : {} };
 const today = out.updatedAt.slice(0, 10);
-let matched = 0, unmatched = 0, listingsTotal = 0;
+let matched = 0, unmatched = 0, listingsTotal = 0, failures = 0;
 const byCodeCm = {};
 for (const [id, p] of Object.entries(prices.products)) if (!p.foreign) (byCodeCm[p.code] ??= []).push(Number(id));
 
@@ -65,30 +69,27 @@ for (const exp of expansions) {
   try {
     blueprints = await get('/blueprints/export', { expansion_id: exp.id });
     offers = await get('/marketplace/products', { expansion_id: exp.id, language: LANG });
-  } catch (e) { console.warn(`  ✗ ${exp.code ?? exp.name} : ${e.message}`); continue; }
+  } catch (e) { failures++; console.warn(`  ✗ ${exp.code ?? exp.name} : ${e.message}`); continue; }
   const bpById = new Map(blueprints.map((b) => [b.id, b]));
   let n = 0;
   for (const [bpId, list] of Object.entries(offers)) {
     const bp = bpById.get(Number(bpId));
     if (!bp || !Array.isArray(list) || !list.length) continue;
-    // Annonces réellement en français (le paramètre language filtre déjà, on revérifie la propriété)
-    const fr = list.filter((l) => { const lang = Object.entries(l.properties_hash ?? {}).find(([k]) => /language/i.test(k))?.[1]; return !lang || String(lang).toLowerCase() === LANG; });
-    if (!fr.length) continue;
-    const cur = fr[0].price?.currency ?? null;
-    out.currency ??= cur;
-    if (cur && cur !== out.currency) continue; // devise inattendue : on ignore
-    const pr = fr.map((l) => l.price.cents / 100);
-    const nm = fr.filter((l) => /^(near mint|mint)$/i.test(String(l.properties_hash?.condition ?? ''))).map((l) => l.price.cents / 100);
+    const entry = summarizeFrenchOffers(list, today);
+    if (!entry) continue;
     // Identifiants Cardmarket portés par la fiche ; à défaut, le code imprimé dans le nom
     let cmIds = (bp.card_market_ids ?? []).map(Number).filter((id) => wanted.has(id));
     if (!cmIds.length) { const m = `${bp.name} ${bp.version ?? ''}`.match(codeRe); if (m && byCodeCm[m[1]]?.length === 1) cmIds = byCodeCm[m[1]]; }
     if (!cmIds.length) { unmatched++; continue; }
-    const entry = { at: today, n: fr.reduce((t, l) => t + (l.quantity ?? 1), 0), from: Math.min(...pr), med: median(pr), nm: nm.length ? Math.min(...nm) : null };
-    for (const id of cmIds) out.products[id] = entry;
-    matched++; n++; listingsTotal += fr.length;
+    for (const id of cmIds) {
+      const existing = out.products[id];
+      if (!existing || existing.at !== today || entry.from < existing.from) out.products[id] = entry;
+    }
+    matched++; n++; listingsTotal += entry.n;
   }
   console.log(`${String(exp.code ?? '').padEnd(8)} ${exp.name.slice(0, 40).padEnd(40)} ${String(n).padStart(4)} fiches avec annonces VF`);
   await sleep(150);
 }
+if (failures) throw new Error(`${failures} extension(s) non récupérée(s) : le précédent relevé est conservé.`);
 fs.writeFileSync(OUT, JSON.stringify(out));
 console.log(`\nprices-fr.json : ${matched} fiches reliées (${listingsTotal} annonces VF), ${unmatched} fiches sans correspondance Cardmarket, ${Object.keys(out.products).length} produits au total, devise ${out.currency}, ${calls} appels API`);

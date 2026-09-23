@@ -30,14 +30,14 @@ export default function Duplicates() {
   const unpriced = rows.filter((r) => r.unit == null).length;
 
   const copyList = async () => {
-    const lines = rows.map((r) => `${r.surplus}x ${r.card.name} (${r.card.code}${r.card.variant ? ` ${variantLabel(r.card.variant, r.card.variantKind)}` : ''}) FR — ${r.unit == null ? 'prix VF indisponible' : `minimum VF ${fmtEur(r.unit)}`}`);
-    const text = `Doublons One Piece Card Game (VF) — ${count} cartes, minimums VF connus : ${fmtEur(total)} (${unpriced} variante(s) sans prix)\n\n${lines.join('\n')}`;
+    const lines = rows.map((r) => `${r.surplus}x ${r.card.name} (${r.card.code}${r.card.variant ? ` ${variantLabel(r.card.variant, r.card.variantKind)}` : ''}) FR — ${r.unit == null ? 'prix VF indisponible' : `minimum CardTrader VF ${fmtEur(r.unit)}`}`);
+    const text = `Doublons One Piece Card Game (VF) — ${count} cartes, minimums CardTrader VF : ${fmtEur(total)} (${unpriced} variante(s) sans prix)\n\n${lines.join('\n')}`;
     try { await navigator.clipboard.writeText(text); show('Liste copiée'); } catch { show('Copie impossible'); }
   };
 
   const exportCsv = () => {
     const esc = (s: string) => `"${s.replace(/"/g, '""')}"`;
-    const csv = ['code;variante;nom;rarete;possedes;surplus;prix_mini_cardmarket_fr;url_cardmarket']
+    const csv = ['code;variante;nom;rarete;possedes;surplus;prix_mini_cardtrader_fr;url_cardmarket']
       .concat(rows.map((r) => [r.card.code, r.card.id, esc(r.card.name), r.card.rarity, r.qty, r.surplus, r.unit ?? '', r.product ? productUrl(r.product) : ''].join(';')))
       .join('\n');
     const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' });
@@ -50,7 +50,7 @@ export default function Duplicates() {
 
   return (
     <div className="space-y-3">
-      <PageHeader title="Doublons" sub={`${count} cartes en surplus · minimums VF connus : ${fmtEur(rows.length > 0 && unpriced === rows.length ? null : total)}`} />
+      <PageHeader title="Doublons" sub={`${count} cartes en surplus · minimums CardTrader VF : ${fmtEur(rows.length > 0 && unpriced === rows.length ? null : total)}`} />
       {unpriced > 0 && <p className="text-xs text-ink-2">Total partiel : {unpriced} variante(s) sans prix VF.</p>}
       <div className="panel flex items-center justify-between gap-3 text-sm">
         <span>Exemplaires à garder par carte</span>

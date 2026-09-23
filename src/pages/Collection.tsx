@@ -33,7 +33,7 @@ export default function Collection() {
     <div className="space-y-3">
       <PageHeader
         title="Collection"
-        sub={`${cards.length} cartes · ${copies} exemplaires · minimums VF connus : ${fmtEur(cards.length > 0 && unpriced === cards.length ? null : total)}`}
+        sub={`${cards.length} cartes · ${copies} exemplaires · minimums CardTrader VF : ${fmtEur(cards.length > 0 && unpriced === cards.length ? null : total)}`}
         right={<button className={`chip ${group ? 'chip-on' : ''}`} onClick={() => setGroup((g) => !g)}>Par série</button>}
       />
       {unpriced > 0 && <p className="text-xs text-ink-2">Total partiel : {unpriced} carte(s) sans prix VF, exclue(s) des montants.</p>}

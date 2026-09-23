@@ -1,7 +1,8 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import type { Card, Catalogue, CmProduct, Hashes, History, PriceFr, Prices, PricesFr } from '../types';
-import { buildIndexes, defaultProductFor, minimumFrPrice, type Indexes } from '../lib/cardmarket';
+import { buildIndexes, defaultProductFor, type Indexes } from '../lib/cardmarket';
+import { cardTraderQuote } from '../lib/cardtrader';
 import { db, type CollectionEntry, type CmOverride, type VfPrice } from '../db';
 
 const BASE = import.meta.env.BASE_URL;
@@ -27,13 +28,13 @@ export interface DataCtx {
   productFor: (card: Card) => CmProduct | undefined;
   /** false si l'association automatique carte FR ↔ produit Cardmarket est douteuse */
   mappingSure: (card: Card) => boolean;
-  /** relevé CardTrader des annonces en français pour le produit retenu, s'il existe (prices-fr.json, informatif) */
+  /** Relevé CardTrader des annonces françaises, en euros. */
   frFor: (card: Card) => PriceFr | undefined;
   /** prix VF saisi à la main dans l'app pour cette carte */
   manualFr: Map<string, VfPrice>;
-  /** Minimum Cardmarket VF relevé ; null si indisponible, aucun repli toutes langues. */
+  /** Minimum CardTrader VF ; null sans annonce française, aucun repli Cardmarket. */
   priceFor: (card: Card) => number | null;
-  /** 'vf' si priceFor vient d'un prix VF saisi à la main */
+  /** 'vf' si un minimum CardTrader français est disponible. */
   priceKind: (card: Card) => 'vf' | null;
   pricesFr: PricesFr | null;
   hashes: () => Promise<Hashes>;
@@ -100,11 +101,9 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
   const frFor = useMemo(() => (card: Card) => {
     const p = productFor(card);
-    return p ? pricesFr?.products[p.id] : undefined;
+    return cardTraderQuote(pricesFr, p?.id);
   }, [productFor, pricesFr]);
-  // Le relevé CardTrader (frFor) reste informatif : ses annonces, rares et bien plus chères que
-  // Cardmarket, ne servent plus de prix de référence.
-  const priceFor = useMemo(() => (card: Card) => minimumFrPrice(manualFr.get(card.id)), [manualFr]);
+  const priceFor = useMemo(() => (card: Card) => frFor(card)?.from ?? null, [frFor]);
   const priceKind = useMemo(() => (card: Card): 'vf' | null => priceFor(card) != null ? 'vf' : null, [priceFor]);
 
   // Instantané quotidien des prix des cartes possédées (suivi local, indépendant du serveur).
@@ -117,12 +116,12 @@ export function DataProvider({ children }: { children: ReactNode }) {
         const p = card && productFor(card);
         if (!p || !card || priceFor(card) == null) continue;
         // Date du relevé réel : ne pas faire passer une ancienne saisie pour un prix du jour.
-        const date = manualFr.get(card.id)!.date;
-        rows.push({ key: `${p.id}|${date}`, productId: p.id, date, trend: null, low: null, fr: priceFor(card) });
+        const date = frFor(card)!.at;
+        rows.push({ key: `cardtrader|${p.id}|${date}`, productId: p.id, date, trend: null, low: null, ctFr: priceFor(card) });
       }
       if (rows.length) await db.snapshots.bulkPut(rows);
     })().catch(() => undefined);
-  }, [prices, idx, ownedList, productFor, priceFor, manualFr]);
+  }, [prices, idx, ownedList, productFor, priceFor, frFor]);
 
   const value: DataCtx = {
     catalogue, prices, history, idx, loading, error,

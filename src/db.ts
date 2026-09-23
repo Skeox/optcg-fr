@@ -20,6 +20,7 @@ export interface Snapshot {
   trend: number | null;
   low: number | null;
   fr?: number | null; // prix VF saisi à la main, s'il existait au moment du relevé
+  ctFr?: number | null; // minimum CardTrader français, séparé des anciens relevés Cardmarket
 }
 
 export interface Setting {

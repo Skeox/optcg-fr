@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { coverToSource, matchPercent, rank, type Match } from '../src/lib/scan';
 import { liveCandidate, StableDetection } from '../src/lib/live-scan';
-import { minimumFrPrice, productUrl, searchUrl } from '../src/lib/cardmarket';
+import { productUrl, searchUrl } from '../src/lib/cardmarket';
 import type { Card, CmProduct, Hashes } from '../src/types';
 
 const match = (code: string, distance: number): Match => ({ card: { code } as Card, dFull: distance, dArt: distance, score: distance, codeMatch: false, nameMatch: false });
@@ -48,14 +48,7 @@ describe('Reconnaissance continue', () => {
   });
 });
 
-describe('Prix minimum Cardmarket français', () => {
-  it('laisse le prix inconnu sans relevé VF et refuse les montants invalides', () => {
-    expect(minimumFrPrice(undefined)).toBeNull();
-    for (const price of [NaN, Infinity, -2, 0]) expect(minimumFrPrice({ price })).toBeNull();
-    expect(minimumFrPrice({ price: 0.02 })).toBe(0.02);
-    expect(minimumFrPrice({ low: 0.01, trend: 99 } as unknown as { price: number })).toBeNull();
-  });
-
+describe('Liens Cardmarket français', () => {
   it('filtre aussi les liens de recherche sur le français', () => {
     const product = { expSlug: 'A-Fist-of-Divine-Speed', name: 'Monkey D. Luffy', code: 'OP17-001', version: 1 } as CmProduct;
     for (const url of [productUrl(product), productUrl({ ...product, expSlug: null }), searchUrl('OP17-001')]) {

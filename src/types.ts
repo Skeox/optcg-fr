@@ -76,6 +76,8 @@ export interface PriceFr {
 }
 
 export interface PricesFr {
+  source: 'cardtrader';
+  currency: string | null;
   updatedAt: string | null;
   products: Record<string, PriceFr>;
 }

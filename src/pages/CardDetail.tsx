@@ -1,27 +1,19 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { Link, useNavigate, useParams } from 'react-router';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useData } from '../data/catalogue';
 import { CardImage, ColorDots, PageHeader, QtyControl, Sparkline, VariantBadge } from '../components/ui';
 import { candidatesFor, productUrl, searchUrl } from '../lib/cardmarket';
 import { fmtDate, fmtEur, RARITY_LABEL, TYPE_LABEL } from '../lib/format';
-import { db, saveOverride, saveVfPrice, type Snapshot } from '../db';
+import { db, saveOverride, type Snapshot } from '../db';
 
 export default function CardDetail() {
   const { id = '' } = useParams();
   const nav = useNavigate();
-  const { catalogue, idx, prices, productFor, mappingSure, overrides, priceFor, manualFr } = useData();
+  const { catalogue, idx, prices, productFor, mappingSure, overrides, priceFor, frFor } = useData();
   const card = idx?.byId.get(decodeURIComponent(id));
   const product = card ? productFor(card) : undefined;
-  const manual = card ? manualFr.get(card.id) : undefined;
-  const [vfInput, setVfInput] = useState('');
-  const saveVf = async () => {
-    if (!card) return;
-    const v = Number(vfInput.replace(',', '.'));
-    if (!Number.isFinite(v) || v <= 0) return;
-    await saveVfPrice(card.id, { cardId: card.id, price: Math.round(v * 100) / 100, date: new Date().toISOString().slice(0, 10) });
-    setVfInput('');
-  };
+  const quote = card ? frFor(card) : undefined;
   const candidates = useMemo(() => (card && prices ? candidatesFor(card.code, prices) : []), [card, prices]);
   const siblings = card ? (idx?.byCode.get(card.code) ?? []).filter((c) => c.id !== card.id) : [];
   const snaps = useLiveQuery(
@@ -33,7 +25,7 @@ export default function CardDetail() {
   const curve = useMemo(() => {
     if (!product) return [] as (number | null)[];
     const pts = new Map<string, number>();
-    for (const s of snaps) { if (s.fr != null) pts.set(s.date, s.fr); }
+    for (const s of snaps) { if (s.ctFr != null) pts.set(s.date, s.ctFr); }
     return [...pts.keys()].sort().map((d) => pts.get(d)!);
   }, [product, snaps]);
 
@@ -54,28 +46,23 @@ export default function CardDetail() {
             <div className="mt-2"><QtyControl cardId={card.id} big /></div>
           </div>
           <div className="panel">
-            <div className="label">Minimum Cardmarket · français {manualProduct && <span className="text-accent">(choix manuel)</span>}</div>
+            <div className="label">Minimum CardTrader · français</div>
             {product ? (
               <>
-                {manual && priceFor(card) != null ? (
+                {quote && priceFor(card) != null ? (
                   <>
-                    <div className="mt-1 flex items-baseline gap-2"><span className="text-3xl font-black">{fmtEur(manual.price)}</span><span className="rounded bg-ok/20 px-1.5 py-0.5 text-xs font-bold text-ok">VF</span></div>
-                    <div className="mt-1 text-[11px] text-ink-2">Minimum VF saisi le {fmtDate(manual.date)} · hors frais de port</div>
+                    <div className="mt-1 flex items-baseline gap-2"><span className="text-3xl font-black">{fmtEur(priceFor(card))}</span><span className="rounded bg-ok/20 px-1.5 py-0.5 text-xs font-bold text-ok">VF</span></div>
+                    <div className="mt-1 text-[11px] text-ink-2">Relevé CardTrader du {fmtDate(quote.at)} · tous états · hors frais de port</div>
                   </>
                 ) : (
                   <>
                     <div className="mt-1 text-lg font-bold">Prix VF indisponible</div>
-                    <p className="mt-1 text-xs text-ink-2">Le guide public ne distingue pas les langues. Ouvrez les annonces françaises et saisissez leur prix minimum.</p>
+                    <p className="mt-1 text-xs text-ink-2">Aucune annonce française CardTrader en euros disponible dans le dernier relevé pour cette version.</p>
                   </>
                 )}
                 <div className="mt-1 text-xs text-ink-2">{product.expName} · V{product.version}</div>
                 {!mappingSure(card) && <div className="mt-1 text-xs text-warn">Association incertaine : vérifiez le produit dans la liste ci-dessous.</div>}
-                <a className="btn-ghost mt-3 w-full text-sm" href={productUrl(product)} target="_blank" rel="noreferrer">Voir les annonces en français ↗</a>
-                <div className="mt-2 flex gap-2">
-                  <input className="input" aria-label="Prix minimum Cardmarket français" inputMode="decimal" placeholder="Minimum VF (€)" value={vfInput} onChange={(e) => setVfInput(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && saveVf()} />
-                  <button className="btn-primary shrink-0" onClick={saveVf} disabled={!vfInput}>OK</button>
-                </div>
-                {manual && <button className="mt-1 text-xs text-ink-2 underline" onClick={() => saveVfPrice(card.id, null)}>Effacer le prix VF saisi</button>}
+                <a className="btn-ghost mt-3 w-full text-sm" href={productUrl(product)} target="_blank" rel="noreferrer">Prix français sur Cardmarket ↗</a>
               </>
             ) : (
               <>
@@ -89,7 +76,7 @@ export default function CardDetail() {
 
       {product && (
         <div className="panel">
-          <div className="label">Évolution du minimum VF relevé</div>
+          <div className="label">Évolution du minimum CardTrader VF</div>
           <Sparkline values={curve} className="mt-2 h-24 w-full" />
         </div>
       )}

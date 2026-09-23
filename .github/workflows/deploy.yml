@@ -1,4 +1,4 @@
-name: Prix Cardmarket + déploiement GitHub Pages
+name: Déploiement GitHub Pages et actualisation quotidienne
 
 on:
   push:
@@ -30,14 +30,18 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Vérifier l'application et la sauvegarde
+        run: npm test && npm run backup:check
       - name: Mettre à jour les prix Cardmarket
+        if: ${{ github.event_name != 'push' }}
         run: node scripts/update-prices.mjs
       - name: Mettre à jour les prix des annonces VF (CardTrader)
-        if: ${{ env.CARDTRADER_TOKEN != '' }}
+        if: ${{ github.event_name != 'push' && env.CARDTRADER_TOKEN != '' }}
         run: node scripts/update-prices-fr.mjs
         env:
           CARDTRADER_TOKEN: ${{ secrets.CARDTRADER_TOKEN }}
       - name: Enregistrer les prix dans le dépôt
+        if: ${{ github.event_name != 'push' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

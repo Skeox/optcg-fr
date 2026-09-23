@@ -8,27 +8,27 @@ import { db, type Snapshot } from '../db';
 import { useKeep } from '../lib/hooks';
 
 export default function Home() {
-  const { catalogue, prices, owned, priceFor, idx, productFor } = useData();
+  const { catalogue, owned, priceFor, idx, productFor } = useData();
   const keep = useKeep();
   const snapshots = useLiveQuery(() => db.snapshots.toArray(), [], [] as Snapshot[]);
 
   const stats = useMemo(() => {
     if (!catalogue || !idx) return null;
-    let unique = 0, copies = 0, value = 0, dupValue = 0, dupCount = 0;
+    let unique = 0, copies = 0, value = 0, dupValue = 0, dupCount = 0, unpriced = 0;
     const valued: { id: string; v: number }[] = [];
     for (const [id, e] of owned) {
       const card = idx.byId.get(id);
       if (!card) continue;
       unique++; copies += e.qty;
-      const p = priceFor(card) ?? 0;
-      value += p * e.qty;
-      valued.push({ id, v: p });
-      if (e.qty > keep) { dupCount += e.qty - keep; dupValue += (e.qty - keep) * p; }
+      const p = priceFor(card);
+      if (p == null) unpriced++;
+      else { value += p * e.qty; valued.push({ id, v: p }); }
+      if (e.qty > keep) { dupCount += e.qty - keep; dupValue += (e.qty - keep) * (p ?? 0); }
     }
     valued.sort((a, b) => b.v - a.v);
     const top = valued.slice(0, 6).map((x) => idx.byId.get(x.id)!);
     const total = catalogue.cards.length;
-    return { unique, copies, value, dupValue, dupCount, top, total, missing: total - unique };
+    return { unique, copies, value, dupValue, dupCount, top, total, unpriced, missing: total - unique };
   }, [catalogue, idx, owned, priceFor, keep]);
 
   // Évolution de la valeur de la collection d'après les instantanés locaux (par date).
@@ -43,7 +43,7 @@ export default function Home() {
     const byDate = new Map<string, number>();
     for (const s of snapshots) {
       const q = qtyByProduct.get(s.productId);
-      const v = s.fr ?? s.trend;
+      const v = s.fr;
       if (!q || v == null) continue;
       byDate.set(s.date, (byDate.get(s.date) ?? 0) + q * v);
     }
@@ -57,11 +57,12 @@ export default function Home() {
 
   return (
     <div className="space-y-4">
-      <PageHeader title="Ma collection" sub={<>Prix Cardmarket du {fmtDate(prices?.updatedAt)}</>} />
+      <PageHeader title="Ma collection" sub="Prix minimums Cardmarket · cartes françaises uniquement" />
 
       <div className="panel">
-        <div className="label">Valeur estimée (annonces VF Cardmarket, sinon tendance)</div>
-        <div className="mt-1 text-4xl font-black tracking-tight">{fmtEur(stats.value)}</div>
+        <div className="label">{stats.unpriced ? 'Valeur partielle' : 'Valeur estimée'} · minimums VF relevés</div>
+        <div className="mt-1 text-4xl font-black tracking-tight">{fmtEur(stats.unique > 0 && stats.unpriced === stats.unique ? null : stats.value)}</div>
+        {stats.unpriced > 0 && <p className="mt-1 text-xs text-ink-2">{stats.unpriced} carte(s) sans prix VF, exclue(s) du total.</p>}
         <div className="mt-1 text-sm text-ink-2">
           {stats.copies} exemplaires · {stats.unique} cartes différentes
           {delta != null && <span className={`ml-2 font-semibold ${delta >= 0 ? 'text-ok' : 'text-bad'}`}>{fmtPct(delta)} depuis le {fmtDate(curve.dates[0])}</span>}
@@ -78,7 +79,7 @@ export default function Home() {
         <Link to="/doublons" className="panel">
           <div className="label">Doublons à vendre</div>
           <div className="text-2xl font-extrabold">{stats.dupCount}</div>
-          <div className="text-xs text-ink-2">≈ {fmtEur(stats.dupValue)}</div>
+          <div className="text-xs text-ink-2">Minimums VF connus : {fmtEur(stats.dupValue)}</div>
         </Link>
       </div>
 

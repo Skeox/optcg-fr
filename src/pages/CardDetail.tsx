@@ -3,25 +3,23 @@ import { Link, useNavigate, useParams } from 'react-router';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useData } from '../data/catalogue';
 import { CardImage, ColorDots, PageHeader, QtyControl, Sparkline, VariantBadge } from '../components/ui';
-import { candidatesFor, productUrl, refPrice, refPriceFr, searchUrl } from '../lib/cardmarket';
+import { candidatesFor, productUrl, searchUrl } from '../lib/cardmarket';
 import { fmtDate, fmtEur, RARITY_LABEL, TYPE_LABEL } from '../lib/format';
-import { db, type Snapshot } from '../db';
+import { db, saveOverride, saveVfPrice, type Snapshot } from '../db';
 
 export default function CardDetail() {
   const { id = '' } = useParams();
   const nav = useNavigate();
-  const { catalogue, idx, prices, history, productFor, mappingSure, overrides, frFor, manualFr } = useData();
+  const { catalogue, idx, prices, productFor, mappingSure, overrides, priceFor, manualFr } = useData();
   const card = idx?.byId.get(decodeURIComponent(id));
   const product = card ? productFor(card) : undefined;
-  const fr = card ? frFor(card) : undefined;
-  const frRef = refPriceFr(fr);
   const manual = card ? manualFr.get(card.id) : undefined;
   const [vfInput, setVfInput] = useState('');
   const saveVf = async () => {
     if (!card) return;
     const v = Number(vfInput.replace(',', '.'));
     if (!Number.isFinite(v) || v <= 0) return;
-    await db.vfPrices.put({ cardId: card.id, price: Math.round(v * 100) / 100, date: new Date().toISOString().slice(0, 10) });
+    await saveVfPrice(card.id, { cardId: card.id, price: Math.round(v * 100) / 100, date: new Date().toISOString().slice(0, 10) });
     setVfInput('');
   };
   const candidates = useMemo(() => (card && prices ? candidatesFor(card.code, prices) : []), [card, prices]);
@@ -35,10 +33,9 @@ export default function CardDetail() {
   const curve = useMemo(() => {
     if (!product) return [] as (number | null)[];
     const pts = new Map<string, number>();
-    if (history?.trend[product.id]) history.dates.forEach((d, i) => { const v = history.trend[product.id][i]; if (v != null) pts.set(d, v / 100); });
-    for (const s of snaps) { const v = s.fr ?? s.trend; if (v != null) pts.set(s.date, v); }
+    for (const s of snaps) { if (s.fr != null) pts.set(s.date, s.fr); }
     return [...pts.keys()].sort().map((d) => pts.get(d)!);
-  }, [product, history, snaps]);
+  }, [product, snaps]);
 
   if (!card || !catalogue) return <div className="py-10 text-center text-ink-2">Carte introuvable. <Link className="text-accent" to="/cartes">Retour</Link></div>;
   const series = card.series.map((s) => idx!.seriesById.get(s)).filter(Boolean);
@@ -57,45 +54,28 @@ export default function CardDetail() {
             <div className="mt-2"><QtyControl cardId={card.id} big /></div>
           </div>
           <div className="panel">
-            <div className="label">Cardmarket {manualProduct && <span className="text-accent">(choix manuel)</span>}</div>
+            <div className="label">Minimum Cardmarket · français {manualProduct && <span className="text-accent">(choix manuel)</span>}</div>
             {product ? (
               <>
-                {manual ? (
+                {manual && priceFor(card) != null ? (
                   <>
                     <div className="mt-1 flex items-baseline gap-2"><span className="text-3xl font-black">{fmtEur(manual.price)}</span><span className="rounded bg-ok/20 px-1.5 py-0.5 text-xs font-bold text-ok">VF</span></div>
-                    <div className="mt-1 text-[11px] text-ink-2">Prix VF constaté le {fmtDate(manual.date)} · toutes langues : tendance {fmtEur(product.trend)}, mini {fmtEur(product.low)}</div>
-                  </>
-                ) : fr && fr.n > 0 ? (
-                  <>
-                    <div className="mt-1 flex items-baseline gap-2"><span className="text-3xl font-black">{fmtEur(frRef)}</span><span className="rounded bg-ok/20 px-1.5 py-0.5 text-xs font-bold text-ok">VF</span></div>
-                    <div className="mt-1 grid grid-cols-2 gap-x-3 text-xs text-ink-2">
-                      <span>Dès : <b className="text-ink">{fmtEur(fr.from)}</b></span>
-                      <span>Annonces VF : <b className="text-ink">{fr.n}</b></span>
-                      <span>Médiane : <b className="text-ink">{fmtEur(fr.med)}</b></span>
-                      <span>Dès (NM) : <b className="text-ink">{fmtEur(fr.nm)}</b></span>
-                    </div>
-                    <div className="mt-1 text-[11px] text-ink-2">Annonces en français relevées le {fmtDate(fr.at)} · toutes langues : tendance {fmtEur(product.trend)}, mini {fmtEur(product.low)}</div>
+                    <div className="mt-1 text-[11px] text-ink-2">Minimum VF saisi le {fmtDate(manual.date)} · hors frais de port</div>
                   </>
                 ) : (
                   <>
-                    <div className="mt-1 text-3xl font-black">{fmtEur(refPrice(product))}</div>
-                    <div className="mt-1 grid grid-cols-2 gap-x-3 text-xs text-ink-2">
-                      <span>Mini : <b className="text-ink">{fmtEur(product.low)}</b></span>
-                      <span>Moy. 7 j : <b className="text-ink">{fmtEur(product.avg7)}</b></span>
-                      <span>Moy. 1 j : <b className="text-ink">{fmtEur(product.avg1)}</b></span>
-                      <span>Moy. 30 j : <b className="text-ink">{fmtEur(product.avg30)}</b></span>
-                    </div>
-                    <div className="mt-1 text-[11px] text-ink-2">{fr ? `Aucune annonce en français (relevé du ${fmtDate(fr.at)})` : 'Toutes langues confondues (pas encore de relevé VF)'}</div>
+                    <div className="mt-1 text-lg font-bold">Prix VF indisponible</div>
+                    <p className="mt-1 text-xs text-ink-2">Le guide public ne distingue pas les langues. Ouvrez les annonces françaises et saisissez leur prix minimum.</p>
                   </>
                 )}
                 <div className="mt-1 text-xs text-ink-2">{product.expName} · V{product.version}</div>
                 {!mappingSure(card) && <div className="mt-1 text-xs text-warn">Association incertaine : vérifiez le produit dans la liste ci-dessous.</div>}
                 <a className="btn-ghost mt-3 w-full text-sm" href={productUrl(product)} target="_blank" rel="noreferrer">Voir les annonces en français ↗</a>
                 <div className="mt-2 flex gap-2">
-                  <input className="input" inputMode="decimal" placeholder="Prix VF constaté (€)" value={vfInput} onChange={(e) => setVfInput(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && saveVf()} />
+                  <input className="input" aria-label="Prix minimum Cardmarket français" inputMode="decimal" placeholder="Minimum VF (€)" value={vfInput} onChange={(e) => setVfInput(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && saveVf()} />
                   <button className="btn-primary shrink-0" onClick={saveVf} disabled={!vfInput}>OK</button>
                 </div>
-                {manual && <button className="mt-1 text-xs text-ink-2 underline" onClick={() => db.vfPrices.delete(card.id)}>Effacer le prix VF saisi</button>}
+                {manual && <button className="mt-1 text-xs text-ink-2 underline" onClick={() => saveVfPrice(card.id, null)}>Effacer le prix VF saisi</button>}
               </>
             ) : (
               <>
@@ -109,7 +89,7 @@ export default function CardDetail() {
 
       {product && (
         <div className="panel">
-          <div className="label">Évolution du prix tendance</div>
+          <div className="label">Évolution du minimum VF relevé</div>
           <Sparkline values={curve} className="mt-2 h-24 w-full" />
         </div>
       )}
@@ -150,16 +130,16 @@ export default function CardDetail() {
               return (
                 <button
                   key={p.id}
-                  onClick={() => (on ? db.overrides.delete(card.id) : db.overrides.put({ cardId: card.id, productId: p.id }))}
+                  onClick={() => saveOverride(card.id, on ? null : p.id)}
                   className={`flex w-full items-center justify-between rounded-lg border px-3 py-2 text-left text-sm ${on ? 'border-accent bg-accent/10' : 'border-line'}`}
                 >
                   <span className={p.foreign ? 'text-ink-2' : ''}>{p.expName} · V{p.version}{p.foreign ? ' · hors Europe' : ''}</span>
-                  <span className="font-semibold">{fmtEur(refPrice(p))}</span>
+                  <span className="text-xs text-ink-2">{on ? 'Sélectionné' : 'Choisir'}</span>
                 </button>
               );
             })}
           </div>
-          {manualProduct && <button className="mt-2 text-xs text-ink-2 underline" onClick={() => db.overrides.delete(card.id)}>Revenir au choix automatique</button>}
+          {manualProduct && <button className="mt-2 text-xs text-ink-2 underline" onClick={() => saveOverride(card.id, null)}>Revenir au choix automatique</button>}
         </section>
       )}
     </div>

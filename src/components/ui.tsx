@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import type { Card } from '../types';
 import { useData, imageUrl } from '../data/catalogue';
 import { COLOR_CLASS, fmtEur, variantLabel } from '../lib/format';
-import { setQty } from '../db';
+import { addQty } from '../db';
 
 export function CardImage({ card, className = '', eager = false }: { card: Card; className?: string; eager?: boolean }) {
   const { catalogue } = useData();
@@ -87,9 +87,9 @@ export function QtyControl({ cardId, big = false }: { cardId: string; big?: bool
   const btn = big ? 'h-12 w-12 text-2xl' : 'h-9 w-9 text-lg';
   return (
     <div className="inline-flex items-center gap-2">
-      <button className={`${btn} rounded-full border border-line bg-bg-3 font-bold`} onClick={() => setQty(cardId, qty - 1)} disabled={qty === 0} aria-label="Retirer un exemplaire">−</button>
+      <button className={`${btn} rounded-full border border-line bg-bg-3 font-bold`} onClick={() => addQty(cardId, -1)} disabled={qty === 0} aria-label="Retirer un exemplaire">−</button>
       <span className={`${big ? 'min-w-10 text-2xl' : 'min-w-6 text-base'} text-center font-bold`}>{qty}</span>
-      <button className={`${btn} rounded-full bg-accent font-bold text-bg`} onClick={() => setQty(cardId, qty + 1)} aria-label="Ajouter un exemplaire">+</button>
+      <button className={`${btn} rounded-full bg-accent font-bold text-bg`} onClick={() => addQty(cardId, 1)} aria-label="Ajouter un exemplaire">+</button>
     </div>
   );
 }

@@ -3,12 +3,20 @@
 Application web installable sur iPhone (PWA, sans App Store) pour :
 
 - **scanner** ses cartes VF avec l'appareil photo et les ajouter à sa collection (nombre d'exemplaires) ;
-- consulter la **valeur Cardmarket** de chaque carte (tendance, mini, moyennes 1/7/30 j) et son évolution ;
+- consulter le **minimum Cardmarket français** relevé pour chaque carte et son évolution ;
 - parcourir **toutes les cartes VF** (catalogue officiel Bandai FR) avec recherche et filtres (série, couleur, type, rareté, possédées / manquantes / doublons) ;
 - voir ce qui **manque** par série et ce que cela coûterait ;
 - repérer ses **doublons** et exporter la liste (texte ou CSV) pour la mise en vente.
 
-Tout est stocké localement sur le téléphone (IndexedDB). Aucune donnée personnelle ne quitte l'appareil ; pensez à **exporter la sauvegarde** depuis *Plus › Réglages*.
+La collection reste disponible localement sur le téléphone (IndexedDB). Une **sauvegarde automatique privée sur Turso** peut être connectée depuis *Plus › Réglages* : ajouts et retraits sont envoyés après chaque modification, avec reprise hors connexion. Sans activation, les données restent uniquement sur l'appareil. Conservez aussi un export JSON manuel.
+
+### Sauvegarde externe et récupération
+
+Le dossier [server](server/README.md) contient le service privé à héberger en HTTPS et les instructions Turso. La base `optcg-fr-backup` est dédiée à cette application. La clé Turso reste côté serveur ; le mobile utilise une clé de récupération personnelle, enregistrable dans un fichier privé hors du navigateur.
+
+Après un nettoyage des données du site, rechargez ce fichier dans *Réglages → Sauvegarde automatique*, puis **Connecter et restaurer**. Une copie locale vide ne remplace jamais automatiquement la collection distante. L'indicateur en haut de l'application distingue les modifications en attente des sauvegardes confirmées. Une modification faite hors connexion doit être envoyée avant d'effacer les données locales.
+
+Le site GitHub Pages et la base Turso ne suffisent pas seuls : le service Node doit également être hébergé et relié dans les réglages. Détails : [installation et garanties](server/README.md).
 
 ## Sources de données
 
@@ -16,18 +24,19 @@ Tout est stocké localement sur le téléphone (IndexedDB). Aucune donnée perso
 | --- | --- | --- |
 | Cartes VF (noms, textes, images, séries) | Site officiel `fr.onepiece-cardgame.com/cardlist` | `public/data/cards.json` |
 | Prix Cardmarket (jeu n°18) | Fichiers publics quotidiens `downloads.s3.cardmarket.com` (catalogue produits + guide des prix) | `public/data/prices.json`, `public/data/history.json` |
-| Empreintes d'images pour le scan | Calculées (dHash) sur les images officielles | `public/data/hashes.json` |
+| Empreintes d'images pour le scan | Calculées (dHash 256 bits) sur les images officielles, filigrane « SAMPLE » retiré | `public/data/hashes.json` |
 
 La version française a démarré avec OP-09 et ST-15 (février 2025). Les cartes plus anciennes (OP-01 à OP-08) n'existent en VF que via les réimpressions des Premium Boosters *The Best* (PRB-01/02) : elles figurent donc dans le catalogue sous ces séries.
 
-### Prix en français : ce qui est possible et ce qui ne l'est pas
+### Prix en français : minimum uniquement
 
-Le guide de prix public de Cardmarket ne distingue pas les langues : le prix automatique est celui du produit **toutes langues confondues** (tendance, mini, moyennes). La page produit filtrée (`?language=2`) affiche bien les seules annonces VF (« De x € », nombre d'annonces), mais :
+Le prix de référence est le **minimum des annonces Cardmarket en français, hors frais de port**. Les liens produit et recherche ajoutent le filtre language=2. La langue de l'interface Cardmarket ne suffit pas à filtrer les annonces.
 
-- Cardmarket **bloque les navigateurs automatisés** (« Sorry, you have been blocked ») et n'accepte plus de nouvelles demandes d'accès à son API. L'application ne cherche pas à contourner cette protection.
-- **Prix VF automatiques via CardTrader** : cette place de marché européenne (prix alignés sur Cardmarket) a une API publique gratuite qui indique la langue de chaque annonce et relie ses fiches aux produits Cardmarket. Le script `npm run data:prices-fr` (variable `CARDTRADER_TOKEN`) écrit `public/data/prices-fr.json` ; le workflow quotidien le lance automatiquement si le secret `CARDTRADER_TOKEN` existe dans le dépôt. Pour l'activer : créer un compte sur cardtrader.com, copier le jeton API dans les réglages du compte, puis l'ajouter dans *Settings › Secrets and variables › Actions* du dépôt GitHub. En local sous Windows : `$env:CARDTRADER_TOKEN="votre-jeton"; npm run data:prices-fr`. Le prix VF (médiane des annonces françaises, sinon prix mini) s'affiche alors avec un badge « VF » et devient la référence.
-- **Saisie manuelle** : dans la fiche carte, *Voir les annonces en français* ouvre la page Cardmarket filtrée VF ; on peut taper le prix constaté dans *Prix VF constaté*. Ce prix (daté) est prioritaire sur tout le reste pour cette carte.
-- Format du fichier : `{ updatedAt, source, currency, products: { <idProduct Cardmarket>: { at, n, from, med, nm } } }` (n = nombre d'exemplaires en vente en VF, from = prix mini, med = médiane des annonces les moins chères, nm = mini en état NM/Mint).
+**La récupération automatique des prix VF n'est pas disponible.** Le guide public quotidien ne contient pas de distinction par langue, et la lecture automatique des pages Cardmarket renvoie HTTP 403 dans l'environnement de développement. Le guide reste téléchargé pour les associations de produits et l'archive historique ; ses montants ne sont plus utilisés comme prix des cartes françaises.
+
+Dans la fiche carte, ouvrez *Voir les annonces en français*, vérifiez l'édition et la variante, puis saisissez le prix de l'annonce française la moins chère dans *Minimum VF (€)*. Le relevé est daté. Les saisies VF existantes sont conservées : vérifiez qu'elles correspondent bien au minimum souhaité. Tous les états sont inclus ; aucun filtre NM n'est imposé.
+
+Sans relevé VF, le prix reste indisponible. Les totaux indiquent leur couverture partielle ; les doublons et exports utilisent la même référence. Les courbes ne mélangent plus les relevés VF avec les anciens prix toutes langues. Les relevés CardTrader (prices-fr.json, script optionnel npm run data:prices-fr avec CARDTRADER_TOKEN) restent séparés et ne remplacent jamais un prix Cardmarket VF.
 
 Chaque variante FR (base, alternative _p1, _p2…) est associée automatiquement à la version Cardmarket correspondante (V1, V2…) ; si l'association est fausse, choisissez le bon produit dans la fiche carte (*Produits Cardmarket pour ce code*).
 
@@ -43,7 +52,8 @@ Scripts de données :
 
 - `npm run data:cards` — reconstruit le catalogue FR (cache HTML dans `.cache/html`, `--force` pour re-télécharger) ;
 - `npm run data:prices` — met à jour les prix et l'historique hebdomadaire ;
-- `npm run data:hashes` — télécharge les images manquantes (`.cache/images`) et calcule les empreintes ;
+- `npm run data:hashes` — télécharge les images manquantes (`.cache/images`) et calcule les empreintes, après avoir retiré le filigrane « SAMPLE » (absent des vraies cartes) ;
+- `npm run data:sample-alpha` — re-mesure ce filigrane sur les images en cache et réécrit `scripts/sample-alpha.png` (forme des lettres × opacité). À relancer seulement si Bandai change son filigrane : sur le site FR c'est un calque blanc d'opacité 0,70 couvrant 8,9 % de la carte, identique sur toutes les cartes sauf six qui n'en portent pas ;
 - `npm run data:images` — génère les miniatures locales (`public/images/cards`, ~75 Mo) ;
 - `npm run icons` — régénère les icônes PWA.
 
@@ -75,11 +85,17 @@ Les données (collection, prix saisis) restent dans l'app entre deux re-signatur
 
 ## Conseils pour le scan
 
-Deux modes, au choix en haut de l'écran (le choix est mémorisé) :
+- **Scanner une carte** ouvre directement la caméra arrière en mode carte entière. Placez la carte dans le cadre : trois lectures concordantes déclenchent les résultats sans prendre de photo. Le scanner compare également le cadre-guide lorsque les contours sont peu visibles. Le calcul continu se fait dans un Web Worker pour garder l'aperçu fluide.
+- **Match 100% / Match 80%** indique la similarité visuelle des empreintes, et non une probabilité de reconnaissance. Le code et le nom peuvent corriger le classement, sans gonfler ce pourcentage. Vérifiez la version avant d'ajouter la carte.
+- **Après 20 secondes de caméra active sans résultat**, un bouton propose de scanner le bas de la carte. Cadrez de près le nom et le code (ex. OP17-001) : deux lectures concordantes du code connu, ou d'un nom très proche, affichent les variantes. Ce mode reste aussi accessible dès le départ.
+- *Analyser maintenant*, *Photo* et la recherche manuelle restent disponibles. La caméra s'arrête à l'affichage des résultats, à la sortie de l'écran ou lorsque l'application passe en arrière-plan. *Refaire* ouvre une nouvelle session ; une ancienne réponse OCR ne peut pas modifier les nouveaux résultats.
+- Utilisez une lumière uniforme, sans reflets. La caméra exige HTTPS (ou localhost). Le premier chargement de l'OCR français nécessite une connexion.
 
-- **Bas de la carte** (recommandé) : rapprochez le téléphone du bas de la carte pour que le nom et le petit code (ex. `OP17-117`, en bas à droite) remplissent le cadre horizontal, bien nets et sans reflet. L'OCR lit le code, qui identifie la carte à coup sûr, et le nom en secours. Il ne reste qu'à toucher la bonne version (base ou alternative) parmi les miniatures proposées ; s'il n'y en a qu'une, elle est présélectionnée.
-- **Carte entière** : posez la carte à plat, lumière uniforme, et alignez-la dans le cadre bord inférieur compris. L'application classe les cartes par ressemblance d'image (illustration), corrigée par le nom et le code lus. Ce mode est plus aléatoire : les images officielles de référence portent un filigrane « SAMPLE » absent des vraies cartes, et une photo de carte entière rend le code illisible. La distance d'image affichée (`d=`) reste élevée même pour la bonne carte, c'est attendu.
-- Si rien ne convient, saisissez le code (ex. `OP09-001`) dans le champ sous la liste.
+## Vérification
+
+La commande npm test vérifie le déclenchement sans clic, le délai de 20 secondes, la lecture automatique du bas, le refus caméra, les réponses OCR tardives, la stabilité des correspondances et la référence de prix VF. Les tests de caméra utilisent un flux simulé : la mise au point, les reflets et les performances doivent encore être validés sur un téléphone avec de vraies cartes.
+
+npm run build vérifie TypeScript et construit la PWA ; npm run lint analyse le code.
 
 ## Structure
 
@@ -87,7 +103,7 @@ Deux modes, au choix en haut de l'écran (le choix est mémorisé) :
 scripts/              collecte des données (Node 20+)
 public/data/          JSON générés (cartes, prix, historique, empreintes)
 src/data/             chargement des données + contexte React
-src/lib/              Cardmarket (liens, association produit), hachage d'image, OCR, filtres
+src/lib/              Cardmarket (liens, association produit), vision (contour, redressement, empreintes), OCR, filtres
 src/pages/            Accueil, Cartes, Fiche carte, Scanner, Collection, Manquantes, Doublons, Réglages
 src/db.ts             base locale Dexie (collection, choix Cardmarket, instantanés de prix, réglages)
 ```

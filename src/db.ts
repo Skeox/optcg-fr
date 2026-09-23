@@ -1,4 +1,5 @@
 import Dexie, { type Table } from 'dexie';
+import type { Change, CloudCredentials, PendingChange, SyncMeta } from './lib/backup-model';
 
 export interface CollectionEntry {
   cardId: string;
@@ -18,7 +19,7 @@ export interface Snapshot {
   date: string; // AAAA-MM-JJ
   trend: number | null;
   low: number | null;
-  fr?: number | null; // prix de référence VF au moment du relevé
+  fr?: number | null; // prix VF saisi à la main, s'il existait au moment du relevé
 }
 
 export interface Setting {
@@ -39,6 +40,10 @@ class OptcgDb extends Dexie {
   snapshots!: Table<Snapshot, string>;
   settings!: Table<Setting, string>;
   vfPrices!: Table<VfPrice, string>;
+  pendingChanges!: Table<PendingChange, number>;
+  syncMeta!: Table<SyncMeta, string>;
+  cloudCredentials!: Table<CloudCredentials, string>;
+  syncLocks!: Table<{ key: string; holder: string; until: number }, string>;
 
   constructor() {
     super('optcg-fr');
@@ -49,20 +54,76 @@ class OptcgDb extends Dexie {
       settings: 'key',
     });
     this.version(2).stores({ vfPrices: 'cardId, date' });
+    // Les anciens instantanés portaient dans `fr` le relevé CardTrader, abandonné comme référence.
+    this.version(3).stores({}).upgrade((tx) => tx.table('snapshots').toCollection().modify((s: Snapshot) => { delete s.fr; }));
+    this.version(4).stores({ pendingChanges: '++seq, &id', syncMeta: 'key' });
+    this.version(5).stores({ cloudCredentials: 'key' });
+    this.version(6).stores({ syncLocks: 'key' });
   }
 }
 
 export const db = new OptcgDb();
 
-export async function setQty(cardId: string, qty: number) {
-  const q = Math.max(0, Math.floor(qty));
-  if (q === 0) await db.collection.delete(cardId);
-  else await db.collection.put({ cardId, qty: q, updatedAt: Date.now() });
+function queueChange(change: Change) {
+  return db.pendingChanges.add({ id: crypto.randomUUID(), change });
+}
+
+function validCardId(cardId: string) {
+  if (!/^[A-Z][A-Z0-9]*-\d{3}(?:_[a-z]\d+)?$/i.test(cardId) || cardId.length > 100) throw new Error('Identifiant de carte invalide');
+}
+
+async function writeQty(cardId: string, qty: number, previous: number, note?: string | null) {
+  validCardId(cardId);
+  if (!Number.isSafeInteger(qty) || qty < 0 || qty > 1_000_000) throw new Error('Quantité invalide');
+  if (note != null && (typeof note !== 'string' || note.length > 1000)) throw new Error('Note invalide');
+  const old = await db.collection.get(cardId);
+  if (qty === previous && (note === undefined || (note ?? undefined) === old?.note)) return;
+  const at = Date.now();
+  if (qty === 0) await db.collection.delete(cardId);
+  else await db.collection.put({ ...old, cardId, qty, updatedAt: at, ...(note !== undefined ? { note: note ?? undefined } : {}) });
+  await queueChange({ kind: 'quantity', cardId, delta: qty - previous, at, ...(note !== undefined ? { note } : {}) });
+}
+
+export async function setQty(cardId: string, qty: number, note?: string | null) {
+  await db.transaction('rw', db.collection, db.pendingChanges, async () => {
+    const cur = await db.collection.get(cardId);
+    await writeQty(cardId, Math.max(0, Math.floor(qty)), cur?.qty ?? 0, note);
+  });
 }
 
 export async function addQty(cardId: string, delta: number) {
-  const cur = await db.collection.get(cardId);
-  await setQty(cardId, (cur?.qty ?? 0) + delta);
+  if (!Number.isSafeInteger(delta)) throw new Error('Quantité invalide');
+  await db.transaction('rw', db.collection, db.pendingChanges, async () => {
+    const cur = await db.collection.get(cardId);
+    await writeQty(cardId, Math.max(0, (cur?.qty ?? 0) + delta), cur?.qty ?? 0);
+  });
+}
+
+export async function saveOverride(cardId: string, productId: number | null) {
+  validCardId(cardId);
+  if (productId != null && (!Number.isSafeInteger(productId) || productId < 1)) throw new Error('Produit invalide');
+  await db.transaction('rw', db.overrides, db.pendingChanges, async () => {
+    const value = productId == null ? null : { cardId, productId };
+    if (value) await db.overrides.put(value); else await db.overrides.delete(cardId);
+    await queueChange({ kind: 'override', cardId, value });
+  });
+}
+
+export async function saveVfPrice(cardId: string, value: VfPrice | null) {
+  validCardId(cardId);
+  if (value && (value.cardId !== cardId || !Number.isFinite(value.price) || value.price <= 0 || !/^\d{4}-\d{2}-\d{2}$/.test(value.date))) throw new Error('Prix invalide');
+  await db.transaction('rw', db.vfPrices, db.pendingChanges, async () => {
+    if (value) await db.vfPrices.put(value); else await db.vfPrices.delete(cardId);
+    await queueChange({ kind: 'price', cardId, value });
+  });
+}
+
+export async function clearCollection() {
+  await db.transaction('rw', [db.collection, db.overrides, db.vfPrices, db.pendingChanges], async () => {
+    for (const row of await db.collection.toArray()) await setQty(row.cardId, 0);
+    for (const row of await db.overrides.toArray()) await saveOverride(row.cardId, null);
+    for (const row of await db.vfPrices.toArray()) await saveVfPrice(row.cardId, null);
+  });
 }
 
 export async function getSetting<T>(key: string, fallback: T): Promise<T> {
@@ -71,7 +132,11 @@ export async function getSetting<T>(key: string, fallback: T): Promise<T> {
 }
 
 export async function setSetting(key: string, value: unknown) {
-  await db.settings.put({ key, value });
+  if (key === 'keep' && (!Number.isInteger(value) || Number(value) < 1 || Number(value) > 4)) throw new Error('Préférence invalide');
+  await db.transaction('rw', db.settings, db.pendingChanges, async () => {
+    await db.settings.put({ key, value });
+    if (key === 'keep') await queueChange({ kind: 'keep', value: Number(value) });
+  });
 }
 
 export interface Backup {
@@ -100,17 +165,16 @@ export async function exportBackup(): Promise<Backup> {
 
 export async function importBackup(b: Backup, mode: 'replace' | 'merge') {
   if (b.app !== 'optcg-fr') throw new Error('Fichier de sauvegarde invalide');
-  await db.transaction('rw', db.collection, db.overrides, db.snapshots, db.settings, db.vfPrices, async () => {
+  if (b.version !== 1 || !Array.isArray(b.collection)) throw new Error('Fichier de sauvegarde invalide');
+  await db.transaction('rw', [db.collection, db.overrides, db.snapshots, db.settings, db.vfPrices, db.pendingChanges], async () => {
     if (mode === 'replace') {
-      await db.collection.clear();
-      await db.overrides.clear();
+      await clearCollection();
       await db.snapshots.clear();
-      await db.vfPrices.clear();
     }
-    await db.collection.bulkPut(b.collection ?? []);
-    await db.overrides.bulkPut(b.overrides ?? []);
+    for (const row of b.collection) await setQty(row.cardId, row.qty, row.note ?? null);
+    for (const row of b.overrides ?? []) await saveOverride(row.cardId, row.productId);
     await db.snapshots.bulkPut(b.snapshots ?? []);
-    await db.settings.bulkPut(b.settings ?? []);
-    await db.vfPrices.bulkPut(b.vfPrices ?? []);
+    for (const row of b.settings ?? []) await setSetting(row.key, row.value);
+    for (const row of b.vfPrices ?? []) await saveVfPrice(row.cardId, row);
   });
 }

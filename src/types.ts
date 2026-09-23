@@ -88,6 +88,7 @@ export interface History {
 
 export interface Hashes {
   generatedAt: string;
+  version?: number; // 2 : filigrane SAMPLE retiré des références
   size: number;
   art: { left: number; top: number; width: number; height: number };
   entries: Record<string, { full: string; art: string }>;

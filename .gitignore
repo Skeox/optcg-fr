@@ -11,6 +11,13 @@ node_modules
 dist
 dist-ssr
 *.local
+*.local.json
+.env
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
 
 # Editor directories and files
 .vscode/*
@@ -25,4 +32,5 @@ dist-ssr
 
 # Caches de construction (HTML officiel, images)
 .cache
+.vercel
 *.traineddata

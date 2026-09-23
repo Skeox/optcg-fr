@@ -71,7 +71,16 @@ function prepare(src: HTMLCanvasElement, sx: number, sy: number, sw: number, sh:
   return c;
 }
 
-async function recognize(src: HTMLCanvasElement, sx: number, sy: number, sw: number, sh: number, targetW: number, names: NameIndex | null): Promise<OcrResult> {
+let ocrQueue: Promise<unknown> = Promise.resolve();
+
+// Un seul worker Tesseract : une analyse doit finir tous ses passages avant la suivante.
+function recognize(src: HTMLCanvasElement, sx: number, sy: number, sw: number, sh: number, targetW: number, names: NameIndex | null): Promise<OcrResult> {
+  const next = ocrQueue.then(() => recognizeNow(src, sx, sy, sw, sh, targetW, names));
+  ocrQueue = next.catch(() => undefined);
+  return next;
+}
+
+async function recognizeNow(src: HTMLCanvasElement, sx: number, sy: number, sw: number, sh: number, targetW: number, names: NameIndex | null): Promise<OcrResult> {
   const worker = await getOcrWorker();
   let best: OcrResult = { code: null, name: null, raw: '' };
   for (const invert of [true, false]) {

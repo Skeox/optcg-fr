@@ -1,7 +1,8 @@
 import { useRef, useState } from 'react';
 import { useData } from '../data/catalogue';
 import { PageHeader, Toast, useToast } from '../components/ui';
-import { db, exportBackup, importBackup, type Backup } from '../db';
+import { clearCollection, exportBackup, importBackup, type Backup } from '../db';
+import BackupSettings from '../components/BackupSettings';
 import { fmtDate } from '../lib/format';
 
 export default function Settings() {
@@ -33,20 +34,19 @@ export default function Settings() {
   };
 
   const clearAll = async () => {
-    if (!confirm(`Supprimer toute la collection (${owned.size} cartes) ? Cette action est irréversible.`)) return;
-    await db.collection.clear();
-    await db.overrides.clear();
-    await db.vfPrices.clear();
+    if (!confirm(`Supprimer toute la collection (${owned.size} cartes) ? Si la sauvegarde externe est connectée, cette suppression y sera aussi synchronisée.`)) return;
+    await clearCollection();
     show('Collection vidée');
   };
 
   return (
     <div className="space-y-3">
       <PageHeader title="Réglages" />
+      <BackupSettings />
 
       <section className="panel space-y-2">
-        <div className="font-bold">Sauvegarde</div>
-        <p className="text-sm text-ink-2">La collection est stockée uniquement sur cet appareil. Exportez-la régulièrement (Fichiers / iCloud).</p>
+        <div className="font-bold">Copie manuelle supplémentaire</div>
+        <p className="text-sm text-ink-2">Exportez aussi votre collection en JSON pour conserver une copie indépendante de la synchronisation.</p>
         <button className="btn-primary w-full" onClick={doExport}>Exporter la sauvegarde (JSON)</button>
         <div className="flex items-center gap-2 text-sm">
           <select className="chip" value={mode} onChange={(e) => setMode(e.target.value as 'merge' | 'replace')}>
@@ -61,9 +61,9 @@ export default function Settings() {
       <section className="panel space-y-2 text-sm">
         <div className="font-bold">Données</div>
         <div className="text-ink-2">Catalogue FR : {catalogue?.cards.length} variantes, généré le {fmtDate(catalogue?.generatedAt)}</div>
-        <div className="text-ink-2">Prix Cardmarket : {prices?.count} produits, guide du {fmtDate(prices?.updatedAt)}</div>
-        <div className="text-ink-2">Historique serveur : {history?.dates.length ?? 0} relevés hebdomadaires</div>
-        <div className="text-ink-2">Prix VF saisis à la main : {manualFr.size}{pricesFr ? ` · relevé VF importé : ${Object.keys(pricesFr.products).length} produits (${fmtDate(pricesFr.updatedAt)})` : ''}</div>
+        <div className="text-ink-2">Catalogue Cardmarket : {prices?.count} produits, guide du {fmtDate(prices?.updatedAt)} (prix toutes langues exclus des estimations)</div>
+        <div className="text-ink-2">Archive toutes langues : {history?.dates.length ?? 0} relevés hebdomadaires, non utilisée dans les courbes VF</div>
+        <div className="text-ink-2">Prix VF saisis à la main : {manualFr.size}{pricesFr ? ` · relevé CardTrader (indicatif) :${Object.keys(pricesFr.products).length} produits (${fmtDate(pricesFr.updatedAt)})` : ''}</div>
         <button className="btn-ghost w-full" onClick={reload}>Recharger les données</button>
       </section>
 
@@ -74,7 +74,7 @@ export default function Settings() {
 
       <section className="panel space-y-1 text-xs text-ink-2">
         <div className="font-bold text-ink">À propos</div>
-        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha ni à Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Prix : guide public quotidien de Cardmarket, toutes langues confondues. Le lien « annonces en français » ouvre la page filtrée VF ; le prix VF constaté peut être saisi dans la fiche et devient alors la référence.</p>
+        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha ni à Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Prix : minimum des annonces Cardmarket françaises, hors frais de port, relevé et saisi dans la fiche. La récupération automatique VF n'est pas disponible. Sans relevé, le prix reste indisponible ; ni le guide toutes langues ni CardTrader ne remplacent un prix VF.</p>
       </section>
       <Toast msg={toast} />
     </div>

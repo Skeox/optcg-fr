@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { createHashRouter, RouterProvider } from 'react-router';
 import './index.css';
 import { DataProvider } from './data/catalogue';
+import { BackupProvider } from './data/backup';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import Cards from './pages/Cards';
@@ -35,8 +36,8 @@ const router = createHashRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <DataProvider>
+    <BackupProvider><DataProvider>
       <RouterProvider router={router} />
-    </DataProvider>
+    </DataProvider></BackupProvider>
   </StrictMode>,
 );

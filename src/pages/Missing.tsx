@@ -6,7 +6,7 @@ import { fmtEur } from '../lib/format';
 import type { Card } from '../types';
 
 export default function Missing() {
-  const { catalogue, owned, priceFor, productFor, frFor } = useData();
+  const { catalogue, owned, priceFor } = useData();
   const [baseOnly, setBaseOnly] = useState(true);
   const [openSeries, setOpenSeries] = useState<string | null>(null);
 
@@ -21,25 +21,26 @@ export default function Missing() {
         cards = cards.filter((c) => c.variant === min.get(c.code));
       }
       const missing = cards.filter((c) => !(owned.get(c.id)?.qty ?? 0));
-      const costLow = missing.reduce((t, c) => t + (frFor(c)?.from ?? productFor(c)?.low ?? priceFor(c) ?? 0), 0);
-      const costTrend = missing.reduce((t, c) => t + (priceFor(c) ?? 0), 0);
+      const costLow = missing.reduce((t, c) => t + (priceFor(c) ?? 0), 0);
+      const unpriced = missing.filter((c) => priceFor(c) == null).length;
       const sorted = missing.slice().sort((a, b) => (priceFor(b) ?? 0) - (priceFor(a) ?? 0));
-      return { s, total: cards.length, missing: sorted, costLow, costTrend };
+      return { s, total: cards.length, missing: sorted, costLow, unpriced };
     });
-  }, [catalogue, owned, priceFor, productFor, frFor, baseOnly]);
+  }, [catalogue, owned, priceFor, baseOnly]);
 
-  const totals = data.reduce((t, d) => ({ n: t.n + d.missing.length, low: t.low + d.costLow, trend: t.trend + d.costTrend }), { n: 0, low: 0, trend: 0 });
+  const totals = data.reduce((t, d) => ({ n: t.n + d.missing.length, low: t.low + d.costLow, unpriced: t.unpriced + d.unpriced }), { n: 0, low: 0, unpriced: 0 });
   if (!catalogue) return null;
 
   return (
     <div className="space-y-3">
-      <PageHeader title="Cartes manquantes" sub={`${totals.n} cartes · ≈ ${fmtEur(totals.low)} au prix mini, ${fmtEur(totals.trend)} en tendance`} />
+      <PageHeader title="Cartes manquantes" sub={`${totals.n} cartes · minimums VF connus : ${fmtEur(totals.n > 0 && totals.unpriced === totals.n ? null : totals.low)}`} />
+      {totals.unpriced > 0 && <p className="text-xs text-ink-2">Total partiel : {totals.unpriced} carte(s) sans prix VF.</p>}
       <label className="flex items-center gap-2 text-sm text-ink-2">
         <input type="checkbox" checked={baseOnly} onChange={(e) => setBaseOnly(e.target.checked)} />
         Ne compter que les versions de base (ignorer les parallèles)
       </label>
       <div className="space-y-2">
-        {data.map(({ s, total, missing, costLow, costTrend }) => {
+        {data.map(({ s, total, missing, costLow, unpriced }) => {
           const have = total - missing.length;
           const pct = total ? Math.round((have / total) * 100) : 0;
           const open = openSeries === s.id;
@@ -55,7 +56,7 @@ export default function Missing() {
                 </div>
                 <div className="mt-1 flex justify-between text-xs text-ink-2">
                   <span>{pct} % complet</span>
-                  {missing.length > 0 && <span>manque {missing.length} · mini {fmtEur(costLow, { compact: true })} · tendance {fmtEur(costTrend, { compact: true })}</span>}
+                  {missing.length > 0 && <span>manque {missing.length} · mini VF {fmtEur(unpriced === missing.length ? null : costLow, { compact: true })}{unpriced > 0 && ` · ${unpriced} sans prix`}</span>}
                 </div>
               </button>
               {open && missing.length > 0 && (

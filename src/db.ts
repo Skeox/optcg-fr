@@ -100,6 +100,13 @@ export async function addQty(cardId: string, delta: number) {
   });
 }
 
+/** Un seul ajout par carte, enregistré avec sa sauvegarde dans la même transaction. */
+export async function addCards(cardIds: string[]) {
+  await db.transaction('rw', db.collection, db.pendingChanges, async () => {
+    for (const cardId of new Set(cardIds)) await addQty(cardId, 1);
+  });
+}
+
 export async function saveOverride(cardId: string, productId: number | null) {
   validCardId(cardId);
   if (productId != null && (!Number.isSafeInteger(productId) || productId < 1)) throw new Error('Produit invalide');

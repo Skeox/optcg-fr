@@ -1,6 +1,5 @@
 import { NavLink, Outlet } from 'react-router';
 import { useData } from '../data/catalogue';
-import BackupStatus from './BackupStatus';
 
 const tabs = [
   { to: '/', label: 'Accueil', icon: '⌂' },
@@ -15,7 +14,6 @@ export default function Layout() {
   return (
     <div className="mx-auto flex min-h-dvh max-w-3xl flex-col">
       <main className="safe-top flex-1 px-4 pb-28 pt-3">
-        <BackupStatus />
         {error ? (
           <div className="panel mt-10 text-center">
             <p className="font-semibold text-bad">Impossible de charger les données</p>

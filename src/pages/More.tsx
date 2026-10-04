@@ -2,6 +2,7 @@ import { Link } from 'react-router';
 import { useData } from '../data/catalogue';
 import { PageHeader } from '../components/ui';
 import { fmtDate } from '../lib/format';
+import BackupStatus from '../components/BackupStatus';
 
 const items = [
   { to: '/manquantes', title: 'Cartes manquantes', sub: 'Complétion par série et coût pour compléter' },
@@ -15,6 +16,7 @@ export default function More() {
   return (
     <div className="space-y-3">
       <PageHeader title="Plus" />
+      <BackupStatus />
       {items.map((i) => (
         <Link key={i.to} to={i.to} className="panel block">
           <div className="font-bold">{i.title}</div>

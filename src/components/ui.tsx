@@ -4,7 +4,6 @@ import type { Card } from '../types';
 import { useData, imageUrl } from '../data/catalogue';
 import { COLOR_CLASS, fmtEur, variantLabel } from '../lib/format';
 import { addQty } from '../db';
-import { productUrl, searchUrl } from '../lib/cardmarket';
 
 export function CardImage({ card, className = '', eager = false }: { card: Card; className?: string; eager?: boolean }) {
   const { catalogue } = useData();
@@ -34,15 +33,14 @@ export function ColorDots({ colors, size = 'h-2.5 w-2.5' }: { colors: string[]; 
   );
 }
 
-export function CardTile({ card, showQty = true }: { card: Card; showQty?: boolean }) {
-  const { owned, priceFor, priceKind, productFor } = useData();
+type CardSelection = { selected: ReadonlySet<string>; toggle: (id: string) => void; disabled?: boolean };
+
+export function CardTile({ card, showQty = true, selection }: { card: Card; showQty?: boolean; selection?: CardSelection }) {
+  const { owned, priceFor, priceKind } = useData();
   const qty = owned.get(card.id)?.qty ?? 0;
   const price = priceFor(card);
   const vf = priceKind(card) === 'vf';
-  const product = productFor(card);
-  return (
-    <div>
-    <Link to={`/carte/${encodeURIComponent(card.id)}`} className="group block">
+  const content = <>
       <div className="relative">
         <CardImage card={card} className={qty === 0 && showQty ? 'opacity-60 grayscale-[35%]' : ''} />
         {showQty && qty > 0 && (
@@ -51,28 +49,33 @@ export function CardTile({ card, showQty = true }: { card: Card; showQty?: boole
         {card.variant > 0 && (
           <span className="absolute left-1 top-1 rounded bg-black/70 px-1.5 py-0.5 text-[10px] font-semibold text-white">{card.variantKind === 'r' ? 'R' : 'ALT'} {card.variant}</span>
         )}
+        {selection && <span aria-hidden="true" className={`absolute bottom-2 right-2 flex h-8 w-8 items-center justify-center rounded-full border-2 shadow ${selection.selected.has(card.id) ? 'border-accent bg-accent text-bg' : 'border-white bg-bg/90 text-white'}`}>{selection.selected.has(card.id) ? '✓' : '+'}</span>}
       </div>
-      <div className="mt-1.5 space-y-0.5 px-0.5">
-        <div className="truncate text-sm font-semibold leading-tight">{card.name}</div>
-        <div className="flex items-center justify-between text-xs text-ink-2">
-          <span className="flex items-center gap-1"><ColorDots colors={card.colors} />{card.code} · {card.rarity}</span>
-          <span className="font-semibold text-ink">{vf && <span className="mr-1 rounded bg-ok/20 px-1 text-[10px] font-bold text-ok">VF</span>}{fmtEur(price, { compact: true })}</span>
+      <div className="space-y-2 px-2 py-3">
+        <div className="min-h-10 break-words text-sm font-semibold leading-5">{card.name}</div>
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink-2">
+          <span className="font-medium text-ink">{card.code}</span>
+          <span className="flex items-center gap-1"><ColorDots colors={card.colors} />{card.rarity}</span>
+        </div>
+        <div className="border-t border-line pt-2 text-sm font-bold text-ink">
+          {vf && <span className="mr-1.5 rounded bg-ok/20 px-1.5 py-0.5 text-xs font-bold text-ok">VF</span>}{price == null ? <span className="text-xs font-normal text-ink-2">Prix indisponible</span> : fmtEur(price, { compact: true })}
         </div>
       </div>
-    </Link>
-    <a className="mt-1 block text-right text-[10px] text-accent" href={product ? productUrl(product) : searchUrl(card.code)} target="_blank" rel="noreferrer">Cardmarket · français ↗</a>
-    </div>
-  );
+    </>;
+  const className = 'block h-full w-full min-w-0 overflow-hidden rounded-xl border bg-bg-2 text-left focus-visible:outline-2 focus-visible:outline-accent ';
+  return selection ? (
+    <button type="button" className={className + (selection.selected.has(card.id) ? 'border-accent ring-2 ring-accent' : 'border-line')} aria-pressed={selection.selected.has(card.id)} aria-label={`Sélectionner ${card.name} (${card.id})`} disabled={selection.disabled} onClick={() => selection.toggle(card.id)}>{content}</button>
+  ) : <Link to={`/carte/${encodeURIComponent(card.id)}`} className={className + 'border-line'}>{content}</Link>;
 }
 
-export function CardGrid({ cards, pageSize = 60 }: { cards: Card[]; pageSize?: number }) {
+export function CardGrid({ cards, pageSize = 60, selection }: { cards: Card[]; pageSize?: number; selection?: CardSelection }) {
   const [limit, setLimit] = useState(pageSize);
   useEffect(() => setLimit(pageSize), [cards, pageSize]);
   const shown = cards.slice(0, limit);
   return (
     <>
-      <div className="grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-6">
-        {shown.map((c) => <CardTile key={c.id} card={c} />)}
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        {shown.map((c) => <CardTile key={c.id} card={c} selection={selection} />)}
       </div>
       {cards.length === 0 && <p className="py-10 text-center text-ink-2">Aucune carte.</p>}
       {limit < cards.length && (

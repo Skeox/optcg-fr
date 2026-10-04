@@ -17,7 +17,7 @@ export default function FilterBar({ f, onChange, hideOwning = false }: { f: Filt
     <div className="space-y-2">
       <div className="flex gap-2">
         <input
-          className="input"
+          className="input min-w-0"
           type="search"
           placeholder="Nom, code (OP09-001), type, effet…"
           value={f.q}
@@ -29,20 +29,20 @@ export default function FilterBar({ f, onChange, hideOwning = false }: { f: Filt
           Filtres{active ? ` (${active})` : ''}
         </button>
       </div>
-      <div className="flex gap-2 overflow-x-auto pb-1">
+      <div className="grid min-w-0 grid-cols-2 gap-2 sm:flex">
         {!hideOwning && (
-          <select className="chip" value={f.owning} onChange={(e) => set({ owning: e.target.value as Owning })}>
+          <select aria-label="État de collection" className="chip min-h-11 min-w-0 w-full sm:w-auto" value={f.owning} onChange={(e) => set({ owning: e.target.value as Owning })}>
             <option value="toutes">Toutes</option>
             <option value="possedees">Possédées</option>
             <option value="manquantes">Manquantes</option>
             <option value="doublons">En double</option>
           </select>
         )}
-        <select className="chip" value={f.series} onChange={(e) => set({ series: e.target.value })}>
+        <select aria-label="Série" className="chip order-first col-span-2 min-h-11 w-full min-w-0 truncate sm:order-none sm:flex-1" value={f.series} onChange={(e) => set({ series: e.target.value })}>
           <option value="">Toutes les séries</option>
           {catalogue.series.map((s) => <option key={s.id} value={s.id}>{s.code} — {s.name}</option>)}
         </select>
-        <select className="chip" value={f.sort} onChange={(e) => set({ sort: e.target.value as SortKey })}>
+        <select aria-label="Trier les cartes" className="chip min-h-11 min-w-0 w-full sm:w-auto" value={f.sort} onChange={(e) => set({ sort: e.target.value as SortKey })}>
           <option value="code">Tri : numéro</option>
           <option value="prix-desc">Tri : prix ↓</option>
           <option value="prix-asc">Tri : prix ↑</option>

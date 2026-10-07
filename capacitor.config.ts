@@ -4,7 +4,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 // .github/workflows/ios-ipa.yml sur un runner macOS ; il n'est pas versionné.
 const config: CapacitorConfig = {
   appId: 'fr.bertrand.optcg',
-  appName: 'OPTCG FR',
+  appName: 'OP CARDS',
   webDir: 'dist',
   ios: {
     contentInset: 'automatic',

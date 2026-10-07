@@ -13,10 +13,10 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icons/*.png', 'icons/*.svg'],
+      includeAssets: ['icons/*.png', 'favicon.png'],
       manifest: {
-        name: 'One Piece TCG FR — Collection',
-        short_name: 'OPTCG FR',
+        name: 'OP CARDS — Collection One Piece',
+        short_name: 'OP CARDS',
         description: 'Collection, scanner et suivi des prix Cardmarket pour One Piece Card Game (version française)',
         lang: 'fr',
         start_url: base,
@@ -26,9 +26,9 @@ export default defineConfig({
         background_color: '#0b1020',
         theme_color: '#0b1020',
         icons: [
-          { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },
-          { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+          { src: 'icons/op-cards-192.png', sizes: '192x192', type: 'image/png' },
+          { src: 'icons/op-cards-512.png', sizes: '512x512', type: 'image/png' },
+          { src: 'icons/op-cards-maskable.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
       workbox: {

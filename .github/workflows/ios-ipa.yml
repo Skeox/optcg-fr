@@ -23,11 +23,12 @@ jobs:
         run: |
           npx cap add ios
           npx cap sync ios
+          npm run icons
           # Autorisation caméra (scanner) et photothèque (import de photo)
           /usr/libexec/PlistBuddy -c "Add :NSCameraUsageDescription string 'Scanner vos cartes One Piece'" ios/App/App/Info.plist
           /usr/libexec/PlistBuddy -c "Add :NSPhotoLibraryUsageDescription string 'Choisir une photo de carte'" ios/App/App/Info.plist
           /usr/libexec/PlistBuddy -c "Add :UISupportedInterfaceOrientations array" ios/App/App/Info.plist || true
-          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName 'OPTCG FR'" ios/App/App/Info.plist || true
+          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName 'OP CARDS'" ios/App/App/Info.plist || true
       - name: Compiler sans signature
         run: |
           xcodebuild -workspace ios/App/App.xcworkspace -scheme App -configuration Release -sdk iphoneos \

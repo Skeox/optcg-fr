@@ -1,0 +1,6 @@
+Generated with the built-in ImageGen tool on 2026-10-07.
+Source: op-cards-chopper.png
+Derived web / iPhone icons: npm run icons
+
+Prompt:
+Use case: logo-brand. Create a finished square iPhone home-screen app icon for a One Piece card collection app. Manga illustration of Tony Tony Chopper, recognizable cute reindeer face, blue nose, antlers and iconic pink hat with white X. Large centered head, expressive happy face, crisp bold ink outlines and clean cel shading. Below the head, exact title "OP CARDS" in very bold readable manga lettering. Simple high-contrast background, full bleed opaque square, no mockup, no phone, no border or pre-rounded corners. Keep face, antlers and lettering within central 80% safe zone for iOS masking. Designed to remain readable at small icon sizes.

@@ -1,24 +1,20 @@
-// Génère les icônes PWA (public/icons) à partir d'un SVG simple.
+// Icônes reproductibles à partir de l’illustration Chopper conservée dans le dépôt.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
-
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const dir = path.join(ROOT, 'public', 'icons');
+const source = path.join(ROOT, 'scripts/assets/op-cards-chopper.png');
+const dir = path.join(ROOT, 'public/icons');
 fs.mkdirSync(dir, { recursive: true });
-
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="110" fill="#0b1020"/>
-  <rect x="146" y="86" width="220" height="308" rx="22" fill="#1c2540" stroke="#f5b942" stroke-width="16"/>
-  <rect x="176" y="118" width="160" height="150" rx="10" fill="#e2472f"/>
-  <circle cx="256" cy="193" r="46" fill="#f5b942"/>
-  <rect x="176" y="292" width="160" height="18" rx="9" fill="#9aa5c4"/>
-  <rect x="176" y="326" width="110" height="18" rx="9" fill="#9aa5c4"/>
-  <text x="256" y="470" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#f5b942" text-anchor="middle">FR</text>
-</svg>`;
-fs.writeFileSync(path.join(ROOT, 'public', 'favicon.svg'), svg);
-for (const size of [192, 512]) {
-  await sharp(Buffer.from(svg)).resize(size, size).png().toFile(path.join(dir, `icon-${size}.png`));
+for (const size of [180, 192, 512, 1024]) {
+  await sharp(source).resize(size, size).flatten({ background: '#009ef4' }).png().toFile(path.join(dir, `op-cards-${size}.png`));
 }
-console.log('icônes générées');
+await sharp(source).resize(360, 360).extend({ top: 76, bottom: 76, left: 76, right: 76, background: '#009ef4' }).png().toFile(path.join(dir, 'op-cards-maskable.png'));
+await sharp(source).resize(64, 64).png().toFile(path.join(ROOT, 'public/favicon.png'));
+const ios = path.join(ROOT, 'ios/App/App/Assets.xcassets/AppIcon.appiconset');
+if (fs.existsSync(ios)) {
+  fs.copyFileSync(path.join(dir, 'op-cards-1024.png'), path.join(ios, 'AppIcon-1024.png'));
+  fs.writeFileSync(path.join(ios, 'Contents.json'), JSON.stringify({ images: [{ filename: 'AppIcon-1024.png', idiom: 'universal', platform: 'ios', size: '1024x1024' }], info: { author: 'xcode', version: 1 } }, null, 2));
+}
+console.log('Icônes OP CARDS générées (web, iPhone et iOS si présent).');

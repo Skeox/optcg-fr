@@ -1,8 +1,8 @@
 /** Ne valoriser que des cartes à l'unité, françaises, disponibles et en EUR. */
-export function summarizeFrenchOffers(offers, at) {
+export function summarizeOffers(offers, at, requestedLanguage) {
   const french = offers.filter((offer) => {
-    const languages = Object.entries(offer.properties_hash ?? {}).filter(([key]) => /language$/i.test(key)).map(([, value]) => String(value).toLowerCase());
-    return languages.length > 0 && languages.every((language) => language === 'fr')
+    const languages = Object.entries(offer.properties_hash ?? {}).filter(([key]) => /language$/i.test(key)).map(([, value]) => String(value).toLowerCase().replace(/^jp$/, 'ja'));
+    return languages.length > 0 && languages.every((language) => language === requestedLanguage)
       && offer.price?.currency === 'EUR' && Number.isSafeInteger(offer.price.cents) && offer.price.cents > 0
       && Number.isSafeInteger(offer.quantity) && offer.quantity > 0
       && !offer.on_vacation && !offer.graded && (offer.bundle_size ?? 1) === 1;
@@ -16,4 +16,8 @@ export function summarizeFrenchOffers(offers, at) {
     med: (amounts.length % 2 ? amounts[middle] : Math.round((amounts[middle - 1] + amounts[middle]) / 2)) / 100,
     nm: nm.length ? Math.min(...nm) / 100 : null,
   };
+}
+
+export function summarizeFrenchOffers(offers, at) {
+  return summarizeOffers(offers, at, 'fr');
 }

@@ -73,7 +73,7 @@ export default function Settings() {
 
       <section className="panel space-y-1 text-xs text-ink-2">
         <div className="font-bold text-ink">À propos</div>
-        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha, CardTrader ou Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Prix : minimum des annonces françaises CardTrader disponibles en euros, tous états, hors frais de port, actualisé quotidiennement. Les liens Cardmarket ouvrent les annonces filtrées en français. Sans relevé CardTrader VF, le prix reste indisponible.</p>
+        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha, CardTrader ou Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Les drapeaux indiquent la langue physique de la carte (FR, EN, JP), jamais le pays du vendeur. Prix : minimums CardTrader en euros, tous états, hors port. ? signifie qu'aucun prix fiable n'est disponible. La valeur de collection et son historique utilisent exclusivement les versions françaises ; les cartes sans prix français sont exclues et comptées séparément. Les liens Cardmarket ouvrent les annonces françaises.</p>
       </section>
       <Toast msg={toast} />
     </div>

@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
-import type { Card, Catalogue, CmProduct, Hashes, History, PriceFr, Prices, PricesFr } from '../types';
+import type { Card, CardLanguage, Catalogue, CmProduct, Hashes, History, PriceFr, Prices, PricesFr } from '../types';
 import { buildIndexes, defaultProductFor, type Indexes } from '../lib/cardmarket';
 import { cardTraderQuote } from '../lib/cardtrader';
 import { db, type CollectionEntry, type CmOverride, type VfPrice } from '../db';
@@ -30,6 +30,7 @@ export interface DataCtx {
   mappingSure: (card: Card) => boolean;
   /** Relevé CardTrader des annonces françaises, en euros. */
   frFor: (card: Card) => PriceFr | undefined;
+  quoteFor: (card: Card, language: CardLanguage) => PriceFr | undefined;
   /** prix VF saisi à la main dans l'app pour cette carte */
   manualFr: Map<string, VfPrice>;
   /** Minimum CardTrader VF ; null sans annonce française, aucun repli Cardmarket. */
@@ -99,10 +100,12 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const productFor = useMemo(() => (card: Card) => resolve(card)?.product, [resolve]);
   const mappingSure = useMemo(() => (card: Card) => resolve(card)?.sure ?? true, [resolve]);
 
-  const frFor = useMemo(() => (card: Card) => {
+  const quoteFor = useMemo(() => (card: Card, language: CardLanguage) => {
     const p = productFor(card);
-    return cardTraderQuote(pricesFr, p?.id);
-  }, [productFor, pricesFr]);
+    if (!mappingSure(card)) return undefined;
+    return cardTraderQuote(pricesFr, p?.id, language);
+  }, [productFor, pricesFr, mappingSure]);
+  const frFor = useMemo(() => (card: Card) => quoteFor(card, 'fr'), [quoteFor]);
   const priceFor = useMemo(() => (card: Card) => frFor(card)?.from ?? null, [frFor]);
   const priceKind = useMemo(() => (card: Card): 'vf' | null => priceFor(card) != null ? 'vf' : null, [priceFor]);
 
@@ -126,7 +129,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const value: DataCtx = {
     catalogue, prices, history, idx, loading, error,
     reload: () => setTick((t) => t + 1),
-    owned, overrides, productFor, mappingSure, frFor, manualFr, priceFor, priceKind, pricesFr,
+    owned, overrides, productFor, mappingSure, frFor, quoteFor, manualFr, priceFor, priceKind, pricesFr,
     hashes: loadHashes,
   };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

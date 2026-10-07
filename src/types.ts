@@ -80,7 +80,11 @@ export interface PricesFr {
   currency: string | null;
   updatedAt: string | null;
   products: Record<string, PriceFr>;
+  /** Prix par langue physique de la carte, tous libellés en EUR. */
+  languages?: Partial<Record<CardLanguage, Record<string, PriceFr>>>;
 }
+
+export type CardLanguage = 'fr' | 'en' | 'ja';
 
 export interface History {
   dates: string[];

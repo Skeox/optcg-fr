@@ -35,13 +35,13 @@ jobs:
       - name: Actualiser les correspondances du catalogue Cardmarket
         if: ${{ github.event_name != 'push' }}
         run: node scripts/update-prices.mjs
-      - name: Mettre à jour les prix des annonces VF (CardTrader)
-        if: ${{ github.event_name != 'push' && env.CARDTRADER_TOKEN != '' }}
+      - name: Mettre à jour les prix par langue (CardTrader, EUR)
+        if: ${{ (github.event_name != 'push' || contains(github.event.head_commit.message, '[refresh-prices]')) && env.CARDTRADER_TOKEN != '' }}
         run: node scripts/update-prices-fr.mjs
         env:
           CARDTRADER_TOKEN: ${{ secrets.CARDTRADER_TOKEN }}
       - name: Enregistrer les prix dans le dépôt
-        if: ${{ github.event_name != 'push' }}
+        if: ${{ github.event_name != 'push' || contains(github.event.head_commit.message, '[refresh-prices]') }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

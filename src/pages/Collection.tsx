@@ -36,7 +36,7 @@ export default function Collection() {
         sub={`${cards.length} cartes · ${copies} exemplaires · minimums CardTrader VF : ${fmtEur(cards.length > 0 && unpriced === cards.length ? null : total)}`}
         right={<button className={`chip ${group ? 'chip-on' : ''}`} onClick={() => setGroup((g) => !g)}>Par série</button>}
       />
-      {unpriced > 0 && <p className="text-xs text-ink-2">Total partiel : {unpriced} carte(s) sans prix VF, exclue(s) des montants.</p>}
+      <p className="text-xs text-ink-2">Valeur des versions 🇫🇷 uniquement · {unpriced} carte(s) sans prix français{unpriced > 0 ? ', exclue(s) des montants' : ''}.</p>
       <FilterBar f={f} onChange={setF} hideOwning />
       {groups ? (
         groups.map(({ s, cards: cs }) => (

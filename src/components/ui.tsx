@@ -2,8 +2,9 @@ import { useEffect, useState, type ReactNode } from 'react';
 import { Link } from 'react-router';
 import type { Card } from '../types';
 import { useData, imageUrl } from '../data/catalogue';
-import { COLOR_CLASS, fmtEur, variantLabel } from '../lib/format';
+import { COLOR_CLASS, variantLabel } from '../lib/format';
 import { addQty } from '../db';
+import LanguagePrices from './LanguagePrices';
 
 export function CardImage({ card, className = '', eager = false }: { card: Card; className?: string; eager?: boolean }) {
   const { catalogue } = useData();
@@ -36,10 +37,8 @@ export function ColorDots({ colors, size = 'h-2.5 w-2.5' }: { colors: string[]; 
 type CardSelection = { selected: ReadonlySet<string>; toggle: (id: string) => void; disabled?: boolean };
 
 export function CardTile({ card, showQty = true, selection }: { card: Card; showQty?: boolean; selection?: CardSelection }) {
-  const { owned, priceFor, priceKind } = useData();
+  const { owned } = useData();
   const qty = owned.get(card.id)?.qty ?? 0;
-  const price = priceFor(card);
-  const vf = priceKind(card) === 'vf';
   const content = <>
       <div className="relative">
         <CardImage card={card} className={qty === 0 && showQty ? 'opacity-60 grayscale-[35%]' : ''} />
@@ -58,7 +57,7 @@ export function CardTile({ card, showQty = true, selection }: { card: Card; show
           <span className="flex items-center gap-1"><ColorDots colors={card.colors} />{card.rarity}</span>
         </div>
         <div className="border-t border-line pt-2 text-sm font-bold text-ink">
-          {vf && <span className="mr-1.5 rounded bg-ok/20 px-1.5 py-0.5 text-xs font-bold text-ok">VF</span>}{price == null ? <span className="text-xs font-normal text-ink-2">Prix indisponible</span> : fmtEur(price, { compact: true })}
+          <LanguagePrices card={card} />
         </div>
       </div>
     </>;

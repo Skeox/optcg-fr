@@ -14,7 +14,7 @@ vi.mock('../src/data/catalogue', () => ({
       cards: [1, 2, 3].map((n) => ({ id: `OP09-00${n}`, code: `OP09-00${n}`, name: `Carte ${n}`, series: [n === 3 ? 'OP10' : 'OP09'], colors: ['Rouge'], rarity: 'R', variant: 0, traits: [], effect: '' })),
       series: [{ id: 'OP09', code: 'OP09', name: 'Série neuf' }, { id: 'OP10', code: 'OP10', name: 'Série dix' }],
     },
-    owned: new Map(), priceFor: () => 1, priceKind: () => 'vf',
+    owned: new Map(), priceFor: () => 1, priceKind: () => 'vf', quoteFor: () => undefined,
   }),
 }));
 beforeEach(async () => { await db.open(); });

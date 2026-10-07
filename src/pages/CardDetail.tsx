@@ -6,6 +6,7 @@ import { CardImage, ColorDots, PageHeader, QtyControl, Sparkline, VariantBadge }
 import { candidatesFor, productUrl, searchUrl } from '../lib/cardmarket';
 import { fmtDate, fmtEur, RARITY_LABEL, TYPE_LABEL } from '../lib/format';
 import { db, saveOverride, type Snapshot } from '../db';
+import LanguagePrices from '../components/LanguagePrices';
 
 export default function CardDetail() {
   const { id = '' } = useParams();
@@ -46,7 +47,9 @@ export default function CardDetail() {
             <div className="mt-2"><QtyControl cardId={card.id} big /></div>
           </div>
           <div className="panel">
-            <div className="label">Minimum CardTrader · français</div>
+            <div className="label">Prix par version · en euros</div>
+            <div className="mt-2"><LanguagePrices card={card} /></div>
+            <p className="mt-2 text-xs text-ink-2">Drapeau = langue de la carte. Minimums CardTrader, tous états, hors port. ? = prix indisponible. Seul le prix 🇫🇷 entre dans la valeur de collection.</p>
             {product ? (
               <>
                 {quote && priceFor(card) != null ? (

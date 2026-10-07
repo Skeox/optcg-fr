@@ -72,7 +72,8 @@ for (const exp of expansions) {
   for (const language of LANGUAGES) {
   let offers;
   try {
-    offers = await get('/marketplace/products', { expansion_id: exp.id, language });
+    // CardTrader utilise le code « jp », normalisé en « ja » dans notre fichier.
+    offers = await get('/marketplace/products', { expansion_id: exp.id, language: language === 'ja' ? 'jp' : language });
   } catch (e) { failures++; console.warn(`  ✗ ${exp.code ?? exp.name} : ${e.message}`); continue; }
   let n = 0;
   for (const [bpId, list] of Object.entries(offers)) {

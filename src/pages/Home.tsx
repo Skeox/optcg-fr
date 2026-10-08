@@ -60,13 +60,14 @@ export default function Home() {
       <PageHeader title="Ma collection" sub="Estimation en euros · versions françaises uniquement" />
 
       <div className="panel">
-        <div className="label">{stats.unpriced ? 'Valeur partielle' : 'Valeur estimée'} · minimums CardTrader VF</div>
+        <div className="label">{stats.unpriced ? 'Valeur partielle' : 'Valeur estimée'} · prix manuels ou FR</div>
         <div className="mt-1 text-4xl font-black tracking-tight">{fmtEur(stats.unique > 0 && stats.unpriced === stats.unique ? null : stats.value)}</div>
-        <p className="mt-1 text-xs text-ink-2">{stats.unpriced} carte(s) sans prix 🇫🇷{stats.unpriced > 0 ? ', exclue(s) du total' : ''}.</p>
+        <p className="mt-1 text-xs text-ink-2">{stats.unpriced} carte(s) sans prix{stats.unpriced > 0 ? ', exclue(s) du total' : ''}.</p>
         <div className="mt-1 text-sm text-ink-2">
           {stats.copies} exemplaires · {stats.unique} cartes différentes
-          {delta != null && <span className={`ml-2 font-semibold ${delta >= 0 ? 'text-ok' : 'text-bad'}`}>{fmtPct(delta)} depuis le {fmtDate(curve.dates[0])}</span>}
+          {delta != null && <span className={`ml-2 font-semibold ${delta >= 0 ? 'text-ok' : 'text-bad'}`}>{fmtPct(delta)} CardTrader depuis le {fmtDate(curve.dates[0])}</span>}
         </div>
+        <p className="mt-2 text-[11px] text-ink-2">Historique des prix automatiques CardTrader FR</p>
         <Sparkline values={curve.values} className="mt-3 h-20 w-full" />
       </div>
 
@@ -79,7 +80,7 @@ export default function Home() {
         <Link to="/doublons" className="panel">
           <div className="label">Doublons à vendre</div>
           <div className="text-2xl font-extrabold">{stats.dupCount}</div>
-          <div className="text-xs text-ink-2">Minimums CardTrader VF : {fmtEur(stats.dupValue)}</div>
+          <div className="text-xs text-ink-2">Prix manuels ou FR : {fmtEur(stats.dupValue)}</div>
         </Link>
       </div>
 

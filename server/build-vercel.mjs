@@ -17,14 +17,15 @@ await build({
 });
 await fs.writeFile(path.join(output, 'package.json'), JSON.stringify({
   name: 'optcg-fr-backup', private: true, type: 'module',
-  engines: { node: '22.x' }, dependencies: { '@libsql/client': '0.18.0' },
+  engines: { node: '22.x' }, dependencies: { '@libsql/client': '0.18.0', cheerio: '1.2.0' },
 }, null, 2));
 await fs.writeFile(path.join(output, 'vercel.json'), JSON.stringify({
   $schema: 'https://openapi.vercel.sh/vercel.json', framework: null,
   buildCommand: '', outputDirectory: 'public',
-  functions: { 'api/sync.mjs': { maxDuration: 30 } },
-  rewrites: [{ source: '/sync', destination: '/api/sync' }],
+  functions: { 'api/sync.mjs': { maxDuration: 30 }, 'api/extensions.mjs': { maxDuration: 30 } },
+  rewrites: [{ source: '/sync', destination: '/api/sync' }, { source: '/extensions', destination: '/api/extensions' }],
 }, null, 2));
 await fs.writeFile(path.join(output, 'public/index.html'), '<!doctype html><html lang="fr"><meta charset="utf-8"><title>Sauvegarde OPTCG FR</title><p>Service de sauvegarde OPTCG FR. Un accès privé est requis.</p></html>');
 await fs.writeFile(path.join(output, '.vercelignore'), '.env*\n*.local*\nnode_modules\n');
 console.log('Service Vercel préparé dans .cache/backup-vercel (sans secrets).');
+await build({ entryPoints: [path.join(root, 'server/extensions.ts')], outfile: path.join(output, 'api/extensions.mjs'), platform: 'node', target: 'node22', format: 'esm', bundle: true, packages: 'external' });

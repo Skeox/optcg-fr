@@ -50,8 +50,8 @@ export function CardTile({ card, showQty = true, selection }: { card: Card; show
         )}
         {selection && <span aria-hidden="true" className={`absolute bottom-2 right-2 flex h-8 w-8 items-center justify-center rounded-full border-2 shadow ${selection.selected.has(card.id) ? 'border-accent bg-accent text-bg' : 'border-white bg-bg/90 text-white'}`}>{selection.selected.has(card.id) ? '✓' : '+'}</span>}
       </div>
-      <div className="space-y-2 px-2 py-3">
-        <div className="min-h-10 break-words text-sm font-semibold leading-5">{card.name}</div>
+      <div className="space-y-1 px-2 py-2">
+        <div className="truncate text-sm font-semibold leading-5" title={card.name}>{card.name}</div>
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink-2">
           <span className="font-medium text-ink">{card.code}</span>
           <span className="flex items-center gap-1"><ColorDots colors={card.colors} />{card.rarity}</span>

@@ -49,6 +49,7 @@ export default function FilterBar({ f, onChange, hideOwning = false }: { f: Filt
           <option value="nom">Tri : nom</option>
         </select>
       </div>
+      <label className="chip cursor-pointer"><input type="checkbox" checked={!!f.unpriced} onChange={(e) => set({ unpriced: e.target.checked })} /> Carte sans prix</label>
       {open && (
         <div className="panel space-y-3">
           <div>
@@ -81,7 +82,7 @@ export default function FilterBar({ f, onChange, hideOwning = false }: { f: Filt
             <input type="checkbox" checked={f.baseOnly} onChange={(e) => set({ baseOnly: e.target.checked })} />
             Masquer les versions alternatives (parallèles)
           </label>
-          <button className="btn-ghost w-full" onClick={() => onChange({ ...f, colors: [], types: [], rarities: [], series: '', baseOnly: false })}>Réinitialiser les filtres</button>
+          <button className="btn-ghost w-full" onClick={() => onChange({ ...f, colors: [], types: [], rarities: [], series: '', baseOnly: false, unpriced: false })}>Réinitialiser les filtres</button>
         </div>
       )}
     </div>

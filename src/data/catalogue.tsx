@@ -33,10 +33,10 @@ export interface DataCtx {
   quoteFor: (card: Card, language: CardLanguage) => PriceFr | undefined;
   /** prix VF saisi à la main dans l'app pour cette carte */
   manualFr: Map<string, VfPrice>;
-  /** Minimum CardTrader VF ; null sans annonce française, aucun repli Cardmarket. */
+  /** Prix manuel prioritaire, sinon minimum CardTrader VF ; jamais de repli EN/JP. */
   priceFor: (card: Card) => number | null;
-  /** 'vf' si un minimum CardTrader français est disponible. */
-  priceKind: (card: Card) => 'vf' | null;
+  /** Origine du prix retenu pour valoriser cette variante. */
+  priceKind: (card: Card) => 'manual' | 'vf' | null;
   pricesFr: PricesFr | null;
   hashes: () => Promise<Hashes>;
 }
@@ -106,8 +106,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
     return cardTraderQuote(pricesFr, p?.id, language);
   }, [productFor, pricesFr, mappingSure]);
   const frFor = useMemo(() => (card: Card) => quoteFor(card, 'fr'), [quoteFor]);
-  const priceFor = useMemo(() => (card: Card) => frFor(card)?.from ?? null, [frFor]);
-  const priceKind = useMemo(() => (card: Card): 'vf' | null => priceFor(card) != null ? 'vf' : null, [priceFor]);
+  const priceFor = useMemo(() => (card: Card) => manualFr.get(card.id)?.price ?? frFor(card)?.from ?? null, [manualFr, frFor]);
+  const priceKind = useMemo(() => (card: Card): 'manual' | 'vf' | null => manualFr.has(card.id) ? 'manual' : frFor(card) ? 'vf' : null, [manualFr, frFor]);
 
   // Instantané quotidien des prix des cartes possédées (suivi local, indépendant du serveur).
   useEffect(() => {
@@ -117,10 +117,10 @@ export function DataProvider({ children }: { children: ReactNode }) {
       for (const e of ownedList) {
         const card = idx.byId.get(e.cardId);
         const p = card && productFor(card);
-        if (!p || !card || priceFor(card) == null) continue;
+        if (!p || !card || !frFor(card)) continue;
         // Date du relevé réel : ne pas faire passer une ancienne saisie pour un prix du jour.
         const date = frFor(card)!.at;
-        rows.push({ key: `cardtrader|${p.id}|${date}`, productId: p.id, date, trend: null, low: null, ctFr: priceFor(card) });
+        rows.push({ key: `cardtrader|${p.id}|${date}`, productId: p.id, date, trend: null, low: null, ctFr: frFor(card)!.from });
       }
       if (rows.length) await db.snapshots.bulkPut(rows);
     })().catch(() => undefined);

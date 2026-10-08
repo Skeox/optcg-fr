@@ -8,6 +8,7 @@ import { DataProvider } from '../src/data/catalogue';
 import { db } from '../src/db';
 import type { Card, CmProduct } from '../src/types';
 import { productUrl, searchUrl } from '../src/lib/cardmarket';
+import { applyFilters, DEFAULT_FILTERS } from '../src/lib/filters';
 
 afterEach(async () => { cleanup(); vi.unstubAllGlobals(); await db.delete(); });
 
@@ -33,7 +34,7 @@ it('ouvre toute la fiche de la variante puis revient à la précédente sans mod
   const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: ['/carte/OP09-001'] });
   render(<RouterProvider router={router} />);
   await screen.findByText('Effet de base');
-  await waitFor(() => expect(screen.getByRole('link', { name: /Prix français sur Cardmarket/ }).getAttribute('href')).toContain('802858'));
+  await waitFor(() => expect(screen.getByRole('link', { name: /Prix sur Cardmarket/ }).getAttribute('href')).toContain('802858'));
   expect(screen.getAllByRole('img')[0].getAttribute('src')).toContain('OP09-001.webp');
   // A failed image in one version must not hide the next version's image.
   fireEvent.error(screen.getAllByRole('img')[0]);
@@ -41,18 +42,34 @@ it('ouvre toute la fiche de la variante puis revient à la précédente sans mod
   await screen.findByText('Effet alternatif');
   expect(router.state.location.pathname).toBe('/carte/OP09-001_p1');
   expect(screen.getAllByRole('img')[0].getAttribute('src')).toContain('OP09-001_p1.webp');
-  expect(screen.getByRole('link', { name: /Prix français sur Cardmarket/ }).getAttribute('href')).toContain('802859');
+  expect(screen.getByRole('link', { name: /Prix sur Cardmarket/ }).getAttribute('href')).toContain('802859');
   expect(screen.getAllByLabelText(/Version française/)[0].textContent).toContain('50');
   expect((screen.getByRole('button', { name: 'Retirer un exemplaire' }) as HTMLButtonElement).disabled).toBe(true);
   fireEvent.click(screen.getByRole('button', { name: 'Ajouter un exemplaire' }));
   await waitFor(async () => expect((await db.collection.get(alt.id))?.qty).toBe(1));
   expect((await db.collection.get(card.id))?.qty).toBe(2);
   expect(await db.overrides.count()).toBe(0);
-  expect(scrollTo).toHaveBeenLastCalledWith({ top: 0, behavior: 'instant' });
+  expect(scrollTo).toHaveBeenLastCalledWith({ top: 0, left: 0, behavior: 'instant' });
   fireEvent.click(screen.getByRole('button', { name: '‹ Retour' }));
   await screen.findByText('Effet de base');
   expect(router.state.location.pathname).toBe('/carte/OP09-001');
   expect(screen.getAllByRole('img')[0].getAttribute('src')).toContain('OP09-001.webp');
   expect(screen.getAllByLabelText(/Version française/)[0].textContent).toContain('10');
   expect(screen.queryByText(/choisir celui qui correspond/)).toBeNull();
+  fireEvent.click(screen.getByRole('button', { name: 'Modifier le prix manuellement' }));
+  fireEvent.change(screen.getByLabelText('Prix manuel en €'), { target: { value: '12,50' } });
+  fireEvent.click(screen.getByRole('button', { name: 'Enregistrer' }));
+  await screen.findByLabelText(/Prix manuel : 12,50/);
+  expect((await db.vfPrices.get(card.id))?.price).toBe(12.5);
+  expect((await db.pendingChanges.toArray()).some((c) => c.change.kind === 'price')).toBe(true);
+  fireEvent.click(screen.getByRole('button', { name: 'Modifier le prix manuellement' }));
+  fireEvent.click(screen.getByRole('button', { name: 'Revenir au prix automatique' }));
+  await waitFor(() => expect(screen.queryByLabelText(/Prix manuel/)).toBeNull());
+  expect(await db.vfPrices.get(card.id)).toBeUndefined();
+});
+
+it('filtre selon le prix retenu et conserve les cartes possédées sans prix', () => {
+  const cards = ['OP09-001', 'OP09-002', 'OP09-003'].map((id) => ({ id, variant: 0 } as Card));
+  const ctx = { qty: () => 1, keep: 1, price: (c: Card) => c.id === 'OP09-003' ? null : 12.5 };
+  expect(applyFilters(cards, { ...DEFAULT_FILTERS, owning: 'possedees', unpriced: true }, ctx)).toEqual([cards[2]]);
 });

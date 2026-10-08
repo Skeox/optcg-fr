@@ -26,7 +26,7 @@ body {
   -webkit-tap-highlight-color: transparent;
   overscroll-behavior-y: none;
 }
-input, select, textarea, button { font: inherit; }
+input, select, textarea, button { font-family: inherit; }
 ::-webkit-scrollbar { width: 0; height: 0; }
 
 .safe-top { padding-top: env(safe-area-inset-top); }

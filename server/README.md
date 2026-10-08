@@ -24,6 +24,8 @@ Le catalogue, les images et les historiques publics de prix ne sont pas copiés 
 
 Adresse : `https://optcg-fr-backup.vercel.app`. Projet `optcg-fr-backup`, espace Vercel `greg-07a1` (Hobby). Le site reste sur `https://skeox.github.io/optcg-fr/`.
 
+`GET /extensions` consulte uniquement la liste de séries du site officiel français et renvoie les identifiants, noms et la date de vérification (cache de 5 minutes). Cette route publique ne lit pas la base de sauvegarde. Le bouton des réglages compare cette liste au catalogue embarqué ; il signale les séries nouvelles sans importer de cartes ni déduire leur date de sortie commerciale.
+
 Le service est déployé indépendamment du dépôt GitHub. Pour publier une modification serveur :
 
 1. Exécuter `npm test`, `npm run backup:check`, puis `npm run backup:build`.

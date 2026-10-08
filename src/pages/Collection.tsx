@@ -33,10 +33,10 @@ export default function Collection() {
     <div className="space-y-3">
       <PageHeader
         title="Collection"
-        sub={`${cards.length} cartes · ${copies} exemplaires · minimums CardTrader VF : ${fmtEur(cards.length > 0 && unpriced === cards.length ? null : total)}`}
+        sub={`${cards.length} cartes · ${copies} exemplaires · prix manuels ou FR : ${fmtEur(cards.length > 0 && unpriced === cards.length ? null : total)}`}
         right={<button className={`chip ${group ? 'chip-on' : ''}`} onClick={() => setGroup((g) => !g)}>Par série</button>}
       />
-      <p className="text-xs text-ink-2">Valeur des versions 🇫🇷 uniquement · {unpriced} carte(s) sans prix français{unpriced > 0 ? ', exclue(s) des montants' : ''}.</p>
+      <p className="text-xs text-ink-2">Prix manuel prioritaire, sinon version 🇫🇷 · {unpriced} carte(s) sans prix{unpriced > 0 ? ', exclue(s) des montants' : ''}.</p>
       <FilterBar f={f} onChange={setF} hideOwning />
       {groups ? (
         groups.map(({ s, cards: cs }) => (

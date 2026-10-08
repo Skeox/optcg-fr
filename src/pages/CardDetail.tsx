@@ -1,12 +1,13 @@
-import { useEffect, useMemo } from 'react';
+import { useLayoutEffect, useMemo } from 'react';
 import { Link, useNavigate, useParams } from 'react-router';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useData } from '../data/catalogue';
 import { CardImage, ColorDots, PageHeader, QtyControl, Sparkline, VariantBadge } from '../components/ui';
 import { productUrl, searchUrl } from '../lib/cardmarket';
-import { fmtDate, fmtEur, RARITY_LABEL, TYPE_LABEL } from '../lib/format';
+import { fmtDate, RARITY_LABEL, TYPE_LABEL } from '../lib/format';
 import { db, saveOverride, type Snapshot } from '../db';
 import LanguagePrices from '../components/LanguagePrices';
+import ManualPriceEditor from '../components/ManualPriceEditor';
 
 export default function CardDetail() {
   const { id = '' } = useParams();
@@ -15,8 +16,13 @@ export default function CardDetail() {
 
 function CardVersionDetail({ id }: { id: string }) {
   const nav = useNavigate();
-  const { catalogue, idx, productFor, mappingSure, overrides, priceFor, frFor } = useData();
-  useEffect(() => { window.scrollTo({ top: 0, behavior: 'instant' }); }, [id]);
+  const { catalogue, idx, productFor, mappingSure, overrides, frFor } = useData();
+  useLayoutEffect(() => {
+    const reset = () => window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    reset();
+    const frame = requestAnimationFrame(reset);
+    return () => cancelAnimationFrame(frame);
+  }, [id, catalogue]);
   const card = idx?.byId.get(decodeURIComponent(id));
   const product = card ? productFor(card) : undefined;
   const quote = card ? frFor(card) : undefined;
@@ -41,45 +47,36 @@ function CardVersionDetail({ id }: { id: string }) {
   return (
     <div className="space-y-4">
       <button className="text-sm text-ink-2" onClick={() => nav(-1)}>‹ Retour</button>
-      <PageHeader title={card.name} sub={<span className="flex items-center gap-2"><ColorDots colors={card.colors} />{card.code} · {card.rarity} · {TYPE_LABEL[card.type] ?? card.type} <VariantBadge card={card} /></span>} />
+      <PageHeader title={card.name} sub={<span className="flex flex-wrap items-center gap-2"><ColorDots colors={card.colors} />{card.code} · {card.rarity} · {TYPE_LABEL[card.type] ?? card.type} <VariantBadge card={card} /></span>} />
 
-      <div className="grid grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] gap-4">
+      <div className="grid grid-cols-2 items-stretch gap-3">
         <CardImage card={card} eager />
-        <div className="space-y-3">
-          <div className="panel">
-            <div className="label">Dans ma collection</div>
-            <div className="mt-2"><QtyControl cardId={card.id} big /></div>
-          </div>
-          <div className="panel">
-            <div className="label">Prix par version · en euros</div>
-            <div className="mt-2"><LanguagePrices card={card} /></div>
-            <p className="mt-2 text-xs text-ink-2">Drapeau = langue de la carte. Minimums CardTrader, tous états, hors port. ? = prix indisponible. Seul le prix 🇫🇷 entre dans la valeur de collection.</p>
-            {product ? (
-              <>
-                {quote && priceFor(card) != null ? (
-                  <>
-                    <div className="mt-1 flex items-baseline gap-2"><span className="text-3xl font-black">{fmtEur(priceFor(card))}</span><span className="rounded bg-ok/20 px-1.5 py-0.5 text-xs font-bold text-ok">VF</span></div>
-                    <div className="mt-1 text-[11px] text-ink-2">Relevé CardTrader du {fmtDate(quote.at)} · tous états · hors frais de port</div>
-                  </>
-                ) : (
-                  <>
-                    <div className="mt-1 text-lg font-bold">Prix VF indisponible</div>
-                    <p className="mt-1 text-xs text-ink-2">Aucune annonce française CardTrader en euros disponible dans le dernier relevé pour cette version.</p>
-                  </>
-                )}
-                <div className="mt-1 text-xs text-ink-2">{product.expName} · V{product.version}</div>
-                {!mappingSure(card) && <div className="mt-1 text-xs text-warn">Association incertaine : comparez le visuel sur Cardmarket. Aucun prix estimé n’est retenu pour cette version.</div>}
-                <a className="btn-ghost mt-3 w-full text-sm" href={productUrl(product)} target="_blank" rel="noreferrer">Prix français sur Cardmarket ↗</a>
-              </>
-            ) : (
-              <>
-                <div className="mt-1 text-sm text-ink-2">Aucun produit Cardmarket connu pour ce code.</div>
-                <a className="btn-ghost mt-3 w-full text-sm" href={searchUrl(card.code)} target="_blank" rel="noreferrer">Chercher sur Cardmarket ↗</a>
-              </>
-            )}
+        <div className="relative min-w-0">
+          <div className="absolute inset-0 flex flex-col gap-3">
+            <div className="panel shrink-0 !p-3">
+              <div className="label">Dans ma collection</div>
+              <div className="mt-2"><QtyControl cardId={card.id} /></div>
+            </div>
+            <div className="panel min-h-0 flex-1 overflow-auto !p-3">
+              <div className="label">Version de la carte</div>
+              <div className="mt-2 text-sm font-semibold"><VariantBadge card={card} /></div>
+              <div className="mt-2 text-xs text-ink-2">{series.map((s) => <div key={s!.id}>{s!.code} — {s!.name}</div>)}</div>
+              <div className="mt-2 break-all text-xs text-ink-2">{card.id}</div>
+            </div>
           </div>
         </div>
       </div>
+
+      <section className="panel space-y-3">
+        <div className="label">Prix par version · en €</div>
+        <LanguagePrices card={card} />
+        <p className="text-[11px] text-ink-2">Prix automatiques : CardTrader{quote ? ` · ${fmtDate(quote.at)}` : ''} · hors port</p>
+        {!mappingSure(card) && <p className="text-xs text-warn">Version à vérifier sur Cardmarket.</p>}
+        <div className="flex flex-wrap items-start justify-between gap-2 border-t border-line pt-2">
+          <ManualPriceEditor card={card} />
+          <a className="btn-ghost text-xs" href={product ? productUrl(product) : searchUrl(card.code)} target="_blank" rel="noreferrer">Prix sur Cardmarket ↗</a>
+        </div>
+      </section>
 
       {product && (
         <div className="panel">

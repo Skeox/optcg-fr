@@ -38,7 +38,7 @@ it('exclut les autres langues, devises, lots et annonces indisponibles du minimu
   expect(summarizeFrenchOffers([{ ...cheap, properties_hash: {} }], '2026-09-23')).toBeUndefined();
 });
 
-it('alimente les prix et instantanés avec CardTrader sans réutiliser les saisies Cardmarket', async () => {
+it('donne priorité au prix manuel sans le mélanger aux instantanés automatiques', async () => {
   await db.open();
   await db.vfPrices.put({ cardId: card.id, price: 999, date: '2026-09-22' });
   await db.collection.put({ cardId: card.id, qty: 2, updatedAt: Date.now() });
@@ -48,7 +48,7 @@ it('alimente les prix et instantanés avec CardTrader sans réutiliser les saisi
   vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? cat : url.endsWith('prices-fr.json') ? multilingual : url.endsWith('prices.json') ? cm : { dates: [] } })));
   function Probe() { const { priceFor } = useData(); return <output>{priceFor(card) ?? 'absent'}</output>; }
   render(<DataProvider><Probe /></DataProvider>);
-  await waitFor(() => expect(screen.getByRole('status').textContent).toBe('0.15'));
+  await waitFor(() => expect(screen.getByRole('status').textContent).toBe('999'));
   await waitFor(async () => expect((await db.snapshots.get('cardtrader|123|2026-09-23'))?.ctFr).toBe(0.15));
   expect((await db.vfPrices.get(card.id))?.price).toBe(999);
 });
@@ -72,7 +72,7 @@ it('affiche les langues étrangères mais ne valorise pas une collection sans pr
   render(<DataProvider><Probe /></DataProvider>);
   await waitFor(() => expect(screen.getByLabelText(/Version anglaise : 11/)).toBeTruthy());
   expect(screen.getByLabelText(/Version japonaise : 10/)).toBeTruthy();
-  expect(screen.getByLabelText('Version française : prix indisponible').textContent).toContain('?');
+  expect(screen.queryByLabelText('Version française : prix indisponible')).toBeNull();
   expect(screen.getByRole('status').textContent).toBe('absent');
   expect(await db.snapshots.count()).toBe(0);
 });

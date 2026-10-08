@@ -12,6 +12,7 @@ export interface Filters {
   rarities: string[];
   owning: Owning;
   baseOnly: boolean; // masquer les variantes alternatives
+  unpriced?: boolean;
   sort: SortKey;
 }
 
@@ -40,6 +41,7 @@ export function applyFilters(
     if (f.types.length && !f.types.includes(c.type)) return false;
     if (f.rarities.length && !f.rarities.includes(rarityGroup(c.rarity))) return false;
     if (f.baseOnly && c.variant > 0) return false;
+    if (f.unpriced && ctx.price(c) != null) return false;
     const qty = ctx.qty(c.id);
     if (f.owning === 'possedees' && qty === 0) return false;
     if (f.owning === 'manquantes' && qty > 0) return false;

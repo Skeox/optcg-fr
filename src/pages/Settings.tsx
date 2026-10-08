@@ -3,6 +3,7 @@ import { useData } from '../data/catalogue';
 import { PageHeader, Toast, useToast } from '../components/ui';
 import { clearCollection, exportBackup, importBackup, type Backup } from '../db';
 import BackupSettings from '../components/BackupSettings';
+import ExtensionCheck from '../components/ExtensionCheck';
 import { fmtDate } from '../lib/format';
 
 export default function Settings() {
@@ -43,6 +44,7 @@ export default function Settings() {
     <div className="space-y-3">
       <PageHeader title="Réglages" />
       <BackupSettings />
+      <ExtensionCheck />
 
       <section className="panel space-y-2">
         <div className="font-bold">Copie manuelle supplémentaire</div>
@@ -73,7 +75,7 @@ export default function Settings() {
 
       <section className="panel space-y-1 text-xs text-ink-2">
         <div className="font-bold text-ink">À propos</div>
-        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha, CardTrader ou Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Les drapeaux indiquent la langue physique de la carte (FR, EN, JP), jamais le pays du vendeur. Prix : minimums CardTrader en euros, tous états, hors port. ? signifie qu'aucun prix fiable n'est disponible. La valeur de collection et son historique utilisent exclusivement les versions françaises ; les cartes sans prix français sont exclues et comptées séparément. Les liens Cardmarket ouvrent les annonces françaises.</p>
+        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha, CardTrader ou Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Les drapeaux indiquent la langue physique de la carte (FR, EN, JP), jamais le pays du vendeur. Prix : minimums CardTrader en euros, tous états, hors port. Les prix inconnus sont masqués. Votre prix manuel est prioritaire sur le prix automatique français pour la valeur de collection. Les cartes sans aucun de ces prix sont exclues et comptées séparément. Les courbes CardTrader restent des relevés automatiques. Les liens Cardmarket ouvrent les annonces françaises.</p>
       </section>
       <Toast msg={toast} />
     </div>

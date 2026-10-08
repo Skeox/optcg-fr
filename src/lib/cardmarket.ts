@@ -2,14 +2,12 @@ import type { Card, Catalogue, CmProduct, Prices, Series } from '../types';
 
 export const CM_LANG_FR = 2; // paramètre "language" de Cardmarket : 2 = français
 
-export function cmSlug(name: string): string {
-  return name.replace(/[^A-Za-z0-9\s-]/g, '').trim().replace(/\s+/g, '-');
-}
-
 /** Page produit Cardmarket, filtrée sur les annonces en français. */
 export function productUrl(p: CmProduct): string {
-  if (p.expSlug) {
-    return `https://www.cardmarket.com/fr/OnePiece/Products/Singles/${p.expSlug}/${cmSlug(p.name)}-${p.code}-V${p.version}?language=${CM_LANG_FR}`;
+  // Redirection officielle par identifiant : les slugs et numéros V ne sont
+  // pas fournis par le catalogue et ne doivent pas être inventés.
+  if (Number.isSafeInteger(p.id) && p.id > 0) {
+    return `https://www.cardmarket.com/fr/OnePiece/Products?idProduct=${p.id}&language=${CM_LANG_FR}`;
   }
   return searchUrl(p.code);
 }

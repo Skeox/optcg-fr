@@ -8,9 +8,9 @@ import LanguagePrices from './LanguagePrices';
 
 export function CardImage({ card, className = '', eager = false }: { card: Card; className?: string; eager?: boolean }) {
   const { catalogue } = useData();
-  const [failed, setFailed] = useState(false);
+  const [failedId, setFailedId] = useState<string | null>(null);
   if (!catalogue) return null;
-  if (failed) {
+  if (failedId === card.id) {
     return <div className={`card-aspect flex items-center justify-center rounded-lg bg-bg-3 text-xs text-ink-2 ${className}`}>{card.code}</div>;
   }
   return (
@@ -20,7 +20,7 @@ export function CardImage({ card, className = '', eager = false }: { card: Card;
       loading={eager ? 'eager' : 'lazy'}
       decoding="async"
       referrerPolicy="no-referrer"
-      onError={() => setFailed(true)}
+      onError={() => setFailedId(card.id)}
       className={`card-aspect w-full rounded-lg bg-bg-3 object-cover ${className}`}
     />
   );

@@ -1,21 +1,25 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import { Link, useNavigate, useParams } from 'react-router';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useData } from '../data/catalogue';
 import { CardImage, ColorDots, PageHeader, QtyControl, Sparkline, VariantBadge } from '../components/ui';
-import { candidatesFor, productUrl, searchUrl } from '../lib/cardmarket';
+import { productUrl, searchUrl } from '../lib/cardmarket';
 import { fmtDate, fmtEur, RARITY_LABEL, TYPE_LABEL } from '../lib/format';
 import { db, saveOverride, type Snapshot } from '../db';
 import LanguagePrices from '../components/LanguagePrices';
 
 export default function CardDetail() {
   const { id = '' } = useParams();
+  return <CardVersionDetail key={id} id={id} />;
+}
+
+function CardVersionDetail({ id }: { id: string }) {
   const nav = useNavigate();
-  const { catalogue, idx, prices, productFor, mappingSure, overrides, priceFor, frFor } = useData();
+  const { catalogue, idx, productFor, mappingSure, overrides, priceFor, frFor } = useData();
+  useEffect(() => { window.scrollTo({ top: 0, behavior: 'instant' }); }, [id]);
   const card = idx?.byId.get(decodeURIComponent(id));
   const product = card ? productFor(card) : undefined;
   const quote = card ? frFor(card) : undefined;
-  const candidates = useMemo(() => (card && prices ? candidatesFor(card.code, prices) : []), [card, prices]);
   const siblings = card ? (idx?.byCode.get(card.code) ?? []).filter((c) => c.id !== card.id) : [];
   const snaps = useLiveQuery(
     async (): Promise<Snapshot[]> => (product ? db.snapshots.where('productId').equals(product.id).sortBy('date') : []),
@@ -64,7 +68,7 @@ export default function CardDetail() {
                   </>
                 )}
                 <div className="mt-1 text-xs text-ink-2">{product.expName} · V{product.version}</div>
-                {!mappingSure(card) && <div className="mt-1 text-xs text-warn">Association incertaine : vérifiez le produit dans la liste ci-dessous.</div>}
+                {!mappingSure(card) && <div className="mt-1 text-xs text-warn">Association incertaine : comparez le visuel sur Cardmarket. Aucun prix estimé n’est retenu pour cette version.</div>}
                 <a className="btn-ghost mt-3 w-full text-sm" href={productUrl(product)} target="_blank" rel="noreferrer">Prix français sur Cardmarket ↗</a>
               </>
             ) : (
@@ -102,35 +106,23 @@ export default function CardDetail() {
           <h2 className="mb-2 font-bold">Autres versions de {card.code}</h2>
           <div className="grid grid-cols-3 gap-3">
             {siblings.map((s) => (
-              <Link key={s.id} to={`/carte/${encodeURIComponent(s.id)}`} className="text-center text-xs">
+              <Link key={s.id} to={`/carte/${encodeURIComponent(s.id)}`} aria-label={`Ouvrir ${s.name} — ${s.id}`} className="text-center text-xs">
                 <CardImage card={s} />
                 <div className="mt-1"><VariantBadge card={s} /></div>
+                <div className="mt-1 text-ink-2">{s.series.map((sid) => idx?.seriesById.get(sid)?.code).filter(Boolean).join(' · ')}</div>
+                <div className="mt-2"><LanguagePrices card={s} /></div>
+                <div className="mt-1 text-accent">Voir cette version →</div>
               </Link>
             ))}
           </div>
         </section>
       )}
 
-      {candidates.length > 1 && (
-        <section className="panel">
-          <div className="label mb-2">Produits Cardmarket pour {card.code} — choisir celui qui correspond</div>
-          <div className="space-y-1">
-            {candidates.map((p) => {
-              const on = product?.id === p.id;
-              return (
-                <button
-                  key={p.id}
-                  onClick={() => saveOverride(card.id, on ? null : p.id)}
-                  className={`flex w-full items-center justify-between rounded-lg border px-3 py-2 text-left text-sm ${on ? 'border-accent bg-accent/10' : 'border-line'}`}
-                >
-                  <span className={p.foreign ? 'text-ink-2' : ''}>{p.expName} · V{p.version}{p.foreign ? ' · hors Europe' : ''}</span>
-                  <span className="text-xs text-ink-2">{on ? 'Sélectionné' : 'Choisir'}</span>
-                </button>
-              );
-            })}
-          </div>
-          {manualProduct && <button className="mt-2 text-xs text-ink-2 underline" onClick={() => saveOverride(card.id, null)}>Revenir au choix automatique</button>}
-        </section>
+      {manualProduct && (
+        <div className="panel text-xs text-ink-2">
+          <p>Une association de prix choisie manuellement est enregistrée pour cette carte.</p>
+          <button className="mt-2 underline" onClick={() => saveOverride(card.id, null)}>Rétablir l’association automatique de cette version</button>
+        </div>
       )}
     </div>
   );

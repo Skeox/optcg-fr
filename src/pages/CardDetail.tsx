@@ -71,10 +71,10 @@ function CardVersionDetail({ id }: { id: string }) {
         <div className="label">Prix par version · en €</div>
         <LanguagePrices card={card} />
         <p className="text-[11px] text-ink-2">Prix automatiques : CardTrader{quote ? ` · ${fmtDate(quote.at)}` : ''} · hors port</p>
-        {!mappingSure(card) && <p className="text-xs text-warn">Version à vérifier sur Cardmarket.</p>}
+        {!mappingSure(card) && <p className="text-xs text-warn">Correspondance exacte non confirmée. La recherche Cardmarket affiche plusieurs versions : comparez l’illustration et l’édition.</p>}
         <div className="flex flex-wrap items-start justify-between gap-2 border-t border-line pt-2">
           <ManualPriceEditor card={card} />
-          <a className="btn-ghost text-xs" href={product ? productUrl(product) : searchUrl(card.code)} target="_blank" rel="noreferrer">Prix sur Cardmarket ↗</a>
+          <a className="btn-ghost text-xs" href={product ? productUrl(product) : searchUrl(card.code)} target="_blank" rel="noreferrer">{product ? 'Prix sur Cardmarket' : 'Rechercher les versions sur Cardmarket'} ↗</a>
         </div>
       </section>
 

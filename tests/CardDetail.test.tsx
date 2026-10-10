@@ -29,6 +29,8 @@ it('ouvre toute la fiche de la variante puis revient à la précédente sans mod
   const cm = { products: { '802858': { id: 802858, code: card.code, exp: 5755, expName: 'Empereurs', version: 1 }, '802859': { id: 802859, code: card.code, exp: 5755, expName: 'Empereurs', version: 2 } }, byCode: { [card.code]: [802858, 802859] } };
   const quote = { at: '2026-10-08', n: 1, from: 10, med: 10, nm: 10 };
   const prices = { source: 'cardtrader', currency: 'EUR', products: { '802858': quote, '802859': { ...quote, from: 50 } } };
+  // Associations choisies explicitement ; l'ordre des variantes ne suffit pas.
+  await db.overrides.bulkPut([{ cardId: card.id, productId: 802858 }, { cardId: alt.id, productId: 802859 }]);
   vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? cat : url.endsWith('prices-fr.json') ? prices : url.endsWith('prices.json') ? cm : { dates: [] } })));
   await db.collection.put({ cardId: card.id, qty: 2, updatedAt: Date.now() });
   const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: ['/carte/OP09-001'] });
@@ -48,7 +50,7 @@ it('ouvre toute la fiche de la variante puis revient à la précédente sans mod
   fireEvent.click(screen.getByRole('button', { name: 'Ajouter un exemplaire' }));
   await waitFor(async () => expect((await db.collection.get(alt.id))?.qty).toBe(1));
   expect((await db.collection.get(card.id))?.qty).toBe(2);
-  expect(await db.overrides.count()).toBe(0);
+  expect(await db.overrides.count()).toBe(2);
   expect(scrollTo).toHaveBeenLastCalledWith({ top: 0, left: 0, behavior: 'instant' });
   fireEvent.click(screen.getByRole('button', { name: '‹ Retour' }));
   await screen.findByText('Effet de base');
@@ -66,6 +68,25 @@ it('ouvre toute la fiche de la variante puis revient à la précédente sans mod
   fireEvent.click(screen.getByRole('button', { name: 'Revenir au prix automatique' }));
   await waitFor(() => expect(screen.queryByLabelText(/Prix manuel/)).toBeNull());
   expect(await db.vfPrices.get(card.id)).toBeUndefined();
+});
+
+it('ouvre une recherche et masque les prix quand la version exacte est ambiguë', async () => {
+  vi.stubGlobal('scrollTo', vi.fn());
+  await db.open();
+  const card = { id: 'OP09-001', code: 'OP09-001', name: 'Shanks', variant: 0, series: ['OP09'], colors: [], traits: [], effect: 'Carte ambiguë' } as unknown as Card;
+  const alt = { ...card, id: 'OP09-001_p1', variant: 1 };
+  const cat = { cards: [card, alt], series: [{ id: 'OP09', cm: [5755] }] };
+  const products = [802858, 802859].map((id, i) => ({ id, code: card.code, exp: 5755, version: i + 1 }));
+  const cm = { products: Object.fromEntries(products.map((p) => [p.id, p])), byCode: { [card.code]: products.map((p) => p.id) } };
+  const quotes = { source: 'cardtrader', currency: 'EUR', products: { '802858': { at: '2026-10-08', n: 1, from: 10 }, '802859': { at: '2026-10-08', n: 1, from: 50 } } };
+  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? cat : url.endsWith('prices-fr.json') ? quotes : url.endsWith('prices.json') ? cm : { dates: [] } })));
+  const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: ['/carte/OP09-001_p1'] });
+  render(<RouterProvider router={router} />);
+  await screen.findByText('Correspondance exacte non confirmée.', { exact: false });
+  expect(screen.getByRole('link', { name: /Rechercher les versions sur Cardmarket/ }).getAttribute('href')).toBe(searchUrl(card.code));
+  expect(screen.queryByRole('link', { name: /Prix sur Cardmarket/ })).toBeNull();
+  expect(screen.queryByText('Évolution du minimum CardTrader VF')).toBeNull();
+  expect(screen.queryByLabelText(/Version française : (10|50)/)).toBeNull();
 });
 
 it('filtre selon le prix retenu et conserve les cartes possédées sans prix', () => {

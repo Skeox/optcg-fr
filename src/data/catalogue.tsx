@@ -91,14 +91,14 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const resolve = useMemo(() => (card: Card) => {
     if (!prices || !idx) return undefined;
     const ov = overrides.get(card.id);
-    if (ov != null && prices.products[ov]) return { product: prices.products[ov], sure: true };
+    if (ov != null && prices.products[ov]?.code === card.code && !prices.products[ov].foreign) return { product: prices.products[ov], sure: true };
     if (productCache.has(card.id)) return productCache.get(card.id);
     const r = defaultProductFor(card, idx, prices);
     productCache.set(card.id, r);
     return r;
   }, [prices, idx, overrides, productCache]);
   const productFor = useMemo(() => (card: Card) => resolve(card)?.product, [resolve]);
-  const mappingSure = useMemo(() => (card: Card) => resolve(card)?.sure ?? true, [resolve]);
+  const mappingSure = useMemo(() => (card: Card) => resolve(card)?.sure ?? false, [resolve]);
 
   const quoteFor = useMemo(() => (card: Card, language: CardLanguage) => {
     const p = productFor(card);

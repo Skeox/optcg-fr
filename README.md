@@ -37,7 +37,7 @@ La fiche et les vignettes conservent un lien Cardmarket sous le prix, filtré su
 
 La collection, les doublons, les cartes manquantes et les exports utilisent tous le minimum CardTrader VF. Sans annonce française connue, le prix reste indisponible et les totaux signalent leur couverture partielle. Les anciens prix saisis restent conservés dans les sauvegardes mais ne remplacent plus les prix CardTrader. Les nouveaux instantanés et graphiques sont séparés des anciens relevés Cardmarket.
 
-Chaque variante FR (base, alternative _p1, _p2…) est associée automatiquement à la version Cardmarket correspondante (V1, V2…) ; si l'association est fausse, choisissez le bon produit dans la fiche carte (*Produits Cardmarket pour ce code*).
+Une association automatique Cardmarket n'est retenue que si une seule variante FR et un seul produit occidental correspondent dans l'édition, sans conflit entre séries. L'ordre des suffixes Bandai (_p1, _p2…) et des identifiants Cardmarket ne garantit pas la même illustration. En cas d'ambiguïté, la fiche propose une recherche explicitement signalée et aucun prix automatique n'est attribué. Les associations manuelles déjà enregistrées restent prioritaires si le code correspond et que le produit est occidental.
 
 ## Développement (Windows)
 

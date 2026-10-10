@@ -55,7 +55,7 @@ export interface CmProduct {
   avg1: number | null;
   avg7: number | null;
   avg30: number | null;
-  version: number;
+  version: number; // rang interne, pas un numéro de version Cardmarket vérifié
 }
 
 export interface Prices {

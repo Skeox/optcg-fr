@@ -40,33 +40,28 @@ export function candidatesFor(code: string, prices: Prices): CmProduct[] {
   const ids = prices.byCode[code] ?? [];
   return ids
     .map((id) => prices.products[id])
-    .filter(Boolean)
+    .filter((p) => p && p.code === code)
     .sort((a, b) => Number(a.foreign) - Number(b.foreign) || a.id - b.id);
 }
 
 /**
- * Produit Cardmarket proposé par défaut pour une variante FR :
- * on aligne l'ordre des variantes FR d'un même code au sein de la série (base, _p1, _p2…)
- * avec les versions Cardmarket (V1, V2…) de l'extension correspondante.
+ * Ne retenir une association automatique que si elle est univoque dans l'édition.
+ * Les suffixes Bandai et l'ordre des identifiants Cardmarket ne prouvent jamais
+ * une correspondance d'illustration, même avec le même nombre de variantes.
  */
 export function defaultProductFor(card: Card, idx: Indexes, prices: Prices): { product: CmProduct; sure: boolean } | undefined {
-  const all = candidatesFor(card.code, prices);
-  if (!all.length) return undefined;
+  const all = candidatesFor(card.code, prices).filter((p) => !p.foreign);
   const siblingsAll = idx.byCode.get(card.code) ?? [card];
+  const candidates = new Map<number, CmProduct>();
   for (const sid of card.series) {
     const s = idx.seriesById.get(sid);
     if (!s || !s.cm.length) continue;
     const siblings = siblingsAll.filter((c) => c.series.includes(sid));
-    const i = siblings.findIndex((c) => c.id === card.id);
-    const inExp = all.filter((p) => s.cm.includes(p.exp)).sort((a, b) => a.version - b.version);
+    const inExp = all.filter((p) => s.cm.includes(p.exp));
     if (!inExp.length) continue;
-    // Association sûre quand le nombre de variantes FR égale le nombre de versions Cardmarket.
-    const sure = inExp.length === siblings.length;
-    return { product: inExp[Math.min(i, inExp.length - 1)], sure };
+    if (siblings.length !== 1 || siblings[0].id !== card.id || inExp.length !== 1) return undefined;
+    candidates.set(inExp[0].id, inExp[0]);
   }
-  // Promos / autres produits : éditions occidentales dans l'ordre des variantes.
-  const western = all.filter((p) => !p.foreign);
-  const i = siblingsAll.findIndex((c) => c.id === card.id);
-  const product = western[i] ?? western[0] ?? all[0];
-  return { product, sure: western.length === siblingsAll.length && western.length === 1 };
+  if (candidates.size !== 1) return undefined;
+  return { product: [...candidates.values()][0], sure: true };
 }

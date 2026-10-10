@@ -55,7 +55,8 @@ for (const p of productsFile.products) {
   };
   (byCode[code] ??= []).push(p.idProduct);
 }
-// Numéro de version Cardmarket (V1, V2…) = ordre des idProduct au sein d'une même extension.
+// Rang interne uniquement : l'ordre des idProduct ne prouve ni le numéro V
+// Cardmarket ni le suffixe de variante Bandai. Ne pas l'utiliser pour les associations.
 const perExp = {};
 for (const id of Object.keys(products).map(Number).sort((a, b) => a - b)) {
   const p = products[id];

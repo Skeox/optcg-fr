@@ -3,6 +3,7 @@ import catalogueData from '../public/data/cards.json';
 import pricesData from '../public/data/prices.json';
 import type { Catalogue, Prices } from '../src/types';
 import { buildIndexes, candidatesFor, productUrl, resolveProductFor } from '../src/lib/cardmarket';
+import { merchantMappingFor } from '../src/lib/merchant-mappings';
 import { printingFor } from '../src/lib/printings';
 import { mappedProductIds } from '../scripts/lib/cardtrader-mapping.mjs';
 import { cardTraderQuote } from '../src/lib/cardtrader';
@@ -25,11 +26,16 @@ it.each(catalogue.series)('$code : chaque ancienne association doit prouver la m
       const p = match.product;
       expect(p.code).toBe(card.code);
       expect(p.foreign).toBe(false);
-      expect(series.cm).toContain(p.exp);
+      const evidence = merchantMappingFor(card);
+      if (series.cm.length) expect(series.cm).toContain(p.exp);
+      else expect(evidence?.expansion).toBe(p.exp);
       const verified = printingFor(card)?.cardmarket;
       if (verified) {
         expect(p.id).toBe(verified.id);
         expect(p.exp).toBe(verified.expansion);
+      } else if (evidence) {
+        expect(p.id).toBe(evidence.product);
+        expect(p.exp).toBe(evidence.expansion);
       } else {
         // Preuve indépendante de la fonction de résolution : une seule impression
         // et un seul produit dans cette édition, pas juste le même code.

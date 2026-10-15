@@ -1,0 +1,94 @@
+{
+  "OP01-070_p1": {
+    "blueprint": 310397,
+    "series": "622301"
+  },
+  "OP01-078_p1": {
+    "blueprint": 310350,
+    "series": "622301"
+  },
+  "OP02-004_p1": {
+    "blueprint": 310405,
+    "series": "622301"
+  },
+  "OP02-018_r1": {
+    "blueprint": 310621,
+    "series": "622301"
+  },
+  "OP02-106_r1": {
+    "blueprint": 310668,
+    "series": "622301"
+  },
+  "OP02-114_p1": {
+    "blueprint": 310351,
+    "series": "622301"
+  },
+  "OP03-003_r1": {
+    "blueprint": 310588,
+    "series": "622301"
+  },
+  "OP03-060_p1": {
+    "blueprint": 310602,
+    "series": "622301"
+  },
+  "OP03-079_r1": {
+    "blueprint": 310673,
+    "series": "622301"
+  },
+  "OP03-089_r1": {
+    "blueprint": 310354,
+    "series": "622301"
+  },
+  "OP03-108_p1": {
+    "blueprint": 310370,
+    "series": "622301"
+  },
+  "OP03-110_p2": {
+    "blueprint": 310381,
+    "series": "622301"
+  },
+  "OP03-113_p1": {
+    "blueprint": 310377,
+    "series": "622301"
+  },
+  "OP03-116_p3": {
+    "blueprint": 310653,
+    "series": "622301"
+  },
+  "OP04-029_p1": {
+    "blueprint": 310385,
+    "series": "622301"
+  },
+  "OP04-032_p1": {
+    "blueprint": 310309,
+    "series": "622301"
+  },
+  "OP04-089_p1": {
+    "blueprint": 310333,
+    "series": "622301"
+  },
+  "OP06-118_p1": {
+    "blueprint": 311497,
+    "series": "622301"
+  },
+  "ST20-003_p1": {
+    "blueprint": 351519,
+    "series": "622302"
+  },
+  "OP05-076_p2": {
+    "blueprint": 326654,
+    "series": "622901"
+  },
+  "EB01-014_p1": {
+    "blueprint": 315166,
+    "series": "622901"
+  },
+  "OP06-076_p1": {
+    "blueprint": 315168,
+    "series": "622901"
+  },
+  "OP07-080_p1": {
+    "blueprint": 315169,
+    "series": "622901"
+  }
+}

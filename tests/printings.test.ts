@@ -35,7 +35,7 @@ it('refuse une correspondance vérifiée devenue incohérente ou absente', () =>
 
 it('ne transfère pas le prix V.3 à une autre finition du même code', () => {
   for (const id of ['OP03-079_r1', 'OP03-079_p3', 'OP06-065_p1', 'OP06-065_p2', 'OP06-065_p4']) {
-    expect(defaultProductFor(card(id), idx, prices)).toBeUndefined();
+    expect([799250, 799370]).not.toContain(defaultProductFor(card(id), idx, prices)?.product.id);
   }
 });
 

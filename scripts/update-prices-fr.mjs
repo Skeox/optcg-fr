@@ -65,6 +65,7 @@ console.log(`CardTrader : jeu "${game.display_name}" (#${game.id}), ${expansions
 
 // 2. Pour chaque extension : fiches (blueprints) -> ids Cardmarket, puis annonces en français
 const prev = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : { products: {} };
+if (ONLY && !prev.blueprints) throw new Error('Un relevé complet est nécessaire avant --only pour initialiser les prix par fiche.');
 if (ONLY && [prev.products, ...Object.values(prev.languages ?? {})].some((entries) =>
   Object.values(entries ?? {}).some((quote) => !quote.mapping))) {
   throw new Error('Un relevé complet est nécessaire avant --only : les anciens prix ne portent pas leur provenance produit.');
@@ -72,6 +73,7 @@ if (ONLY && [prev.products, ...Object.values(prev.languages ?? {})].some((entrie
 // Un relevé complet remplace les anciennes annonces qui ne sont plus disponibles.
 const out = { updatedAt: new Date().toISOString(), source: 'cardtrader', currency: 'EUR', products: ONLY ? { ...prev.products } : {}, languages: Object.fromEntries(LANGUAGES.map((lang) => [lang, ONLY ? { ...(lang === 'fr' ? prev.products : prev.languages?.[lang]) } : {}])) };
 const today = out.updatedAt.slice(0, 10);
+out.blueprints = Object.fromEntries(LANGUAGES.map((lang) => [lang, ONLY ? { ...prev.blueprints?.[lang] } : {}]));
 // Données publiques des fiches, sans annonce, vendeur ou information de compte.
 const merchantCatalogue = { updatedAt: out.updatedAt, expansions: expansions.map(({ id, code, name }) => ({ id, code, name })), blueprints: [] };
 let matched = 0, unmatched = 0, listingsTotal = 0, failures = 0;
@@ -90,7 +92,10 @@ for (const exp of expansions) {
   for (const language of LANGUAGES) {
   // En mise à jour partielle, une fiche devenue ambiguë ou sans annonce ne doit
   // pas conserver son ancien prix. Le fichier n'est écrit qu'après succès global.
-  for (const bp of blueprints) for (const id of bp.card_market_ids ?? []) delete out.languages[language][id];
+  for (const bp of blueprints) {
+    delete out.blueprints[language][bp.id];
+    for (const id of bp.card_market_ids ?? []) delete out.languages[language][id];
+  }
   let offers;
   try {
     // CardTrader utilise le code « jp », normalisé en « ja » dans notre fichier.
@@ -102,6 +107,7 @@ for (const exp of expansions) {
     if (!bp || !Array.isArray(list) || !list.length) continue;
     const entry = summarizeOffers(list, today, language);
     if (!entry) continue;
+    out.blueprints[language][bp.id] = { ...entry, mapping: { kind: 'cardtrader-blueprint', blueprintId: bp.id } };
     const cmIds = mappedProductIds(bp, prices.products);
     if (!cmIds.length) { unmatched++; continue; }
     for (const id of cmIds) {

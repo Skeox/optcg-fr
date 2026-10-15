@@ -69,7 +69,8 @@ export interface Prices {
 /** Relevé des annonces en français (scripts/update-prices-fr.mjs), par produit Cardmarket. */
 export interface PriceFr {
   /** Provenance des nouveaux relevés ; absente des fichiers historiques. */
-  mapping?: { kind: 'explicit-cardtrader-id'; blueprintId: number; productId: number };
+  mapping?: { kind: 'explicit-cardtrader-id'; blueprintId: number; productId: number }
+    | { kind: 'cardtrader-blueprint'; blueprintId: number };
   at: string; // date du relevé AAAA-MM-JJ
   n: number; // nombre d'annonces en français
   from: number | null; // prix le plus bas en français
@@ -84,6 +85,8 @@ export interface PricesFr {
   products: Record<string, PriceFr>;
   /** Prix par langue physique de la carte, tous libellés en EUR. */
   languages?: Partial<Record<CardLanguage, Record<string, PriceFr>>>;
+  /** Fiches marchandes exactes : utilisables même sans lien Cardmarket renseigné. */
+  blueprints?: Partial<Record<CardLanguage, Record<string, PriceFr>>>;
 }
 
 export type CardLanguage = 'fr' | 'en' | 'ja';

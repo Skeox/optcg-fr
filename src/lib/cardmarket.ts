@@ -1,5 +1,6 @@
 import type { Card, Catalogue, CmProduct, Prices, Series } from '../types';
 import { printingFor } from './printings';
+import { merchantMappingFor } from './merchant-mappings';
 
 export const CM_LANG_FR = 2; // paramètre "language" de Cardmarket : 2 = français
 
@@ -59,6 +60,12 @@ export function defaultProductFor(card: Card, idx: Indexes, prices: Prices): { p
     // sur une autre finition. Le rang interne product.version n'intervient jamais.
     return product && product.code === card.code && !product.foreign && product.exp === verified.expansion
       && idx.seriesById.get(printing.series)?.cm.includes(product.exp)
+      ? { product, sure: true } : undefined;
+  }
+  const evidence = merchantMappingFor(card);
+  if (evidence) {
+    const product = prices.products[evidence.product];
+    return product && product.code === card.code && !product.foreign && product.exp === evidence.expansion
       ? { product, sure: true } : undefined;
   }
   const all = candidatesFor(card.code, prices).filter((p) => !p.foreign);

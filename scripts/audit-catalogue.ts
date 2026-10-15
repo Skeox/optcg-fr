@@ -1,11 +1,14 @@
 // Audit local reproductible ; --online compare aussi chaque collection au site Bandai.
 // --cached réutilise uniquement les pages du précédent audit en ligne.
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as cheerio from 'cheerio';
 import { buildIndexes, defaultProductFor, resolveProductFor, productUrl, searchUrl } from '../src/lib/cardmarket';
-import { cardTraderQuote } from '../src/lib/cardtrader';
+import { merchantMappingFor, blueprintFor } from '../src/lib/merchant-mappings';
+import { quoteForPrinting } from '../src/lib/cardtrader';
+import { blueprintSignature } from './lib/merchant-evidence.mjs';
 import { basePrintingsInSeries, printingFor } from '../src/lib/printings';
 import type { Catalogue, Prices, PricesFr } from '../src/types';
 
@@ -16,6 +19,10 @@ const prices = read('public/data/prices.json') as Prices;
 const quotes = read('public/data/prices-fr.json') as PricesFr;
 const reviews = read('src/data/printing-reviews.json');
 const overrides = read('src/data/card-printings.json');
+const merchantMappings = read('src/data/cardmarket-mappings.json');
+const directMappings = read('src/data/cardtrader-mappings.json');
+const evidence = read('scripts/data/merchant-evidence.json');
+const merchantCatalogue = read('public/data/cardtrader-catalogue.json');
 const configuredSeries = read('scripts/series-fr.json') as Catalogue['series'];
 const idx = buildIndexes(catalogue);
 const cache = path.join(root, '.cache/catalogue-audit');
@@ -24,6 +31,19 @@ const online = process.argv.includes('--online');
 const cached = process.argv.includes('--cached');
 const issues: string[] = [];
 const check = (ok: unknown, message: string) => { if (!ok) issues.push(message); };
+
+check(Object.keys(evidence).length === Object.keys(merchantMappings).length + Object.keys(directMappings).length, 'Registres marchands à régénérer');
+for (const [id, entry] of Object.entries(evidence) as [string, { series: string; product?: number; blueprint: number; imageSha256: string; blueprintSignature: string }][]) {
+  const published = merchantMappings[id] ?? directMappings[id];
+  check(published && Object.entries(published).every(([key, value]) => entry[key as keyof typeof entry] === value), `Preuve différente du registre publié : ${id}`);
+  const card = idx.byId.get(id);
+  const bp = merchantCatalogue.blueprints.find((b: { id: number }) => b.id === entry.blueprint);
+  check(card?.series.includes(entry.series), `Preuve marchande hors collection : ${id}`);
+  check(bp && blueprintSignature(bp) === entry.blueprintSignature, `Identité marchande modifiée : ${id}/${entry.blueprint}`);
+  if (entry.product) check(bp?.card_market_ids?.includes(entry.product), `Lien marchand retiré : ${id}/${entry.product}`);
+  if (card) check(createHash('sha256').update(fs.readFileSync(path.join(root, 'public/images/cards', `${id}.webp`))).digest('hex') === entry.imageSha256, `Illustration officielle modifiée : ${id}`);
+  check(!merchantMappings[id] || !directMappings[id], `Deux preuves concurrentes : ${id}`);
+}
 
 check(idx.byId.size === catalogue.cards.length, 'Identifiants de cartes dupliqués');
 check(idx.seriesById.size === catalogue.series.length, 'Identifiants de collections dupliqués');
@@ -70,8 +90,8 @@ const series = catalogue.series.map((s) => {
     const match = defaultProductFor(card, idx, prices);
     if (!match) return [];
     const p = match.product;
-    check(p.code === card.code && !p.foreign && s.cm.includes(p.exp), `Association hors collection/code : ${card.id}/${p.id}`);
-    return [{ card: card.id, product: p.id, evidence: printingFor(card)?.cardmarket ? 'verified' : 'unique-in-expansion' }];
+    check(p.code === card.code && !p.foreign && (s.cm.includes(p.exp) || (!s.cm.length && merchantMappingFor(card)?.expansion === p.exp)), `Association hors collection/code : ${card.id}/${p.id}`);
+    return [{ card: card.id, product: p.id, evidence: (printingFor(card)?.cardmarket || merchantMappingFor(card)) ? 'verified' : 'unique-in-expansion' }];
   });
   check(new Set(resolved.map((r) => r.product)).size === resolved.length, `Prix partagé entre variantes de ${s.code}`);
   check(s.count === cards.length, `Compteur de collection périmé : ${s.code}`);
@@ -108,7 +128,8 @@ const cardChecks = catalogue.cards.map((card) => {
     product: expected?.product.id ?? null,
     link: expected ? productUrl(expected.product) : searchUrl(card.code),
     pricesByLanguage: Object.fromEntries((['fr', 'en', 'ja'] as const).map((language) => [language,
-      expected ? cardTraderQuote(quotes, expected.product.id, language)?.from ?? null : null])),
+      quoteForPrinting(quotes, card, expected?.product.id, language)?.from ?? null])),
+    blueprint: blueprintFor(card) ?? null,
     potentiallyUnsafeStoredProducts: ignored.filter((t) => t.previouslyAccepted).map((t) => t.product),
     testedStoredProducts: tests,
   };
@@ -129,6 +150,9 @@ const priceEvidence = (['fr', 'en', 'ja'] as const).map((language) => {
   const explicit = entries.filter(([, quote]) => quote.mapping);
   for (const [id, quote] of explicit) {
     check(quote.mapping!.kind === 'explicit-cardtrader-id' && quote.mapping!.productId === Number(id), `Provenance prix incohérente : ${language}/${id}`);
+  }
+  for (const [id, quote] of Object.entries(quotes.blueprints?.[language] ?? {})) {
+    check(quote.mapping?.kind === 'cardtrader-blueprint' && quote.mapping.blueprintId === Number(id), `Provenance fiche incohérente : ${language}/${id}`);
   }
   return { language, quotes: entries.length, explicitProvenance: explicit.length, legacyWithoutProvenance: entries.length - explicit.length };
 });
@@ -191,14 +215,18 @@ const report = {
   generatedAt: new Date().toISOString(), catalogueAt: catalogue.generatedAt, pricesAt: prices.updatedAt,
   reviewAt: reviews.reviewedAt, officialMode: online ? 'online' : cached ? 'cached' : 'not-requested',
   totals: { collections: series.length, variants: catalogue.cards.length, described: reviewed.size,
-    resolved: series.reduce((n, s) => n + s.resolved.length, 0), unresolved: series.reduce((n, s) => n + s.unresolved.length, 0) },
+    resolved: series.reduce((n, s) => n + s.resolved.length, 0), unresolved: series.reduce((n, s) => n + s.unresolved.length, 0),
+    directBlueprints: Object.keys(directMappings).length,
+    merchantResolved: cardChecks.filter((c) => c.product || c.blueprint).length,
+    pricesFR: cardChecks.filter((c) => c.pricesByLanguage.fr != null).length },
   issues, series, official: official.sort((a, b) => a.series.localeCompare(b.series)), merchant,
   legacySafety, cardChecks, priceEvidence,
 };
 const output = path.join(cache, 'report.json');
 fs.writeFileSync(output, JSON.stringify(report, null, 2) + '\n');
 console.table(series.map((s) => ({ collection: s.code, variantes: s.variants, bases: s.basePrintings,
-  decrites: s.describedPrintings, prixAssocies: s.resolved.length, prixNonResolus: s.unresolved.length })));
+  liensCardmarket: s.resolved.length, liensNonConfirmes: s.unresolved.length,
+  prixFR: cardChecks.filter((c) => c.series.includes(s.id) && c.pricesByLanguage.fr != null).length })));
 console.log(JSON.stringify(report.totals));
 console.log(JSON.stringify({ legacySafety: { ...legacySafety, bySeries: undefined } }));
 console.log(`Rapport : ${output}`);

@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useState, type ReactNode
 import { useLiveQuery } from 'dexie-react-hooks';
 import type { Card, CardLanguage, Catalogue, CmProduct, Hashes, History, PriceFr, Prices, PricesFr } from '../types';
 import { buildIndexes, resolveProductFor, type Indexes } from '../lib/cardmarket';
-import { cardTraderQuote } from '../lib/cardtrader';
+import { quoteForPrinting } from '../lib/cardtrader';
 import { db, type CollectionEntry, type CmOverride, type VfPrice } from '../db';
 
 const BASE = import.meta.env.BASE_URL;
@@ -101,9 +101,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
   const quoteFor = useMemo(() => (card: Card, language: CardLanguage) => {
     const p = productFor(card);
-    if (!mappingSure(card)) return undefined;
-    return cardTraderQuote(pricesFr, p?.id, language);
-  }, [productFor, pricesFr, mappingSure]);
+    return quoteForPrinting(pricesFr, card, p?.id, language);
+  }, [productFor, pricesFr]);
   const frFor = useMemo(() => (card: Card) => quoteFor(card, 'fr'), [quoteFor]);
   const priceFor = useMemo(() => (card: Card) => manualFr.get(card.id)?.price ?? frFor(card)?.from ?? null, [manualFr, frFor]);
   const priceKind = useMemo(() => (card: Card): 'manual' | 'vf' | null => manualFr.has(card.id) ? 'manual' : frFor(card) ? 'vf' : null, [manualFr, frFor]);

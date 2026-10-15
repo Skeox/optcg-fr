@@ -1,4 +1,5 @@
 // @vitest-environment jsdom
+import { merchantMappingFor } from '../src/lib/merchant-mappings';
 import 'fake-indexeddb/auto';
 import { afterEach, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
@@ -84,7 +85,7 @@ it('ouvre une recherche et masque les prix quand la version exacte est ambiguë'
   vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? cat : url.endsWith('prices-fr.json') ? quotes : url.endsWith('prices.json') ? cm : { dates: [] } })));
   const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: ['/carte/OP09-001_p1'] });
   render(<RouterProvider router={router} />);
-  await screen.findByText('Correspondance exacte non confirmée.', { exact: false });
+  await screen.findByText('Correspondance Cardmarket exacte non confirmée.', { exact: false });
   expect(screen.getByRole('link', { name: /Rechercher les versions sur Cardmarket/ }).getAttribute('href')).toBe(searchUrl(card.code));
   expect(screen.queryByRole('link', { name: /Prix sur Cardmarket/ })).toBeNull();
   expect(screen.queryByText('Évolution du minimum CardTrader VF')).toBeNull();
@@ -112,7 +113,8 @@ it.each([
   await screen.findByLabelText(/Version française : 7,89/);
   expect(screen.getByText(/réimpression visuellement identique/)).toBeTruthy();
   fireEvent.click(screen.getByRole('link', { name: new RegExp(`— ${jollyId}$`) }));
-  await screen.findByRole('link', { name: /Rechercher les versions sur Cardmarket/ });
+  const jollyLink = await screen.findByRole('link', { name: /Prix sur Cardmarket/ });
+  expect(jollyLink.getAttribute('href')).not.toContain(`idProduct=${productId}`);
   expect(screen.queryByText('Cardmarket : V.3')).toBeNull();
   const priceSection = screen.getByText('Prix par version · en €').closest('section')!;
   expect(priceSection.textContent).not.toContain('7,89');
@@ -144,21 +146,21 @@ it.each([
   expect(await db.overrides.get(id)).toEqual(saved);
 });
 
-it.each(['OP01-006_p2', 'EB01-009_p1', 'OP09-001_p1'])('%s : une ancienne association ambiguë ne fournit ni lien direct ni prix', async (id) => {
+it.each(['OP01-006_p2', 'EB01-009_p1', 'OP09-001_p1'])('%s : une ancienne association erronée ne contamine pas la variante vérifiée', async (id) => {
   vi.stubGlobal('scrollTo', vi.fn());
   await db.open();
   const card = catalogueData.cards.find((c) => c.id === id)!;
   const series = catalogueData.series.find((s) => card.series.includes(s.id))!;
-  const candidate = Object.values(pricesData.products).find((p) => p.code === card.code && series.cm.includes(p.exp) && !p.foreign)!;
+  const correctId = merchantMappingFor(card)!.product;
+  const candidate = Object.values(pricesData.products).find((p) => p.code === card.code && series.cm.includes(p.exp) && !p.foreign && p.id !== correctId)!;
   await db.overrides.put({ cardId: id, productId: candidate.id });
   await db.collection.put({ cardId: id, qty: 2, updatedAt: Date.now() });
   const quotes = { source: 'cardtrader', currency: 'EUR', products: { [candidate.id]: { at: '2026-10-16', n: 1, from: 99.99 } } };
   vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? catalogueData : url.endsWith('prices-fr.json') ? quotes : url.endsWith('prices.json') ? pricesData : { dates: [] } })));
   const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: [`/carte/${id}`] });
   render(<RouterProvider router={router} />);
-  await screen.findByText(/L’ancienne association enregistrée ne permet pas de confirmer/);
-  expect(screen.queryByRole('link', { name: /Prix sur Cardmarket/ })).toBeNull();
-  expect(screen.getByRole('link', { name: /Rechercher les versions sur Cardmarket/ }).getAttribute('href')).toBe(searchUrl(card.code));
+  await screen.findByText(/L’ancienne association enregistrée vise un autre produit/);
+  expect(screen.getByRole('link', { name: /Prix sur Cardmarket/ }).getAttribute('href')).toContain(`idProduct=${correctId}`);
   expect(screen.getByText('Prix par version · en €').closest('section')!.textContent).not.toContain('99,99');
   expect((await db.collection.get(id))?.qty).toBe(2);
   expect((await db.overrides.get(id))?.productId).toBe(candidate.id);

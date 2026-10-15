@@ -10,6 +10,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { summarizeOffers } from './lib/cardtrader-prices.mjs';
+import { mappedProductIds } from './lib/cardtrader-mapping.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'public', 'data');
@@ -20,6 +21,7 @@ const LANGUAGES = ['fr', 'en', 'ja'];
 const args = process.argv.slice(2);
 const opt = (name, def) => { const i = args.indexOf(`--${name}`); return i >= 0 ? args[i + 1] : def; };
 const ONLY = opt('only', null); // ex. --only OP-17 : ne traiter que les extensions dont le nom/code contient ce texte
+const CATALOGUE_ONLY = args.includes('--catalogue-only');
 
 if (!TOKEN) {
   console.error('CARDTRADER_TOKEN manquant : créez un compte CardTrader (gratuit), copiez le jeton API depuis les réglages du compte,');
@@ -28,8 +30,6 @@ if (!TOKEN) {
 }
 
 const prices = JSON.parse(fs.readFileSync(path.join(DATA, 'prices.json'), 'utf8'));
-const wanted = new Set(Object.keys(prices.products).map(Number)); // produits Cardmarket connus de l'app
-const codeRe = /\b([A-Z]{1,3}\d{2}-\d{3}|P-\d{3})\b/;
 
 let calls = 0;
 let lastCall = 0;
@@ -57,19 +57,32 @@ console.log(`CardTrader : jeu "${game.display_name}" (#${game.id}), ${expansions
 
 // 2. Pour chaque extension : fiches (blueprints) -> ids Cardmarket, puis annonces en français
 const prev = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : { products: {} };
+if (ONLY && [prev.products, ...Object.values(prev.languages ?? {})].some((entries) =>
+  Object.values(entries ?? {}).some((quote) => !quote.mapping))) {
+  throw new Error('Un relevé complet est nécessaire avant --only : les anciens prix ne portent pas leur provenance produit.');
+}
 // Un relevé complet remplace les anciennes annonces qui ne sont plus disponibles.
 const out = { updatedAt: new Date().toISOString(), source: 'cardtrader', currency: 'EUR', products: ONLY ? { ...prev.products } : {}, languages: Object.fromEntries(LANGUAGES.map((lang) => [lang, ONLY ? { ...(lang === 'fr' ? prev.products : prev.languages?.[lang]) } : {}])) };
 const today = out.updatedAt.slice(0, 10);
+// Données publiques des fiches, sans annonce, vendeur ou information de compte.
+const merchantCatalogue = { updatedAt: out.updatedAt, expansions: expansions.map(({ id, code, name }) => ({ id, code, name })), blueprints: [] };
 let matched = 0, unmatched = 0, listingsTotal = 0, failures = 0;
-const byCodeCm = {};
-for (const [id, p] of Object.entries(prices.products)) if (!p.foreign) (byCodeCm[p.code] ??= []).push(Number(id));
 
 for (const exp of expansions) {
   let blueprints;
   try { blueprints = await get('/blueprints/export', { expansion_id: exp.id }); }
   catch (e) { failures++; console.warn(`  ✗ ${exp.code ?? exp.name} : ${e.message}`); continue; }
+  merchantCatalogue.blueprints.push(...blueprints.map((bp) => ({
+    id: bp.id, expansion_id: exp.id, name: bp.name, version: bp.version,
+    image_url: bp.image_url, card_market_ids: bp.card_market_ids,
+    fixed_properties: bp.fixed_properties,
+  })));
+  if (CATALOGUE_ONLY) { console.log(`${exp.name}: ${blueprints.length} fiches`); continue; }
   const bpById = new Map(blueprints.map((b) => [b.id, b]));
   for (const language of LANGUAGES) {
+  // En mise à jour partielle, une fiche devenue ambiguë ou sans annonce ne doit
+  // pas conserver son ancien prix. Le fichier n'est écrit qu'après succès global.
+  for (const bp of blueprints) for (const id of bp.card_market_ids ?? []) delete out.languages[language][id];
   let offers;
   try {
     // CardTrader utilise le code « jp », normalisé en « ja » dans notre fichier.
@@ -81,14 +94,13 @@ for (const exp of expansions) {
     if (!bp || !Array.isArray(list) || !list.length) continue;
     const entry = summarizeOffers(list, today, language);
     if (!entry) continue;
-    // Identifiants Cardmarket portés par la fiche ; à défaut, le code imprimé dans le nom
-    let cmIds = (bp.card_market_ids ?? []).map(Number).filter((id) => wanted.has(id));
-    // Aucun rapprochement JP/EN sur le seul code : il peut désigner un autre visuel.
-    if (!cmIds.length && language === 'fr') { const m = `${bp.name} ${bp.version ?? ''}`.match(codeRe); if (m && byCodeCm[m[1]]?.length === 1) cmIds = byCodeCm[m[1]]; }
+    const cmIds = mappedProductIds(bp, prices.products);
     if (!cmIds.length) { unmatched++; continue; }
     for (const id of cmIds) {
       const existing = out.languages[language][id];
-      if (!existing || existing.at !== today || entry.from < existing.from) out.languages[language][id] = entry;
+      if (!existing || existing.at !== today || entry.from < existing.from) out.languages[language][id] = {
+        ...entry, mapping: { kind: 'explicit-cardtrader-id', blueprintId: bp.id, productId: id },
+      };
     }
     matched++; n++; listingsTotal += entry.n;
   }
@@ -97,6 +109,8 @@ for (const exp of expansions) {
   }
 }
 if (failures) throw new Error(`${failures} extension(s) non récupérée(s) : le précédent relevé est conservé.`);
+if (!ONLY) fs.writeFileSync(path.join(DATA, 'cardtrader-catalogue.json'), JSON.stringify(merchantCatalogue));
+if (CATALOGUE_ONLY) process.exit(0);
 out.products = out.languages.fr;
 fs.writeFileSync(OUT, JSON.stringify(out));
 console.log(`\nprices-fr.json : ${matched} fiches reliées (${listingsTotal} annonces VF), ${unmatched} fiches sans correspondance Cardmarket, ${Object.keys(out.products).length} produits au total, devise ${out.currency}, ${calls} appels API`);

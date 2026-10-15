@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import type { Card, CardLanguage, Catalogue, CmProduct, Hashes, History, PriceFr, Prices, PricesFr } from '../types';
-import { buildIndexes, defaultProductFor, type Indexes } from '../lib/cardmarket';
+import { buildIndexes, resolveProductFor, type Indexes } from '../lib/cardmarket';
 import { cardTraderQuote } from '../lib/cardtrader';
 import { db, type CollectionEntry, type CmOverride, type VfPrice } from '../db';
 
@@ -24,7 +24,7 @@ export interface DataCtx {
   /** quantités possédées, par identifiant de variante */
   owned: Map<string, CollectionEntry>;
   overrides: Map<string, number>;
-  /** produit Cardmarket retenu pour une carte (surcharge manuelle ou proposition automatique) */
+  /** Produit Cardmarket validé pour cette impression, y compris après restauration d'une sauvegarde. */
   productFor: (card: Card) => CmProduct | undefined;
   /** false si l'association automatique carte FR ↔ produit Cardmarket est douteuse */
   mappingSure: (card: Card) => boolean;
@@ -87,13 +87,12 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const manualFr = useMemo(() => new Map(vfList.map((v) => [v.cardId, v])), [vfList]);
   const overrides = useMemo(() => new Map(overrideList.map((o) => [o.cardId, o.productId])), [overrideList]);
 
-  const productCache = useMemo(() => new Map<string, { product: CmProduct; sure: boolean } | undefined>(), [idx, prices]);
+  const productCache = useMemo(() => new Map<string, { product: CmProduct; sure: boolean } | undefined>(), [idx, prices, overrides]);
   const resolve = useMemo(() => (card: Card) => {
     if (!prices || !idx) return undefined;
     const ov = overrides.get(card.id);
-    if (ov != null && prices.products[ov]?.code === card.code && !prices.products[ov].foreign) return { product: prices.products[ov], sure: true };
     if (productCache.has(card.id)) return productCache.get(card.id);
-    const r = defaultProductFor(card, idx, prices);
+    const r = resolveProductFor(card, idx, prices, ov).match;
     productCache.set(card.id, r);
     return r;
   }, [prices, idx, overrides, productCache]);

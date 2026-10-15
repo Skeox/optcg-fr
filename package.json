@@ -15,6 +15,7 @@
     "backup:build": "node server/build-vercel.mjs",
     "data:cards": "node scripts/build-catalogue.mjs",
     "data:cards:force": "node scripts/build-catalogue.mjs --force",
+    "data:audit": "node --import tsx scripts/audit-catalogue.ts",
     "data:prices": "node scripts/update-prices.mjs",
     "data:hashes": "node scripts/build-hashes.mjs",
     "data:sample-alpha": "node scripts/build-sample-alpha.mjs",

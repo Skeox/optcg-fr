@@ -4,6 +4,7 @@ import { useData } from '../data/catalogue';
 import { CardGrid, PageHeader } from '../components/ui';
 import { fmtEur } from '../lib/format';
 import type { Card } from '../types';
+import { basePrintingsInSeries } from '../lib/printings';
 
 export default function Missing() {
   const { catalogue, owned, priceFor } = useData();
@@ -15,10 +16,7 @@ export default function Missing() {
     return catalogue.series.map((s) => {
       let cards = catalogue.cards.filter((c) => c.series.includes(s.id));
       if (baseOnly) {
-        // "de base" = la variante la plus basse de chaque code au sein de la série
-        const min = new Map<string, number>();
-        for (const c of cards) min.set(c.code, Math.min(min.get(c.code) ?? Infinity, c.variant));
-        cards = cards.filter((c) => c.variant === min.get(c.code));
+        cards = basePrintingsInSeries(cards);
       }
       const missing = cards.filter((c) => !(owned.get(c.id)?.qty ?? 0));
       const costLow = missing.reduce((t, c) => t + (priceFor(c) ?? 0), 0);

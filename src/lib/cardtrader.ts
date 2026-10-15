@@ -4,5 +4,6 @@ import type { CardLanguage, PriceFr, PricesFr } from '../types';
 export function cardTraderQuote(prices: PricesFr | null, productId: number | undefined, language: CardLanguage = 'fr'): PriceFr | undefined {
   if (prices?.source !== 'cardtrader' || prices.currency !== 'EUR' || productId == null) return undefined;
   const quote = language === 'fr' ? prices.products[productId] : prices.languages?.[language]?.[productId];
+  if (quote?.mapping && (quote.mapping.kind !== 'explicit-cardtrader-id' || quote.mapping.productId !== productId)) return undefined;
   return quote && quote.n > 0 && typeof quote.from === 'number' && Number.isFinite(quote.from) && quote.from > 0 ? quote : undefined;
 }

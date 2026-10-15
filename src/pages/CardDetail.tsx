@@ -8,6 +8,7 @@ import { fmtDate, RARITY_LABEL, TYPE_LABEL } from '../lib/format';
 import { db, saveOverride, type Snapshot } from '../db';
 import LanguagePrices from '../components/LanguagePrices';
 import ManualPriceEditor from '../components/ManualPriceEditor';
+import { printingFor, PREMIUM_PRINTING_NOTE } from '../lib/printings';
 
 export default function CardDetail() {
   const { id = '' } = useParams();
@@ -43,6 +44,9 @@ function CardVersionDetail({ id }: { id: string }) {
   if (!card || !catalogue) return <div className="py-10 text-center text-ink-2">Carte introuvable. <Link className="text-accent" to="/cartes">Retour</Link></div>;
   const series = card.series.map((s) => idx!.seriesById.get(s)).filter(Boolean);
   const manualProduct = overrides.get(card.id) != null;
+  const printing = printingFor(card);
+  const overrideConflict = manualProduct && overrides.get(card.id) !== product?.id;
+  const verifiedVersion = product?.id === printing?.cardmarket?.id ? printing?.cardmarket?.version : undefined;
 
   return (
     <div className="space-y-4">
@@ -60,12 +64,15 @@ function CardVersionDetail({ id }: { id: string }) {
             <div className="panel min-h-0 flex-1 overflow-auto !p-3">
               <div className="label">Version de la carte</div>
               <div className="mt-2 text-sm font-semibold"><VariantBadge card={card} /></div>
+              {verifiedVersion && <div className="mt-2 text-xs text-ink-2">Cardmarket : V.{verifiedVersion}</div>}
               <div className="mt-2 text-xs text-ink-2">{series.map((s) => <div key={s!.id}>{s!.code} — {s!.name}</div>)}</div>
               <div className="mt-2 break-all text-xs text-ink-2">{card.id}</div>
             </div>
           </div>
         </div>
       </div>
+
+      {series.some((s) => s?.kind === 'premium') && <p className="text-xs text-ink-2">{PREMIUM_PRINTING_NOTE}</p>}
 
       <section className="panel space-y-3">
         <div className="label">Prix par version · en €</div>
@@ -117,7 +124,11 @@ function CardVersionDetail({ id }: { id: string }) {
 
       {manualProduct && (
         <div className="panel text-xs text-ink-2">
-          <p>Une association de prix choisie manuellement est enregistrée pour cette carte.</p>
+          <p>{overrideConflict
+            ? product
+              ? 'L’ancienne association enregistrée vise un autre produit. Elle est ignorée au profit de la correspondance validée pour cette version.'
+              : 'L’ancienne association enregistrée ne permet pas de confirmer cette finition et cette édition. Son lien direct et son prix automatique sont masqués.'
+            : 'Une association de prix choisie manuellement est enregistrée pour cette carte.'}</p>
           <button className="mt-2 underline" onClick={() => saveOverride(card.id, null)}>Rétablir l’association automatique de cette version</button>
         </div>
       )}

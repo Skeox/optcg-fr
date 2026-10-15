@@ -1,5 +1,6 @@
 import type { Card } from '../types';
 import { normalize } from './format';
+import { cardVariantLabel, isBasePrinting, printingFor } from './printings';
 
 export type Owning = 'toutes' | 'possedees' | 'manquantes' | 'doublons';
 export type SortKey = 'code' | 'prix-desc' | 'prix-asc' | 'nom' | 'recent';
@@ -40,14 +41,15 @@ export function applyFilters(
     if (f.colors.length && !c.colors.some((x) => f.colors.includes(x))) return false;
     if (f.types.length && !f.types.includes(c.type)) return false;
     if (f.rarities.length && !f.rarities.includes(rarityGroup(c.rarity))) return false;
-    if (f.baseOnly && c.variant > 0) return false;
+    if (f.baseOnly && !isBasePrinting(c)) return false;
     if (f.unpriced && ctx.price(c) != null) return false;
     const qty = ctx.qty(c.id);
     if (f.owning === 'possedees' && qty === 0) return false;
     if (f.owning === 'manquantes' && qty > 0) return false;
     if (f.owning === 'doublons' && qty <= ctx.keep) return false;
     if (q) {
-      const hay = normalize(`${c.name} ${c.code} ${c.id} ${c.traits.join(' ')} ${c.effect}`);
+      const version = printingFor(c)?.cardmarket?.version;
+      const hay = normalize(`${c.name} ${c.code} ${c.id} ${cardVariantLabel(c)} ${version ? `V.${version}` : ''} ${c.traits.join(' ')} ${c.effect}`);
       if (!q.split(/\s+/).every((w) => hay.includes(w))) return false;
     }
     return true;

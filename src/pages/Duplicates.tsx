@@ -3,7 +3,8 @@ import { Link } from 'react-router';
 import { useData } from '../data/catalogue';
 import { CardImage, PageHeader, QtyControl, useToast, Toast } from '../components/ui';
 import { productUrl } from '../lib/cardmarket';
-import { fmtEur, variantLabel } from '../lib/format';
+import { fmtEur } from '../lib/format';
+import { cardVariantLabel } from '../lib/printings';
 import { setSetting } from '../db';
 import { useKeep } from '../lib/hooks';
 
@@ -30,7 +31,7 @@ export default function Duplicates() {
   const unpriced = rows.filter((r) => r.unit == null).length;
 
   const copyList = async () => {
-    const lines = rows.map((r) => `${r.surplus}x ${r.card.name} (${r.card.code}${r.card.variant ? ` ${variantLabel(r.card.variant, r.card.variantKind)}` : ''}) FR — ${r.unit == null ? 'prix VF indisponible' : `minimum CardTrader VF ${fmtEur(r.unit)}`}`);
+    const lines = rows.map((r) => `${r.surplus}x ${r.card.name} (${r.card.code}${r.card.variant ? ` ${cardVariantLabel(r.card)}` : ''}) FR — ${r.unit == null ? 'prix VF indisponible' : `minimum CardTrader VF ${fmtEur(r.unit)}`}`);
     const text = `Doublons One Piece Card Game (VF) — ${count} cartes, prix manuels ou FR : ${fmtEur(total)} (${unpriced} variante(s) sans prix)\n\n${lines.join('\n')}`;
     try { await navigator.clipboard.writeText(text); show('Liste copiée'); } catch { show('Copie impossible'); }
   };
@@ -69,7 +70,7 @@ export default function Duplicates() {
             <Link to={`/carte/${encodeURIComponent(r.card.id)}`} className="w-16 shrink-0"><CardImage card={r.card} /></Link>
             <div className="min-w-0 flex-1">
               <Link to={`/carte/${encodeURIComponent(r.card.id)}`} className="block truncate font-semibold">{r.card.name}</Link>
-              <div className="text-xs text-ink-2">{r.card.code} · {r.card.rarity} · {variantLabel(r.card.variant, r.card.variantKind)}</div>
+              <div className="text-xs text-ink-2">{r.card.code} · {r.card.rarity} · {cardVariantLabel(r.card)}</div>
               <div className="mt-1 text-sm"><b className="text-accent">{r.surplus} en surplus</b> · {r.unit == null ? 'Prix VF indisponible' : <>{fmtEur(r.unit)} l'unité → <b>{fmtEur(r.total)}</b></>}</div>
               <div className="mt-2 flex items-center justify-between">
                 <QtyControl cardId={r.card.id} />

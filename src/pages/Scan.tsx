@@ -10,6 +10,7 @@ import { buildNameIndex, normalizeName } from '../lib/names';
 import { fmtEur } from '../lib/format';
 import { addQty } from '../db';
 import type { Card, Hashes } from '../types';
+import { PREMIUM_PRINTING_NOTE, requiresPrintingChoice } from '../lib/printings';
 
 type Mode = 'camera' | 'result';
 /** 'bande' : photo rapprochée du bas de la carte (code + nom, fiable) ; 'carte' : carte entière (ressemblance d'image). */
@@ -152,7 +153,7 @@ export default function Scan() {
     // Présélection seulement si la carte ET sa version sont sans ambiguïté (les versions d'une même carte se ressemblent).
     const preselect = (ranked: Match[]) => {
       const [top, second] = ranked;
-      if (!userSelectedRef.current && top && confidence(top, ranked) === 'haute' && (!second || distance(second) - distance(top) >= 8)) setSelected(top.card);
+      if (!userSelectedRef.current && top && !requiresPrintingChoice(top.card, catalogue) && confidence(top, ranked) === 'haute' && (!second || distance(second) - distance(top) >= 8)) setSelected(top.card);
     };
     const first = rank(probes, hashes, catalogue.cards, { code: null, name: null });
     setMatches(first);
@@ -455,6 +456,7 @@ export default function Scan() {
 
       {mode === 'result' && (
         <div className="panel space-y-2">
+          {[...matches.map((m) => m.card), ...(band?.candidates ?? []), ...manualCards].some((c) => requiresPrintingChoice(c, catalogue)) && <p className="text-xs text-ink-2">{PREMIUM_PRINTING_NOTE}</p>}
           <div className="label">Pas dans la liste ? Saisir le code</div>
           <input className="input" placeholder="ex. OP09-001" value={manual} onChange={(e) => setManual(e.target.value)} autoCapitalize="characters" autoCorrect="off" />
           {manualCards.length > 0 && (

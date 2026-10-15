@@ -6,9 +6,11 @@ import { createMemoryRouter, RouterProvider } from 'react-router';
 import CardDetail from '../src/pages/CardDetail';
 import { DataProvider } from '../src/data/catalogue';
 import { db } from '../src/db';
-import type { Card, CmProduct } from '../src/types';
+import type { Card, CmProduct, Prices } from '../src/types';
 import { productUrl, searchUrl } from '../src/lib/cardmarket';
 import { applyFilters, DEFAULT_FILTERS } from '../src/lib/filters';
+import catalogueData from '../public/data/cards.json';
+import pricesData from '../public/data/prices.json';
 
 afterEach(async () => { cleanup(); vi.unstubAllGlobals(); await db.delete(); });
 
@@ -24,12 +26,12 @@ it('ouvre toute la fiche de la variante puis revient à la précédente sans mod
   vi.stubGlobal('scrollTo', scrollTo);
   await db.open();
   const card = { id: 'OP09-001', code: 'OP09-001', name: 'Shanks', variant: 0, variantKind: '', series: ['OP09'], colors: ['red'], type: 'LEADER', rarity: 'L', traits: [], effect: 'Effet de base' } as unknown as Card;
-  const alt = { ...card, id: 'OP09-001_p1', variant: 1, variantKind: 'p', effect: 'Effet alternatif' };
-  const cat = { cards: [card, alt], series: [{ id: 'OP09', code: 'OP09', name: 'Empereurs', cm: [5755] }] };
-  const cm = { products: { '802858': { id: 802858, code: card.code, exp: 5755, expName: 'Empereurs', version: 1 }, '802859': { id: 802859, code: card.code, exp: 5755, expName: 'Empereurs', version: 2 } }, byCode: { [card.code]: [802858, 802859] } };
+  const alt = { ...card, id: 'OP09-001_p1', variant: 1, variantKind: 'p', effect: 'Effet alternatif', series: ['OTHER'] };
+  const cat = { cards: [card, alt], series: [{ id: 'OP09', code: 'OP09', name: 'Empereurs', cm: [5755] }, { id: 'OTHER', code: 'OTHER', name: 'Autre édition', cm: [999] }] };
+  const cm = { products: { '802858': { id: 802858, code: card.code, exp: 5755, expName: 'Empereurs', version: 1 }, '802859': { id: 802859, code: card.code, exp: 999, expName: 'Autre édition', version: 2 } }, byCode: { [card.code]: [802858, 802859] } };
   const quote = { at: '2026-10-08', n: 1, from: 10, med: 10, nm: 10 };
   const prices = { source: 'cardtrader', currency: 'EUR', products: { '802858': quote, '802859': { ...quote, from: 50 } } };
-  // Associations choisies explicitement ; l'ordre des variantes ne suffit pas.
+  // Anciennes associations cohérentes avec deux éditions ici univoques.
   await db.overrides.bulkPut([{ cardId: card.id, productId: 802858 }, { cardId: alt.id, productId: 802859 }]);
   vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? cat : url.endsWith('prices-fr.json') ? prices : url.endsWith('prices.json') ? cm : { dates: [] } })));
   await db.collection.put({ cardId: card.id, qty: 2, updatedAt: Date.now() });
@@ -93,4 +95,72 @@ it('filtre selon le prix retenu et conserve les cartes possédées sans prix', (
   const cards = ['OP09-001', 'OP09-002', 'OP09-003'].map((id) => ({ id, variant: 0 } as Card));
   const ctx = { qty: () => 1, keep: 1, price: (c: Card) => c.id === 'OP09-003' ? null : 12.5 };
   expect(applyFilters(cards, { ...DEFAULT_FILTERS, owning: 'possedees', unpriced: true }, ctx)).toEqual([cards[2]]);
+});
+
+it.each([
+  ['OP03-079_p4', 799250, 'OP03-079_p3'],
+  ['OP06-065_p3', 799370, 'OP06-065_p2'],
+])('affiche la V.3 vérifiée de %s sans attribuer son prix au Jolly Roger', async (id, productId, jollyId) => {
+  vi.stubGlobal('scrollTo', vi.fn());
+  await db.open();
+  const quotes = { source: 'cardtrader', currency: 'EUR', products: { [productId]: { at: '2026-10-14', n: 1, from: 7.89 } } };
+  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? catalogueData : url.endsWith('prices-fr.json') ? quotes : url.endsWith('prices.json') ? pricesData : { dates: [] } })));
+  const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: [`/carte/${id}`] });
+  render(<RouterProvider router={router} />);
+  await screen.findByText('Cardmarket : V.3');
+  expect(screen.getByRole('link', { name: /Prix sur Cardmarket/ }).getAttribute('href')).toContain(`idProduct=${productId}`);
+  await screen.findByLabelText(/Version française : 7,89/);
+  expect(screen.getByText(/réimpression visuellement identique/)).toBeTruthy();
+  fireEvent.click(screen.getByRole('link', { name: new RegExp(`— ${jollyId}$`) }));
+  await screen.findByRole('link', { name: /Rechercher les versions sur Cardmarket/ });
+  expect(screen.queryByText('Cardmarket : V.3')).toBeNull();
+  const priceSection = screen.getByText('Prix par version · en €').closest('section')!;
+  expect(priceSection.textContent).not.toContain('7,89');
+  expect(await db.overrides.count()).toBe(0);
+});
+
+it.each([
+  ['OP03-079_p4', 799250],
+  ['OP06-065_p3', 799370],
+])('corrige le lien et le prix de %s malgré une ancienne association du même code', async (id, productId) => {
+  vi.stubGlobal('scrollTo', vi.fn());
+  await db.open();
+  const correct = (pricesData as Prices).products[productId];
+  const wrong = Object.values(pricesData.products).find((p) => p.code === correct.code && p.exp === correct.exp && p.id !== productId && !p.foreign)!;
+  const saved = { cardId: id, productId: wrong.id };
+  await db.overrides.put(saved);
+  const quote = { at: '2026-10-16', n: 1, from: 7.89 };
+  const quotes = { source: 'cardtrader', currency: 'EUR', products: { [productId]: quote, [wrong.id]: { ...quote, from: 99.99 } } };
+  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? catalogueData : url.endsWith('prices-fr.json') ? quotes : url.endsWith('prices.json') ? pricesData : { dates: [] } })));
+  const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: [`/carte/${id}`] });
+  render(<RouterProvider router={router} />);
+  await screen.findByText(/L’ancienne association enregistrée vise un autre produit/);
+  expect(screen.getByRole('link', { name: /Prix sur Cardmarket/ }).getAttribute('href')).toBe(`https://www.cardmarket.com/fr/OnePiece/Products?idProduct=${productId}&language=2`);
+  await screen.findByLabelText(/Version française : 7,89/);
+  const priceSection = screen.getByText('Prix par version · en €').closest('section')!;
+  expect(priceSection.textContent).not.toContain('99,99');
+  expect(screen.getByText('Cardmarket : V.3')).toBeTruthy();
+  // La correction ne détruit pas une donnée personnelle / synchronisée.
+  expect(await db.overrides.get(id)).toEqual(saved);
+});
+
+it.each(['OP01-006_p2', 'EB01-009_p1', 'OP09-001_p1'])('%s : une ancienne association ambiguë ne fournit ni lien direct ni prix', async (id) => {
+  vi.stubGlobal('scrollTo', vi.fn());
+  await db.open();
+  const card = catalogueData.cards.find((c) => c.id === id)!;
+  const series = catalogueData.series.find((s) => card.series.includes(s.id))!;
+  const candidate = Object.values(pricesData.products).find((p) => p.code === card.code && series.cm.includes(p.exp) && !p.foreign)!;
+  await db.overrides.put({ cardId: id, productId: candidate.id });
+  await db.collection.put({ cardId: id, qty: 2, updatedAt: Date.now() });
+  const quotes = { source: 'cardtrader', currency: 'EUR', products: { [candidate.id]: { at: '2026-10-16', n: 1, from: 99.99 } } };
+  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? catalogueData : url.endsWith('prices-fr.json') ? quotes : url.endsWith('prices.json') ? pricesData : { dates: [] } })));
+  const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: [`/carte/${id}`] });
+  render(<RouterProvider router={router} />);
+  await screen.findByText(/L’ancienne association enregistrée ne permet pas de confirmer/);
+  expect(screen.queryByRole('link', { name: /Prix sur Cardmarket/ })).toBeNull();
+  expect(screen.getByRole('link', { name: /Rechercher les versions sur Cardmarket/ }).getAttribute('href')).toBe(searchUrl(card.code));
+  expect(screen.getByText('Prix par version · en €').closest('section')!.textContent).not.toContain('99,99');
+  expect((await db.collection.get(id))?.qty).toBe(2);
+  expect((await db.overrides.get(id))?.productId).toBe(candidate.id);
+  expect(await db.snapshots.count()).toBe(0);
 });

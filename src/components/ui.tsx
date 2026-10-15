@@ -2,7 +2,8 @@ import { useEffect, useState, type ReactNode } from 'react';
 import { Link } from 'react-router';
 import type { Card } from '../types';
 import { useData, imageUrl } from '../data/catalogue';
-import { COLOR_CLASS, variantLabel } from '../lib/format';
+import { COLOR_CLASS } from '../lib/format';
+import { cardVariantLabel, printingFor } from '../lib/printings';
 import { addQty } from '../db';
 import LanguagePrices from './LanguagePrices';
 
@@ -45,7 +46,7 @@ export function CardTile({ card, showQty = true, selection }: { card: Card; show
         {showQty && qty > 0 && (
           <span className="absolute right-1 top-1 rounded-full bg-accent px-2 py-0.5 text-xs font-bold text-bg shadow">×{qty}</span>
         )}
-        {card.variant > 0 && (
+        {card.variant > 0 && !printingFor(card) && (
           <span className="absolute left-1 top-1 rounded bg-black/70 px-1.5 py-0.5 text-[10px] font-semibold text-white">{card.variantKind === 'r' ? 'R' : 'ALT'} {card.variant}</span>
         )}
         {selection && <span aria-hidden="true" className={`absolute bottom-2 right-2 flex h-8 w-8 items-center justify-center rounded-full border-2 shadow ${selection.selected.has(card.id) ? 'border-accent bg-accent text-bg' : 'border-white bg-bg/90 text-white'}`}>{selection.selected.has(card.id) ? '✓' : '+'}</span>}
@@ -56,6 +57,7 @@ export function CardTile({ card, showQty = true, selection }: { card: Card; show
           <span className="font-medium text-ink">{card.code}</span>
           <span className="flex items-center gap-1"><ColorDots colors={card.colors} />{card.rarity}</span>
         </div>
+        {printingFor(card) && <div className="text-xs text-ink-2">{cardVariantLabel(card)}</div>}
         <div className="border-t border-line pt-2 text-sm font-bold text-ink">
           <LanguagePrices card={card} />
         </div>
@@ -150,7 +152,7 @@ export function Sparkline({ values, className = 'h-16 w-full' }: { values: (numb
 }
 
 export function VariantBadge({ card }: { card: Card }) {
-  return <span className="rounded bg-bg-3 px-1.5 py-0.5 text-xs text-ink-2">{variantLabel(card.variant, card.variantKind)}</span>;
+  return <span className="rounded bg-bg-3 px-1.5 py-0.5 text-xs text-ink-2">{cardVariantLabel(card)}</span>;
 }
 
 export function Loading({ label = 'Chargement…' }: { label?: string }) {

@@ -82,6 +82,28 @@ describe('Scanner sans déclenchement', () => {
     expect(FakeWorker.instances[0].terminate).toHaveBeenCalled();
   });
 
+  it('ne présélectionne pas une finition premium sur une simple ressemblance parfaite', async () => {
+    const originalSeries = catalogue.series;
+    const originalCardSeries = card.series;
+    const originalCards = catalogue.cards;
+    catalogue.series = [{ id: 'PRB', code: 'PRB01', kind: 'premium', cm: [] }] as Catalogue['series'];
+    card.series = ['PRB'];
+    catalogue.cards = [card, { ...card, id: `${card.id}_p1`, variant: 1 }];
+    try {
+      await openCamera();
+      await detectCard();
+      expect(screen.getByText('Match 100%')).toBeTruthy();
+      expect(screen.queryByRole('button', { name: /Ajouter 1/ })).toBeNull();
+      expect(screen.getByText(/réimpression visuellement identique/)).toBeTruthy();
+      fireEvent.click(screen.getByRole('button', { name: /Luffy.*Match 100%/ }));
+      expect(screen.getByRole('button', { name: /Ajouter 1/ })).toBeTruthy();
+    } finally {
+      catalogue.series = originalSeries;
+      catalogue.cards = originalCards;
+      card.series = originalCardSeries;
+    }
+  });
+
   it('propose le bas après 20 secondes de caméra prête et y lit automatiquement le code', async () => {
     const rendered = render(<MemoryRouter><Scan /></MemoryRouter>);
     await act(async () => { await vi.advanceTimersByTimeAsync(25_000); });

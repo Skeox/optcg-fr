@@ -1,0 +1,54 @@
+{
+  "OP03-079_r1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "sources": ["https://fr.onepiece-cardgame.com/cardlist/?series=622301"]
+  },
+  "OP03-079_p3": {
+    "series": "622301",
+    "label": "Jolly Roger",
+    "base": false,
+    "sources": ["https://fr.onepiece-cardgame.com/cardlist/?series=622301"]
+  },
+  "OP03-079_p4": {
+    "series": "622301",
+    "label": "Illustration étendue",
+    "base": false,
+    "cardmarket": { "id": 799250, "expansion": 5805, "version": 3 },
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/en/OnePiece/Products/Singles/The-Best/Vergo-OP03-079-V3",
+      "https://www.tcggo.com/one-piece/one-piece-card-the-best/vergo-9"
+    ]
+  },
+  "OP06-065_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "sources": ["https://fr.onepiece-cardgame.com/cardlist/?series=622301"]
+  },
+  "OP06-065_p2": {
+    "series": "622301",
+    "label": "Jolly Roger",
+    "base": false,
+    "sources": ["https://fr.onepiece-cardgame.com/cardlist/?series=622301"]
+  },
+  "OP06-065_p3": {
+    "series": "622301",
+    "label": "Illustration étendue",
+    "base": false,
+    "cardmarket": { "id": 799370, "expansion": 5805, "version": 3 },
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/en/OnePiece/Products/Singles/The-Best/Vinsmoke-Niji-OP06-065-V3",
+      "https://www.tcggo.com/one-piece/one-piece-card-the-best/vinsmoke-niji-7"
+    ]
+  },
+  "OP06-065_p4": {
+    "series": "622301",
+    "label": "Illustration alternative",
+    "base": false,
+    "sources": ["https://fr.onepiece-cardgame.com/cardlist/?series=622301"]
+  }
+}

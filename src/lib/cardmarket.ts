@@ -1,4 +1,5 @@
 import type { Card, Catalogue, CmProduct, Prices, Series } from '../types';
+import { printingFor } from './printings';
 
 export const CM_LANG_FR = 2; // paramètre "language" de Cardmarket : 2 = français
 
@@ -50,6 +51,16 @@ export function candidatesFor(code: string, prices: Prices): CmProduct[] {
  * une correspondance d'illustration, même avec le même nombre de variantes.
  */
 export function defaultProductFor(card: Card, idx: Indexes, prices: Prices): { product: CmProduct; sure: boolean } | undefined {
+  const printing = printingFor(card);
+  const verified = printing?.cardmarket;
+  if (verified) {
+    const product = prices.products[verified.id];
+    // Un changement de catalogue ne doit pas rabattre une correspondance vérifiée
+    // sur une autre finition. Le rang interne product.version n'intervient jamais.
+    return product && product.code === card.code && !product.foreign && product.exp === verified.expansion
+      && idx.seriesById.get(printing.series)?.cm.includes(product.exp)
+      ? { product, sure: true } : undefined;
+  }
   const all = candidatesFor(card.code, prices).filter((p) => !p.foreign);
   const siblingsAll = idx.byCode.get(card.code) ?? [card];
   const candidates = new Map<number, CmProduct>();
@@ -64,4 +75,14 @@ export function defaultProductFor(card: Card, idx: Indexes, prices: Prices): { p
   }
   if (candidates.size !== 1) return undefined;
   return { product: [...candidates.values()][0], sure: true };
+}
+
+/** Une association sauvegardée n'est pas une preuve de finition (anciens imports compris). */
+export function resolveProductFor(card: Card, idx: Indexes, prices: Prices, storedId?: number) {
+  const match = defaultProductFor(card, idx, prices);
+  return {
+    match,
+    storedStatus: storedId == null ? 'none' as const
+      : match?.product.id === storedId ? 'confirmed' as const : 'ignored' as const,
+  };
 }

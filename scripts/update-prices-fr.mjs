@@ -40,7 +40,15 @@ async function get(pathname, params = {}) {
     await new Promise((resolve) => setTimeout(resolve, Math.max(0, 1100 - (Date.now() - lastCall))));
     lastCall = Date.now();
     calls++;
-    const res = await fetch(url, { headers: { Authorization: `Bearer ${TOKEN}`, Accept: 'application/json' }, signal: AbortSignal.timeout(30_000) });
+    let res;
+    try {
+      res = await fetch(url, { headers: { Authorization: `Bearer ${TOKEN}`, Accept: 'application/json' }, signal: AbortSignal.timeout(30_000) });
+    } catch (error) {
+      if (attempt >= 4) throw error;
+      await new Promise((r) => setTimeout(r, 2000 * (attempt + 1)));
+      continue;
+    }
+    if (res.status >= 500 && attempt < 4) { await new Promise((r) => setTimeout(r, 2000 * (attempt + 1))); continue; }
     if (res.status === 429 && attempt < 5) { await new Promise((r) => setTimeout(r, 2000 * (attempt + 1))); continue; }
     if (!res.ok) throw new Error(`${url.pathname} -> HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
     return res.json();

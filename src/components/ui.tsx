@@ -1,4 +1,4 @@
-import { useEffect, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Link } from 'react-router';
 import type { Card } from '../types';
 import { useData, imageUrl } from '../data/catalogue';
@@ -69,14 +69,22 @@ export function CardTile({ card, showQty = true, selection }: { card: Card; show
   ) : <Link to={`/carte/${encodeURIComponent(card.id)}`} className={className + 'border-line'}>{content}</Link>;
 }
 
-export function CardGrid({ cards, pageSize = 60, selection }: { cards: Card[]; pageSize?: number; selection?: CardSelection }) {
+export function CardGrid({ cards, pageSize = 60, selection, quantityControls = false }: { cards: Card[]; pageSize?: number; selection?: CardSelection; quantityControls?: boolean }) {
   const [limit, setLimit] = useState(pageSize);
-  useEffect(() => setLimit(pageSize), [cards, pageSize]);
+  const resultIds = cards.map((card) => card.id).join('|');
+  useEffect(() => setLimit(pageSize), [resultIds, pageSize]);
   const shown = cards.slice(0, limit);
   return (
     <>
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        {shown.map((c) => <CardTile key={c.id} card={c} selection={selection} />)}
+        {shown.map((c) => quantityControls ? (
+          <div key={c.id} className="flex min-w-0 flex-col gap-1">
+            <CardTile card={c} selection={selection} />
+            <div className="flex justify-center">
+              <QtyControl cardId={c.id} subtle label={`${c.name} (${c.id})`} disabled={selection?.disabled} />
+            </div>
+          </div>
+        ) : <CardTile key={c.id} card={c} selection={selection} />)}
       </div>
       {cards.length === 0 && <p className="py-10 text-center text-ink-2">Aucune carte.</p>}
       {limit < cards.length && (
@@ -90,15 +98,36 @@ export function CardGrid({ cards, pageSize = 60, selection }: { cards: Card[]; p
   );
 }
 
-export function QtyControl({ cardId, big = false }: { cardId: string; big?: boolean }) {
+export function QtyControl({ cardId, big = false, subtle = false, label, disabled = false }: { cardId: string; big?: boolean; subtle?: boolean; label?: string; disabled?: boolean }) {
   const { owned } = useData();
   const qty = owned.get(cardId)?.qty ?? 0;
-  const btn = big ? 'h-12 w-12 text-2xl' : 'h-9 w-9 text-lg';
+  const busy = useRef(false);
+  const [saving, setSaving] = useState(false);
+  const [error, setError] = useState('');
+  const change = async (delta: number) => {
+    if (busy.current || disabled) return;
+    busy.current = true;
+    setSaving(true);
+    setError('');
+    try {
+      await addQty(cardId, delta);
+    } catch {
+      setError('Modification impossible. Réessayez.');
+    } finally {
+      busy.current = false;
+      setSaving(false);
+    }
+  };
+  const btn = `${subtle ? 'h-11 w-11 text-lg text-ink-2 hover:bg-bg-3 hover:text-ink' : big ? 'h-12 w-12 text-2xl' : 'h-9 w-9 text-lg'} rounded-full font-bold disabled:opacity-30 focus-visible:outline-2 focus-visible:outline-accent`;
+  const suffix = label ? ` de ${label}` : '';
   return (
-    <div className="inline-flex items-center gap-2">
-      <button className={`${btn} rounded-full border border-line bg-bg-3 font-bold`} onClick={() => addQty(cardId, -1)} disabled={qty === 0} aria-label="Retirer un exemplaire">−</button>
-      <span className={`${big ? 'min-w-10 text-2xl' : 'min-w-6 text-base'} text-center font-bold`}>{qty}</span>
-      <button className={`${btn} rounded-full bg-accent font-bold text-bg`} onClick={() => addQty(cardId, 1)} aria-label="Ajouter un exemplaire">+</button>
+    <div>
+      <div className={`inline-flex items-center ${subtle ? 'gap-0 text-ink-2' : 'gap-2'}`} role="group" aria-label={`Quantité dans la collection${suffix}`} aria-busy={saving}>
+        <button type="button" className={`${btn} ${subtle ? '' : 'border border-line bg-bg-3'}`} onClick={() => change(-1)} disabled={disabled || saving || qty === 0} aria-label={`Retirer un exemplaire${suffix}`}>−</button>
+        <span className={`${big ? 'min-w-10 text-2xl' : subtle ? 'min-w-6 text-sm' : 'min-w-6 text-base'} text-center tabular-nums ${subtle ? '' : 'font-bold'}`} aria-live="polite">{qty}</span>
+        <button type="button" className={`${btn} ${subtle ? '' : 'bg-accent text-bg'}`} onClick={() => change(1)} disabled={disabled || saving} aria-label={`Ajouter un exemplaire${suffix}`}>+</button>
+      </div>
+      {error && <p role="alert" className="text-xs text-bad">{error}</p>}
     </div>
   );
 }

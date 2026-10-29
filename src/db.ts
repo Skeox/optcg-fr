@@ -107,6 +107,21 @@ export async function addCards(cardIds: string[]) {
   });
 }
 
+/** Retire au plus un exemplaire par carte et sauvegarde tout le lot ensemble. */
+export async function removeCards(cardIds: string[]) {
+  return db.transaction('rw', db.collection, db.pendingChanges, async () => {
+    let removed = 0;
+    for (const cardId of new Set(cardIds)) {
+      validCardId(cardId);
+      const cur = await db.collection.get(cardId);
+      if (!cur?.qty) continue;
+      await writeQty(cardId, cur.qty - 1, cur.qty);
+      removed++;
+    }
+    return removed;
+  });
+}
+
 export async function saveOverride(cardId: string, productId: number | null) {
   validCardId(cardId);
   if (productId != null && (!Number.isSafeInteger(productId) || productId < 1)) throw new Error('Produit invalide');

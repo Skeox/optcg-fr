@@ -7,7 +7,8 @@ import ExtensionCheck from '../components/ExtensionCheck';
 import { fmtDate } from '../lib/format';
 
 export default function Settings() {
-  const { catalogue, prices, pricesFr, reload, owned } = useData();
+  const { catalogue, prices, pricesFr, reload, owned, frFor } = useData();
+  const covered = catalogue?.cards.filter(card => frFor(card)).length ?? 0;
   const [toast, show] = useToast();
   const file = useRef<HTMLInputElement>(null);
   const [mode, setMode] = useState<'merge' | 'replace'>('merge');
@@ -63,7 +64,8 @@ export default function Settings() {
       <section className="panel space-y-2 text-sm">
         <div className="font-bold">Données</div>
         <div className="text-ink-2">Catalogue FR : {catalogue?.cards.length} variantes, généré le {fmtDate(catalogue?.generatedAt)}</div>
-        <div className="text-ink-2">Prix CardTrader français : {pricesFr ? `${Object.keys(pricesFr.products).length} produits · relevé du ${fmtDate(pricesFr.updatedAt)}` : 'Relevé indisponible'} · minimum en euros, hors frais de port</div>
+        <div className="text-ink-2">Prix Cardmarket français : {pricesFr ? `${Object.keys(pricesFr.products).length} produits · relevé du ${fmtDate(pricesFr.updatedAt)}` : 'Relevé indisponible'} · moyenne de 5 vendeurs, NM/MT, hors port</div>
+        <div className="text-ink-2">Couverture actuelle : {covered} / {catalogue?.cards.length ?? 0} cartes avec un prix automatique exploitable. Les autres restent sans estimation automatique.</div>
         <div className="text-ink-2">Catalogue Cardmarket : {prices?.count} produits, utilisé pour les liens et les associations de versions.</div>
         <button className="btn-ghost w-full" onClick={reload}>Recharger les données</button>
       </section>
@@ -75,7 +77,7 @@ export default function Settings() {
 
       <section className="panel space-y-1 text-xs text-ink-2">
         <div className="font-bold text-ink">À propos</div>
-        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha, CardTrader ou Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Les drapeaux indiquent la langue physique de la carte (FR, EN, JP), jamais le pays du vendeur. Prix : minimums CardTrader en euros, tous états, hors port. Les prix inconnus sont masqués. Votre prix manuel est prioritaire sur le prix automatique français pour la valeur de collection. Les cartes sans aucun de ces prix sont exclues et comptées séparément. Les courbes CardTrader restent des relevés automatiques. Les liens Cardmarket ouvrent les annonces françaises.</p>
+        <p>Application personnelle, non affiliée à Bandai, Eiichiro Oda / Shueisha, CardTrader ou Cardmarket. Données cartes et images : site officiel One Piece Card Game (version française). Prix : moyenne des 5 offres Cardmarket françaises les moins chères relevées auprès de vendeurs différents, en état NM/MT et hors port. Ce sont des prix demandés, pas une moyenne de ventes. Le français désigne la langue physique de la carte, jamais le pays du vendeur. Sans cinq offres vérifiées ou après 45 jours, le prix est indisponible. Le prix manuel reste prioritaire. Les cartes sans prix sont exclues du total et comptées séparément. Les courbes conservent uniquement les nouveaux relevés Cardmarket FR.</p>
       </section>
       <Toast msg={toast} />
     </div>

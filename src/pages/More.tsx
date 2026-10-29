@@ -24,7 +24,7 @@ export default function More() {
         </Link>
       ))}
       <p className="pt-4 text-xs text-ink-2">
-        Catalogue officiel FR du {fmtDate(catalogue?.generatedAt)} · {catalogue?.cards.length} variantes · Prix CardTrader FR du {fmtDate(pricesFr?.updatedAt)}.
+        Catalogue officiel FR du {fmtDate(catalogue?.generatedAt)} · {catalogue?.cards.length} variantes · Prix Cardmarket FR du {fmtDate(pricesFr?.updatedAt)}.
       </p>
     </div>
   );

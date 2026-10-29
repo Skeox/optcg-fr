@@ -41,13 +41,22 @@ export default function Home() {
       if (p) qtyByProduct.set(p.id, (qtyByProduct.get(p.id) ?? 0) + e.qty);
     }
     const byDate = new Map<string, number>();
+    const coverage = new Map<string, Set<number>>();
     for (const s of snapshots) {
       const q = qtyByProduct.get(s.productId);
-      const v = s.ctFr;
+      const v = s.cmFr;
       if (!q || v == null) continue;
       byDate.set(s.date, (byDate.get(s.date) ?? 0) + q * v);
+      const ids = coverage.get(s.date) ?? new Set<number>();
+      ids.add(s.productId); coverage.set(s.date, ids);
     }
-    const dates = [...byDate.keys()].sort();
+    // Never turn a change of quote coverage into an apparent market gain/loss.
+    const allDates = [...byDate.keys()].sort();
+    const latestIds = coverage.get(allDates.at(-1) ?? '');
+    const dates = allDates.filter(date => {
+      const ids = coverage.get(date)!;
+      return latestIds && ids.size === latestIds.size && [...ids].every(id => latestIds.has(id));
+    });
     return { dates, values: dates.map((d) => byDate.get(d)!) };
   }, [idx, owned, productFor, snapshots]);
 
@@ -65,9 +74,9 @@ export default function Home() {
         <p className="mt-1 text-xs text-ink-2">{stats.unpriced} carte(s) sans prix{stats.unpriced > 0 ? ', exclue(s) du total' : ''}.</p>
         <div className="mt-1 text-sm text-ink-2">
           {stats.copies} exemplaires · {stats.unique} cartes différentes
-          {delta != null && <span className={`ml-2 font-semibold ${delta >= 0 ? 'text-ok' : 'text-bad'}`}>{fmtPct(delta)} CardTrader depuis le {fmtDate(curve.dates[0])}</span>}
+          {delta != null && <span className={`ml-2 font-semibold ${delta >= 0 ? 'text-ok' : 'text-bad'}`}>{fmtPct(delta)} Cardmarket depuis le {fmtDate(curve.dates[0])}</span>}
         </div>
-        <p className="mt-2 text-[11px] text-ink-2">Historique des prix automatiques CardTrader FR</p>
+        <p className="mt-2 text-[11px] text-ink-2">Historique des prix automatiques Cardmarket FR</p>
         <Sparkline values={curve.values} className="mt-3 h-20 w-full" />
       </div>
 

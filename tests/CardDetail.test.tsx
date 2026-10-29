@@ -34,7 +34,7 @@ it('ouvre toute la fiche de la variante puis revient à la précédente sans mod
   const prices = { source: 'cardtrader', currency: 'EUR', products: { '802858': quote, '802859': { ...quote, from: 50 } } };
   // Anciennes associations cohérentes avec deux éditions ici univoques.
   await db.overrides.bulkPut([{ cardId: card.id, productId: 802858 }, { cardId: alt.id, productId: 802859 }]);
-  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? cat : url.endsWith('prices-fr.json') ? prices : url.endsWith('prices.json') ? cm : { dates: [] } })));
+  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? cat : url.endsWith('prices-cardmarket-fr.json') ? cmQuotes(prices) : url.endsWith('prices.json') ? cm : { dates: [] } })));
   await db.collection.put({ cardId: card.id, qty: 2, updatedAt: Date.now() });
   const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: ['/carte/OP09-001'] });
   render(<RouterProvider router={router} />);
@@ -82,13 +82,13 @@ it('ouvre une recherche et masque les prix quand la version exacte est ambiguë'
   const products = [802858, 802859].map((id, i) => ({ id, code: card.code, exp: 5755, version: i + 1 }));
   const cm = { products: Object.fromEntries(products.map((p) => [p.id, p])), byCode: { [card.code]: products.map((p) => p.id) } };
   const quotes = { source: 'cardtrader', currency: 'EUR', products: { '802858': { at: '2026-10-08', n: 1, from: 10 }, '802859': { at: '2026-10-08', n: 1, from: 50 } } };
-  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? cat : url.endsWith('prices-fr.json') ? quotes : url.endsWith('prices.json') ? cm : { dates: [] } })));
+  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? cat : url.endsWith('prices-cardmarket-fr.json') ? cmQuotes(quotes) : url.endsWith('prices.json') ? cm : { dates: [] } })));
   const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: ['/carte/OP09-001_p1'] });
   render(<RouterProvider router={router} />);
   await screen.findByText('Correspondance Cardmarket exacte non confirmée.', { exact: false });
   expect(screen.getByRole('link', { name: /Rechercher les versions sur Cardmarket/ }).getAttribute('href')).toBe(searchUrl(card.code));
   expect(screen.queryByRole('link', { name: /Prix sur Cardmarket/ })).toBeNull();
-  expect(screen.queryByText('Évolution du minimum CardTrader VF')).toBeNull();
+  expect(screen.queryByText('Évolution de l’estimation Cardmarket FR')).toBeNull();
   expect(screen.queryByLabelText(/Version française : (10|50)/)).toBeNull();
 });
 
@@ -105,7 +105,7 @@ it.each([
   vi.stubGlobal('scrollTo', vi.fn());
   await db.open();
   const quotes = { source: 'cardtrader', currency: 'EUR', products: { [productId]: { at: '2026-10-14', n: 1, from: 7.89 } } };
-  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? catalogueData : url.endsWith('prices-fr.json') ? quotes : url.endsWith('prices.json') ? pricesData : { dates: [] } })));
+  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? catalogueData : url.endsWith('prices-cardmarket-fr.json') ? cmQuotes(quotes) : url.endsWith('prices.json') ? pricesData : { dates: [] } })));
   const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: [`/carte/${id}`] });
   render(<RouterProvider router={router} />);
   await screen.findByText('Cardmarket : V.3');
@@ -133,7 +133,7 @@ it.each([
   await db.overrides.put(saved);
   const quote = { at: '2026-10-16', n: 1, from: 7.89 };
   const quotes = { source: 'cardtrader', currency: 'EUR', products: { [productId]: quote, [wrong.id]: { ...quote, from: 99.99 } } };
-  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? catalogueData : url.endsWith('prices-fr.json') ? quotes : url.endsWith('prices.json') ? pricesData : { dates: [] } })));
+  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? catalogueData : url.endsWith('prices-cardmarket-fr.json') ? cmQuotes(quotes) : url.endsWith('prices.json') ? pricesData : { dates: [] } })));
   const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: [`/carte/${id}`] });
   render(<RouterProvider router={router} />);
   await screen.findByText(/L’ancienne association enregistrée vise un autre produit/);
@@ -156,7 +156,7 @@ it.each(['OP01-006_p2', 'EB01-009_p1', 'OP09-001_p1'])('%s : une ancienne associ
   await db.overrides.put({ cardId: id, productId: candidate.id });
   await db.collection.put({ cardId: id, qty: 2, updatedAt: Date.now() });
   const quotes = { source: 'cardtrader', currency: 'EUR', products: { [candidate.id]: { at: '2026-10-16', n: 1, from: 99.99 } } };
-  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? catalogueData : url.endsWith('prices-fr.json') ? quotes : url.endsWith('prices.json') ? pricesData : { dates: [] } })));
+  vi.stubGlobal('fetch', vi.fn(async (url: string) => ({ ok: true, json: async () => url.endsWith('cards.json') ? catalogueData : url.endsWith('prices-cardmarket-fr.json') ? cmQuotes(quotes) : url.endsWith('prices.json') ? pricesData : { dates: [] } })));
   const router = createMemoryRouter([{ path: '/carte/:id', element: <DataProvider><CardDetail /></DataProvider> }], { initialEntries: [`/carte/${id}`] });
   render(<RouterProvider router={router} />);
   await screen.findByText(/L’ancienne association enregistrée vise un autre produit/);
@@ -166,3 +166,8 @@ it.each(['OP01-006_p2', 'EB01-009_p1', 'OP09-001_p1'])('%s : une ancienne associ
   expect((await db.overrides.get(id))?.productId).toBe(candidate.id);
   expect(await db.snapshots.count()).toBe(0);
 });
+
+function cmQuotes(legacy: { products: Record<string, { from: number }> }) {
+  return { source: 'cardmarket', currency: 'EUR', language: 'fr', method: 'five-lowest-distinct-sellers-nm-v1', updatedAt: new Date().toISOString(),
+    products: Object.fromEntries(Object.entries(legacy.products).map(([id, q]) => [id, { productId: Number(id), at: new Date().toISOString(), status: 'quoted', average: q.from, sellers: 5, sample: Array(5).fill(Math.round(q.from * 100)), url: '' }])) };
+}

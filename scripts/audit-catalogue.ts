@@ -8,15 +8,17 @@ import * as cheerio from 'cheerio';
 import { buildIndexes, defaultProductFor, resolveProductFor, productUrl, searchUrl } from '../src/lib/cardmarket';
 import { merchantMappingFor, blueprintFor } from '../src/lib/merchant-mappings';
 import { quoteForPrinting } from '../src/lib/cardtrader';
+import { cardmarketFrenchQuote, CM_FR_METHOD } from '../src/lib/cardmarket-fr';
 import { blueprintSignature } from './lib/merchant-evidence.mjs';
 import { basePrintingsInSeries, printingFor } from '../src/lib/printings';
-import type { Catalogue, Prices, PricesFr } from '../src/types';
+import type { Catalogue, Prices, PricesFr, CmFrenchPrices } from '../src/types';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (file: string) => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 const catalogue = read('public/data/cards.json') as Catalogue;
 const prices = read('public/data/prices.json') as Prices;
 const quotes = read('public/data/prices-fr.json') as PricesFr;
+const french = read('public/data/prices-cardmarket-fr.json') as CmFrenchPrices;
 const reviews = read('src/data/printing-reviews.json');
 const overrides = read('src/data/card-printings.json');
 const merchantMappings = read('src/data/cardmarket-mappings.json');
@@ -126,6 +128,7 @@ const cardChecks = catalogue.cards.map((card) => {
     card: card.id, code: card.code, series: card.series,
     status: expected ? printingFor(card)?.cardmarket ? 'verified' : 'unique-in-expansion' : 'unresolved',
     product: expected?.product.id ?? null,
+    cardmarketFR: cardmarketFrenchQuote(french, expected?.product.id)?.average ?? null,
     link: expected ? productUrl(expected.product) : searchUrl(card.code),
     pricesByLanguage: Object.fromEntries((['fr', 'en', 'ja'] as const).map((language) => [language,
       quoteForPrinting(quotes, card, expected?.product.id, language)?.from ?? null])),
@@ -211,6 +214,17 @@ if (online || cached) {
       checkedProducts: Object.keys(prices.products).length, mismatches, missingProducts };
   } catch (error) { issues.push(`Vérification Cardmarket impossible (${String(error)})`); }
 }
+check(french.source === 'cardmarket' && french.currency === 'EUR' && french.language === 'fr' && french.method === CM_FR_METHOD, 'Source des prix FR invalide');
+for (const [key, quote] of Object.entries(french.products)) {
+  check(String(quote.productId) === key && cardChecks.some(c => c.product === quote.productId), `Prix FR sans produit confirmé : ${key}`);
+  check(Number.isFinite(Date.parse(quote.at)) && Date.parse(quote.at) <= Date.now() + 300_000, `Date de prix FR invalide : ${key}`);
+  const url = new URL(quote.url);
+  check(url.origin === 'https://www.cardmarket.com' && url.pathname.startsWith('/fr/OnePiece/Products/Singles/') && url.searchParams.get('language') === '2', `Source de relevé FR invalide : ${key}`);
+  check(quote.status === 'quoted'
+    ? !!cardmarketFrenchQuote(french, quote.productId, Date.parse(quote.at))
+    : quote.status === 'insufficient' && quote.average === null && quote.sellers < 5 && quote.sellers >= 0 && quote.sample.length === quote.sellers,
+  `Échantillon de prix FR invalide : ${key}`);
+}
 const report = {
   generatedAt: new Date().toISOString(), catalogueAt: catalogue.generatedAt, pricesAt: prices.updatedAt,
   reviewAt: reviews.reviewedAt, officialMode: online ? 'online' : cached ? 'cached' : 'not-requested',
@@ -218,7 +232,8 @@ const report = {
     resolved: series.reduce((n, s) => n + s.resolved.length, 0), unresolved: series.reduce((n, s) => n + s.unresolved.length, 0),
     directBlueprints: Object.keys(directMappings).length,
     merchantResolved: cardChecks.filter((c) => c.product || c.blueprint).length,
-    pricesFR: cardChecks.filter((c) => c.pricesByLanguage.fr != null).length },
+    pricesFR: cardChecks.filter((c) => c.cardmarketFR != null).length,
+    archivedCardtraderFR: cardChecks.filter((c) => c.pricesByLanguage.fr != null).length },
   issues, series, official: official.sort((a, b) => a.series.localeCompare(b.series)), merchant,
   legacySafety, cardChecks, priceEvidence,
 };
@@ -226,7 +241,7 @@ const output = path.join(cache, 'report.json');
 fs.writeFileSync(output, JSON.stringify(report, null, 2) + '\n');
 console.table(series.map((s) => ({ collection: s.code, variantes: s.variants, bases: s.basePrintings,
   liensCardmarket: s.resolved.length, liensNonConfirmes: s.unresolved.length,
-  prixFR: cardChecks.filter((c) => c.series.includes(s.id) && c.pricesByLanguage.fr != null).length })));
+  prixFR: cardChecks.filter((c) => c.series.includes(s.id) && c.cardmarketFR != null).length })));
 console.log(JSON.stringify(report.totals));
 console.log(JSON.stringify({ legacySafety: { ...legacySafety, bySeries: undefined } }));
 console.log(`Rapport : ${output}`);

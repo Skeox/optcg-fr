@@ -91,6 +91,26 @@ export interface PricesFr {
 
 export type CardLanguage = 'fr' | 'en' | 'ja';
 
+export interface CmFrenchQuote {
+  productId: number;
+  at: string;
+  status: 'quoted' | 'insufficient';
+  average: number | null;
+  sellers: number;
+  /** Unit prices in euro cents, one per seller. No seller identities published. */
+  sample: number[];
+  url: string;
+}
+
+export interface CmFrenchPrices {
+  source: 'cardmarket';
+  currency: 'EUR';
+  language: 'fr';
+  method: 'five-lowest-distinct-sellers-nm-v1';
+  updatedAt: string | null;
+  products: Record<string, CmFrenchQuote>;
+}
+
 export interface History {
   dates: string[];
   trend: Record<string, (number | null)[]>; // centimes

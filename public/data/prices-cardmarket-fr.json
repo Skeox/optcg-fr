@@ -1,0 +1,69 @@
+{
+  "source": "cardmarket",
+  "currency": "EUR",
+  "language": "fr",
+  "method": "five-lowest-distinct-sellers-nm-v1",
+  "updatedAt": "2026-10-29T23:34:00.306Z",
+  "products": {
+    "799370": {
+      "productId": 799370,
+      "at": "2026-10-29T23:33:40.758Z",
+      "status": "quoted",
+      "average": 3.8,
+      "sellers": 5,
+      "sample": [
+        350,
+        350,
+        400,
+        400,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Niji-OP06-065-V3?language=2"
+    },
+    "802858": {
+      "productId": 802858,
+      "at": "2026-10-29T23:34:00.306Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Shanks-OP09-001-V1?language=2"
+    },
+    "829117": {
+      "productId": 829117,
+      "at": "2026-10-29T23:33:59.109Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Bartolomeo-OP07-031?language=2"
+    },
+    "852533": {
+      "productId": 852533,
+      "at": "2026-10-29T23:33:58.432Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best-Vol2/Jinbe-PRB02-007-V1?language=2"
+    }
+  }
+}

@@ -1,8 +1,8 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
-import type { Card, CardLanguage, Catalogue, CmProduct, Hashes, History, PriceFr, Prices, PricesFr } from '../types';
+import type { Card, CardLanguage, Catalogue, CmProduct, CmFrenchPrices, CmFrenchQuote, Hashes, History, Prices } from '../types';
 import { buildIndexes, resolveProductFor, type Indexes } from '../lib/cardmarket';
-import { quoteForPrinting } from '../lib/cardtrader';
+import { cardmarketFrenchQuote } from '../lib/cardmarket-fr';
 import { db, type CollectionEntry, type CmOverride, type VfPrice } from '../db';
 
 const BASE = import.meta.env.BASE_URL;
@@ -28,16 +28,16 @@ export interface DataCtx {
   productFor: (card: Card) => CmProduct | undefined;
   /** false si l'association automatique carte FR ↔ produit Cardmarket est douteuse */
   mappingSure: (card: Card) => boolean;
-  /** Relevé CardTrader des annonces françaises, en euros. */
-  frFor: (card: Card) => PriceFr | undefined;
-  quoteFor: (card: Card, language: CardLanguage) => PriceFr | undefined;
+  /** Moyenne de cinq vendeurs Cardmarket, cartes physiques FR en NM/MT. */
+  frFor: (card: Card) => CmFrenchQuote | undefined;
+  quoteFor: (card: Card, language: CardLanguage) => CmFrenchQuote | undefined;
   /** prix VF saisi à la main dans l'app pour cette carte */
   manualFr: Map<string, VfPrice>;
-  /** Prix manuel prioritaire, sinon minimum CardTrader VF ; jamais de repli EN/JP. */
+  /** Prix manuel prioritaire, sinon estimation Cardmarket FR ; jamais de repli EN/JP. */
   priceFor: (card: Card) => number | null;
   /** Origine du prix retenu pour valoriser cette variante. */
   priceKind: (card: Card) => 'manual' | 'vf' | null;
-  pricesFr: PricesFr | null;
+  pricesFr: CmFrenchPrices | null;
   hashes: () => Promise<Hashes>;
 }
 
@@ -52,7 +52,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const [catalogue, setCatalogue] = useState<Catalogue | null>(null);
   const [prices, setPrices] = useState<Prices | null>(null);
   const [history, setHistory] = useState<History | null>(null);
-  const [pricesFr, setPricesFr] = useState<PricesFr | null>(null);
+  const [pricesFr, setPricesFr] = useState<CmFrenchPrices | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [tick, setTick] = useState(0);
@@ -68,7 +68,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
         setPrices(pr);
         setError(null);
         loadJson<History>('history.json').then((h) => !cancelled && setHistory(h)).catch(() => undefined);
-        loadJson<PricesFr>('prices-fr.json').then((f) => !cancelled && setPricesFr(f)).catch(() => undefined);
+        loadJson<CmFrenchPrices>('prices-cardmarket-fr.json').then((f) => !cancelled && setPricesFr(f)).catch(() => undefined);
       } catch (e) {
         if (!cancelled) setError((e as Error).message);
       } finally {
@@ -101,10 +101,10 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
   const quoteFor = useMemo(() => (card: Card, language: CardLanguage) => {
     const p = productFor(card);
-    return quoteForPrinting(pricesFr, card, p?.id, language);
-  }, [productFor, pricesFr]);
+    return language === 'fr' && mappingSure(card) ? cardmarketFrenchQuote(pricesFr, p?.id) : undefined;
+  }, [productFor, mappingSure, pricesFr]);
   const frFor = useMemo(() => (card: Card) => quoteFor(card, 'fr'), [quoteFor]);
-  const priceFor = useMemo(() => (card: Card) => manualFr.get(card.id)?.price ?? frFor(card)?.from ?? null, [manualFr, frFor]);
+  const priceFor = useMemo(() => (card: Card) => manualFr.get(card.id)?.price ?? frFor(card)?.average ?? null, [manualFr, frFor]);
   const priceKind = useMemo(() => (card: Card): 'manual' | 'vf' | null => manualFr.has(card.id) ? 'manual' : frFor(card) ? 'vf' : null, [manualFr, frFor]);
 
   // Instantané quotidien des prix des cartes possédées (suivi local, indépendant du serveur).
@@ -117,8 +117,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
         const p = card && productFor(card);
         if (!p || !card || !frFor(card)) continue;
         // Date du relevé réel : ne pas faire passer une ancienne saisie pour un prix du jour.
-        const date = frFor(card)!.at;
-        rows.push({ key: `cardtrader|${p.id}|${date}`, productId: p.id, date, trend: null, low: null, ctFr: frFor(card)!.from });
+        const date = frFor(card)!.at.slice(0, 10);
+        rows.push({ key: `cardmarket-fr-mean5|${p.id}|${date}`, productId: p.id, date, trend: null, low: null, cmFr: frFor(card)!.average });
       }
       if (rows.length) await db.snapshots.bulkPut(rows);
     })().catch(() => undefined);

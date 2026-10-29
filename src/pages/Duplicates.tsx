@@ -31,14 +31,14 @@ export default function Duplicates() {
   const unpriced = rows.filter((r) => r.unit == null).length;
 
   const copyList = async () => {
-    const lines = rows.map((r) => `${r.surplus}x ${r.card.name} (${r.card.code}${r.card.variant ? ` ${cardVariantLabel(r.card)}` : ''}) FR — ${r.unit == null ? 'prix VF indisponible' : `minimum CardTrader VF ${fmtEur(r.unit)}`}`);
+    const lines = rows.map((r) => `${r.surplus}x ${r.card.name} (${r.card.code}${r.card.variant ? ` ${cardVariantLabel(r.card)}` : ''}) FR — ${r.unit == null ? 'prix VF indisponible' : `prix manuel ou estimation FR ${fmtEur(r.unit)}`}`);
     const text = `Doublons One Piece Card Game (VF) — ${count} cartes, prix manuels ou FR : ${fmtEur(total)} (${unpriced} variante(s) sans prix)\n\n${lines.join('\n')}`;
     try { await navigator.clipboard.writeText(text); show('Liste copiée'); } catch { show('Copie impossible'); }
   };
 
   const exportCsv = () => {
     const esc = (s: string) => `"${s.replace(/"/g, '""')}"`;
-    const csv = ['code;variante;nom;rarete;possedes;surplus;prix_mini_cardtrader_fr;url_cardmarket']
+    const csv = ['code;variante;nom;rarete;possedes;surplus;prix_unitaire_fr;url_cardmarket']
       .concat(rows.map((r) => [r.card.code, r.card.id, esc(r.card.name), r.card.rarity, r.qty, r.surplus, r.unit ?? '', r.product ? productUrl(r.product) : ''].join(';')))
       .join('\n');
     const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' });

@@ -37,7 +37,7 @@ function CardVersionDetail({ id }: { id: string }) {
   const curve = useMemo(() => {
     if (!product) return [] as (number | null)[];
     const pts = new Map<string, number>();
-    for (const s of snaps) { if (s.ctFr != null) pts.set(s.date, s.ctFr); }
+    for (const s of snaps) { if (s.cmFr != null) pts.set(s.date, s.cmFr); }
     return [...pts.keys()].sort().map((d) => pts.get(d)!);
   }, [product, snaps]);
 
@@ -77,7 +77,8 @@ function CardVersionDetail({ id }: { id: string }) {
       <section className="panel space-y-3">
         <div className="label">Prix par version · en €</div>
         <LanguagePrices card={card} />
-        <p className="text-[11px] text-ink-2">Prix automatiques : CardTrader{quote ? ` · ${fmtDate(quote.at)}` : ''} · hors port</p>
+        <p className="text-[11px] text-ink-2">Prix automatiques : Cardmarket{quote ? ` · ${fmtDate(quote.at)}` : ''} · hors port</p>
+        <p className="text-xs text-ink-2">Moyenne des 5 offres françaises les moins chères relevées auprès de vendeurs différents, en état NM/MT. Prix demandés, pas ventes réalisées. Sans 5 offres vérifiées ou après 45 jours sans relevé, le prix est indisponible.</p>
         {!mappingSure(card) && <p className="text-xs text-warn">Correspondance Cardmarket exacte non confirmée. La recherche affiche plusieurs versions : comparez l’illustration et l’édition.</p>}
         <div className="flex flex-wrap items-start justify-between gap-2 border-t border-line pt-2">
           <ManualPriceEditor card={card} />
@@ -87,7 +88,7 @@ function CardVersionDetail({ id }: { id: string }) {
 
       {product && (
         <div className="panel">
-          <div className="label">Évolution du minimum CardTrader VF</div>
+          <div className="label">Évolution de l’estimation Cardmarket FR</div>
           <Sparkline values={curve} className="mt-2 h-24 w-full" />
         </div>
       )}

@@ -44,11 +44,6 @@ jobs:
           git add public/data/cardtrader-catalogue.json
           git diff --cached --quiet || git commit -m "data: catalogue public des illustrations CardTrader"
           git push
-      - name: Mettre à jour les prix par langue (CardTrader, EUR)
-        if: ${{ (github.event_name != 'push' || contains(github.event.head_commit.message, '[refresh-prices]')) && env.CARDTRADER_TOKEN != '' }}
-        run: node scripts/update-prices-fr.mjs
-        env:
-          CARDTRADER_TOKEN: ${{ secrets.CARDTRADER_TOKEN }}
       - name: Vérifier les variantes et les associations de toutes les collections
         run: npm run data:audit
       - name: Enregistrer les prix dans le dépôt
@@ -59,7 +54,7 @@ jobs:
           git add public/data/prices.json public/data/history.json
           [ -f public/data/prices-fr.json ] && git add public/data/prices-fr.json
           [ -f public/data/cardtrader-catalogue.json ] && git add public/data/cardtrader-catalogue.json
-          git diff --cached --quiet || git commit -m "data: prix CardTrader FR et catalogue du $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "data: catalogue Cardmarket du $(date -u +%Y-%m-%d)"
           git push
       - name: Construire l'application
         run: npm run build

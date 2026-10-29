@@ -21,6 +21,7 @@ export interface Snapshot {
   low: number | null;
   fr?: number | null; // prix VF saisi à la main, s'il existait au moment du relevé
   ctFr?: number | null; // minimum CardTrader français, séparé des anciens relevés Cardmarket
+  cmFr?: number | null; // moyenne Cardmarket FR, cinq vendeurs en NM/MT
 }
 
 export interface Setting {

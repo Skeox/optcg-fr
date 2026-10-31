@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-10-31T20:53:49.734Z",
+  "updatedAt": "2026-10-31T23:53:03.325Z",
   "products": {
     "799250": {
       "productId": 799250,
@@ -2545,6 +2545,21 @@
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Caesar-Clown-OP10-006?language=2"
     },
+    "817013": {
+      "productId": 817013,
+      "at": "2026-10-31T23:50:55.007Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Scotch-OP10-008?language=2"
+    },
     "817014": {
       "productId": 817014,
       "at": "2026-10-31T20:53:49.734Z",
@@ -2559,6 +2574,171 @@
         2
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Ceaser-Soldier-OP10-007?language=2"
+    },
+    "817015": {
+      "productId": 817015,
+      "at": "2026-10-31T23:51:08.155Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Smiley-OP10-009?language=2"
+    },
+    "817016": {
+      "productId": 817016,
+      "at": "2026-10-31T23:51:15.464Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/ChadrosHigelyges-Brownbeard-OP10-010?language=2"
+    },
+    "817017": {
+      "productId": 817017,
+      "at": "2026-10-31T23:51:22.668Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Tony-TonyChopper-OP10-011?language=2"
+    },
+    "817018": {
+      "productId": 817018,
+      "at": "2026-10-31T23:51:29.684Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Dragon-Number-Thirteen-OP10-012?language=2"
+    },
+    "817019": {
+      "productId": 817019,
+      "at": "2026-10-31T23:51:37.005Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Nami-OP10-013?language=2"
+    },
+    "817020": {
+      "productId": 817020,
+      "at": "2026-10-31T23:51:48.042Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Franky-OP10-014?language=2"
+    },
+    "817021": {
+      "productId": 817021,
+      "at": "2026-10-31T23:52:30.983Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Mocha-OP10-015?language=2"
+    },
+    "817022": {
+      "productId": 817022,
+      "at": "2026-10-31T23:52:37.948Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Monet-OP10-016-V1?language=2"
+    },
+    "817023": {
+      "productId": 817023,
+      "at": "2026-10-31T23:52:44.648Z",
+      "status": "quoted",
+      "average": 4.3,
+      "sellers": 5,
+      "sample": [
+        400,
+        420,
+        430,
+        450,
+        450
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Monet-OP10-016-V2?language=2"
+    },
+    "817024": {
+      "productId": 817024,
+      "at": "2026-10-31T23:52:52.383Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Rock-OP10-017?language=2"
+    },
+    "817025": {
+      "productId": 817025,
+      "at": "2026-10-31T23:53:03.325Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Ten-Layer-Igloo-OP10-018?language=2"
     },
     "829117": {
       "productId": 829117,

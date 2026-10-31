@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-10-31T18:56:46.717Z",
+  "updatedAt": "2026-10-31T20:53:49.734Z",
   "products": {
     "799250": {
       "productId": 799250,
@@ -2394,6 +2394,171 @@
         42500
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Sanji-OP06-119?language=2"
+    },
+    "817002": {
+      "productId": 817002,
+      "at": "2026-10-31T20:52:37.582Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Smoker-OP10-001-V1?language=2"
+    },
+    "817003": {
+      "productId": 817003,
+      "at": "2026-10-31T20:52:43.436Z",
+      "status": "quoted",
+      "average": 17.8,
+      "sellers": 5,
+      "sample": [
+        1700,
+        1799,
+        1800,
+        1800,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Smoker-OP10-001-V2?language=2"
+    },
+    "817004": {
+      "productId": 817004,
+      "at": "2026-10-31T20:52:49.585Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Caesar-Clown-OP10-002-V1?language=2"
+    },
+    "817005": {
+      "productId": 817005,
+      "at": "2026-10-31T20:52:55.740Z",
+      "status": "quoted",
+      "average": 10.38,
+      "sellers": 5,
+      "sample": [
+        990,
+        1000,
+        1000,
+        1100,
+        1100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Caesar-Clown-OP10-002-V2?language=2"
+    },
+    "817006": {
+      "productId": 817006,
+      "at": "2026-10-31T20:53:01.821Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Sugar-OP10-003-V1?language=2"
+    },
+    "817007": {
+      "productId": 817007,
+      "at": "2026-10-31T20:53:11.801Z",
+      "status": "quoted",
+      "average": 15.99,
+      "sellers": 5,
+      "sample": [
+        1495,
+        1500,
+        1600,
+        1650,
+        1750
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Sugar-OP10-003-V2?language=2"
+    },
+    "817008": {
+      "productId": 817008,
+      "at": "2026-10-31T20:53:18.429Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Vergo-OP10-004?language=2"
+    },
+    "817009": {
+      "productId": 817009,
+      "at": "2026-10-31T20:53:24.318Z",
+      "status": "quoted",
+      "average": 1.9,
+      "sellers": 5,
+      "sample": [
+        150,
+        150,
+        200,
+        224,
+        227
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Sanji-OP10-005-V1?language=2"
+    },
+    "817010": {
+      "productId": 817010,
+      "at": "2026-10-31T20:53:33.713Z",
+      "status": "quoted",
+      "average": 9,
+      "sellers": 5,
+      "sample": [
+        899,
+        900,
+        900,
+        900,
+        900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Sanji-OP10-005-V2?language=2"
+    },
+    "817011": {
+      "productId": 817011,
+      "at": "2026-10-31T20:53:39.771Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Caesar-Clown-OP10-006?language=2"
+    },
+    "817014": {
+      "productId": 817014,
+      "at": "2026-10-31T20:53:49.734Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Ceaser-Soldier-OP10-007?language=2"
     },
     "829117": {
       "productId": 829117,

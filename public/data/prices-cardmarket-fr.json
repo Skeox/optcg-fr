@@ -3,8 +3,23 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-10-29T23:34:00.306Z",
+  "updatedAt": "2026-10-31T18:56:46.717Z",
   "products": {
+    "799250": {
+      "productId": 799250,
+      "at": "2026-10-31T18:29:58.745Z",
+      "status": "quoted",
+      "average": 1.9,
+      "sellers": 5,
+      "sample": [
+        150,
+        150,
+        150,
+        200,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vergo-OP03-079-V3?language=2"
+    },
     "799370": {
       "productId": 799370,
       "at": "2026-10-29T23:33:40.758Z",
@@ -19,6 +34,111 @@
         400
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Niji-OP06-065-V3?language=2"
+    },
+    "802851": {
+      "productId": 802851,
+      "at": "2026-10-31T18:55:43.958Z",
+      "status": "quoted",
+      "average": 129,
+      "sellers": 5,
+      "sample": [
+        8500,
+        13500,
+        14000,
+        14000,
+        14500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Donquixote-Rosinante-OP04-119?language=2"
+    },
+    "802852": {
+      "productId": 802852,
+      "at": "2026-10-31T18:55:52.090Z",
+      "status": "quoted",
+      "average": 321,
+      "sellers": 5,
+      "sample": [
+        30000,
+        31999,
+        32000,
+        32500,
+        34000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Zoro-Juurou-OP05-067?language=2"
+    },
+    "802853": {
+      "productId": 802853,
+      "at": "2026-10-31T18:56:00.235Z",
+      "status": "quoted",
+      "average": 93.6,
+      "sellers": 5,
+      "sample": [
+        7800,
+        8000,
+        10000,
+        10499,
+        10500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Rob-Lucci-OP05-093?language=2"
+    },
+    "802854": {
+      "productId": 802854,
+      "at": "2026-10-31T18:56:08.420Z",
+      "status": "quoted",
+      "average": 346,
+      "sellers": 5,
+      "sample": [
+        32999,
+        34000,
+        35000,
+        35000,
+        36000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MonkeyDLuffy-OP05-119?language=2"
+    },
+    "802855": {
+      "productId": 802855,
+      "at": "2026-10-31T18:56:30.358Z",
+      "status": "quoted",
+      "average": 125.48,
+      "sellers": 5,
+      "sample": [
+        12390,
+        12400,
+        12450,
+        12499,
+        13000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MonkeyDDragon-OP07-015?language=2"
+    },
+    "802856": {
+      "productId": 802856,
+      "at": "2026-10-31T18:56:38.573Z",
+      "status": "quoted",
+      "average": 399.98,
+      "sellers": 5,
+      "sample": [
+        39990,
+        40000,
+        40000,
+        40000,
+        40000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Boa-Hancock-OP07-051?language=2"
+    },
+    "802857": {
+      "productId": 802857,
+      "at": "2026-10-31T18:56:46.717Z",
+      "status": "quoted",
+      "average": 410.98,
+      "sellers": 5,
+      "sample": [
+        37500,
+        39990,
+        40000,
+        44000,
+        44000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nami-OP08-106?language=2"
     },
     "802858": {
       "productId": 802858,
@@ -35,6 +155,2246 @@
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Shanks-OP09-001-V1?language=2"
     },
+    "802859": {
+      "productId": 802859,
+      "at": "2026-10-31T18:29:52.123Z",
+      "status": "quoted",
+      "average": 43.8,
+      "sellers": 5,
+      "sample": [
+        4000,
+        4400,
+        4499,
+        4499,
+        4500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Shanks-OP09-001-V2?language=2"
+    },
+    "802860": {
+      "productId": 802860,
+      "at": "2026-10-31T18:30:30.439Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Uta-OP09-002-V1?language=2"
+    },
+    "802861": {
+      "productId": 802861,
+      "at": "2026-10-31T18:30:38.075Z",
+      "status": "quoted",
+      "average": 4.2,
+      "sellers": 5,
+      "sample": [
+        350,
+        360,
+        400,
+        490,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Uta-OP09-002-V2?language=2"
+    },
+    "802862": {
+      "productId": 802862,
+      "at": "2026-10-31T18:30:46.407Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Shachi-Penguin-OP09-003?language=2"
+    },
+    "802863": {
+      "productId": 802863,
+      "at": "2026-10-31T18:31:03.853Z",
+      "status": "quoted",
+      "average": 0.09,
+      "sellers": 5,
+      "sample": [
+        6,
+        6,
+        10,
+        10,
+        15
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Shanks-OP09-004-V1?language=2"
+    },
+    "802864": {
+      "productId": 802864,
+      "at": "2026-10-31T18:31:12.175Z",
+      "status": "quoted",
+      "average": 14.88,
+      "sellers": 5,
+      "sample": [
+        1350,
+        1500,
+        1500,
+        1502,
+        1590
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Shanks-OP09-004-V2?language=2"
+    },
+    "802865": {
+      "productId": 802865,
+      "at": "2026-10-31T18:31:28.226Z",
+      "status": "quoted",
+      "average": 164,
+      "sellers": 5,
+      "sample": [
+        15500,
+        16000,
+        16500,
+        17000,
+        17000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Shanks-OP09-004-V3?language=2"
+    },
+    "802866": {
+      "productId": 802866,
+      "at": "2026-10-31T18:31:20.440Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 2,
+      "sample": [
+        89900,
+        90000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Shanks-OP09-004-V4?language=2"
+    },
+    "802867": {
+      "productId": 802867,
+      "at": "2026-10-31T18:31:36.726Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Silvers-Rayleigh-OP09-005?language=2"
+    },
+    "802868": {
+      "productId": 802868,
+      "at": "2026-10-31T18:31:44.945Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Howling-Gab-OP09-006?language=2"
+    },
+    "802869": {
+      "productId": 802869,
+      "at": "2026-10-31T18:32:00.414Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Heat-OP09-007?language=2"
+    },
+    "802870": {
+      "productId": 802870,
+      "at": "2026-10-31T18:32:08.993Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Building-Snake-OP09-008?language=2"
+    },
+    "802871": {
+      "productId": 802871,
+      "at": "2026-10-31T18:32:16.948Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        4,
+        4,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/BennBeckman-OP09-009-V1?language=2"
+    },
+    "802872": {
+      "productId": 802872,
+      "at": "2026-10-31T18:32:24.953Z",
+      "status": "quoted",
+      "average": 4.18,
+      "sellers": 5,
+      "sample": [
+        390,
+        400,
+        400,
+        400,
+        499
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/BennBeckman-OP09-009-V2?language=2"
+    },
+    "802873": {
+      "productId": 802873,
+      "at": "2026-10-31T18:32:33.108Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Bonk-Punch-OP09-010?language=2"
+    },
+    "802874": {
+      "productId": 802874,
+      "at": "2026-10-31T18:32:41.058Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Hongo-OP09-011?language=2"
+    },
+    "802875": {
+      "productId": 802875,
+      "at": "2026-10-31T18:32:55.999Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Monster-OP09-012?language=2"
+    },
+    "802876": {
+      "productId": 802876,
+      "at": "2026-10-31T18:33:04.122Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Yasopp-OP09-013?language=2"
+    },
+    "802877": {
+      "productId": 802877,
+      "at": "2026-10-31T18:33:12.439Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Limejuice-OP09-014?language=2"
+    },
+    "802878": {
+      "productId": 802878,
+      "at": "2026-10-31T18:33:20.564Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/LuckyRoux-OP09-015?language=2"
+    },
+    "802879": {
+      "productId": 802879,
+      "at": "2026-10-31T18:33:29.018Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Rockstar-OP09-016?language=2"
+    },
+    "802880": {
+      "productId": 802880,
+      "at": "2026-10-31T18:33:37.340Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Wire-OP09-017?language=2"
+    },
+    "802881": {
+      "productId": 802881,
+      "at": "2026-10-31T18:34:00.068Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Get-Out-of-Here-OP09-018?language=2"
+    },
+    "802882": {
+      "productId": 802882,
+      "at": "2026-10-31T18:34:08.293Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nobody-Hurts-a-Friend-of-Mine-OP09-019?language=2"
+    },
+    "802883": {
+      "productId": 802883,
+      "at": "2026-10-31T18:34:16.308Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Come-On-Well-Fight-You-OP09-020?language=2"
+    },
+    "802884": {
+      "productId": 802884,
+      "at": "2026-10-31T18:34:25.420Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Red-Force-OP09-021?language=2"
+    },
+    "802885": {
+      "productId": 802885,
+      "at": "2026-10-31T18:34:33.731Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Lim-OP09-022-V1?language=2"
+    },
+    "802886": {
+      "productId": 802886,
+      "at": "2026-10-31T18:34:41.564Z",
+      "status": "quoted",
+      "average": 11.8,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1200,
+        1200,
+        1249,
+        1249
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Lim-OP09-022-V2?language=2"
+    },
+    "802887": {
+      "productId": 802887,
+      "at": "2026-10-31T18:35:09.760Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        4,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Adio-OP09-023-V1?language=2"
+    },
+    "802888": {
+      "productId": 802888,
+      "at": "2026-10-31T18:35:17.850Z",
+      "status": "quoted",
+      "average": 2.09,
+      "sellers": 5,
+      "sample": [
+        195,
+        200,
+        200,
+        200,
+        250
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Adio-OP09-023-V2?language=2"
+    },
+    "802889": {
+      "productId": 802889,
+      "at": "2026-10-31T18:35:26.320Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Usopp-OP09-024?language=2"
+    },
+    "802890": {
+      "productId": 802890,
+      "at": "2026-10-31T18:35:34.627Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Crocodile-OP09-025?language=2"
+    },
+    "802891": {
+      "productId": 802891,
+      "at": "2026-10-31T18:35:42.960Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Sakazuki-OP09-026?language=2"
+    },
+    "802892": {
+      "productId": 802892,
+      "at": "2026-10-31T18:35:51.293Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Sabo-OP09-027?language=2"
+    },
+    "802893": {
+      "productId": 802893,
+      "at": "2026-10-31T18:36:10.048Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Sanji-OP09-028?language=2"
+    },
+    "802894": {
+      "productId": 802894,
+      "at": "2026-10-31T18:36:18.132Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Tony-TonyChopper-OP09-029?language=2"
+    },
+    "802895": {
+      "productId": 802895,
+      "at": "2026-10-31T18:36:26.460Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Trafalgar-Law-OP09-030?language=2"
+    },
+    "802896": {
+      "productId": 802896,
+      "at": "2026-10-31T18:36:34.955Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Donquixote-Doflamingo-OP09-031?language=2"
+    },
+    "802897": {
+      "productId": 802897,
+      "at": "2026-10-31T18:36:42.987Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Donquixote-Rosinante-OP09-032?language=2"
+    },
+    "802898": {
+      "productId": 802898,
+      "at": "2026-10-31T18:36:50.969Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nico-Robin-OP09-033?language=2"
+    },
+    "802899": {
+      "productId": 802899,
+      "at": "2026-10-31T18:37:21.841Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Perona-OP09-034-V1?language=2"
+    },
+    "802900": {
+      "productId": 802900,
+      "at": "2026-10-31T18:37:29.977Z",
+      "status": "quoted",
+      "average": 4.3,
+      "sellers": 5,
+      "sample": [
+        390,
+        400,
+        400,
+        470,
+        489
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Perona-OP09-034-V2?language=2"
+    },
+    "802901": {
+      "productId": 802901,
+      "at": "2026-10-31T18:37:38.439Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/PortgasDAce-OP09-035?language=2"
+    },
+    "802902": {
+      "productId": 802902,
+      "at": "2026-10-31T18:37:47.589Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MonkeyDLuffy-OP09-036?language=2"
+    },
+    "802903": {
+      "productId": 802903,
+      "at": "2026-10-31T18:37:56.677Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        3,
+        4,
+        4,
+        5,
+        9
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Lim-OP09-037-V1?language=2"
+    },
+    "802904": {
+      "productId": 802904,
+      "at": "2026-10-31T18:38:04.477Z",
+      "status": "quoted",
+      "average": 2.5,
+      "sellers": 5,
+      "sample": [
+        200,
+        200,
+        250,
+        300,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Lim-OP09-037-V2?language=2"
+    },
+    "802905": {
+      "productId": 802905,
+      "at": "2026-10-31T18:38:18.988Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Rob-Lucci-OP09-038?language=2"
+    },
+    "802906": {
+      "productId": 802906,
+      "at": "2026-10-31T18:38:27.170Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Gum-Gum-Cuatro-Jet-Cross-Shock-Bazooka-OP09-039?language=2"
+    },
+    "802907": {
+      "productId": 802907,
+      "at": "2026-10-31T18:38:36.120Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Thunder-Lance-Flip-Caliber-Phoenix-Shot-OP09-040?language=2"
+    },
+    "802908": {
+      "productId": 802908,
+      "at": "2026-10-31T18:38:44.343Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Soul-Franky-Swing-Arm-Boxing-Solid-OP09-041?language=2"
+    },
+    "802909": {
+      "productId": 802909,
+      "at": "2026-10-31T18:38:52.950Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Buggy-OP09-042-V1?language=2"
+    },
+    "802910": {
+      "productId": 802910,
+      "at": "2026-10-31T18:39:01.386Z",
+      "status": "quoted",
+      "average": 37.18,
+      "sellers": 5,
+      "sample": [
+        3490,
+        3500,
+        3800,
+        3900,
+        3900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Buggy-OP09-042-V2?language=2"
+    },
+    "802911": {
+      "productId": 802911,
+      "at": "2026-10-31T18:39:14.144Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Alvida-OP09-043?language=2"
+    },
+    "802912": {
+      "productId": 802912,
+      "at": "2026-10-31T18:39:22.254Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Izo-OP09-044?language=2"
+    },
+    "802913": {
+      "productId": 802913,
+      "at": "2026-10-31T18:39:31.353Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Cabaji-OP09-045?language=2"
+    },
+    "802914": {
+      "productId": 802914,
+      "at": "2026-10-31T18:39:39.532Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Crocodile-OP09-046-V1?language=2"
+    },
+    "802915": {
+      "productId": 802915,
+      "at": "2026-10-31T18:39:47.494Z",
+      "status": "quoted",
+      "average": 10.98,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1000,
+        1090,
+        1200,
+        1200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Crocodile-OP09-046-V2?language=2"
+    },
+    "802916": {
+      "productId": 802916,
+      "at": "2026-10-31T18:39:55.617Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Kouzuki-Oden-OP09-047?language=2"
+    },
+    "802917": {
+      "productId": 802917,
+      "at": "2026-10-31T18:40:20.818Z",
+      "status": "quoted",
+      "average": 0.06,
+      "sellers": 5,
+      "sample": [
+        2,
+        5,
+        5,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Dracule-Mihawk-OP09-048-V1?language=2"
+    },
+    "802918": {
+      "productId": 802918,
+      "at": "2026-10-31T18:40:29.374Z",
+      "status": "quoted",
+      "average": 6.56,
+      "sellers": 5,
+      "sample": [
+        580,
+        600,
+        650,
+        700,
+        750
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Dracule-Mihawk-OP09-048-V2?language=2"
+    },
+    "802919": {
+      "productId": 802919,
+      "at": "2026-10-31T18:40:39.134Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Jozu-OP09-049?language=2"
+    },
+    "802920": {
+      "productId": 802920,
+      "at": "2026-10-31T18:40:49.912Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nami-OP09-050-V1?language=2"
+    },
+    "802921": {
+      "productId": 802921,
+      "at": "2026-10-31T18:40:58.483Z",
+      "status": "quoted",
+      "average": 9.1,
+      "sellers": 5,
+      "sample": [
+        800,
+        850,
+        899,
+        999,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nami-OP09-050-V2?language=2"
+    },
+    "802922": {
+      "productId": 802922,
+      "at": "2026-10-31T18:41:07.661Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Buggy-OP09-051-V1?language=2"
+    },
+    "802923": {
+      "productId": 802923,
+      "at": "2026-10-31T18:41:18.461Z",
+      "status": "quoted",
+      "average": 17.98,
+      "sellers": 5,
+      "sample": [
+        1500,
+        1500,
+        1990,
+        1999,
+        1999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Buggy-OP09-051-V2?language=2"
+    },
+    "802924": {
+      "productId": 802924,
+      "at": "2026-10-31T18:41:35.238Z",
+      "status": "quoted",
+      "average": 150,
+      "sellers": 5,
+      "sample": [
+        13999,
+        14000,
+        14000,
+        15999,
+        17000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Buggy-OP09-051-V3?language=2"
+    },
+    "802925": {
+      "productId": 802925,
+      "at": "2026-10-31T18:41:26.816Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 1,
+      "sample": [
+        99500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Buggy-OP09-051-V4?language=2"
+    },
+    "802926": {
+      "productId": 802926,
+      "at": "2026-10-31T18:41:45.004Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Marco-OP09-052?language=2"
+    },
+    "802927": {
+      "productId": 802927,
+      "at": "2026-10-31T18:41:54.118Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Mohji-OP09-053?language=2"
+    },
+    "802928": {
+      "productId": 802928,
+      "at": "2026-10-31T18:42:03.707Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Richie-OP09-054?language=2"
+    },
+    "802929": {
+      "productId": 802929,
+      "at": "2026-10-31T18:42:15.536Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Mr1DazBonez-OP09-055?language=2"
+    },
+    "802930": {
+      "productId": 802930,
+      "at": "2026-10-31T18:42:25.076Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Mr3Galdino-OP09-056?language=2"
+    },
+    "802931": {
+      "productId": 802931,
+      "at": "2026-10-31T18:42:33.971Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Cross-Guild-OP09-057?language=2"
+    },
+    "802932": {
+      "productId": 802932,
+      "at": "2026-10-31T18:42:43.494Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Special-Muggy-Ball-OP09-058?language=2"
+    },
+    "802933": {
+      "productId": 802933,
+      "at": "2026-10-31T18:42:52.612Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Murder-at-the-Steam-Bath-OP09-059?language=2"
+    },
+    "802934": {
+      "productId": 802934,
+      "at": "2026-10-31T18:43:01.779Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Emptee-Bluffs-Island-OP09-060?language=2"
+    },
+    "802935": {
+      "productId": 802935,
+      "at": "2026-10-31T18:43:12.918Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MonkeyDLuffy-OP09-061-V1?language=2"
+    },
+    "802936": {
+      "productId": 802936,
+      "at": "2026-10-31T18:43:21.422Z",
+      "status": "quoted",
+      "average": 70.6,
+      "sellers": 5,
+      "sample": [
+        6499,
+        6900,
+        7000,
+        7400,
+        7500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MonkeyDLuffy-OP09-061-V2?language=2"
+    },
+    "802937": {
+      "productId": 802937,
+      "at": "2026-10-31T18:43:30.097Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nico-Robin-OP09-062-V1?language=2"
+    },
+    "802938": {
+      "productId": 802938,
+      "at": "2026-10-31T18:43:38.563Z",
+      "status": "quoted",
+      "average": 52,
+      "sellers": 5,
+      "sample": [
+        5000,
+        5000,
+        5000,
+        5499,
+        5500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nico-Robin-OP09-062-V2?language=2"
+    },
+    "802939": {
+      "productId": 802939,
+      "at": "2026-10-31T18:43:47.969Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Usopp-OP09-063?language=2"
+    },
+    "802940": {
+      "productId": 802940,
+      "at": "2026-10-31T18:43:57.090Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Killer-OP09-064?language=2"
+    },
+    "802941": {
+      "productId": 802941,
+      "at": "2026-10-31T18:44:08.330Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        5,
+        5,
+        5,
+        8,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Sanji-OP09-065-V1?language=2"
+    },
+    "802942": {
+      "productId": 802942,
+      "at": "2026-10-31T18:44:17.248Z",
+      "status": "quoted",
+      "average": 4.9,
+      "sellers": 5,
+      "sample": [
+        450,
+        498,
+        500,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Sanji-OP09-065-V2?language=2"
+    },
+    "802943": {
+      "productId": 802943,
+      "at": "2026-10-31T18:44:26.681Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Jean-Bart-OP09-066?language=2"
+    },
+    "802944": {
+      "productId": 802944,
+      "at": "2026-10-31T18:44:36.097Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Jinbe-OP09-067?language=2"
+    },
+    "802945": {
+      "productId": 802945,
+      "at": "2026-10-31T18:44:45.123Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Tony-TonyChopper-OP09-068?language=2"
+    },
+    "802946": {
+      "productId": 802946,
+      "at": "2026-10-31T18:44:54.095Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        3,
+        5,
+        5,
+        5,
+        8
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Trafalgar-Law-OP09-069-V1?language=2"
+    },
+    "802947": {
+      "productId": 802947,
+      "at": "2026-10-31T18:45:14.195Z",
+      "status": "quoted",
+      "average": 7,
+      "sellers": 5,
+      "sample": [
+        600,
+        600,
+        700,
+        800,
+        800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Trafalgar-Law-OP09-069-V2?language=2"
+    },
+    "802948": {
+      "productId": 802948,
+      "at": "2026-10-31T18:45:23.440Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nami-OP09-070?language=2"
+    },
+    "802949": {
+      "productId": 802949,
+      "at": "2026-10-31T18:45:32.997Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nico-Robin-OP09-071?language=2"
+    },
+    "802950": {
+      "productId": 802950,
+      "at": "2026-10-31T18:45:42.452Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        3,
+        4,
+        5,
+        5,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Franky-OP09-072-V1?language=2"
+    },
+    "802951": {
+      "productId": 802951,
+      "at": "2026-10-31T18:45:51.201Z",
+      "status": "quoted",
+      "average": 5.58,
+      "sellers": 5,
+      "sample": [
+        500,
+        500,
+        590,
+        599,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Franky-OP09-072-V2?language=2"
+    },
+    "802952": {
+      "productId": 802952,
+      "at": "2026-10-31T18:46:00.843Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Brook-OP09-073?language=2"
+    },
+    "802953": {
+      "productId": 802953,
+      "at": "2026-10-31T18:46:15.668Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Bepo-OP09-074?language=2"
+    },
+    "802954": {
+      "productId": 802954,
+      "at": "2026-10-31T18:46:24.928Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/EustassCaptainKid-OP09-075?language=2"
+    },
+    "802955": {
+      "productId": 802955,
+      "at": "2026-10-31T18:46:34.749Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Roronoa-Zoro-OP09-076?language=2"
+    },
+    "802956": {
+      "productId": 802956,
+      "at": "2026-10-31T18:46:44.132Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Gum-Gum-Lightning-OP09-077?language=2"
+    },
+    "802957": {
+      "productId": 802957,
+      "at": "2026-10-31T18:46:52.885Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        5,
+        5,
+        8,
+        8,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Gum-Gum-Giant-OP09-078?language=2"
+    },
+    "802958": {
+      "productId": 802958,
+      "at": "2026-10-31T18:47:02.338Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Gum-Gum-Jump-Rope-OP09-079?language=2"
+    },
+    "802959": {
+      "productId": 802959,
+      "at": "2026-10-31T18:47:15.795Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Thousand-Sunny-OP09-080?language=2"
+    },
+    "802960": {
+      "productId": 802960,
+      "at": "2026-10-31T18:47:24.858Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MarshallDTeach-OP09-081-V1?language=2"
+    },
+    "802961": {
+      "productId": 802961,
+      "at": "2026-10-31T18:47:33.564Z",
+      "status": "quoted",
+      "average": 34.72,
+      "sellers": 5,
+      "sample": [
+        3400,
+        3470,
+        3490,
+        3500,
+        3500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MarshallDTeach-OP09-081-V2?language=2"
+    },
+    "802962": {
+      "productId": 802962,
+      "at": "2026-10-31T18:47:42.810Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Avalo-Pizarro-OP09-082?language=2"
+    },
+    "802963": {
+      "productId": 802963,
+      "at": "2026-10-31T18:47:52.362Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Van-Augur-OP09-083?language=2"
+    },
+    "802964": {
+      "productId": 802964,
+      "at": "2026-10-31T18:48:05.161Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Catarina-Devon-OP09-084?language=2"
+    },
+    "802965": {
+      "productId": 802965,
+      "at": "2026-10-31T18:48:14.754Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Gecko-Moria-OP09-085?language=2"
+    },
+    "802966": {
+      "productId": 802966,
+      "at": "2026-10-31T18:48:24.104Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Jesus-Burgess-OP09-086?language=2"
+    },
+    "802967": {
+      "productId": 802967,
+      "at": "2026-10-31T18:48:33.251Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Charlotte-Pudding-OP09-087?language=2"
+    },
+    "802968": {
+      "productId": 802968,
+      "at": "2026-10-31T18:48:42.445Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Shiryu-OP09-088?language=2"
+    },
+    "802969": {
+      "productId": 802969,
+      "at": "2026-10-31T18:48:55.263Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Stronger-OP09-089?language=2"
+    },
+    "802970": {
+      "productId": 802970,
+      "at": "2026-10-31T18:49:04.999Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Doc-Q-OP09-090?language=2"
+    },
+    "802971": {
+      "productId": 802971,
+      "at": "2026-10-31T18:49:14.333Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Vasco-Shot-OP09-091?language=2"
+    },
+    "802972": {
+      "productId": 802972,
+      "at": "2026-10-31T18:49:24.212Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MarshallDTeach-OP09-092?language=2"
+    },
+    "802973": {
+      "productId": 802973,
+      "at": "2026-10-31T18:49:33.346Z",
+      "status": "quoted",
+      "average": 0.1,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MarshallDTeach-OP09-093-V1?language=2"
+    },
+    "802974": {
+      "productId": 802974,
+      "at": "2026-10-31T18:49:46.167Z",
+      "status": "quoted",
+      "average": 14.76,
+      "sellers": 5,
+      "sample": [
+        1450,
+        1462,
+        1472,
+        1495,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MarshallDTeach-OP09-093-V2?language=2"
+    },
+    "802975": {
+      "productId": 802975,
+      "at": "2026-10-31T18:50:03.166Z",
+      "status": "quoted",
+      "average": 145,
+      "sellers": 5,
+      "sample": [
+        13500,
+        13999,
+        14000,
+        14500,
+        16500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MarshallDTeach-OP09-093-V3?language=2"
+    },
+    "802976": {
+      "productId": 802976,
+      "at": "2026-10-31T18:49:54.689Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MarshallDTeach-OP09-093-V4?language=2"
+    },
+    "802977": {
+      "productId": 802977,
+      "at": "2026-10-31T18:50:12.571Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Peachbeard-OP09-094?language=2"
+    },
+    "802978": {
+      "productId": 802978,
+      "at": "2026-10-31T18:50:22.056Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Laffitte-OP09-095?language=2"
+    },
+    "802979": {
+      "productId": 802979,
+      "at": "2026-10-31T18:50:34.711Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/My-EraBegins-OP09-096?language=2"
+    },
+    "802980": {
+      "productId": 802980,
+      "at": "2026-10-31T18:50:43.888Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Black-Vortex-OP09-097?language=2"
+    },
+    "802981": {
+      "productId": 802981,
+      "at": "2026-10-31T18:50:53.587Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Black-Hole-OP09-098?language=2"
+    },
+    "802982": {
+      "productId": 802982,
+      "at": "2026-10-31T18:51:03.442Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Fullalead-OP09-099?language=2"
+    },
+    "802983": {
+      "productId": 802983,
+      "at": "2026-10-31T18:51:12.948Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Karasu-OP09-100?language=2"
+    },
+    "802984": {
+      "productId": 802984,
+      "at": "2026-10-31T18:51:33.780Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Kuzan-OP09-101?language=2"
+    },
+    "802985": {
+      "productId": 802985,
+      "at": "2026-10-31T18:51:43.419Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Professor-Clover-OP09-102?language=2"
+    },
+    "802986": {
+      "productId": 802986,
+      "at": "2026-10-31T18:51:52.474Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Koala-OP09-103-V1?language=2"
+    },
+    "802987": {
+      "productId": 802987,
+      "at": "2026-10-31T18:52:01.086Z",
+      "status": "quoted",
+      "average": 2.48,
+      "sellers": 5,
+      "sample": [
+        200,
+        250,
+        250,
+        250,
+        290
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Koala-OP09-103-V2?language=2"
+    },
+    "802988": {
+      "productId": 802988,
+      "at": "2026-10-31T18:52:10.854Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Sabo-OP09-104?language=2"
+    },
+    "802989": {
+      "productId": 802989,
+      "at": "2026-10-31T18:52:25.646Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Sanji-OP09-105?language=2"
+    },
+    "802990": {
+      "productId": 802990,
+      "at": "2026-10-31T18:52:34.973Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nico-Olvia-OP09-106?language=2"
+    },
+    "802991": {
+      "productId": 802991,
+      "at": "2026-10-31T18:52:43.996Z",
+      "status": "quoted",
+      "average": 0.22,
+      "sellers": 5,
+      "sample": [
+        9,
+        20,
+        20,
+        30,
+        30
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nico-Robin-OP09-107-V1?language=2"
+    },
+    "802992": {
+      "productId": 802992,
+      "at": "2026-10-31T18:52:52.686Z",
+      "status": "quoted",
+      "average": 14.97,
+      "sellers": 5,
+      "sample": [
+        1486,
+        1500,
+        1500,
+        1500,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Nico-Robin-OP09-107-V2?language=2"
+    },
+    "802993": {
+      "productId": 802993,
+      "at": "2026-10-31T18:53:01.793Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Bartholomew-Kuma-OP09-108?language=2"
+    },
+    "802994": {
+      "productId": 802994,
+      "at": "2026-10-31T18:53:16.781Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/JaguarDSaul-OP09-109?language=2"
+    },
+    "802995": {
+      "productId": 802995,
+      "at": "2026-10-31T18:53:26.261Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Pierre-OP09-110?language=2"
+    },
+    "802996": {
+      "productId": 802996,
+      "at": "2026-10-31T18:53:36.140Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Brook-OP09-111?language=2"
+    },
+    "802997": {
+      "productId": 802997,
+      "at": "2026-10-31T18:53:45.359Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Belo-Betty-OP09-112?language=2"
+    },
+    "802998": {
+      "productId": 802998,
+      "at": "2026-10-31T18:53:54.938Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Morley-OP09-113?language=2"
+    },
+    "802999": {
+      "productId": 802999,
+      "at": "2026-10-31T18:54:09.058Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Lindbergh-OP09-114?language=2"
+    },
+    "803000": {
+      "productId": 803000,
+      "at": "2026-10-31T18:54:18.617Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Ice-Block-Partisan-OP09-115?language=2"
+    },
+    "803001": {
+      "productId": 803001,
+      "at": "2026-10-31T18:54:28.146Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Never-Underestimate-the-Power-of-Miracles-OP09-116?language=2"
+    },
+    "803002": {
+      "productId": 803002,
+      "at": "2026-10-31T18:54:37.041Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Dereshi-OP09-117?language=2"
+    },
+    "803003": {
+      "productId": 803003,
+      "at": "2026-10-31T18:54:45.422Z",
+      "status": "quoted",
+      "average": 14.46,
+      "sellers": 5,
+      "sample": [
+        1400,
+        1400,
+        1450,
+        1490,
+        1490
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/GolDRoger-OP09-118-V1?language=2"
+    },
+    "803004": {
+      "productId": 803004,
+      "at": "2026-10-31T18:54:57.060Z",
+      "status": "quoted",
+      "average": 63.8,
+      "sellers": 5,
+      "sample": [
+        6000,
+        6400,
+        6499,
+        6500,
+        6500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/GolDRoger-OP09-118-V2?language=2"
+    },
+    "803005": {
+      "productId": 803005,
+      "at": "2026-10-31T18:55:05.355Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/GolDRoger-OP09-118-V3?language=2"
+    },
+    "803006": {
+      "productId": 803006,
+      "at": "2026-10-31T18:55:14.406Z",
+      "status": "quoted",
+      "average": 3.95,
+      "sellers": 5,
+      "sample": [
+        389,
+        389,
+        399,
+        400,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MonkeyDLuffy-OP09-119-V1?language=2"
+    },
+    "803007": {
+      "productId": 803007,
+      "at": "2026-10-31T18:55:22.698Z",
+      "status": "quoted",
+      "average": 37.39,
+      "sellers": 5,
+      "sample": [
+        3000,
+        3800,
+        3900,
+        3998,
+        3999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MonkeyDLuffy-OP09-119-V2?language=2"
+    },
+    "803008": {
+      "productId": 803008,
+      "at": "2026-10-31T18:55:30.794Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MonkeyDLuffy-OP09-119-V3?language=2"
+    },
+    "814438": {
+      "productId": 814438,
+      "at": "2026-10-31T18:56:16.621Z",
+      "status": "quoted",
+      "average": 400,
+      "sellers": 5,
+      "sample": [
+        38500,
+        39000,
+        39999,
+        40000,
+        42500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Sanji-OP06-119?language=2"
+    },
     "829117": {
       "productId": 829117,
       "at": "2026-10-29T23:33:59.109Z",
@@ -50,6 +2410,21 @@
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Bartolomeo-OP07-031?language=2"
     },
+    "852525": {
+      "productId": 852525,
+      "at": "2026-10-31T18:30:14.672Z",
+      "status": "quoted",
+      "average": 6.8,
+      "sellers": 5,
+      "sample": [
+        600,
+        650,
+        700,
+        700,
+        750
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best-Vol2/LuckyRoux-PRB02-003-V1?language=2"
+    },
     "852533": {
       "productId": 852533,
       "at": "2026-10-29T23:33:58.432Z",
@@ -64,6 +2439,21 @@
         2
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best-Vol2/Jinbe-PRB02-007-V1?language=2"
+    },
+    "852563": {
+      "productId": 852563,
+      "at": "2026-10-31T18:30:22.365Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best-Vol2/Jinbe-ST10-005-V1?language=2"
     }
   }
 }

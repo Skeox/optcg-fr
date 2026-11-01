@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-01T17:51:17.215Z",
+  "updatedAt": "2026-11-01T18:19:49.320Z",
   "products": {
     "799250": {
       "productId": 799250,
@@ -4660,6 +4660,2316 @@
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Perona-OP09-034?language=2"
     },
+    "827077": {
+      "productId": 827077,
+      "at": "2026-11-01T17:58:46.620Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Koby-OP11-001-V1?language=2"
+    },
+    "827078": {
+      "productId": 827078,
+      "at": "2026-11-01T17:58:58.525Z",
+      "status": "quoted",
+      "average": 17,
+      "sellers": 5,
+      "sample": [
+        1500,
+        1700,
+        1700,
+        1800,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Koby-OP11-001-V2?language=2"
+    },
+    "827079": {
+      "productId": 827079,
+      "at": "2026-11-01T17:59:06.333Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Ain-OP11-002?language=2"
+    },
+    "827080": {
+      "productId": 827080,
+      "at": "2026-11-01T17:59:14.009Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Usopp-OP11-003?language=2"
+    },
+    "827081": {
+      "productId": 827081,
+      "at": "2026-11-01T17:59:21.060Z",
+      "status": "quoted",
+      "average": 0.11,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        10,
+        10,
+        15
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Kujyaku-OP11-004-V1?language=2"
+    },
+    "827082": {
+      "productId": 827082,
+      "at": "2026-11-01T17:59:27.784Z",
+      "status": "quoted",
+      "average": 4.36,
+      "sellers": 5,
+      "sample": [
+        390,
+        390,
+        400,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Kujyaku-OP11-004-V2?language=2"
+    },
+    "827083": {
+      "productId": 827083,
+      "at": "2026-11-01T17:59:35.012Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Smoker-OP11-005?language=2"
+    },
+    "827084": {
+      "productId": 827084,
+      "at": "2026-11-01T17:59:47.039Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Zephyr-OP11-006?language=2"
+    },
+    "827085": {
+      "productId": 827085,
+      "at": "2026-11-01T17:59:54.086Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Tashigi-OP11-007?language=2"
+    },
+    "827086": {
+      "productId": 827086,
+      "at": "2026-11-01T18:00:01.044Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Doll-OP11-008-V1?language=2"
+    },
+    "827087": {
+      "productId": 827087,
+      "at": "2026-11-01T18:00:07.983Z",
+      "status": "quoted",
+      "average": 5.5,
+      "sellers": 5,
+      "sample": [
+        499,
+        500,
+        500,
+        600,
+        650
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Doll-OP11-008-V2?language=2"
+    },
+    "827088": {
+      "productId": 827088,
+      "at": "2026-11-01T18:00:15.550Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Nico-Robin-OP11-009?language=2"
+    },
+    "827089": {
+      "productId": 827089,
+      "at": "2026-11-01T18:00:23.198Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        4,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Hibari-OP11-010-V1?language=2"
+    },
+    "827090": {
+      "productId": 827090,
+      "at": "2026-11-01T18:00:41.680Z",
+      "status": "quoted",
+      "average": 4.54,
+      "sellers": 5,
+      "sample": [
+        400,
+        420,
+        450,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Hibari-OP11-010-V2?language=2"
+    },
+    "827091": {
+      "productId": 827091,
+      "at": "2026-11-01T18:00:48.961Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Bins-OP11-011?language=2"
+    },
+    "827092": {
+      "productId": 827092,
+      "at": "2026-11-01T18:00:56.043Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Franky-OP11-012?language=2"
+    },
+    "827093": {
+      "productId": 827093,
+      "at": "2026-11-01T18:01:03.514Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Prince-Grus-OP11-013?language=2"
+    },
+    "827094": {
+      "productId": 827094,
+      "at": "2026-11-01T18:01:12.003Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Borsalino-OP11-014?language=2"
+    },
+    "827095": {
+      "productId": 827095,
+      "at": "2026-11-01T18:01:20.209Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Mocha-OP11-015?language=2"
+    },
+    "827096": {
+      "productId": 827096,
+      "at": "2026-11-01T18:01:30.814Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Roronoa-Zoro-OP11-016?language=2"
+    },
+    "827097": {
+      "productId": 827097,
+      "at": "2026-11-01T18:01:38.426Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/XDrake-OP11-017?language=2"
+    },
+    "827098": {
+      "productId": 827098,
+      "at": "2026-11-01T18:01:46.917Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Honesty-Impact-OP11-018-V1?language=2"
+    },
+    "827099": {
+      "productId": 827099,
+      "at": "2026-11-01T18:01:54.124Z",
+      "status": "quoted",
+      "average": 49.1,
+      "sellers": 5,
+      "sample": [
+        4000,
+        4750,
+        4800,
+        5500,
+        5500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Honesty-Impact-OP11-018-V2?language=2"
+    },
+    "827100": {
+      "productId": 827100,
+      "at": "2026-11-01T18:02:01.649Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Glorp-Web-OP11-019?language=2"
+    },
+    "827101": {
+      "productId": 827101,
+      "at": "2026-11-01T18:02:09.484Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/X-Calibur-OP11-020?language=2"
+    },
+    "827102": {
+      "productId": 827102,
+      "at": "2026-11-01T18:02:22.332Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Jinbe-OP11-021-V1?language=2"
+    },
+    "827103": {
+      "productId": 827103,
+      "at": "2026-11-01T18:02:29.146Z",
+      "status": "quoted",
+      "average": 8.6,
+      "sellers": 5,
+      "sample": [
+        699,
+        800,
+        900,
+        900,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Jinbe-OP11-021-V2?language=2"
+    },
+    "827104": {
+      "productId": 827104,
+      "at": "2026-11-01T18:02:36.389Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Shirahoshi-OP11-022-V1?language=2"
+    },
+    "827105": {
+      "productId": 827105,
+      "at": "2026-11-01T18:02:42.900Z",
+      "status": "quoted",
+      "average": 32.3,
+      "sellers": 5,
+      "sample": [
+        3000,
+        3000,
+        3072,
+        3090,
+        3990
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Shirahoshi-OP11-022-V2?language=2"
+    },
+    "827106": {
+      "productId": 827106,
+      "at": "2026-11-01T18:02:50.028Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Arlong-OP11-023-V1?language=2"
+    },
+    "827107": {
+      "productId": 827107,
+      "at": "2026-11-01T18:02:56.952Z",
+      "status": "quoted",
+      "average": 2.97,
+      "sellers": 5,
+      "sample": [
+        290,
+        295,
+        299,
+        299,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Arlong-OP11-023-V2?language=2"
+    },
+    "827108": {
+      "productId": 827108,
+      "at": "2026-11-01T18:03:07.696Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Aladine-OP11-024?language=2"
+    },
+    "827109": {
+      "productId": 827109,
+      "at": "2026-11-01T18:03:14.948Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Ishilly-OP11-025?language=2"
+    },
+    "827110": {
+      "productId": 827110,
+      "at": "2026-11-01T18:03:22.123Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Scaled-Neptunian-OP11-026?language=2"
+    },
+    "827111": {
+      "productId": 827111,
+      "at": "2026-11-01T18:03:29.371Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Bulge-Eyed-Neptunian-OP11-027?language=2"
+    },
+    "827112": {
+      "productId": 827112,
+      "at": "2026-11-01T18:03:36.544Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Lord-of-the-Coast-OP11-028?language=2"
+    },
+    "827113": {
+      "productId": 827113,
+      "at": "2026-11-01T18:03:43.456Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Praline-OP11-029?language=2"
+    },
+    "827114": {
+      "productId": 827114,
+      "at": "2026-11-01T18:03:54.314Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Shirahoshi-OP11-030?language=2"
+    },
+    "827115": {
+      "productId": 827115,
+      "at": "2026-11-01T18:04:01.336Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        4,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Jinbe-OP11-031-V1?language=2"
+    },
+    "827116": {
+      "productId": 827116,
+      "at": "2026-11-01T18:04:07.986Z",
+      "status": "quoted",
+      "average": 3.57,
+      "sellers": 5,
+      "sample": [
+        248,
+        300,
+        390,
+        400,
+        449
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Jinbe-OP11-031-V2?language=2"
+    },
+    "827117": {
+      "productId": 827117,
+      "at": "2026-11-01T18:04:16.100Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Surume-OP11-032?language=2"
+    },
+    "827118": {
+      "productId": 827118,
+      "at": "2026-11-01T18:04:23.387Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Bird-Neptunian-OP11-033?language=2"
+    },
+    "827119": {
+      "productId": 827119,
+      "at": "2026-11-01T18:04:30.408Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Hatchan-OP11-034?language=2"
+    },
+    "827120": {
+      "productId": 827120,
+      "at": "2026-11-01T18:04:42.925Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Fisher-Tiger-OP11-035?language=2"
+    },
+    "827121": {
+      "productId": 827121,
+      "at": "2026-11-01T18:04:50.229Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Spotted-Neptunian-OP11-036?language=2"
+    },
+    "827122": {
+      "productId": 827122,
+      "at": "2026-11-01T18:04:57.472Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Ancient-Weapon-Poseidon-OP11-037?language=2"
+    },
+    "827123": {
+      "productId": 827123,
+      "at": "2026-11-01T18:05:06.115Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Gum-Gum-Elephant-Gatling-OP11-038?language=2"
+    },
+    "827124": {
+      "productId": 827124,
+      "at": "2026-11-01T18:05:14.499Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Vagabond-Drill-OP11-039?language=2"
+    },
+    "827125": {
+      "productId": 827125,
+      "at": "2026-11-01T18:05:21.403Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP11-040-V1?language=2"
+    },
+    "827126": {
+      "productId": 827126,
+      "at": "2026-11-01T18:05:32.397Z",
+      "status": "quoted",
+      "average": 34.9,
+      "sellers": 5,
+      "sample": [
+        3450,
+        3499,
+        3500,
+        3500,
+        3500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP11-040-V2?language=2"
+    },
+    "827127": {
+      "productId": 827127,
+      "at": "2026-11-01T18:05:39.358Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Nami-OP11-041-V1?language=2"
+    },
+    "827128": {
+      "productId": 827128,
+      "at": "2026-11-01T18:05:45.933Z",
+      "status": "quoted",
+      "average": 39.38,
+      "sellers": 5,
+      "sample": [
+        3799,
+        3800,
+        3990,
+        3999,
+        4100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Nami-OP11-041-V2?language=2"
+    },
+    "827129": {
+      "productId": 827129,
+      "at": "2026-11-01T18:05:53.161Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Vito-OP11-042?language=2"
+    },
+    "827130": {
+      "productId": 827130,
+      "at": "2026-11-01T18:06:00.368Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Vinsmoke-Ichiji-OP11-043?language=2"
+    },
+    "827131": {
+      "productId": 827131,
+      "at": "2026-11-01T18:06:07.612Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Vinsmoke-Judge-OP11-044?language=2"
+    },
+    "827132": {
+      "productId": 827132,
+      "at": "2026-11-01T18:06:21.278Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Vinsmoke-Niji-OP11-045?language=2"
+    },
+    "827133": {
+      "productId": 827133,
+      "at": "2026-11-01T18:06:28.753Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Vinsmoke-Yonji-OP11-046?language=2"
+    },
+    "827134": {
+      "productId": 827134,
+      "at": "2026-11-01T18:06:35.975Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Vinsmoke-Reiju-OP11-047-V1?language=2"
+    },
+    "827135": {
+      "productId": 827135,
+      "at": "2026-11-01T18:06:42.717Z",
+      "status": "quoted",
+      "average": 2.95,
+      "sellers": 5,
+      "sample": [
+        275,
+        299,
+        300,
+        300,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Vinsmoke-Reiju-OP11-047-V2?language=2"
+    },
+    "827136": {
+      "productId": 827136,
+      "at": "2026-11-01T18:06:49.805Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/CaponeGangBege-OP11-048?language=2"
+    },
+    "827137": {
+      "productId": 827137,
+      "at": "2026-11-01T18:06:57.232Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Carrot-OP11-049?language=2"
+    },
+    "827138": {
+      "productId": 827138,
+      "at": "2026-11-01T18:07:09.631Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Gotti-OP11-050?language=2"
+    },
+    "827139": {
+      "productId": 827139,
+      "at": "2026-11-01T18:07:17.200Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        3,
+        3,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Sanji-OP11-051-V1?language=2"
+    },
+    "827140": {
+      "productId": 827140,
+      "at": "2026-11-01T18:07:24.608Z",
+      "status": "quoted",
+      "average": 8.1,
+      "sellers": 5,
+      "sample": [
+        799,
+        800,
+        800,
+        800,
+        850
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Sanji-OP11-051-V2?language=2"
+    },
+    "827141": {
+      "productId": 827141,
+      "at": "2026-11-01T18:07:32.411Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Lola-OP11-052?language=2"
+    },
+    "827142": {
+      "productId": 827142,
+      "at": "2026-11-01T18:07:39.679Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Tony-TonyChopper-OP11-053?language=2"
+    },
+    "827143": {
+      "productId": 827143,
+      "at": "2026-11-01T18:07:46.627Z",
+      "status": "quoted",
+      "average": 1,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Nami-OP11-054-V1?language=2"
+    },
+    "827144": {
+      "productId": 827144,
+      "at": "2026-11-01T18:07:57.274Z",
+      "status": "quoted",
+      "average": 19.94,
+      "sellers": 5,
+      "sample": [
+        1990,
+        1990,
+        1990,
+        1999,
+        2000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Nami-OP11-054-V2?language=2"
+    },
+    "827145": {
+      "productId": 827145,
+      "at": "2026-11-01T18:08:04.750Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Bartolomeo-OP11-055?language=2"
+    },
+    "827146": {
+      "productId": 827146,
+      "at": "2026-11-01T18:08:12.615Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Brook-OP11-056?language=2"
+    },
+    "827148": {
+      "productId": 827148,
+      "at": "2026-11-01T18:08:20.339Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Pedro-OP11-057?language=2"
+    },
+    "827149": {
+      "productId": 827149,
+      "at": "2026-11-01T18:08:27.841Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP11-058?language=2"
+    },
+    "827150": {
+      "productId": 827150,
+      "at": "2026-11-01T18:08:34.924Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Gum-Gum-King-Cobra-OP11-059?language=2"
+    },
+    "827151": {
+      "productId": 827151,
+      "at": "2026-11-01T18:08:46.013Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Lets-Crash-This-Wedding-OP11-060?language=2"
+    },
+    "827152": {
+      "productId": 827152,
+      "at": "2026-11-01T18:08:53.355Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Gum-Gum-Jet-Culverin-OP11-061?language=2"
+    },
+    "827154": {
+      "productId": 827154,
+      "at": "2026-11-01T18:09:00.390Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Katakuri-OP11-062-V1?language=2"
+    },
+    "827155": {
+      "productId": 827155,
+      "at": "2026-11-01T18:09:07.169Z",
+      "status": "quoted",
+      "average": 17.6,
+      "sellers": 5,
+      "sample": [
+        1700,
+        1700,
+        1800,
+        1800,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Katakuri-OP11-062-V2?language=2"
+    },
+    "827156": {
+      "productId": 827156,
+      "at": "2026-11-01T18:09:14.619Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Little-Sadi-OP11-063?language=2"
+    },
+    "827157": {
+      "productId": 827157,
+      "at": "2026-11-01T18:09:22.133Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Saldeath-OP11-064?language=2"
+    },
+    "827158": {
+      "productId": 827158,
+      "at": "2026-11-01T18:09:34.854Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Anana-OP11-065?language=2"
+    },
+    "827159": {
+      "productId": 827159,
+      "at": "2026-11-01T18:09:41.683Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Oven-OP11-066?language=2"
+    },
+    "827196": {
+      "productId": 827196,
+      "at": "2026-11-01T18:09:48.723Z",
+      "status": "quoted",
+      "average": 3.2,
+      "sellers": 5,
+      "sample": [
+        299,
+        299,
+        300,
+        350,
+        350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Katakuri-OP11-067-V1?language=2"
+    },
+    "827197": {
+      "productId": 827197,
+      "at": "2026-11-01T18:09:55.502Z",
+      "status": "quoted",
+      "average": 11.94,
+      "sellers": 5,
+      "sample": [
+        1185,
+        1190,
+        1195,
+        1199,
+        1199
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Katakuri-OP11-067-V2?language=2"
+    },
+    "827198": {
+      "productId": 827198,
+      "at": "2026-11-01T18:10:02.860Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Daifuku-OP11-068?language=2"
+    },
+    "827199": {
+      "productId": 827199,
+      "at": "2026-11-01T18:10:10.456Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Brulee-OP11-069?language=2"
+    },
+    "827200": {
+      "productId": 827200,
+      "at": "2026-11-01T18:10:26.294Z",
+      "status": "quoted",
+      "average": 1.4,
+      "sellers": 5,
+      "sample": [
+        10,
+        50,
+        200,
+        200,
+        240
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Pudding-OP11-070-V1?language=2"
+    },
+    "827201": {
+      "productId": 827201,
+      "at": "2026-11-01T18:10:33.382Z",
+      "status": "quoted",
+      "average": 7.15,
+      "sellers": 5,
+      "sample": [
+        697,
+        700,
+        700,
+        700,
+        780
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Pudding-OP11-070-V2?language=2"
+    },
+    "827202": {
+      "productId": 827202,
+      "at": "2026-11-01T18:10:41.419Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Perospero-OP11-071?language=2"
+    },
+    "827203": {
+      "productId": 827203,
+      "at": "2026-11-01T18:10:49.104Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Mont-dor-OP11-072?language=2"
+    },
+    "827204": {
+      "productId": 827204,
+      "at": "2026-11-01T18:10:56.486Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Linlin-OP11-073-V1?language=2"
+    },
+    "827205": {
+      "productId": 827205,
+      "at": "2026-11-01T18:11:03.176Z",
+      "status": "quoted",
+      "average": 5.28,
+      "sellers": 5,
+      "sample": [
+        490,
+        500,
+        500,
+        550,
+        599
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Linlin-OP11-073-V2?language=2"
+    },
+    "827206": {
+      "productId": 827206,
+      "at": "2026-11-01T18:11:16.439Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Streusen-OP11-074?language=2"
+    },
+    "827207": {
+      "productId": 827207,
+      "at": "2026-11-01T18:11:24.001Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/JaguarDSaul-OP11-075?language=2"
+    },
+    "827208": {
+      "productId": 827208,
+      "at": "2026-11-01T18:11:31.867Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Hannyabal-OP11-076?language=2"
+    },
+    "827209": {
+      "productId": 827209,
+      "at": "2026-11-01T18:11:38.979Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Randolph-OP11-077?language=2"
+    },
+    "827210": {
+      "productId": 827210,
+      "at": "2026-11-01T18:11:46.060Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Decuplets-OP11-078?language=2"
+    },
+    "827211": {
+      "productId": 827211,
+      "at": "2026-11-01T18:11:53.120Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/When-Two-Men-Are-Fighting-the-Last-Thing-I-Need-Is-Some-Half-Hearted-Assistance-OP11-079?language=2"
+    },
+    "827212": {
+      "productId": 827212,
+      "at": "2026-11-01T18:12:05.376Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Gear-Two-OP11-080-V1?language=2"
+    },
+    "827213": {
+      "productId": 827213,
+      "at": "2026-11-01T18:12:12.191Z",
+      "status": "quoted",
+      "average": 234.8,
+      "sellers": 5,
+      "sample": [
+        22000,
+        22500,
+        23900,
+        24000,
+        25000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Gear-Two-OP11-080-V2?language=2"
+    },
+    "827214": {
+      "productId": 827214,
+      "at": "2026-11-01T18:12:21.273Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Cognac-Mama-Mash-OP11-081?language=2"
+    },
+    "827215": {
+      "productId": 827215,
+      "at": "2026-11-01T18:12:29.326Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Aramaki-OP11-082?language=2"
+    },
+    "827216": {
+      "productId": 827216,
+      "at": "2026-11-01T18:12:36.457Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Caribou-OP11-083?language=2"
+    },
+    "827217": {
+      "productId": 827217,
+      "at": "2026-11-01T18:12:43.435Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Kuzan-OP11-084-V1?language=2"
+    },
+    "827218": {
+      "productId": 827218,
+      "at": "2026-11-01T18:12:54.919Z",
+      "status": "quoted",
+      "average": 4.6,
+      "sellers": 5,
+      "sample": [
+        400,
+        449,
+        450,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Kuzan-OP11-084-V2?language=2"
+    },
+    "827219": {
+      "productId": 827219,
+      "at": "2026-11-01T18:13:02.153Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Kurozumi-Orochi-OP11-085?language=2"
+    },
+    "827220": {
+      "productId": 827220,
+      "at": "2026-11-01T18:13:12.009Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Coribou-OP11-086?language=2"
+    },
+    "827221": {
+      "productId": 827221,
+      "at": "2026-11-01T18:13:19.274Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Miss-Sarahebi-OP11-087?language=2"
+    },
+    "827222": {
+      "productId": 827222,
+      "at": "2026-11-01T18:13:26.748Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Shu-OP11-088?language=2"
+    },
+    "827223": {
+      "productId": 827223,
+      "at": "2026-11-01T18:13:34.581Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Black-Maria-OP11-089?language=2"
+    },
+    "827224": {
+      "productId": 827224,
+      "at": "2026-11-01T18:13:45.284Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Briscola-OP11-090?language=2"
+    },
+    "827225": {
+      "productId": 827225,
+      "at": "2026-11-01T18:13:52.519Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Berry-Good-OP11-091?language=2"
+    },
+    "827226": {
+      "productId": 827226,
+      "at": "2026-11-01T18:13:59.574Z",
+      "status": "quoted",
+      "average": 0.09,
+      "sellers": 5,
+      "sample": [
+        5,
+        8,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Helmeppo-OP11-092-V1?language=2"
+    },
+    "827227": {
+      "productId": 827227,
+      "at": "2026-11-01T18:14:06.420Z",
+      "status": "quoted",
+      "average": 2.96,
+      "sellers": 5,
+      "sample": [
+        289,
+        290,
+        300,
+        300,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Helmeppo-OP11-092-V2?language=2"
+    },
+    "827228": {
+      "productId": 827228,
+      "at": "2026-11-01T18:14:13.641Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Bogard-OP11-093?language=2"
+    },
+    "827229": {
+      "productId": 827229,
+      "at": "2026-11-01T18:14:20.646Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Morgan-OP11-094?language=2"
+    },
+    "827230": {
+      "productId": 827230,
+      "at": "2026-11-01T18:14:34.539Z",
+      "status": "quoted",
+      "average": 0.1,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDGarp-OP11-095-V1?language=2"
+    },
+    "827231": {
+      "productId": 827231,
+      "at": "2026-11-01T18:14:41.085Z",
+      "status": "quoted",
+      "average": 7.88,
+      "sellers": 5,
+      "sample": [
+        699,
+        700,
+        799,
+        800,
+        940
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDGarp-OP11-095-V2?language=2"
+    },
+    "827232": {
+      "productId": 827232,
+      "at": "2026-11-01T18:14:48.190Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Ripper-OP11-096?language=2"
+    },
+    "827233": {
+      "productId": 827233,
+      "at": "2026-11-01T18:14:55.186Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/After-All-These-Years-Im-Losing-My-Edge-OP11-097?language=2"
+    },
+    "827234": {
+      "productId": 827234,
+      "at": "2026-11-01T18:15:02.473Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Blue-Hole-OP11-098?language=2"
+    },
+    "827235": {
+      "productId": 827235,
+      "at": "2026-11-01T18:15:10.538Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Im-Gonna-Be-a-Navy-Officer-OP11-099?language=2"
+    },
+    "827236": {
+      "productId": 827236,
+      "at": "2026-11-01T18:15:21.383Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Otohime-OP11-100?language=2"
+    },
+    "827237": {
+      "productId": 827237,
+      "at": "2026-11-01T18:15:28.912Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        4,
+        4,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/CaponeGangBege-OP11-101-V1?language=2"
+    },
+    "827238": {
+      "productId": 827238,
+      "at": "2026-11-01T18:15:35.773Z",
+      "status": "quoted",
+      "average": 3.86,
+      "sellers": 5,
+      "sample": [
+        359,
+        380,
+        390,
+        399,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/CaponeGangBege-OP11-101-V2?language=2"
+    },
+    "827239": {
+      "productId": 827239,
+      "at": "2026-11-01T18:15:43.259Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Camie-OP11-102?language=2"
+    },
+    "827240": {
+      "productId": 827240,
+      "at": "2026-11-01T18:15:50.735Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Long-Jaw-Neptunian-OP11-103?language=2"
+    },
+    "827241": {
+      "productId": 827241,
+      "at": "2026-11-01T18:15:58.186Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Shirley-OP11-104?language=2"
+    },
+    "827242": {
+      "productId": 827242,
+      "at": "2026-11-01T18:16:11.953Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Charlotte-Chiffon-OP11-105?language=2"
+    },
+    "827243": {
+      "productId": 827243,
+      "at": "2026-11-01T18:16:18.547Z",
+      "status": "quoted",
+      "average": 1.68,
+      "sellers": 5,
+      "sample": [
+        145,
+        149,
+        150,
+        195,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Zeus-OP11-106-V1?language=2"
+    },
+    "827244": {
+      "productId": 827244,
+      "at": "2026-11-01T18:16:25.172Z",
+      "status": "quoted",
+      "average": 18.56,
+      "sellers": 5,
+      "sample": [
+        1780,
+        1800,
+        1800,
+        1900,
+        1999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Zeus-OP11-106-V2?language=2"
+    },
+    "827245": {
+      "productId": 827245,
+      "at": "2026-11-01T18:16:32.136Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Topknot-Neptunian-OP11-107?language=2"
+    },
+    "827246": {
+      "productId": 827246,
+      "at": "2026-11-01T18:16:39.394Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Neptune-OP11-108?language=2"
+    },
+    "827247": {
+      "productId": 827247,
+      "at": "2026-11-01T18:16:46.304Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Pappag-OP11-109?language=2"
+    },
+    "827248": {
+      "productId": 827248,
+      "at": "2026-11-01T18:16:58.643Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Fukaboshi-OP11-110?language=2"
+    },
+    "827249": {
+      "productId": 827249,
+      "at": "2026-11-01T18:17:06.005Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Mamboshi-OP11-111?language=2"
+    },
+    "827250": {
+      "productId": 827250,
+      "at": "2026-11-01T18:17:12.968Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Megalo-OP11-112?language=2"
+    },
+    "827251": {
+      "productId": 827251,
+      "at": "2026-11-01T18:17:20.021Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Ryuboshi-OP11-113?language=2"
+    },
+    "827252": {
+      "productId": 827252,
+      "at": "2026-11-01T18:17:27.076Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Gum-Gum-Fire-Fist-Pistol-Red-Hawk-OP11-114-V1?language=2"
+    },
+    "827253": {
+      "productId": 827253,
+      "at": "2026-11-01T18:17:33.740Z",
+      "status": "quoted",
+      "average": 51.6,
+      "sellers": 5,
+      "sample": [
+        4500,
+        4900,
+        5000,
+        5500,
+        5900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Gum-Gum-Fire-Fist-Pistol-Red-Hawk-OP11-114-V2?language=2"
+    },
+    "827254": {
+      "productId": 827254,
+      "at": "2026-11-01T18:17:45.796Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Youre-Just-Not-My-Type-OP11-115?language=2"
+    },
+    "827255": {
+      "productId": 827255,
+      "at": "2026-11-01T18:17:52.828Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Merman-Combat-Ultramarine-OP11-116?language=2"
+    },
+    "827256": {
+      "productId": 827256,
+      "at": "2026-11-01T18:18:00.162Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Fish-Man-Island-OP11-117?language=2"
+    },
+    "827257": {
+      "productId": 827257,
+      "at": "2026-11-01T18:18:07.061Z",
+      "status": "quoted",
+      "average": 1.97,
+      "sellers": 5,
+      "sample": [
+        193,
+        194,
+        200,
+        200,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP11-118-V1?language=2"
+    },
+    "827258": {
+      "productId": 827258,
+      "at": "2026-11-01T18:18:13.993Z",
+      "status": "quoted",
+      "average": 17.2,
+      "sellers": 5,
+      "sample": [
+        1600,
+        1650,
+        1750,
+        1800,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP11-118-V2?language=2"
+    },
+    "827259": {
+      "productId": 827259,
+      "at": "2026-11-01T18:18:20.691Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 2,
+      "sample": [
+        69998,
+        79995
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP11-118-V3?language=2"
+    },
+    "827260": {
+      "productId": 827260,
+      "at": "2026-11-01T18:18:38.529Z",
+      "status": "quoted",
+      "average": 1.1,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        100,
+        100,
+        150
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Koby-OP11-119-V1?language=2"
+    },
+    "827261": {
+      "productId": 827261,
+      "at": "2026-11-01T18:18:45.679Z",
+      "status": "quoted",
+      "average": 11.2,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1050,
+        1100,
+        1200,
+        1250
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Koby-OP11-119-V2?language=2"
+    },
+    "827262": {
+      "productId": 827262,
+      "at": "2026-11-01T18:18:52.277Z",
+      "status": "quoted",
+      "average": 66.99,
+      "sellers": 5,
+      "sample": [
+        6000,
+        6000,
+        6500,
+        7498,
+        7499
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Shirahoshi-EB01-057?language=2"
+    },
+    "827263": {
+      "productId": 827263,
+      "at": "2026-11-01T18:19:22.797Z",
+      "status": "quoted",
+      "average": 106.4,
+      "sellers": 5,
+      "sample": [
+        10000,
+        10000,
+        10999,
+        11000,
+        11200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Sanji-OP06-119?language=2"
+    },
+    "827264": {
+      "productId": 827264,
+      "at": "2026-11-01T18:19:29.335Z",
+      "status": "quoted",
+      "average": 73,
+      "sellers": 5,
+      "sample": [
+        7000,
+        7000,
+        7200,
+        7500,
+        7800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Stussy-OP07-085?language=2"
+    },
+    "827265": {
+      "productId": 827265,
+      "at": "2026-11-01T18:19:35.946Z",
+      "status": "quoted",
+      "average": 50.8,
+      "sellers": 5,
+      "sample": [
+        4900,
+        4999,
+        5000,
+        5000,
+        5500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Silvers-Rayleigh-OP09-005?language=2"
+    },
+    "827266": {
+      "productId": 827266,
+      "at": "2026-11-01T18:19:42.527Z",
+      "status": "quoted",
+      "average": 116,
+      "sellers": 5,
+      "sample": [
+        10500,
+        11000,
+        12000,
+        12000,
+        12500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Shanks-ST16-004?language=2"
+    },
+    "827267": {
+      "productId": 827267,
+      "at": "2026-11-01T18:19:49.320Z",
+      "status": "quoted",
+      "average": 195.8,
+      "sellers": 5,
+      "sample": [
+        19000,
+        19400,
+        19500,
+        19999,
+        20000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Luffy-Tarou-ST18-005?language=2"
+    },
+    "827268": {
+      "productId": 827268,
+      "at": "2026-11-01T18:18:58.842Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP05-119-V1?language=2"
+    },
+    "827269": {
+      "productId": 827269,
+      "at": "2026-11-01T18:19:05.368Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP05-119-V2?language=2"
+    },
     "829117": {
       "productId": 829117,
       "at": "2026-10-29T23:33:59.109Z",
@@ -4674,6 +6984,21 @@
         2
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Bartolomeo-OP07-031?language=2"
+    },
+    "830578": {
+      "productId": 830578,
+      "at": "2026-11-01T18:19:12.396Z",
+      "status": "quoted",
+      "average": 929.98,
+      "sellers": 5,
+      "sample": [
+        89990,
+        89999,
+        94999,
+        95000,
+        95000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Roronoa-Zoro-OP06-118?language=2"
     },
     "852525": {
       "productId": 852525,

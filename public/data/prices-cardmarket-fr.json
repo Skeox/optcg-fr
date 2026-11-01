@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-01T18:19:49.320Z",
+  "updatedAt": "2026-11-01T18:53:44.974Z",
   "products": {
     "799250": {
       "productId": 799250,
@@ -6999,6 +6999,2325 @@
         95000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/Roronoa-Zoro-OP06-118?language=2"
+    },
+    "842888": {
+      "productId": 842888,
+      "at": "2026-11-01T18:30:00.124Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Silvers-Rayleigh-OP12-001-V1?language=2"
+    },
+    "842889": {
+      "productId": 842889,
+      "at": "2026-11-01T18:30:11.731Z",
+      "status": "quoted",
+      "average": 21.5,
+      "sellers": 5,
+      "sample": [
+        1800,
+        2100,
+        2100,
+        2350,
+        2400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Silvers-Rayleigh-OP12-001-V2?language=2"
+    },
+    "842890": {
+      "productId": 842890,
+      "at": "2026-11-01T18:30:19.267Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/EdwardNewgate-OP12-002?language=2"
+    },
+    "842891": {
+      "productId": 842891,
+      "at": "2026-11-01T18:30:26.354Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Crocus-OP12-003?language=2"
+    },
+    "842892": {
+      "productId": 842892,
+      "at": "2026-11-01T18:30:33.454Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Kouzuki-Oden-OP12-004?language=2"
+    },
+    "842893": {
+      "productId": 842893,
+      "at": "2026-11-01T18:30:40.653Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Shiki-OP12-005?language=2"
+    },
+    "842894": {
+      "productId": 842894,
+      "at": "2026-11-01T18:30:47.683Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Shakuyaku-OP12-006?language=2"
+    },
+    "842895": {
+      "productId": 842895,
+      "at": "2026-11-01T18:30:58.828Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Shanks-OP12-007?language=2"
+    },
+    "842896": {
+      "productId": 842896,
+      "at": "2026-11-01T18:31:06.054Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Shanks-OP12-008-V1?language=2"
+    },
+    "842897": {
+      "productId": 842897,
+      "at": "2026-11-01T18:31:14.480Z",
+      "status": "quoted",
+      "average": 6,
+      "sellers": 5,
+      "sample": [
+        550,
+        550,
+        599,
+        600,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Shanks-OP12-008-V2?language=2"
+    },
+    "842898": {
+      "productId": 842898,
+      "at": "2026-11-01T18:31:23.670Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Jinbe-OP12-009?language=2"
+    },
+    "842899": {
+      "productId": 842899,
+      "at": "2026-11-01T18:31:32.022Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Douglas-Bullet-OP12-010?language=2"
+    },
+    "842900": {
+      "productId": 842900,
+      "at": "2026-11-01T18:31:41.320Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Duval-OP12-011?language=2"
+    },
+    "842901": {
+      "productId": 842901,
+      "at": "2026-11-01T18:31:52.450Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Buggy-OP12-012?language=2"
+    },
+    "842902": {
+      "productId": 842902,
+      "at": "2026-11-01T18:32:00.983Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Hatchan-OP12-013?language=2"
+    },
+    "842903": {
+      "productId": 842903,
+      "at": "2026-11-01T18:32:12.048Z",
+      "status": "quoted",
+      "average": 0.09,
+      "sellers": 5,
+      "sample": [
+        5,
+        9,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Boa-Hancock-OP12-014-V1?language=2"
+    },
+    "842904": {
+      "productId": 842904,
+      "at": "2026-11-01T18:32:19.865Z",
+      "status": "quoted",
+      "average": 10.74,
+      "sellers": 5,
+      "sample": [
+        880,
+        900,
+        1100,
+        1200,
+        1290
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Boa-Hancock-OP12-014-V2?language=2"
+    },
+    "842905": {
+      "productId": 842905,
+      "at": "2026-11-01T18:32:27.566Z",
+      "status": "quoted",
+      "average": 4.57,
+      "sellers": 5,
+      "sample": [
+        395,
+        440,
+        450,
+        498,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/MonkeyDLuffy-OP12-015-V1?language=2"
+    },
+    "842906": {
+      "productId": 842906,
+      "at": "2026-11-01T18:32:35.657Z",
+      "status": "quoted",
+      "average": 11.48,
+      "sellers": 5,
+      "sample": [
+        1100,
+        1100,
+        1149,
+        1190,
+        1200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/MonkeyDLuffy-OP12-015-V2?language=2"
+    },
+    "842907": {
+      "productId": 842907,
+      "at": "2026-11-01T18:32:48.949Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/To-Never-Doubt-That-Is-Power-OP12-016?language=2"
+    },
+    "842908": {
+      "productId": 842908,
+      "at": "2026-11-01T18:32:56.945Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Color-of-Observation-Haki-OP12-017?language=2"
+    },
+    "842909": {
+      "productId": 842909,
+      "at": "2026-11-01T18:33:04.803Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Color-of-the-Supreme-King-Haki-OP12-018?language=2"
+    },
+    "842910": {
+      "productId": 842910,
+      "at": "2026-11-01T18:33:13.415Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Color-of-Arms-Haki-OP12-019?language=2"
+    },
+    "842911": {
+      "productId": 842911,
+      "at": "2026-11-01T18:33:21.895Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Roronoa-Zoro-OP12-020-V1?language=2"
+    },
+    "842912": {
+      "productId": 842912,
+      "at": "2026-11-01T18:33:29.450Z",
+      "status": "quoted",
+      "average": 43.2,
+      "sellers": 5,
+      "sample": [
+        4000,
+        4200,
+        4400,
+        4500,
+        4500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Roronoa-Zoro-OP12-020-V2?language=2"
+    },
+    "842913": {
+      "productId": 842913,
+      "at": "2026-11-01T18:33:41.779Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Ipponmatsu-OP12-021?language=2"
+    },
+    "842914": {
+      "productId": 842914,
+      "at": "2026-11-01T18:33:49.921Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Inuarashi-OP12-022?language=2"
+    },
+    "842915": {
+      "productId": 842915,
+      "at": "2026-11-01T18:33:57.813Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Kawamatsu-OP12-023?language=2"
+    },
+    "842916": {
+      "productId": 842916,
+      "at": "2026-11-01T18:34:06.259Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Gyukimaru-OP12-024?language=2"
+    },
+    "842917": {
+      "productId": 842917,
+      "at": "2026-11-01T18:34:15.281Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Kinemon-OP12-025?language=2"
+    },
+    "842918": {
+      "productId": 842918,
+      "at": "2026-11-01T18:34:23.566Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Kuina-OP12-026?language=2"
+    },
+    "842919": {
+      "productId": 842919,
+      "at": "2026-11-01T18:34:37.479Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Koushirou-OP12-027?language=2"
+    },
+    "842920": {
+      "productId": 842920,
+      "at": "2026-11-01T18:34:45.835Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Kouzuki-Hiyori-OP12-028?language=2"
+    },
+    "842921": {
+      "productId": 842921,
+      "at": "2026-11-01T18:34:54.234Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Shimotsuki-Kouzaburou-OP12-029?language=2"
+    },
+    "842922": {
+      "productId": 842922,
+      "at": "2026-11-01T18:35:01.931Z",
+      "status": "quoted",
+      "average": 0.18,
+      "sellers": 5,
+      "sample": [
+        14,
+        15,
+        19,
+        20,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Dracule-Mihawk-OP12-030-V1?language=2"
+    },
+    "842923": {
+      "productId": 842923,
+      "at": "2026-11-01T18:35:09.540Z",
+      "status": "quoted",
+      "average": 7.38,
+      "sellers": 5,
+      "sample": [
+        700,
+        700,
+        740,
+        750,
+        799
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Dracule-Mihawk-OP12-030-V2?language=2"
+    },
+    "842924": {
+      "productId": 842924,
+      "at": "2026-11-01T18:35:18.062Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Tashigi-OP12-031-V1?language=2"
+    },
+    "842925": {
+      "productId": 842925,
+      "at": "2026-11-01T18:35:30.232Z",
+      "status": "quoted",
+      "average": 10.7,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1000,
+        1050,
+        1150,
+        1150
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Tashigi-OP12-031-V2?language=2"
+    },
+    "842926": {
+      "productId": 842926,
+      "at": "2026-11-01T18:35:39.030Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Nekomamushi-OP12-032?language=2"
+    },
+    "842927": {
+      "productId": 842927,
+      "at": "2026-11-01T18:35:47.154Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Helmeppo-OP12-033?language=2"
+    },
+    "842928": {
+      "productId": 842928,
+      "at": "2026-11-01T18:35:55.002Z",
+      "status": "quoted",
+      "average": 5.96,
+      "sellers": 5,
+      "sample": [
+        590,
+        590,
+        599,
+        600,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Perona-OP12-034-V1?language=2"
+    },
+    "842929": {
+      "productId": 842929,
+      "at": "2026-11-01T18:36:02.488Z",
+      "status": "quoted",
+      "average": 22,
+      "sellers": 5,
+      "sample": [
+        1900,
+        2000,
+        2100,
+        2499,
+        2499
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Perona-OP12-034-V2?language=2"
+    },
+    "842930": {
+      "productId": 842930,
+      "at": "2026-11-01T18:36:12.365Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Morgan-OP12-035?language=2"
+    },
+    "842931": {
+      "productId": 842931,
+      "at": "2026-11-01T18:36:28.154Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Roronoa-Zoro-OP12-036?language=2"
+    },
+    "842932": {
+      "productId": 842932,
+      "at": "2026-11-01T18:36:36.165Z",
+      "status": "quoted",
+      "average": 1.49,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        180,
+        180,
+        185
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Demon-Aura-Nine-Sword-Style-Asura-Blades-Drawn-Dead-Mans-Game-OP12-037-V1?language=2"
+    },
+    "842933": {
+      "productId": 842933,
+      "at": "2026-11-01T18:36:43.834Z",
+      "status": "quoted",
+      "average": 83.8,
+      "sellers": 5,
+      "sample": [
+        8000,
+        8000,
+        8500,
+        8500,
+        8900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Demon-Aura-Nine-Sword-Style-Asura-Blades-Drawn-Dead-Mans-Game-OP12-037-V2?language=2"
+    },
+    "842934": {
+      "productId": 842934,
+      "at": "2026-11-01T18:36:52.188Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Two-Sword-Style-Rashomon-OP12-038?language=2"
+    },
+    "842935": {
+      "productId": 842935,
+      "at": "2026-11-01T18:37:00.225Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Luffy-Is-the-Man-Who-Will-Become-the-King-of-Pirates-OP12-039?language=2"
+    },
+    "842936": {
+      "productId": 842936,
+      "at": "2026-11-01T18:37:08.368Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Kuzan-OP12-040-V1?language=2"
+    },
+    "842937": {
+      "productId": 842937,
+      "at": "2026-11-01T18:37:23.206Z",
+      "status": "quoted",
+      "average": 19.54,
+      "sellers": 5,
+      "sample": [
+        1880,
+        1900,
+        1990,
+        1999,
+        1999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Kuzan-OP12-040-V2?language=2"
+    },
+    "842938": {
+      "productId": 842938,
+      "at": "2026-11-01T18:37:31.560Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Sanji-OP12-041-V1?language=2"
+    },
+    "842939": {
+      "productId": 842939,
+      "at": "2026-11-01T18:37:39.438Z",
+      "status": "quoted",
+      "average": 20.42,
+      "sellers": 5,
+      "sample": [
+        1900,
+        1959,
+        1999,
+        2150,
+        2200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Sanji-OP12-041-V2?language=2"
+    },
+    "842940": {
+      "productId": 842940,
+      "at": "2026-11-01T18:37:47.743Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Alvida-OP12-042?language=2"
+    },
+    "842941": {
+      "productId": 842941,
+      "at": "2026-11-01T18:37:55.952Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Kuzan-OP12-043-V1?language=2"
+    },
+    "842942": {
+      "productId": 842942,
+      "at": "2026-11-01T18:38:03.542Z",
+      "status": "quoted",
+      "average": 8.7,
+      "sellers": 5,
+      "sample": [
+        748,
+        750,
+        900,
+        950,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Kuzan-OP12-043-V2?language=2"
+    },
+    "842943": {
+      "productId": 842943,
+      "at": "2026-11-01T18:38:15.571Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Sakazuki-OP12-044?language=2"
+    },
+    "842944": {
+      "productId": 842944,
+      "at": "2026-11-01T18:38:24.928Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Jango-OP12-045?language=2"
+    },
+    "842945": {
+      "productId": 842945,
+      "at": "2026-11-01T18:38:33.795Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/ZephyrNavy-OP12-046?language=2"
+    },
+    "842946": {
+      "productId": 842946,
+      "at": "2026-11-01T18:38:42.151Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Sengoku-OP12-047?language=2"
+    },
+    "842947": {
+      "productId": 842947,
+      "at": "2026-11-01T18:38:50.487Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Donquixote-Rosinante-OP12-048?language=2"
+    },
+    "842948": {
+      "productId": 842948,
+      "at": "2026-11-01T18:38:58.384Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Buggy-OP12-049?language=2"
+    },
+    "842949": {
+      "productId": 842949,
+      "at": "2026-11-01T18:39:12.589Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/JaguarDSaul-OP12-050?language=2"
+    },
+    "842950": {
+      "productId": 842950,
+      "at": "2026-11-01T18:39:20.441Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Hina-OP12-051?language=2"
+    },
+    "842951": {
+      "productId": 842951,
+      "at": "2026-11-01T18:39:29.097Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Fullbody-OP12-052?language=2"
+    },
+    "842952": {
+      "productId": 842952,
+      "at": "2026-11-01T18:39:37.089Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Borsalino-OP12-053?language=2"
+    },
+    "842953": {
+      "productId": 842953,
+      "at": "2026-11-01T18:39:45.468Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/MarshallDTeach-OP12-054?language=2"
+    },
+    "842954": {
+      "productId": 842954,
+      "at": "2026-11-01T18:39:53.719Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Mohji-Cabaji-OP12-055?language=2"
+    },
+    "842955": {
+      "productId": 842955,
+      "at": "2026-11-01T18:40:05.997Z",
+      "status": "quoted",
+      "average": 0.09,
+      "sellers": 5,
+      "sample": [
+        2,
+        10,
+        10,
+        10,
+        15
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/MonkeyDGarp-OP12-056-V1?language=2"
+    },
+    "842956": {
+      "productId": 842956,
+      "at": "2026-11-01T18:40:13.478Z",
+      "status": "quoted",
+      "average": 5.74,
+      "sellers": 5,
+      "sample": [
+        450,
+        520,
+        550,
+        650,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/MonkeyDGarp-OP12-056-V2?language=2"
+    },
+    "842957": {
+      "productId": 842957,
+      "at": "2026-11-01T18:40:22.105Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Ice-Block-Pheasant-Peck-OP12-057?language=2"
+    },
+    "842958": {
+      "productId": 842958,
+      "at": "2026-11-01T18:40:31.045Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/I-Will-Make-Whitebeard-the-King-of-the-Pirates-OP12-058?language=2"
+    },
+    "842959": {
+      "productId": 842959,
+      "at": "2026-11-01T18:40:38.966Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Concasser-OP12-059?language=2"
+    },
+    "842960": {
+      "productId": 842960,
+      "at": "2026-11-01T18:40:46.949Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Boeuf-Burst-OP12-060-V1?language=2"
+    },
+    "842961": {
+      "productId": 842961,
+      "at": "2026-11-01T18:41:00.669Z",
+      "status": "quoted",
+      "average": 60.4,
+      "sellers": 5,
+      "sample": [
+        5800,
+        5999,
+        6000,
+        6200,
+        6200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Boeuf-Burst-OP12-060-V2?language=2"
+    },
+    "842962": {
+      "productId": 842962,
+      "at": "2026-11-01T18:41:09.701Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Donquixote-Rosinante-OP12-061-V1?language=2"
+    },
+    "842963": {
+      "productId": 842963,
+      "at": "2026-11-01T18:41:17.317Z",
+      "status": "quoted",
+      "average": 24.8,
+      "sellers": 5,
+      "sample": [
+        2400,
+        2499,
+        2500,
+        2500,
+        2500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Donquixote-Rosinante-OP12-061-V2?language=2"
+    },
+    "842964": {
+      "productId": 842964,
+      "at": "2026-11-01T18:41:25.666Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Vinsmoke-Sora-OP12-062?language=2"
+    },
+    "842965": {
+      "productId": 842965,
+      "at": "2026-11-01T18:41:33.359Z",
+      "status": "quoted",
+      "average": 0.49,
+      "sellers": 5,
+      "sample": [
+        48,
+        49,
+        50,
+        50,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Vinsmoke-Reiju-OP12-063-V1?language=2"
+    },
+    "842966": {
+      "productId": 842966,
+      "at": "2026-11-01T18:41:41.291Z",
+      "status": "quoted",
+      "average": 15.18,
+      "sellers": 5,
+      "sample": [
+        1398,
+        1500,
+        1500,
+        1590,
+        1600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Vinsmoke-Reiju-OP12-063-V2?language=2"
+    },
+    "842967": {
+      "productId": 842967,
+      "at": "2026-11-01T18:41:53.802Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Vergo-OP12-064?language=2"
+    },
+    "842968": {
+      "productId": 842968,
+      "at": "2026-11-01T18:42:01.864Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/EmporioIvankov-OP12-065?language=2"
+    },
+    "842969": {
+      "productId": 842969,
+      "at": "2026-11-01T18:42:13.266Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Carne-OP12-066?language=2"
+    },
+    "842970": {
+      "productId": 842970,
+      "at": "2026-11-01T18:42:21.362Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Carmen-OP12-067?language=2"
+    },
+    "842971": {
+      "productId": 842971,
+      "at": "2026-11-01T18:42:29.478Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Gin-OP12-068?language=2"
+    },
+    "842972": {
+      "productId": 842972,
+      "at": "2026-11-01T18:42:37.685Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Crocodile-OP12-069?language=2"
+    },
+    "842973": {
+      "productId": 842973,
+      "at": "2026-11-01T18:42:52.170Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Sanji-OP12-070-V1?language=2"
+    },
+    "842974": {
+      "productId": 842974,
+      "at": "2026-11-01T18:42:59.668Z",
+      "status": "quoted",
+      "average": 4.8,
+      "sellers": 5,
+      "sample": [
+        400,
+        400,
+        500,
+        501,
+        599
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Sanji-OP12-070-V2?language=2"
+    },
+    "842975": {
+      "productId": 842975,
+      "at": "2026-11-01T18:43:07.822Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Charlotte-Pudding-OP12-071?language=2"
+    },
+    "842976": {
+      "productId": 842976,
+      "at": "2026-11-01T18:43:15.818Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Zeff-OP12-072?language=2"
+    },
+    "842977": {
+      "productId": 842977,
+      "at": "2026-11-01T18:43:23.749Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Trafalgar-Law-OP12-073-V1?language=2"
+    },
+    "842978": {
+      "productId": 842978,
+      "at": "2026-11-01T18:43:31.233Z",
+      "status": "quoted",
+      "average": 6.06,
+      "sellers": 5,
+      "sample": [
+        580,
+        600,
+        600,
+        600,
+        650
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Trafalgar-Law-OP12-073-V2?language=2"
+    },
+    "842979": {
+      "productId": 842979,
+      "at": "2026-11-01T18:43:56.049Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Patty-OP12-074?language=2"
+    },
+    "842980": {
+      "productId": 842980,
+      "at": "2026-11-01T18:44:04.534Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Ms-All-Sunday-OP12-075?language=2"
+    },
+    "842981": {
+      "productId": 842981,
+      "at": "2026-11-01T18:44:12.788Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Monet-OP12-076?language=2"
+    },
+    "842982": {
+      "productId": 842982,
+      "at": "2026-11-01T18:44:20.880Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/The-Extinguishes-All-Sound-Created-by-Your-Influence-Technique-OP12-077?language=2"
+    },
+    "842983": {
+      "productId": 842983,
+      "at": "2026-11-01T18:44:28.955Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Brochette-Blow-OP12-078?language=2"
+    },
+    "842984": {
+      "productId": 842984,
+      "at": "2026-11-01T18:44:37.530Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Luffy-Is-the-Man-Who-Will-Be-King-of-the-Pirates-OP12-079?language=2"
+    },
+    "842985": {
+      "productId": 842985,
+      "at": "2026-11-01T18:44:50.055Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Baratie-OP12-080?language=2"
+    },
+    "842986": {
+      "productId": 842986,
+      "at": "2026-11-01T18:44:58.163Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Koala-OP12-081-V1?language=2"
+    },
+    "842987": {
+      "productId": 842987,
+      "at": "2026-11-01T18:45:06.891Z",
+      "status": "quoted",
+      "average": 16.57,
+      "sellers": 5,
+      "sample": [
+        1600,
+        1634,
+        1650,
+        1700,
+        1700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Koala-OP12-081-V2?language=2"
+    },
+    "842988": {
+      "productId": 842988,
+      "at": "2026-11-01T18:45:15.718Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Issho-OP12-082?language=2"
+    },
+    "842989": {
+      "productId": 842989,
+      "at": "2026-11-01T18:45:23.952Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Inazuma-OP12-083?language=2"
+    },
+    "842990": {
+      "productId": 842990,
+      "at": "2026-11-01T18:45:32.105Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/EmporioIvankov-OP12-084?language=2"
+    },
+    "842991": {
+      "productId": 842991,
+      "at": "2026-11-01T18:45:47.302Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Karasu-OP12-085?language=2"
+    },
+    "842992": {
+      "productId": 842992,
+      "at": "2026-11-01T18:45:55.749Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Koala-OP12-086-V1?language=2"
+    },
+    "842993": {
+      "productId": 842993,
+      "at": "2026-11-01T18:46:03.597Z",
+      "status": "quoted",
+      "average": 2.76,
+      "sellers": 5,
+      "sample": [
+        200,
+        280,
+        300,
+        300,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Koala-OP12-086-V2?language=2"
+    },
+    "842994": {
+      "productId": 842994,
+      "at": "2026-11-01T18:46:12.745Z",
+      "status": "quoted",
+      "average": 0.18,
+      "sellers": 5,
+      "sample": [
+        15,
+        15,
+        19,
+        20,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Nico-Robin-OP12-087-V1?language=2"
+    },
+    "842995": {
+      "productId": 842995,
+      "at": "2026-11-01T18:46:22.937Z",
+      "status": "quoted",
+      "average": 14.74,
+      "sellers": 5,
+      "sample": [
+        1420,
+        1450,
+        1499,
+        1499,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Nico-Robin-OP12-087-V2?language=2"
+    },
+    "842996": {
+      "productId": 842996,
+      "at": "2026-11-01T18:46:31.899Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Bastille-OP12-088?language=2"
+    },
+    "842997": {
+      "productId": 842997,
+      "at": "2026-11-01T18:46:48.046Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Hack-OP12-089?language=2"
+    },
+    "842998": {
+      "productId": 842998,
+      "at": "2026-11-01T18:46:56.403Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Belo-Betty-OP12-090?language=2"
+    },
+    "842999": {
+      "productId": 842999,
+      "at": "2026-11-01T18:47:04.927Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Poker-OP12-091?language=2"
+    },
+    "843000": {
+      "productId": 843000,
+      "at": "2026-11-01T18:47:15.150Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Mizerka-OP12-092?language=2"
+    },
+    "843001": {
+      "productId": 843001,
+      "at": "2026-11-01T18:47:23.151Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Morley-OP12-093?language=2"
+    },
+    "843002": {
+      "productId": 843002,
+      "at": "2026-11-01T18:47:31.217Z",
+      "status": "quoted",
+      "average": 0.08,
+      "sellers": 5,
+      "sample": [
+        5,
+        7,
+        8,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/MonkeyDDragon-OP12-094-V1?language=2"
+    },
+    "843003": {
+      "productId": 843003,
+      "at": "2026-11-01T18:47:46.719Z",
+      "status": "quoted",
+      "average": 5,
+      "sellers": 5,
+      "sample": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/MonkeyDDragon-OP12-094-V2?language=2"
+    },
+    "843004": {
+      "productId": 843004,
+      "at": "2026-11-01T18:47:54.985Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Lindbergh-OP12-095?language=2"
+    },
+    "843005": {
+      "productId": 843005,
+      "at": "2026-11-01T18:48:03.838Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Ursa-Shock-OP12-096?language=2"
+    },
+    "843006": {
+      "productId": 843006,
+      "at": "2026-11-01T18:48:11.733Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Captains-Assembled-OP12-097?language=2"
+    },
+    "843007": {
+      "productId": 843007,
+      "at": "2026-11-01T18:48:20.026Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Hair-Removal-Fist-OP12-098?language=2"
+    },
+    "843008": {
+      "productId": 843008,
+      "at": "2026-11-01T18:48:28.574Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Kalgara-OP12-099?language=2"
+    },
+    "843009": {
+      "productId": 843009,
+      "at": "2026-11-01T18:48:42.227Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Sabo-OP12-100?language=2"
+    },
+    "843010": {
+      "productId": 843010,
+      "at": "2026-11-01T18:48:50.675Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Jewelry-Bonney-OP12-101?language=2"
+    },
+    "843011": {
+      "productId": 843011,
+      "at": "2026-11-01T18:48:58.288Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Shirahoshi-OP12-102-V1?language=2"
+    },
+    "843012": {
+      "productId": 843012,
+      "at": "2026-11-01T18:49:05.855Z",
+      "status": "quoted",
+      "average": 6.8,
+      "sellers": 5,
+      "sample": [
+        600,
+        700,
+        700,
+        700,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Shirahoshi-OP12-102-V2?language=2"
+    },
+    "843013": {
+      "productId": 843013,
+      "at": "2026-11-01T18:49:13.967Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Seto-OP12-103?language=2"
+    },
+    "843014": {
+      "productId": 843014,
+      "at": "2026-11-01T18:49:22.285Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Sentomaru-OP12-104?language=2"
+    },
+    "843015": {
+      "productId": 843015,
+      "at": "2026-11-01T18:49:36.191Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Trafalgar-Lammy-OP12-105?language=2"
+    },
+    "843016": {
+      "productId": 843016,
+      "at": "2026-11-01T18:49:43.765Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Trafalgar-Law-OP12-106?language=2"
+    },
+    "843017": {
+      "productId": 843017,
+      "at": "2026-11-01T18:49:52.000Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Donquixote-Doflamingo-OP12-107?language=2"
+    },
+    "843018": {
+      "productId": 843018,
+      "at": "2026-11-01T18:49:59.917Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Donquixote-Rosinante-OP12-108-V1?language=2"
+    },
+    "843019": {
+      "productId": 843019,
+      "at": "2026-11-01T18:50:07.590Z",
+      "status": "quoted",
+      "average": 3.8,
+      "sellers": 5,
+      "sample": [
+        300,
+        350,
+        400,
+        400,
+        450
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Donquixote-Rosinante-OP12-108-V2?language=2"
+    },
+    "843020": {
+      "productId": 843020,
+      "at": "2026-11-01T18:50:16.090Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Pacifista-OP12-109?language=2"
+    },
+    "843021": {
+      "productId": 843021,
+      "at": "2026-11-01T18:50:34.584Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Buffalo-OP12-110?language=2"
+    },
+    "843022": {
+      "productId": 843022,
+      "at": "2026-11-01T18:50:43.202Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Baby-5-OP12-111?language=2"
+    },
+    "843023": {
+      "productId": 843023,
+      "at": "2026-11-01T18:50:51.058Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Baby-5-OP12-112?language=2"
+    },
+    "843024": {
+      "productId": 843024,
+      "at": "2026-11-01T18:50:59.435Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Roronoa-Zoro-OP12-113?language=2"
+    },
+    "843025": {
+      "productId": 843025,
+      "at": "2026-11-01T18:51:07.669Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Wyper-OP12-114?language=2"
+    },
+    "843026": {
+      "productId": 843026,
+      "at": "2026-11-01T18:51:18.315Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/I-Love-You-OP12-115?language=2"
+    },
+    "843027": {
+      "productId": 843027,
+      "at": "2026-11-01T18:51:37.114Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Well-Ring-the-Bell-Waiting-for-You-OP12-116?language=2"
+    },
+    "843028": {
+      "productId": 843028,
+      "at": "2026-11-01T18:51:46.245Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Slam-Gibson-OP12-117?language=2"
+    },
+    "843029": {
+      "productId": 843029,
+      "at": "2026-11-01T18:51:55.023Z",
+      "status": "quoted",
+      "average": 3.96,
+      "sellers": 5,
+      "sample": [
+        380,
+        400,
+        400,
+        400,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Jewelry-Bonney-OP12-118-V1?language=2"
+    },
+    "843030": {
+      "productId": 843030,
+      "at": "2026-11-01T18:52:02.801Z",
+      "status": "quoted",
+      "average": 14.58,
+      "sellers": 5,
+      "sample": [
+        1400,
+        1400,
+        1490,
+        1499,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Jewelry-Bonney-OP12-118-V2?language=2"
+    },
+    "843031": {
+      "productId": 843031,
+      "at": "2026-11-01T18:52:10.405Z",
+      "status": "quoted",
+      "average": 395.6,
+      "sellers": 5,
+      "sample": [
+        37999,
+        38000,
+        39900,
+        40000,
+        41900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Jewelry-Bonney-OP12-118-V3?language=2"
+    },
+    "843032": {
+      "productId": 843032,
+      "at": "2026-11-01T18:52:18.108Z",
+      "status": "quoted",
+      "average": 8.38,
+      "sellers": 5,
+      "sample": [
+        790,
+        800,
+        800,
+        898,
+        900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Bartholomew-Kuma-OP12-119-V1?language=2"
+    },
+    "843033": {
+      "productId": 843033,
+      "at": "2026-11-01T18:52:32.440Z",
+      "status": "quoted",
+      "average": 15.19,
+      "sellers": 5,
+      "sample": [
+        1499,
+        1500,
+        1500,
+        1500,
+        1595
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Bartholomew-Kuma-OP12-119-V2?language=2"
+    },
+    "843034": {
+      "productId": 843034,
+      "at": "2026-11-01T18:52:40.013Z",
+      "status": "quoted",
+      "average": 40.6,
+      "sellers": 5,
+      "sample": [
+        3000,
+        3900,
+        4400,
+        4499,
+        4500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Tashigi-OP06-050?language=2"
+    },
+    "843035": {
+      "productId": 843035,
+      "at": "2026-11-01T18:52:47.659Z",
+      "status": "quoted",
+      "average": 33.8,
+      "sellers": 5,
+      "sample": [
+        3000,
+        3400,
+        3500,
+        3500,
+        3500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Yasopp-OP09-013?language=2"
+    },
+    "843036": {
+      "productId": 843036,
+      "at": "2026-11-01T18:52:55.209Z",
+      "status": "quoted",
+      "average": 34.8,
+      "sellers": 5,
+      "sample": [
+        3400,
+        3500,
+        3500,
+        3500,
+        3500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Lim-OP09-037?language=2"
+    },
+    "843037": {
+      "productId": 843037,
+      "at": "2026-11-01T18:53:02.558Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/MarshallDTeach-OP09-093-V1?language=2"
+    },
+    "843038": {
+      "productId": 843038,
+      "at": "2026-11-01T18:53:10.170Z",
+      "status": "quoted",
+      "average": 843.58,
+      "sellers": 5,
+      "sample": [
+        77990,
+        84400,
+        84500,
+        85000,
+        89900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/MarshallDTeach-OP09-093-V2?language=2"
+    },
+    "843039": {
+      "productId": 843039,
+      "at": "2026-11-01T18:53:30.027Z",
+      "status": "quoted",
+      "average": 54.2,
+      "sellers": 5,
+      "sample": [
+        5000,
+        5400,
+        5500,
+        5599,
+        5600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Kuzan-OP10-082?language=2"
+    },
+    "843040": {
+      "productId": 843040,
+      "at": "2026-11-01T18:53:37.539Z",
+      "status": "quoted",
+      "average": 74.8,
+      "sellers": 5,
+      "sample": [
+        6500,
+        7000,
+        7900,
+        7999,
+        8000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/PortgasDAce-ST13-011?language=2"
+    },
+    "843041": {
+      "productId": 843041,
+      "at": "2026-11-01T18:53:44.974Z",
+      "status": "quoted",
+      "average": 105.58,
+      "sellers": 5,
+      "sample": [
+        10000,
+        10000,
+        10899,
+        10900,
+        10990
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Zoro-Juurou-ST18-004?language=2"
+    },
+    "843043": {
+      "productId": 843043,
+      "at": "2026-11-01T18:53:22.509Z",
+      "status": "quoted",
+      "average": 95.18,
+      "sellers": 5,
+      "sample": [
+        8990,
+        9400,
+        9500,
+        9800,
+        9900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Sabo-OP10-049?language=2"
     },
     "852525": {
       "productId": 852525,

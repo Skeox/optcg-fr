@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-01T18:53:44.974Z",
+  "updatedAt": "2026-11-01T19:23:50.285Z",
   "products": {
     "799250": {
       "productId": 799250,
@@ -9363,6 +9363,2604 @@
         2
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best-Vol2/Jinbe-ST10-005-V1?language=2"
+    },
+    "857187": {
+      "productId": 857187,
+      "at": "2026-11-01T18:57:13.601Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDLuffy-OP13-001-V1?language=2"
+    },
+    "857188": {
+      "productId": 857188,
+      "at": "2026-11-01T18:57:26.232Z",
+      "status": "quoted",
+      "average": 34.4,
+      "sellers": 5,
+      "sample": [
+        3200,
+        3400,
+        3500,
+        3500,
+        3600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDLuffy-OP13-001-V2?language=2"
+    },
+    "857189": {
+      "productId": 857189,
+      "at": "2026-11-01T18:57:33.198Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDAce-OP13-002-V1?language=2"
+    },
+    "857190": {
+      "productId": 857190,
+      "at": "2026-11-01T18:57:39.904Z",
+      "status": "quoted",
+      "average": 18.68,
+      "sellers": 5,
+      "sample": [
+        1800,
+        1800,
+        1890,
+        1900,
+        1948
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDAce-OP13-002-V2?language=2"
+    },
+    "857191": {
+      "productId": 857191,
+      "at": "2026-11-01T18:57:46.986Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/GolDRoger-OP13-003-V1?language=2"
+    },
+    "857192": {
+      "productId": 857192,
+      "at": "2026-11-01T18:57:53.826Z",
+      "status": "quoted",
+      "average": 22.1,
+      "sellers": 5,
+      "sample": [
+        2000,
+        2150,
+        2200,
+        2300,
+        2399
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/GolDRoger-OP13-003-V2?language=2"
+    },
+    "857193": {
+      "productId": 857193,
+      "at": "2026-11-01T18:58:00.648Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sabo-OP13-004-V1?language=2"
+    },
+    "857194": {
+      "productId": 857194,
+      "at": "2026-11-01T18:58:15.031Z",
+      "status": "quoted",
+      "average": 20.2,
+      "sellers": 5,
+      "sample": [
+        1900,
+        2000,
+        2000,
+        2099,
+        2100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sabo-OP13-004-V2?language=2"
+    },
+    "857195": {
+      "productId": 857195,
+      "at": "2026-11-01T18:58:22.028Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Inazuma-OP13-005?language=2"
+    },
+    "857196": {
+      "productId": 857196,
+      "at": "2026-11-01T18:58:28.991Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Woop-Slap-OP13-006?language=2"
+    },
+    "857197": {
+      "productId": 857197,
+      "at": "2026-11-01T18:58:35.629Z",
+      "status": "quoted",
+      "average": 0.95,
+      "sellers": 5,
+      "sample": [
+        90,
+        90,
+        95,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Ace-Sabo-Luffy-OP13-007-V1?language=2"
+    },
+    "857198": {
+      "productId": 857198,
+      "at": "2026-11-01T18:58:42.264Z",
+      "status": "quoted",
+      "average": 13.85,
+      "sellers": 5,
+      "sample": [
+        1300,
+        1375,
+        1400,
+        1400,
+        1450
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Ace-Sabo-Luffy-OP13-007-V2?language=2"
+    },
+    "857199": {
+      "productId": 857199,
+      "at": "2026-11-01T18:58:49.488Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/EmporioIvankov-OP13-008?language=2"
+    },
+    "857200": {
+      "productId": 857200,
+      "at": "2026-11-01T18:59:05.700Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/CurlyDadan-OP13-009?language=2"
+    },
+    "857201": {
+      "productId": 857201,
+      "at": "2026-11-01T18:59:13.455Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Lord-of-the-Coast-OP13-010?language=2"
+    },
+    "857202": {
+      "productId": 857202,
+      "at": "2026-11-01T18:59:20.608Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Nefeltari-Cobra-OP13-011?language=2"
+    },
+    "857203": {
+      "productId": 857203,
+      "at": "2026-11-01T18:59:27.653Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Nefeltari-Vivi-OP13-012?language=2"
+    },
+    "857204": {
+      "productId": 857204,
+      "at": "2026-11-01T18:59:34.658Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Higuma-OP13-013?language=2"
+    },
+    "857205": {
+      "productId": 857205,
+      "at": "2026-11-01T18:59:42.002Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDRouge-OP13-014?language=2"
+    },
+    "857206": {
+      "productId": 857206,
+      "at": "2026-11-01T19:00:24.004Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Makino-OP13-015?language=2"
+    },
+    "857207": {
+      "productId": 857207,
+      "at": "2026-11-01T19:00:31.167Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDGarp-OP13-016-V1?language=2"
+    },
+    "857208": {
+      "productId": 857208,
+      "at": "2026-11-01T19:00:38.049Z",
+      "status": "quoted",
+      "average": 7.98,
+      "sellers": 5,
+      "sample": [
+        790,
+        800,
+        800,
+        800,
+        800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDGarp-OP13-016-V2?language=2"
+    },
+    "857209": {
+      "productId": 857209,
+      "at": "2026-11-01T19:00:45.160Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDDragon-OP13-017?language=2"
+    },
+    "857210": {
+      "productId": 857210,
+      "at": "2026-11-01T19:00:52.367Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Wapol-OP13-018?language=2"
+    },
+    "857211": {
+      "productId": 857211,
+      "at": "2026-11-01T19:00:59.227Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/But-Ace-Here-Said-You-Deserved-It-OP13-019?language=2"
+    },
+    "857212": {
+      "productId": 857212,
+      "at": "2026-11-01T19:01:43.253Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Meteor-Fist-OP13-020?language=2"
+    },
+    "857213": {
+      "productId": 857213,
+      "at": "2026-11-01T19:01:50.425Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Gum-Gum-Gatling-Gun-OP13-021?language=2"
+    },
+    "857214": {
+      "productId": 857214,
+      "at": "2026-11-01T19:01:57.533Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Windmill-Village-OP13-022?language=2"
+    },
+    "857215": {
+      "productId": 857215,
+      "at": "2026-11-01T19:02:04.601Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Uta-OP13-023-V1?language=2"
+    },
+    "857216": {
+      "productId": 857216,
+      "at": "2026-11-01T19:02:11.401Z",
+      "status": "quoted",
+      "average": 3.99,
+      "sellers": 5,
+      "sample": [
+        399,
+        399,
+        399,
+        399,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Uta-OP13-023-V2?language=2"
+    },
+    "857217": {
+      "productId": 857217,
+      "at": "2026-11-01T19:02:18.382Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Gordon-OP13-024?language=2"
+    },
+    "857218": {
+      "productId": 857218,
+      "at": "2026-11-01T19:03:18.092Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Koby-OP13-025?language=2"
+    },
+    "857219": {
+      "productId": 857219,
+      "at": "2026-11-01T19:03:26.787Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sunny-Kun-OP13-026?language=2"
+    },
+    "857220": {
+      "productId": 857220,
+      "at": "2026-11-01T19:03:34.042Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sanji-OP13-027-V1?language=2"
+    },
+    "857221": {
+      "productId": 857221,
+      "at": "2026-11-01T19:03:41.021Z",
+      "status": "quoted",
+      "average": 5,
+      "sellers": 5,
+      "sample": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sanji-OP13-027-V2?language=2"
+    },
+    "857222": {
+      "productId": 857222,
+      "at": "2026-11-01T19:03:47.792Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Shanks-OP13-028-V1?language=2"
+    },
+    "857223": {
+      "productId": 857223,
+      "at": "2026-11-01T19:03:54.428Z",
+      "status": "quoted",
+      "average": 9.4,
+      "sellers": 5,
+      "sample": [
+        799,
+        900,
+        1000,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Shanks-OP13-028-V2?language=2"
+    },
+    "857224": {
+      "productId": 857224,
+      "at": "2026-11-01T19:04:06.925Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Jinbe-OP13-029?language=2"
+    },
+    "857225": {
+      "productId": 857225,
+      "at": "2026-11-01T19:04:13.948Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Tony-TonyChopper-OP13-030?language=2"
+    },
+    "857226": {
+      "productId": 857226,
+      "at": "2026-11-01T19:04:20.742Z",
+      "status": "quoted",
+      "average": 0.16,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        19,
+        19,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Trafalgar-Law-OP13-031?language=2"
+    },
+    "857227": {
+      "productId": 857227,
+      "at": "2026-11-01T19:04:27.605Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Nico-Robin-OP13-032?language=2"
+    },
+    "857228": {
+      "productId": 857228,
+      "at": "2026-11-01T19:04:34.708Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Franky-OP13-033?language=2"
+    },
+    "857229": {
+      "productId": 857229,
+      "at": "2026-11-01T19:04:41.839Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Brook-OP13-034?language=2"
+    },
+    "857230": {
+      "productId": 857230,
+      "at": "2026-11-01T19:04:54.783Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Bepo-OP13-035?language=2"
+    },
+    "857231": {
+      "productId": 857231,
+      "at": "2026-11-01T19:05:01.744Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Helmeppo-OP13-036?language=2"
+    },
+    "857232": {
+      "productId": 857232,
+      "at": "2026-11-01T19:05:08.632Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Roronoa-Zoro-OP13-037?language=2"
+    },
+    "857233": {
+      "productId": 857233,
+      "at": "2026-11-01T19:05:15.695Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Gum-Gum-Elephant-Gun-OP13-038?language=2"
+    },
+    "857234": {
+      "productId": 857234,
+      "at": "2026-11-01T19:05:22.869Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Gum-Gum-Snake-Shot-OP13-039?language=2"
+    },
+    "857235": {
+      "productId": 857235,
+      "at": "2026-11-01T19:05:29.553Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        4,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/I-Know-Youre-Strong-So-Ill-Go-All-Out-from-the-Very-Start-OP13-040?language=2"
+    },
+    "857236": {
+      "productId": 857236,
+      "at": "2026-11-01T19:05:42.014Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Izo-OP13-041?language=2"
+    },
+    "857237": {
+      "productId": 857237,
+      "at": "2026-11-01T19:05:48.701Z",
+      "status": "quoted",
+      "average": 0.29,
+      "sellers": 5,
+      "sample": [
+        20,
+        25,
+        30,
+        30,
+        38
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/EdwardNewgate-OP13-042-V1?language=2"
+    },
+    "857238": {
+      "productId": 857238,
+      "at": "2026-11-01T19:05:55.215Z",
+      "status": "quoted",
+      "average": 12.8,
+      "sellers": 5,
+      "sample": [
+        1249,
+        1250,
+        1299,
+        1300,
+        1300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/EdwardNewgate-OP13-042-V2?language=2"
+    },
+    "857239": {
+      "productId": 857239,
+      "at": "2026-11-01T19:06:02.156Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Otama-OP13-043?language=2"
+    },
+    "857240": {
+      "productId": 857240,
+      "at": "2026-11-01T19:06:24.293Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Curiel-OP13-044?language=2"
+    },
+    "857241": {
+      "productId": 857241,
+      "at": "2026-11-01T19:06:39.079Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Haruta-OP13-045?language=2"
+    },
+    "857242": {
+      "productId": 857242,
+      "at": "2026-11-01T19:06:53.349Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Vista-OP13-046?language=2"
+    },
+    "857243": {
+      "productId": 857243,
+      "at": "2026-11-01T19:07:00.721Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Fossa-OP13-047?language=2"
+    },
+    "857244": {
+      "productId": 857244,
+      "at": "2026-11-01T19:07:07.871Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Blamenco-OP13-048?language=2"
+    },
+    "857245": {
+      "productId": 857245,
+      "at": "2026-11-01T19:07:14.992Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Blenheim-OP13-049?language=2"
+    },
+    "857246": {
+      "productId": 857246,
+      "at": "2026-11-01T19:07:22.810Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Boa-Sandersonia-OP13-050?language=2"
+    },
+    "857247": {
+      "productId": 857247,
+      "at": "2026-11-01T19:07:36.551Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Boa-Hancock-OP13-051-V1?language=2"
+    },
+    "857248": {
+      "productId": 857248,
+      "at": "2026-11-01T19:07:43.145Z",
+      "status": "quoted",
+      "average": 9.5,
+      "sellers": 5,
+      "sample": [
+        900,
+        900,
+        950,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Boa-Hancock-OP13-051-V2?language=2"
+    },
+    "857249": {
+      "productId": 857249,
+      "at": "2026-11-01T19:07:50.072Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Boa-Marigold-OP13-052?language=2"
+    },
+    "857250": {
+      "productId": 857250,
+      "at": "2026-11-01T19:07:57.387Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MarshallDTeach-OP13-053?language=2"
+    },
+    "857251": {
+      "productId": 857251,
+      "at": "2026-11-01T19:08:04.658Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        5,
+        5,
+        5,
+        7
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Yamato-OP13-054-V1?language=2"
+    },
+    "857252": {
+      "productId": 857252,
+      "at": "2026-11-01T19:08:11.674Z",
+      "status": "quoted",
+      "average": 9.8,
+      "sellers": 5,
+      "sample": [
+        900,
+        999,
+        1000,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Yamato-OP13-054-V2?language=2"
+    },
+    "857253": {
+      "productId": 857253,
+      "at": "2026-11-01T19:08:26.864Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Rakuyo-OP13-055?language=2"
+    },
+    "857254": {
+      "productId": 857254,
+      "at": "2026-11-01T19:08:34.837Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/LittleOars-Jr-OP13-056?language=2"
+    },
+    "857255": {
+      "productId": 857255,
+      "at": "2026-11-01T19:08:42.177Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/If-I-Bowed-Down-to-Power-Whats-the-Point-in-Living-OP13-057?language=2"
+    },
+    "857256": {
+      "productId": 857256,
+      "at": "2026-11-01T19:08:49.131Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Phoenix-Pyreapple-OP13-058?language=2"
+    },
+    "857257": {
+      "productId": 857257,
+      "at": "2026-11-01T19:08:56.235Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Brilliant-Punk-OP13-059?language=2"
+    },
+    "857258": {
+      "productId": 857258,
+      "at": "2026-11-01T19:09:04.918Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Amatsuki-Toki-OP13-060?language=2"
+    },
+    "857259": {
+      "productId": 857259,
+      "at": "2026-11-01T19:09:18.861Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Inuarashi-OP13-061?language=2"
+    },
+    "857260": {
+      "productId": 857260,
+      "at": "2026-11-01T19:09:26.933Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Crocus-OP13-062?language=2"
+    },
+    "857261": {
+      "productId": 857261,
+      "at": "2026-11-01T19:09:34.847Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Kouzuki-Oden-OP13-063?language=2"
+    },
+    "857262": {
+      "productId": 857262,
+      "at": "2026-11-01T19:09:41.816Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/GolDRoger-OP13-064-V1?language=2"
+    },
+    "857263": {
+      "productId": 857263,
+      "at": "2026-11-01T19:09:48.489Z",
+      "status": "quoted",
+      "average": 19.99,
+      "sellers": 5,
+      "sample": [
+        1998,
+        1999,
+        2000,
+        2000,
+        2000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/GolDRoger-OP13-064-V2?language=2"
+    },
+    "857264": {
+      "productId": 857264,
+      "at": "2026-11-01T19:09:55.689Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Shanks-OP13-065-V1?language=2"
+    },
+    "857265": {
+      "productId": 857265,
+      "at": "2026-11-01T19:10:07.895Z",
+      "status": "quoted",
+      "average": 7.39,
+      "sellers": 5,
+      "sample": [
+        699,
+        700,
+        700,
+        798,
+        800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Shanks-OP13-065-V2?language=2"
+    },
+    "857266": {
+      "productId": 857266,
+      "at": "2026-11-01T19:10:15.619Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Silvers-Rayleigh-OP13-066-V1?language=2"
+    },
+    "857267": {
+      "productId": 857267,
+      "at": "2026-11-01T19:10:22.955Z",
+      "status": "quoted",
+      "average": 3.8,
+      "sellers": 5,
+      "sample": [
+        349,
+        349,
+        350,
+        400,
+        450
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Silvers-Rayleigh-OP13-066-V2?language=2"
+    },
+    "857268": {
+      "productId": 857268,
+      "at": "2026-11-01T19:10:30.088Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Scopper-Gaban-OP13-067?language=2"
+    },
+    "857269": {
+      "productId": 857269,
+      "at": "2026-11-01T19:10:37.567Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Douglas-Bullet-OP13-068?language=2"
+    },
+    "857270": {
+      "productId": 857270,
+      "at": "2026-11-01T19:10:44.981Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Tom-OP13-069?language=2"
+    },
+    "857271": {
+      "productId": 857271,
+      "at": "2026-11-01T19:10:55.467Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Napoleon-OP13-070?language=2"
+    },
+    "857272": {
+      "productId": 857272,
+      "at": "2026-11-01T19:11:02.341Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Nekomamushi-OP13-071?language=2"
+    },
+    "857273": {
+      "productId": 857273,
+      "at": "2026-11-01T19:11:10.172Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Buggy-OP13-072?language=2"
+    },
+    "857274": {
+      "productId": 857274,
+      "at": "2026-11-01T19:11:17.552Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Prometheus-OP13-073?language=2"
+    },
+    "857275": {
+      "productId": 857275,
+      "at": "2026-11-01T19:11:25.264Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Hera-OP13-074?language=2"
+    },
+    "857276": {
+      "productId": 857276,
+      "at": "2026-11-01T19:11:32.282Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Guess-Well-Have-Another-Scrap-You-Can-Only-Risk-Death-While-Youre-Still-Alive-OP13-075?language=2"
+    },
+    "857277": {
+      "productId": 857277,
+      "at": "2026-11-01T19:11:42.154Z",
+      "status": "quoted",
+      "average": 0.09,
+      "sellers": 5,
+      "sample": [
+        5,
+        5,
+        8,
+        10,
+        15
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Divine-Departure-OP13-076-V1?language=2"
+    },
+    "857278": {
+      "productId": 857278,
+      "at": "2026-11-01T19:11:48.750Z",
+      "status": "quoted",
+      "average": 56.59,
+      "sellers": 5,
+      "sample": [
+        4999,
+        5500,
+        5895,
+        5900,
+        5999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Divine-Departure-OP13-076-V2?language=2"
+    },
+    "857279": {
+      "productId": 857279,
+      "at": "2026-11-01T19:11:55.971Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Go-All-the-Way-to-the-Top-OP13-077?language=2"
+    },
+    "857280": {
+      "productId": 857280,
+      "at": "2026-11-01T19:12:03.263Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Oro-Jackson-OP13-078?language=2"
+    },
+    "857281": {
+      "productId": 857281,
+      "at": "2026-11-01T19:12:10.043Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Imu-OP13-079-V1?language=2"
+    },
+    "857282": {
+      "productId": 857282,
+      "at": "2026-11-01T19:12:16.939Z",
+      "status": "quoted",
+      "average": 19.5,
+      "sellers": 5,
+      "sample": [
+        1850,
+        1900,
+        1999,
+        2000,
+        2000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Imu-OP13-079-V2?language=2"
+    },
+    "857283": {
+      "productId": 857283,
+      "at": "2026-11-01T19:12:28.547Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Ethanbaron-V-Nusjuro-OP13-080-V1?language=2"
+    },
+    "857284": {
+      "productId": 857284,
+      "at": "2026-11-01T19:12:35.347Z",
+      "status": "quoted",
+      "average": 15.17,
+      "sellers": 5,
+      "sample": [
+        1495,
+        1500,
+        1500,
+        1500,
+        1590
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Ethanbaron-V-Nusjuro-OP13-080-V2?language=2"
+    },
+    "857285": {
+      "productId": 857285,
+      "at": "2026-11-01T19:12:42.127Z",
+      "status": "quoted",
+      "average": 307,
+      "sellers": 5,
+      "sample": [
+        29000,
+        30000,
+        30000,
+        31500,
+        33000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Ethanbaron-V-Nusjuro-OP13-080-V3?language=2"
+    },
+    "857286": {
+      "productId": 857286,
+      "at": "2026-11-01T19:12:49.505Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Koala-OP13-081?language=2"
+    },
+    "857287": {
+      "productId": 857287,
+      "at": "2026-11-01T19:12:56.560Z",
+      "status": "quoted",
+      "average": 0.25,
+      "sellers": 5,
+      "sample": [
+        10,
+        20,
+        30,
+        30,
+        35
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Five-Elders-OP13-082-V1?language=2"
+    },
+    "857288": {
+      "productId": 857288,
+      "at": "2026-11-01T19:13:03.432Z",
+      "status": "quoted",
+      "average": 16.11,
+      "sellers": 5,
+      "sample": [
+        1485,
+        1490,
+        1600,
+        1700,
+        1780
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Five-Elders-OP13-082-V2?language=2"
+    },
+    "857289": {
+      "productId": 857289,
+      "at": "2026-11-01T19:13:15.761Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Jaygarcia-Saturn-OP13-083-V1?language=2"
+    },
+    "857290": {
+      "productId": 857290,
+      "at": "2026-11-01T19:13:23.684Z",
+      "status": "quoted",
+      "average": 13.77,
+      "sellers": 5,
+      "sample": [
+        1295,
+        1300,
+        1390,
+        1399,
+        1499
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Jaygarcia-Saturn-OP13-083-V2?language=2"
+    },
+    "857291": {
+      "productId": 857291,
+      "at": "2026-11-01T19:13:30.357Z",
+      "status": "quoted",
+      "average": 281.98,
+      "sellers": 5,
+      "sample": [
+        25000,
+        28000,
+        28000,
+        29990,
+        30000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Jaygarcia-Saturn-OP13-083-V3?language=2"
+    },
+    "857292": {
+      "productId": 857292,
+      "at": "2026-11-01T19:13:37.829Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Shepherd-Ju-Peter-OP13-084-V1?language=2"
+    },
+    "857293": {
+      "productId": 857293,
+      "at": "2026-11-01T19:13:44.942Z",
+      "status": "quoted",
+      "average": 12.25,
+      "sellers": 5,
+      "sample": [
+        1185,
+        1190,
+        1200,
+        1250,
+        1300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Shepherd-Ju-Peter-OP13-084-V2?language=2"
+    },
+    "857294": {
+      "productId": 857294,
+      "at": "2026-11-01T19:13:51.455Z",
+      "status": "quoted",
+      "average": 302.8,
+      "sellers": 5,
+      "sample": [
+        28000,
+        29900,
+        30000,
+        31500,
+        32000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Shepherd-Ju-Peter-OP13-084-V3?language=2"
+    },
+    "857295": {
+      "productId": 857295,
+      "at": "2026-11-01T19:14:04.311Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Saint-Jalmac-OP13-085?language=2"
+    },
+    "857296": {
+      "productId": 857296,
+      "at": "2026-11-01T19:14:12.563Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Saint-Shalria-OP13-086?language=2"
+    },
+    "857297": {
+      "productId": 857297,
+      "at": "2026-11-01T19:14:21.596Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Saint-Charlos-OP13-087?language=2"
+    },
+    "857298": {
+      "productId": 857298,
+      "at": "2026-11-01T19:14:29.265Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Terry-Gilteo-OP13-088?language=2"
+    },
+    "857299": {
+      "productId": 857299,
+      "at": "2026-11-01T19:14:36.230Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Topman-Warcury-OP13-089-V1?language=2"
+    },
+    "857300": {
+      "productId": 857300,
+      "at": "2026-11-01T19:14:42.846Z",
+      "status": "quoted",
+      "average": 16.16,
+      "sellers": 5,
+      "sample": [
+        1500,
+        1600,
+        1640,
+        1650,
+        1690
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Topman-Warcury-OP13-089-V2?language=2"
+    },
+    "857301": {
+      "productId": 857301,
+      "at": "2026-11-01T19:14:54.382Z",
+      "status": "quoted",
+      "average": 306.8,
+      "sellers": 5,
+      "sample": [
+        29000,
+        29900,
+        30000,
+        31500,
+        33000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Topman-Warcury-OP13-089-V3?language=2"
+    },
+    "857302": {
+      "productId": 857302,
+      "at": "2026-11-01T19:15:01.810Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Hack-OP13-090?language=2"
+    },
+    "857303": {
+      "productId": 857303,
+      "at": "2026-11-01T19:15:09.277Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Marcus-Mars-OP13-091-V1?language=2"
+    },
+    "857304": {
+      "productId": 857304,
+      "at": "2026-11-01T19:15:16.166Z",
+      "status": "quoted",
+      "average": 14.6,
+      "sellers": 5,
+      "sample": [
+        1400,
+        1400,
+        1499,
+        1500,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Marcus-Mars-OP13-091-V2?language=2"
+    },
+    "857305": {
+      "productId": 857305,
+      "at": "2026-11-01T19:15:23.112Z",
+      "status": "quoted",
+      "average": 304.8,
+      "sellers": 5,
+      "sample": [
+        28000,
+        29900,
+        30000,
+        31500,
+        33000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/St-Marcus-Mars-OP13-091-V3?language=2"
+    },
+    "857306": {
+      "productId": 857306,
+      "at": "2026-11-01T19:15:30.687Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Saint-Mjosgard-OP13-092?language=2"
+    },
+    "857307": {
+      "productId": 857307,
+      "at": "2026-11-01T19:15:46.968Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Morgans-OP13-093?language=2"
+    },
+    "857308": {
+      "productId": 857308,
+      "at": "2026-11-01T19:15:54.067Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/York-OP13-094?language=2"
+    },
+    "857309": {
+      "productId": 857309,
+      "at": "2026-11-01T19:16:01.265Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Saint-Rosward-OP13-095?language=2"
+    },
+    "857310": {
+      "productId": 857310,
+      "at": "2026-11-01T19:16:08.470Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/The-Five-Elders-Are-at-Your-Service-OP13-096?language=2"
+    },
+    "857311": {
+      "productId": 857311,
+      "at": "2026-11-01T19:16:15.525Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/The-Worlds-Equilibrium-Cannot-Be-Maintained-Forever-OP13-097?language=2"
+    },
+    "857312": {
+      "productId": 857312,
+      "at": "2026-11-01T19:16:22.370Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Never-Existed-in-the-First-Place-OP13-098?language=2"
+    },
+    "857313": {
+      "productId": 857313,
+      "at": "2026-11-01T19:16:35.990Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/The-Empty-Throne-OP13-099?language=2"
+    },
+    "857314": {
+      "productId": 857314,
+      "at": "2026-11-01T19:16:43.019Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Jewelry-Bonney-OP13-100-V1?language=2"
+    },
+    "857315": {
+      "productId": 857315,
+      "at": "2026-11-01T19:16:49.770Z",
+      "status": "quoted",
+      "average": 12.68,
+      "sellers": 5,
+      "sample": [
+        1200,
+        1250,
+        1290,
+        1300,
+        1300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Jewelry-Bonney-OP13-100-V2?language=2"
+    },
+    "857316": {
+      "productId": 857316,
+      "at": "2026-11-01T19:16:57.602Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Atlas-OP13-101?language=2"
+    },
+    "857317": {
+      "productId": 857317,
+      "at": "2026-11-01T19:18:29.362Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Edison-OP13-102?language=2"
+    },
+    "857318": {
+      "productId": 857318,
+      "at": "2026-11-01T19:18:36.714Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Gyogyo-OP13-103?language=2"
+    },
+    "857319": {
+      "productId": 857319,
+      "at": "2026-11-01T19:18:47.013Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Kouzuki-Hiyori-OP13-104?language=2"
+    },
+    "857320": {
+      "productId": 857320,
+      "at": "2026-11-01T19:18:54.824Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Kouzuki-Momonosuke-OP13-105?language=2"
+    },
+    "857321": {
+      "productId": 857321,
+      "at": "2026-11-01T19:19:01.955Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Conney-OP13-106?language=2"
+    },
+    "857322": {
+      "productId": 857322,
+      "at": "2026-11-01T19:19:10.226Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Shaka-OP13-107?language=2"
+    },
+    "857323": {
+      "productId": 857323,
+      "at": "2026-11-01T19:19:17.241Z",
+      "status": "quoted",
+      "average": 0.3,
+      "sellers": 5,
+      "sample": [
+        20,
+        20,
+        30,
+        40,
+        40
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Jewelry-Bonney-OP13-108-V1?language=2"
+    },
+    "857324": {
+      "productId": 857324,
+      "at": "2026-11-01T19:19:23.808Z",
+      "status": "quoted",
+      "average": 7.5,
+      "sellers": 5,
+      "sample": [
+        699,
+        700,
+        700,
+        799,
+        850
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Jewelry-Bonney-OP13-108-V2?language=2"
+    },
+    "857325": {
+      "productId": 857325,
+      "at": "2026-11-01T19:19:32.651Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Jewelry-Bonney-OP13-109?language=2"
+    },
+    "857326": {
+      "productId": 857326,
+      "at": "2026-11-01T19:19:40.010Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        3,
+        3,
+        3,
+        5,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Stussy-OP13-110-V1?language=2"
+    },
+    "857327": {
+      "productId": 857327,
+      "at": "2026-11-01T19:19:47.050Z",
+      "status": "quoted",
+      "average": 7.27,
+      "sellers": 5,
+      "sample": [
+        700,
+        720,
+        725,
+        740,
+        750
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Stussy-OP13-110-V2?language=2"
+    },
+    "857328": {
+      "productId": 857328,
+      "at": "2026-11-01T19:19:54.771Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Pythagoras-OP13-111?language=2"
+    },
+    "857329": {
+      "productId": 857329,
+      "at": "2026-11-01T19:20:02.079Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Vegapunk-OP13-112?language=2"
+    },
+    "857330": {
+      "productId": 857330,
+      "at": "2026-11-01T19:20:09.189Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Lilith-OP13-113-V1?language=2"
+    },
+    "857331": {
+      "productId": 857331,
+      "at": "2026-11-01T19:20:19.518Z",
+      "status": "quoted",
+      "average": 5.7,
+      "sellers": 5,
+      "sample": [
+        450,
+        599,
+        600,
+        600,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Lilith-OP13-113-V2?language=2"
+    },
+    "857332": {
+      "productId": 857332,
+      "at": "2026-11-01T19:20:26.933Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/S-Snake-OP13-114-V1?language=2"
+    },
+    "857333": {
+      "productId": 857333,
+      "at": "2026-11-01T19:20:33.660Z",
+      "status": "quoted",
+      "average": 3.48,
+      "sellers": 5,
+      "sample": [
+        300,
+        340,
+        349,
+        350,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/S-Snake-OP13-114-V2?language=2"
+    },
+    "857334": {
+      "productId": 857334,
+      "at": "2026-11-01T19:20:40.732Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Paper-Art-Afterimage-OP13-115?language=2"
+    },
+    "857335": {
+      "productId": 857335,
+      "at": "2026-11-01T19:20:47.676Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/The-One-Who-Is-the-Most-Free-Is-the-Pirate-King-OP13-116?language=2"
+    },
+    "857336": {
+      "productId": 857336,
+      "at": "2026-11-01T19:20:55.017Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Gum-Gum-Dawn-Stamp-OP13-117?language=2"
+    },
+    "857337": {
+      "productId": 857337,
+      "at": "2026-11-01T19:21:04.835Z",
+      "status": "quoted",
+      "average": 9.8,
+      "sellers": 5,
+      "sample": [
+        900,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDLuffy-OP13-118-V1?language=2"
+    },
+    "857338": {
+      "productId": 857338,
+      "at": "2026-11-01T19:21:11.590Z",
+      "status": "quoted",
+      "average": 57.18,
+      "sellers": 5,
+      "sample": [
+        5499,
+        5500,
+        5800,
+        5800,
+        5990
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDLuffy-OP13-118-V2?language=2"
+    },
+    "857339": {
+      "productId": 857339,
+      "at": "2026-11-01T19:21:18.219Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDLuffy-OP13-118-V4?language=2"
+    },
+    "857340": {
+      "productId": 857340,
+      "at": "2026-11-01T19:21:25.015Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDLuffy-OP13-118-V5?language=2"
+    },
+    "857341": {
+      "productId": 857341,
+      "at": "2026-11-01T19:21:31.865Z",
+      "status": "quoted",
+      "average": 202.6,
+      "sellers": 5,
+      "sample": [
+        18850,
+        18949,
+        18999,
+        20000,
+        24500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDLuffy-OP13-118-V3?language=2"
+    },
+    "857342": {
+      "productId": 857342,
+      "at": "2026-11-01T19:21:38.879Z",
+      "status": "quoted",
+      "average": 1.1,
+      "sellers": 5,
+      "sample": [
+        90,
+        100,
+        100,
+        130,
+        130
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDAce-OP13-119-V1?language=2"
+    },
+    "857343": {
+      "productId": 857343,
+      "at": "2026-11-01T19:21:49.393Z",
+      "status": "quoted",
+      "average": 18.24,
+      "sellers": 5,
+      "sample": [
+        1750,
+        1790,
+        1800,
+        1800,
+        1980
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDAce-OP13-119-V2?language=2"
+    },
+    "857344": {
+      "productId": 857344,
+      "at": "2026-11-01T19:03:02.689Z",
+      "status": "quoted",
+      "average": 106.4,
+      "sellers": 5,
+      "sample": [
+        9500,
+        10000,
+        10000,
+        11800,
+        11900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDAce-OP13-119-V3?language=2"
+    },
+    "857346": {
+      "productId": 857346,
+      "at": "2026-11-01T19:21:56.124Z",
+      "status": "quoted",
+      "average": 788,
+      "sellers": 5,
+      "sample": [
+        50000,
+        75000,
+        89000,
+        89999,
+        90000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDAce-OP13-119-V5?language=2"
+    },
+    "857347": {
+      "productId": 857347,
+      "at": "2026-11-01T19:22:02.560Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDAce-OP13-119-V6?language=2"
+    },
+    "857348": {
+      "productId": 857348,
+      "at": "2026-11-01T19:22:09.594Z",
+      "status": "quoted",
+      "average": 3.3,
+      "sellers": 5,
+      "sample": [
+        150,
+        300,
+        300,
+        449,
+        450
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sabo-OP13-120-V1?language=2"
+    },
+    "857349": {
+      "productId": 857349,
+      "at": "2026-11-01T19:22:16.448Z",
+      "status": "quoted",
+      "average": 17.2,
+      "sellers": 5,
+      "sample": [
+        1699,
+        1700,
+        1700,
+        1700,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sabo-OP13-120-V2?language=2"
+    },
+    "857350": {
+      "productId": 857350,
+      "at": "2026-11-01T19:22:40.287Z",
+      "status": "quoted",
+      "average": 83,
+      "sellers": 5,
+      "sample": [
+        8000,
+        8000,
+        8499,
+        8499,
+        8500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sabo-OP13-120-V3?language=2"
+    },
+    "857351": {
+      "productId": 857351,
+      "at": "2026-11-01T19:22:22.963Z",
+      "status": "quoted",
+      "average": 571,
+      "sellers": 5,
+      "sample": [
+        48000,
+        55000,
+        58000,
+        60000,
+        64500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sabo-OP13-120-V4?language=2"
+    },
+    "857352": {
+      "productId": 857352,
+      "at": "2026-11-01T19:22:33.337Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sabo-OP13-120-V5?language=2"
+    },
+    "857353": {
+      "productId": 857353,
+      "at": "2026-11-01T19:22:47.044Z",
+      "status": "quoted",
+      "average": 95.59,
+      "sellers": 5,
+      "sample": [
+        8800,
+        9000,
+        9998,
+        9999,
+        10000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDAce-EB02-028?language=2"
+    },
+    "857354": {
+      "productId": 857354,
+      "at": "2026-11-01T19:22:53.787Z",
+      "status": "quoted",
+      "average": 36.35,
+      "sellers": 5,
+      "sample": [
+        3200,
+        3499,
+        3499,
+        3987,
+        3990
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Lilith-OP07-111?language=2"
+    },
+    "857355": {
+      "productId": 857355,
+      "at": "2026-11-01T19:23:00.496Z",
+      "status": "quoted",
+      "average": 74.4,
+      "sellers": 5,
+      "sample": [
+        6699,
+        7499,
+        7500,
+        7500,
+        8000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sabo-OP07-118?language=2"
+    },
+    "857356": {
+      "productId": 857356,
+      "at": "2026-11-01T19:23:07.643Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 2,
+      "sample": [
+        79500,
+        80000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Shanks-OP09-004-V1?language=2"
+    },
+    "857357": {
+      "productId": 857357,
+      "at": "2026-11-01T19:23:17.413Z",
+      "status": "quoted",
+      "average": 710,
+      "sellers": 5,
+      "sample": [
+        64999,
+        65000,
+        65000,
+        75000,
+        85000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Shanks-OP09-004-V2?language=2"
+    },
+    "857358": {
+      "productId": 857358,
+      "at": "2026-11-01T19:23:23.912Z",
+      "status": "quoted",
+      "average": 41.1,
+      "sellers": 5,
+      "sample": [
+        3900,
+        3969,
+        4099,
+        4190,
+        4390
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/BennBeckman-OP09-009?language=2"
+    },
+    "857359": {
+      "productId": 857359,
+      "at": "2026-11-01T19:23:30.384Z",
+      "status": "quoted",
+      "average": 118,
+      "sellers": 5,
+      "sample": [
+        10000,
+        10000,
+        12000,
+        13000,
+        14000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/GolDRoger-OP09-118?language=2"
+    },
+    "857360": {
+      "productId": 857360,
+      "at": "2026-11-01T19:23:36.979Z",
+      "status": "quoted",
+      "average": 190,
+      "sellers": 5,
+      "sample": [
+        17499,
+        18000,
+        19500,
+        20000,
+        20000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDLuffy-OP09-119?language=2"
+    },
+    "857361": {
+      "productId": 857361,
+      "at": "2026-11-01T19:23:43.542Z",
+      "status": "quoted",
+      "average": 44.04,
+      "sellers": 5,
+      "sample": [
+        4299,
+        4300,
+        4450,
+        4480,
+        4490
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Smoker-OP10-030?language=2"
+    },
+    "859007": {
+      "productId": 859007,
+      "at": "2026-11-01T19:23:50.285Z",
+      "status": "quoted",
+      "average": 79.9,
+      "sellers": 5,
+      "sample": [
+        7949,
+        7999,
+        8000,
+        8000,
+        8000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Carrot-OP11-049?language=2"
     }
   }
 }

@@ -45,6 +45,17 @@
       "https://www.tcggo.com/one-piece/one-piece-card-the-best/vinsmoke-niji-7"
     ]
   },
+  "OP13-119_p4": {
+    "series": "622113",
+    "label": "Affiche Wanted",
+    "base": false,
+    "cardmarket": { "id": 857344, "expansion": 6187, "version": 3 },
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622113",
+      "https://fr.onepiece-cardgame.com/images/cardlist/card/OP13-119_p4.webp?261016",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDAce-OP13-119-V3?language=2"
+    ]
+  },
   "OP06-065_p4": {
     "series": "622301",
     "label": "Illustration alternative",

@@ -3,8 +3,903 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T18:14:41.993Z",
+  "updatedAt": "2026-11-02T19:09:20.501Z",
   "products": {
+    "799186": {
+      "productId": 799186,
+      "at": "2026-11-02T18:28:59.094Z",
+      "status": "quoted",
+      "average": 1669.99,
+      "sellers": 5,
+      "sample": [
+        125000,
+        150000,
+        150000,
+        190000,
+        219995
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Tony-TonyChopper-EB01-006?language=2"
+    },
+    "799187": {
+      "productId": 799187,
+      "at": "2026-11-02T18:29:08.066Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Otama-OP01-006-V1?language=2"
+    },
+    "799188": {
+      "productId": 799188,
+      "at": "2026-11-02T18:29:17.159Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        9,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Otama-OP01-006-V2?language=2"
+    },
+    "799189": {
+      "productId": 799189,
+      "at": "2026-11-02T18:29:25.645Z",
+      "status": "quoted",
+      "average": 12.2,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1100,
+        1200,
+        1300,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Otama-OP01-006-V3?language=2"
+    },
+    "799190": {
+      "productId": 799190,
+      "at": "2026-11-02T18:29:38.617Z",
+      "status": "quoted",
+      "average": 6.98,
+      "sellers": 5,
+      "sample": [
+        690,
+        699,
+        700,
+        700,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Otama-OP01-006-V4?language=2"
+    },
+    "799191": {
+      "productId": 799191,
+      "at": "2026-11-02T18:29:47.576Z",
+      "status": "quoted",
+      "average": 808,
+      "sellers": 5,
+      "sample": [
+        75000,
+        75000,
+        84000,
+        85000,
+        85000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Nami-OP01-016?language=2"
+    },
+    "799192": {
+      "productId": 799192,
+      "at": "2026-11-02T18:29:56.325Z",
+      "status": "quoted",
+      "average": 94.8,
+      "sellers": 5,
+      "sample": [
+        8900,
+        8900,
+        9800,
+        9900,
+        9900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/MonkeyDLuffy-OP01-024-V2?language=2"
+    },
+    "799193": {
+      "productId": 799193,
+      "at": "2026-11-02T18:30:05.211Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Radical-Beam-OP01-029-V2?language=2"
+    },
+    "799194": {
+      "productId": 799194,
+      "at": "2026-11-02T18:30:14.298Z",
+      "status": "quoted",
+      "average": 4.48,
+      "sellers": 5,
+      "sample": [
+        400,
+        400,
+        450,
+        490,
+        498
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Radical-Beam-OP01-029-V3?language=2"
+    },
+    "799195": {
+      "productId": 799195,
+      "at": "2026-11-02T18:30:29.338Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Izo-OP01-033-V2?language=2"
+    },
+    "799196": {
+      "productId": 799196,
+      "at": "2026-11-02T18:30:40.276Z",
+      "status": "quoted",
+      "average": 2.58,
+      "sellers": 5,
+      "sample": [
+        240,
+        250,
+        250,
+        250,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Izo-OP01-033-V3?language=2"
+    },
+    "799197": {
+      "productId": 799197,
+      "at": "2026-11-02T18:30:48.952Z",
+      "status": "quoted",
+      "average": 3.3,
+      "sellers": 5,
+      "sample": [
+        299,
+        299,
+        300,
+        300,
+        450
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Izo-OP01-033-V4?language=2"
+    },
+    "799198": {
+      "productId": 799198,
+      "at": "2026-11-02T18:30:57.876Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kouzuki-Momonosuke-OP01-041-V1?language=2"
+    },
+    "799199": {
+      "productId": 799199,
+      "at": "2026-11-02T18:31:06.995Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kouzuki-Momonosuke-OP01-041-V2?language=2"
+    },
+    "799200": {
+      "productId": 799200,
+      "at": "2026-11-02T18:31:27.010Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        300,
+        300,
+        300,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kouzuki-Momonosuke-OP01-041-V3?language=2"
+    },
+    "799201": {
+      "productId": 799201,
+      "at": "2026-11-02T18:31:35.530Z",
+      "status": "quoted",
+      "average": 9.2,
+      "sellers": 5,
+      "sample": [
+        899,
+        899,
+        900,
+        900,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kouzuki-Momonosuke-OP01-041-V4?language=2"
+    },
+    "799203": {
+      "productId": 799203,
+      "at": "2026-11-02T18:31:44.455Z",
+      "status": "quoted",
+      "average": 14.35,
+      "sellers": 5,
+      "sample": [
+        1200,
+        1290,
+        1499,
+        1585,
+        1600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Trafalgar-Law-OP01-047-V2?language=2"
+    },
+    "799204": {
+      "productId": 799204,
+      "at": "2026-11-02T18:31:53.124Z",
+      "status": "quoted",
+      "average": 11.68,
+      "sellers": 5,
+      "sample": [
+        950,
+        1190,
+        1200,
+        1200,
+        1300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/EustassCaptainKid-OP01-051-V2?language=2"
+    },
+    "799205": {
+      "productId": 799205,
+      "at": "2026-11-02T18:32:02.264Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Raizo-OP01-052-V1?language=2"
+    },
+    "799206": {
+      "productId": 799206,
+      "at": "2026-11-02T18:32:20.030Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Raizo-OP01-052-V2?language=2"
+    },
+    "799207": {
+      "productId": 799207,
+      "at": "2026-11-02T18:32:28.706Z",
+      "status": "quoted",
+      "average": 4.16,
+      "sellers": 5,
+      "sample": [
+        100,
+        490,
+        495,
+        497,
+        498
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Raizo-OP01-052-V3?language=2"
+    },
+    "799208": {
+      "productId": 799208,
+      "at": "2026-11-02T18:32:37.225Z",
+      "status": "quoted",
+      "average": 16.36,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1200,
+        1980,
+        2000,
+        2000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Dracule-Mihawk-OP01-070-V2?language=2"
+    },
+    "799209": {
+      "productId": 799209,
+      "at": "2026-11-02T18:32:45.971Z",
+      "status": "quoted",
+      "average": 44,
+      "sellers": 5,
+      "sample": [
+        3200,
+        4500,
+        4700,
+        4799,
+        4800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Boa-Hancock-OP01-078-V2?language=2"
+    },
+    "799210": {
+      "productId": 799210,
+      "at": "2026-11-02T18:32:54.817Z",
+      "status": "quoted",
+      "average": 1.78,
+      "sellers": 5,
+      "sample": [
+        149,
+        150,
+        190,
+        200,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Shanks-OP01-120-V1?language=2"
+    },
+    "799211": {
+      "productId": 799211,
+      "at": "2026-11-02T18:33:10.630Z",
+      "status": "quoted",
+      "average": 26.58,
+      "sellers": 5,
+      "sample": [
+        1800,
+        2700,
+        2900,
+        2900,
+        2990
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Shanks-OP01-120-V2?language=2"
+    },
+    "799212": {
+      "productId": 799212,
+      "at": "2026-11-02T18:33:19.344Z",
+      "status": "quoted",
+      "average": 1889.8,
+      "sellers": 5,
+      "sample": [
+        175000,
+        180000,
+        190000,
+        199900,
+        200000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Shanks-OP01-120-V3?language=2"
+    },
+    "799213": {
+      "productId": 799213,
+      "at": "2026-11-02T18:33:28.648Z",
+      "status": "quoted",
+      "average": 1.7,
+      "sellers": 5,
+      "sample": [
+        148,
+        149,
+        175,
+        179,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Yamato-OP01-121-V1?language=2"
+    },
+    "799214": {
+      "productId": 799214,
+      "at": "2026-11-02T18:33:37.412Z",
+      "status": "quoted",
+      "average": 36.58,
+      "sellers": 5,
+      "sample": [
+        3400,
+        3500,
+        3500,
+        3900,
+        3990
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Yamato-OP01-121-V2?language=2"
+    },
+    "799215": {
+      "productId": 799215,
+      "at": "2026-11-02T18:33:46.130Z",
+      "status": "quoted",
+      "average": 21.5,
+      "sellers": 5,
+      "sample": [
+        1200,
+        2350,
+        2400,
+        2400,
+        2400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/EdwardNewgate-OP02-004?language=2"
+    },
+    "799216": {
+      "productId": 799216,
+      "at": "2026-11-02T18:34:00.606Z",
+      "status": "quoted",
+      "average": 1560,
+      "sellers": 5,
+      "sample": [
+        145000,
+        150000,
+        150000,
+        160000,
+        175000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/PortgasDAce-OP02-013?language=2"
+    },
+    "799219": {
+      "productId": 799219,
+      "at": "2026-11-02T18:34:09.576Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Makino-OP02-015-V2?language=2"
+    },
+    "799220": {
+      "productId": 799220,
+      "at": "2026-11-02T18:34:18.382Z",
+      "status": "quoted",
+      "average": 4.1,
+      "sellers": 5,
+      "sample": [
+        399,
+        400,
+        400,
+        400,
+        450
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Makino-OP02-015-V3?language=2"
+    },
+    "799221": {
+      "productId": 799221,
+      "at": "2026-11-02T18:34:27.354Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Marco-OP02-018-V2?language=2"
+    },
+    "799222": {
+      "productId": 799222,
+      "at": "2026-11-02T18:34:35.918Z",
+      "status": "quoted",
+      "average": 9.66,
+      "sellers": 5,
+      "sample": [
+        900,
+        950,
+        990,
+        990,
+        998
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Marco-OP02-018-V3?language=2"
+    },
+    "799223": {
+      "productId": 799223,
+      "at": "2026-11-02T18:34:51.081Z",
+      "status": "quoted",
+      "average": 12.47,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1150,
+        1300,
+        1390,
+        1395
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Marco-OP02-018-V4?language=2"
+    },
+    "799224": {
+      "productId": 799224,
+      "at": "2026-11-02T18:34:59.971Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Judgment-of-Hell-OP02-089-V2?language=2"
+    },
+    "799225": {
+      "productId": 799225,
+      "at": "2026-11-02T18:35:08.948Z",
+      "status": "quoted",
+      "average": 2.8,
+      "sellers": 5,
+      "sample": [
+        150,
+        250,
+        300,
+        300,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Judgment-of-Hell-OP02-089-V3?language=2"
+    },
+    "799226": {
+      "productId": 799226,
+      "at": "2026-11-02T18:35:17.680Z",
+      "status": "quoted",
+      "average": 9.19,
+      "sellers": 5,
+      "sample": [
+        799,
+        799,
+        850,
+        1050,
+        1095
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Judgment-of-Hell-OP02-089-V4?language=2"
+    },
+    "799227": {
+      "productId": 799227,
+      "at": "2026-11-02T18:35:40.753Z",
+      "status": "quoted",
+      "average": 9.14,
+      "sellers": 5,
+      "sample": [
+        800,
+        880,
+        900,
+        990,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kuzan-OP02-096-V2?language=2"
+    },
+    "799228": {
+      "productId": 799228,
+      "at": "2026-11-02T18:35:58.432Z",
+      "status": "quoted",
+      "average": 7.62,
+      "sellers": 5,
+      "sample": [
+        330,
+        790,
+        840,
+        900,
+        950
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sakazuki-OP02-099-V2?language=2"
+    },
+    "799229": {
+      "productId": 799229,
+      "at": "2026-11-02T18:36:07.242Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Tsuru-OP02-106-V2?language=2"
+    },
+    "799230": {
+      "productId": 799230,
+      "at": "2026-11-02T18:36:15.935Z",
+      "status": "quoted",
+      "average": 4.2,
+      "sellers": 5,
+      "sample": [
+        300,
+        400,
+        400,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Tsuru-OP02-106-V3?language=2"
+    },
+    "799231": {
+      "productId": 799231,
+      "at": "2026-11-02T18:36:30.655Z",
+      "status": "quoted",
+      "average": 9.58,
+      "sellers": 5,
+      "sample": [
+        900,
+        900,
+        990,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Borsalino-OP02-114-V2?language=2"
+    },
+    "799232": {
+      "productId": 799232,
+      "at": "2026-11-02T18:36:39.474Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Ice-Age-OP02-117-V2?language=2"
+    },
+    "799233": {
+      "productId": 799233,
+      "at": "2026-11-02T18:36:48.278Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        700,
+        950,
+        990,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Ice-Age-OP02-117-V3?language=2"
+    },
+    "799235": {
+      "productId": 799235,
+      "at": "2026-11-02T18:36:57.006Z",
+      "status": "quoted",
+      "average": 35.4,
+      "sellers": 5,
+      "sample": [
+        3499,
+        3500,
+        3500,
+        3500,
+        3700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kuzan-OP02-121-V2?language=2"
+    },
+    "799236": {
+      "productId": 799236,
+      "at": "2026-11-02T18:37:06.000Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Izo-OP03-003-V2?language=2"
+    },
+    "799237": {
+      "productId": 799237,
+      "at": "2026-11-02T18:37:19.267Z",
+      "status": "quoted",
+      "average": 2.88,
+      "sellers": 5,
+      "sample": [
+        240,
+        249,
+        250,
+        350,
+        350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Izo-OP03-003-V3?language=2"
+    },
+    "799238": {
+      "productId": 799238,
+      "at": "2026-11-02T18:37:28.446Z",
+      "status": "quoted",
+      "average": 9.08,
+      "sellers": 5,
+      "sample": [
+        849,
+        850,
+        899,
+        950,
+        990
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Izo-OP03-003-V4?language=2"
+    },
+    "799239": {
+      "productId": 799239,
+      "at": "2026-11-02T18:37:37.378Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Gum-Gum-Giant-Gavel-OP03-055-V2?language=2"
+    },
+    "799240": {
+      "productId": 799240,
+      "at": "2026-11-02T18:37:45.880Z",
+      "status": "quoted",
+      "average": 2.18,
+      "sellers": 5,
+      "sample": [
+        150,
+        190,
+        200,
+        250,
+        299
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Gum-Gum-Giant-Gavel-OP03-055-V3?language=2"
+    },
+    "799241": {
+      "productId": 799241,
+      "at": "2026-11-02T18:37:54.730Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sanjis-Pilaf-OP03-056-V2?language=2"
+    },
+    "799242": {
+      "productId": 799242,
+      "at": "2026-11-02T18:38:07.893Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 2,
+      "sample": [
+        600,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sanjis-Pilaf-OP03-056-V3?language=2"
+    },
+    "799243": {
+      "productId": 799243,
+      "at": "2026-11-02T18:38:16.475Z",
+      "status": "quoted",
+      "average": 5.2,
+      "sellers": 5,
+      "sample": [
+        500,
+        500,
+        500,
+        500,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sanjis-Pilaf-OP03-056-V4?language=2"
+    },
+    "799244": {
+      "productId": 799244,
+      "at": "2026-11-02T18:38:25.548Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Three-Thousand-Worlds-OP03-057-V2?language=2"
+    },
+    "799245": {
+      "productId": 799245,
+      "at": "2026-11-02T18:38:34.152Z",
+      "status": "quoted",
+      "average": 2.26,
+      "sellers": 5,
+      "sample": [
+        150,
+        180,
+        250,
+        250,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Three-Thousand-Worlds-OP03-057-V3?language=2"
+    },
+    "799246": {
+      "productId": 799246,
+      "at": "2026-11-02T18:38:43.034Z",
+      "status": "quoted",
+      "average": 22.6,
+      "sellers": 5,
+      "sample": [
+        2000,
+        2200,
+        2200,
+        2400,
+        2500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Three-Thousand-Worlds-OP03-057-V4?language=2"
+    },
+    "799247": {
+      "productId": 799247,
+      "at": "2026-11-02T18:38:56.101Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kalifa-OP03-060-V2?language=2"
+    },
+    "799248": {
+      "productId": 799248,
+      "at": "2026-11-02T18:39:04.812Z",
+      "status": "quoted",
+      "average": 2.99,
+      "sellers": 5,
+      "sample": [
+        245,
+        249,
+        250,
+        250,
+        499
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kalifa-OP03-060-V3?language=2"
+    },
+    "799249": {
+      "productId": 799249,
+      "at": "2026-11-02T18:39:13.787Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vergo-OP03-079-V2?language=2"
+    },
     "799250": {
       "productId": 799250,
       "at": "2026-10-31T18:29:58.745Z",
@@ -20,6 +915,1680 @@
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vergo-OP03-079-V3?language=2"
     },
+    "799251": {
+      "productId": 799251,
+      "at": "2026-11-02T18:39:23.422Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Brannew-OP03-089-V2?language=2"
+    },
+    "799252": {
+      "productId": 799252,
+      "at": "2026-11-02T18:39:32.586Z",
+      "status": "quoted",
+      "average": 2.4,
+      "sellers": 5,
+      "sample": [
+        200,
+        200,
+        200,
+        300,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Brannew-OP03-089-V3?language=2"
+    },
+    "799253": {
+      "productId": 799253,
+      "at": "2026-11-02T18:39:48.493Z",
+      "status": "quoted",
+      "average": 4.7,
+      "sellers": 5,
+      "sample": [
+        350,
+        499,
+        500,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Brannew-OP03-089-V4?language=2"
+    },
+    "799254": {
+      "productId": 799254,
+      "at": "2026-11-02T18:39:58.157Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Air-Door-OP03-094-V2?language=2"
+    },
+    "799255": {
+      "productId": 799255,
+      "at": "2026-11-02T18:40:07.392Z",
+      "status": "quoted",
+      "average": 4.5,
+      "sellers": 5,
+      "sample": [
+        350,
+        400,
+        400,
+        500,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Air-Door-OP03-094-V3?language=2"
+    },
+    "799256": {
+      "productId": 799256,
+      "at": "2026-11-02T18:40:16.352Z",
+      "status": "quoted",
+      "average": 9.1,
+      "sellers": 5,
+      "sample": [
+        800,
+        850,
+        899,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Charlotte-Cracker-OP03-108-V2?language=2"
+    },
+    "799257": {
+      "productId": 799257,
+      "at": "2026-11-02T18:40:25.379Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Charlotte-Smoothie-OP03-110-V2?language=2"
+    },
+    "799258": {
+      "productId": 799258,
+      "at": "2026-11-02T18:40:41.580Z",
+      "status": "quoted",
+      "average": 5.2,
+      "sellers": 5,
+      "sample": [
+        500,
+        500,
+        500,
+        500,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Charlotte-Smoothie-OP03-110-V3?language=2"
+    },
+    "799259": {
+      "productId": 799259,
+      "at": "2026-11-02T18:40:50.246Z",
+      "status": "quoted",
+      "average": 3.9,
+      "sellers": 5,
+      "sample": [
+        300,
+        350,
+        400,
+        400,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Charlotte-Smoothie-OP03-110-V4?language=2"
+    },
+    "799260": {
+      "productId": 799260,
+      "at": "2026-11-02T18:40:59.048Z",
+      "status": "quoted",
+      "average": 7.28,
+      "sellers": 5,
+      "sample": [
+        690,
+        700,
+        700,
+        750,
+        800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Charlotte-Perospero-OP03-113-V2?language=2"
+    },
+    "799261": {
+      "productId": 799261,
+      "at": "2026-11-02T18:41:08.041Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Shirahoshi-OP03-116-V2?language=2"
+    },
+    "799262": {
+      "productId": 799262,
+      "at": "2026-11-02T18:41:17.292Z",
+      "status": "quoted",
+      "average": 8.99,
+      "sellers": 5,
+      "sample": [
+        895,
+        899,
+        900,
+        900,
+        900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Shirahoshi-OP03-116-V3?language=2"
+    },
+    "799263": {
+      "productId": 799263,
+      "at": "2026-11-02T18:41:35.403Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Thunder-Bolt-OP03-121-V2?language=2"
+    },
+    "799264": {
+      "productId": 799264,
+      "at": "2026-11-02T18:41:44.279Z",
+      "status": "quoted",
+      "average": 1.85,
+      "sellers": 5,
+      "sample": [
+        150,
+        175,
+        199,
+        200,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Thunder-Bolt-OP03-121-V3?language=2"
+    },
+    "799265": {
+      "productId": 799265,
+      "at": "2026-11-02T18:41:52.662Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        95000,
+        99900,
+        100000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sogeking-OP03-122?language=2"
+    },
+    "799266": {
+      "productId": 799266,
+      "at": "2026-11-02T18:42:01.539Z",
+      "status": "quoted",
+      "average": 1.45,
+      "sellers": 5,
+      "sample": [
+        140,
+        140,
+        148,
+        149,
+        150
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Charlotte-Katakuri-OP03-123-V1?language=2"
+    },
+    "799267": {
+      "productId": 799267,
+      "at": "2026-11-02T18:42:09.986Z",
+      "status": "quoted",
+      "average": 39.56,
+      "sellers": 5,
+      "sample": [
+        3800,
+        3989,
+        3990,
+        3999,
+        4000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Charlotte-Katakuri-OP03-123-V2?language=2"
+    },
+    "799268": {
+      "productId": 799268,
+      "at": "2026-11-02T18:42:23.309Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Dellinger-OP04-029-V2?language=2"
+    },
+    "799269": {
+      "productId": 799269,
+      "at": "2026-11-02T18:42:31.823Z",
+      "status": "quoted",
+      "average": 3.1,
+      "sellers": 5,
+      "sample": [
+        298,
+        300,
+        300,
+        300,
+        350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Dellinger-OP04-029-V3?language=2"
+    },
+    "799270": {
+      "productId": 799270,
+      "at": "2026-11-02T18:42:40.916Z",
+      "status": "quoted",
+      "average": 0.14,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        11,
+        19,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Donquixote-Doflamingo-OP04-031-V1?language=2"
+    },
+    "799271": {
+      "productId": 799271,
+      "at": "2026-11-02T18:42:49.692Z",
+      "status": "quoted",
+      "average": 23.7,
+      "sellers": 5,
+      "sample": [
+        2000,
+        2400,
+        2450,
+        2500,
+        2500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Donquixote-Doflamingo-OP04-031-V2?language=2"
+    },
+    "799272": {
+      "productId": 799272,
+      "at": "2026-11-02T18:42:58.574Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Baby-5-OP04-032-V2?language=2"
+    },
+    "799273": {
+      "productId": 799273,
+      "at": "2026-11-02T18:43:16.011Z",
+      "status": "quoted",
+      "average": 4.5,
+      "sellers": 5,
+      "sample": [
+        400,
+        400,
+        450,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Baby-5-OP04-032-V3?language=2"
+    },
+    "799274": {
+      "productId": 799274,
+      "at": "2026-11-02T18:43:25.032Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Donquixote-Family-OP04-036-V2?language=2"
+    },
+    "799275": {
+      "productId": 799275,
+      "at": "2026-11-02T18:43:33.816Z",
+      "status": "quoted",
+      "average": 1.75,
+      "sellers": 5,
+      "sample": [
+        140,
+        145,
+        195,
+        195,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Donquixote-Family-OP04-036-V3?language=2"
+    },
+    "799276": {
+      "productId": 799276,
+      "at": "2026-11-02T18:43:42.856Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kaido-OP04-044-V1?language=2"
+    },
+    "799277": {
+      "productId": 799277,
+      "at": "2026-11-02T18:43:51.305Z",
+      "status": "quoted",
+      "average": 13.33,
+      "sellers": 5,
+      "sample": [
+        1100,
+        1375,
+        1390,
+        1399,
+        1400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kaido-OP04-044-V2?language=2"
+    },
+    "799278": {
+      "productId": 799278,
+      "at": "2026-11-02T18:44:03.933Z",
+      "status": "quoted",
+      "average": 0.66,
+      "sellers": 5,
+      "sample": [
+        50,
+        60,
+        65,
+        75,
+        80
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Gum-Gum-Red-Roc-OP04-056-V2?language=2"
+    },
+    "799279": {
+      "productId": 799279,
+      "at": "2026-11-02T18:44:12.677Z",
+      "status": "quoted",
+      "average": 5.18,
+      "sellers": 5,
+      "sample": [
+        400,
+        400,
+        500,
+        590,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Gum-Gum-Red-Roc-OP04-056-V3?language=2"
+    },
+    "799280": {
+      "productId": 799280,
+      "at": "2026-11-02T18:44:21.182Z",
+      "status": "quoted",
+      "average": 19.58,
+      "sellers": 5,
+      "sample": [
+        1800,
+        1890,
+        1900,
+        2000,
+        2200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Gum-Gum-Red-Roc-OP04-056-V4?language=2"
+    },
+    "799283": {
+      "productId": 799283,
+      "at": "2026-11-02T18:44:29.949Z",
+      "status": "quoted",
+      "average": 875,
+      "sellers": 5,
+      "sample": [
+        82500,
+        85000,
+        90000,
+        90000,
+        90000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sabo-OP04-083?language=2"
+    },
+    "799284": {
+      "productId": 799284,
+      "at": "2026-11-02T18:44:38.679Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Bartolomeo-OP04-089-V2?language=2"
+    },
+    "799285": {
+      "productId": 799285,
+      "at": "2026-11-02T18:44:52.466Z",
+      "status": "quoted",
+      "average": 3.7,
+      "sellers": 5,
+      "sample": [
+        300,
+        350,
+        400,
+        400,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Bartolomeo-OP04-089-V3?language=2"
+    },
+    "799286": {
+      "productId": 799286,
+      "at": "2026-11-02T18:45:01.082Z",
+      "status": "quoted",
+      "average": 5.3,
+      "sellers": 5,
+      "sample": [
+        500,
+        500,
+        500,
+        550,
+        598
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Bartolomeo-OP04-089-V4?language=2"
+    },
+    "799287": {
+      "productId": 799287,
+      "at": "2026-11-02T18:45:10.560Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Barrier-OP04-095-V2?language=2"
+    },
+    "799288": {
+      "productId": 799288,
+      "at": "2026-11-02T18:45:19.149Z",
+      "status": "quoted",
+      "average": 2.97,
+      "sellers": 5,
+      "sample": [
+        290,
+        298,
+        299,
+        300,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Barrier-OP04-095-V3?language=2"
+    },
+    "799289": {
+      "productId": 799289,
+      "at": "2026-11-02T18:45:44.359Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        3,
+        4,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/CaponeGangBege-OP04-100-V2?language=2"
+    },
+    "799290": {
+      "productId": 799290,
+      "at": "2026-11-02T18:45:52.945Z",
+      "status": "quoted",
+      "average": 4.66,
+      "sellers": 5,
+      "sample": [
+        400,
+        450,
+        480,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/CaponeGangBege-OP04-100-V3?language=2"
+    },
+    "799291": {
+      "productId": 799291,
+      "at": "2026-11-02T18:46:01.721Z",
+      "status": "quoted",
+      "average": 7.1,
+      "sellers": 5,
+      "sample": [
+        699,
+        700,
+        700,
+        700,
+        750
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/CaponeGangBege-OP04-100-V4?language=2"
+    },
+    "799292": {
+      "productId": 799292,
+      "at": "2026-11-02T18:46:19.475Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        1000,
+        1399,
+        1450,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sanji-OP04-104-V2?language=2"
+    },
+    "799293": {
+      "productId": 799293,
+      "at": "2026-11-02T18:46:31.047Z",
+      "status": "quoted",
+      "average": 0.14,
+      "sellers": 5,
+      "sample": [
+        5,
+        10,
+        15,
+        19,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Yamato-OP04-112-V1?language=2"
+    },
+    "799294": {
+      "productId": 799294,
+      "at": "2026-11-02T18:46:40.101Z",
+      "status": "quoted",
+      "average": 39.2,
+      "sellers": 5,
+      "sample": [
+        3800,
+        3900,
+        3900,
+        4000,
+        4000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Yamato-OP04-112-V2?language=2"
+    },
+    "799295": {
+      "productId": 799295,
+      "at": "2026-11-02T18:46:48.803Z",
+      "status": "quoted",
+      "average": 0.09,
+      "sellers": 5,
+      "sample": [
+        5,
+        10,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Koala-OP05-006-V1?language=2"
+    },
+    "799296": {
+      "productId": 799296,
+      "at": "2026-11-02T18:46:57.338Z",
+      "status": "quoted",
+      "average": 11.4,
+      "sellers": 5,
+      "sample": [
+        900,
+        1100,
+        1200,
+        1200,
+        1299
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Koala-OP05-006-V2?language=2"
+    },
+    "799297": {
+      "productId": 799297,
+      "at": "2026-11-02T18:47:06.374Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sabo-OP05-007-V1?language=2"
+    },
+    "799298": {
+      "productId": 799298,
+      "at": "2026-11-02T18:47:18.367Z",
+      "status": "quoted",
+      "average": 16.4,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1200,
+        2000,
+        2000,
+        2000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sabo-OP05-007-V2?language=2"
+    },
+    "799299": {
+      "productId": 799299,
+      "at": "2026-11-02T18:47:27.577Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Nico-Robin-OP05-010-V1?language=2"
+    },
+    "799300": {
+      "productId": 799300,
+      "at": "2026-11-02T18:47:36.570Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Nico-Robin-OP05-010-V2?language=2"
+    },
+    "799301": {
+      "productId": 799301,
+      "at": "2026-11-02T18:47:45.345Z",
+      "status": "quoted",
+      "average": 21,
+      "sellers": 5,
+      "sample": [
+        1999,
+        2000,
+        2100,
+        2200,
+        2200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Nico-Robin-OP05-010-V3?language=2"
+    },
+    "799307": {
+      "productId": 799307,
+      "at": "2026-11-02T18:47:54.101Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Belo-Betty-OP05-015-V1?language=2"
+    },
+    "799308": {
+      "productId": 799308,
+      "at": "2026-11-02T18:48:07.430Z",
+      "status": "quoted",
+      "average": 0.06,
+      "sellers": 5,
+      "sample": [
+        2,
+        5,
+        5,
+        8,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Belo-Betty-OP05-015-V2?language=2"
+    },
+    "799309": {
+      "productId": 799309,
+      "at": "2026-11-02T18:48:16.112Z",
+      "status": "quoted",
+      "average": 8.78,
+      "sellers": 5,
+      "sample": [
+        700,
+        890,
+        900,
+        900,
+        999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Belo-Betty-OP05-015-V3?language=2"
+    },
+    "799310": {
+      "productId": 799310,
+      "at": "2026-11-02T18:48:24.732Z",
+      "status": "quoted",
+      "average": 5.69,
+      "sellers": 5,
+      "sample": [
+        495,
+        500,
+        500,
+        650,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Belo-Betty-OP05-015-V4?language=2"
+    },
+    "799311": {
+      "productId": 799311,
+      "at": "2026-11-02T18:48:33.935Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Baby-5-OP05-034-V1?language=2"
+    },
+    "799312": {
+      "productId": 799312,
+      "at": "2026-11-02T18:48:42.978Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Baby-5-OP05-034-V2?language=2"
+    },
+    "799313": {
+      "productId": 799313,
+      "at": "2026-11-02T18:48:57.106Z",
+      "status": "quoted",
+      "average": 3.29,
+      "sellers": 5,
+      "sample": [
+        260,
+        300,
+        300,
+        385,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Baby-5-OP05-034-V3?language=2"
+    },
+    "799314": {
+      "productId": 799314,
+      "at": "2026-11-02T18:49:05.590Z",
+      "status": "quoted",
+      "average": 11.98,
+      "sellers": 5,
+      "sample": [
+        1190,
+        1199,
+        1200,
+        1200,
+        1200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Baby-5-OP05-034-V4?language=2"
+    },
+    "799315": {
+      "productId": 799315,
+      "at": "2026-11-02T18:49:14.568Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Ulti-OP05-043-V1?language=2"
+    },
+    "799316": {
+      "productId": 799316,
+      "at": "2026-11-02T18:49:23.063Z",
+      "status": "quoted",
+      "average": 10,
+      "sellers": 5,
+      "sample": [
+        850,
+        950,
+        1000,
+        1100,
+        1100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Ulti-OP05-043-V2?language=2"
+    },
+    "799317": {
+      "productId": 799317,
+      "at": "2026-11-02T18:49:32.060Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Hound-Blaze-OP05-057-V2?language=2"
+    },
+    "799318": {
+      "productId": 799318,
+      "at": "2026-11-02T18:49:46.276Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        490,
+        500,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Hound-Blaze-OP05-057-V3?language=2"
+    },
+    "799319": {
+      "productId": 799319,
+      "at": "2026-11-02T18:49:54.856Z",
+      "status": "quoted",
+      "average": 12.16,
+      "sellers": 5,
+      "sample": [
+        1100,
+        1190,
+        1200,
+        1290,
+        1300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Hound-Blaze-OP05-057-V4?language=2"
+    },
+    "799320": {
+      "productId": 799320,
+      "at": "2026-11-02T18:50:12.607Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Miss-DoublefingerZala-OP05-073-V1?language=2"
+    },
+    "799321": {
+      "productId": 799321,
+      "at": "2026-11-02T18:50:21.329Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        3,
+        4,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Miss-DoublefingerZala-OP05-073-V2?language=2"
+    },
+    "799322": {
+      "productId": 799322,
+      "at": "2026-11-02T18:50:33.001Z",
+      "status": "quoted",
+      "average": 12.2,
+      "sellers": 5,
+      "sample": [
+        1100,
+        1200,
+        1200,
+        1298,
+        1300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Miss-DoublefingerZala-OP05-073-V3?language=2"
+    },
+    "799323": {
+      "productId": 799323,
+      "at": "2026-11-02T18:50:42.330Z",
+      "status": "quoted",
+      "average": 0.06,
+      "sellers": 5,
+      "sample": [
+        2,
+        5,
+        5,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/EustassCaptainKid-OP05-074-V1?language=2"
+    },
+    "799324": {
+      "productId": 799324,
+      "at": "2026-11-02T18:50:51.166Z",
+      "status": "quoted",
+      "average": 13.37,
+      "sellers": 5,
+      "sample": [
+        1095,
+        1190,
+        1400,
+        1500,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/EustassCaptainKid-OP05-074-V2?language=2"
+    },
+    "799325": {
+      "productId": 799325,
+      "at": "2026-11-02T18:50:59.631Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        90000,
+        130000,
+        180000,
+        185000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/EustassCaptainKid-OP05-074-V3?language=2"
+    },
+    "799326": {
+      "productId": 799326,
+      "at": "2026-11-02T18:51:08.329Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/One-Legged-Toy-Soldier-OP05-081-V1?language=2"
+    },
+    "799327": {
+      "productId": 799327,
+      "at": "2026-11-02T18:51:21.076Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/One-Legged-Toy-Soldier-OP05-081-V2?language=2"
+    },
+    "799328": {
+      "productId": 799328,
+      "at": "2026-11-02T18:51:30.044Z",
+      "status": "quoted",
+      "average": 5.78,
+      "sellers": 5,
+      "sample": [
+        499,
+        550,
+        550,
+        600,
+        690
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/One-Legged-Toy-Soldier-OP05-081-V3?language=2"
+    },
+    "799329": {
+      "productId": 799329,
+      "at": "2026-11-02T18:51:38.781Z",
+      "status": "quoted",
+      "average": 8.68,
+      "sellers": 5,
+      "sample": [
+        700,
+        850,
+        899,
+        940,
+        950
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/One-Legged-Toy-Soldier-OP05-081-V4?language=2"
+    },
+    "799330": {
+      "productId": 799330,
+      "at": "2026-11-02T18:51:47.382Z",
+      "status": "quoted",
+      "average": 0.27,
+      "sellers": 5,
+      "sample": [
+        10,
+        20,
+        25,
+        40,
+        40
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Shirahoshi-OP05-082-V1?language=2"
+    },
+    "799331": {
+      "productId": 799331,
+      "at": "2026-11-02T18:51:56.052Z",
+      "status": "quoted",
+      "average": 0.95,
+      "sellers": 5,
+      "sample": [
+        80,
+        98,
+        99,
+        99,
+        99
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Shirahoshi-OP05-082-V2?language=2"
+    },
+    "799332": {
+      "productId": 799332,
+      "at": "2026-11-02T18:52:08.623Z",
+      "status": "quoted",
+      "average": 16.26,
+      "sellers": 5,
+      "sample": [
+        1300,
+        1600,
+        1700,
+        1750,
+        1780
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Shirahoshi-OP05-082-V3?language=2"
+    },
+    "799333": {
+      "productId": 799333,
+      "at": "2026-11-02T18:52:17.256Z",
+      "status": "quoted",
+      "average": 35.75,
+      "sellers": 5,
+      "sample": [
+        2990,
+        2999,
+        3900,
+        3990,
+        3998
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Shirahoshi-OP05-082-V4?language=2"
+    },
+    "799334": {
+      "productId": 799334,
+      "at": "2026-11-02T18:52:26.481Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Satori-OP05-105-V1?language=2"
+    },
+    "799335": {
+      "productId": 799335,
+      "at": "2026-11-02T18:52:35.340Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Satori-OP05-105-V2?language=2"
+    },
+    "799336": {
+      "productId": 799336,
+      "at": "2026-11-02T18:52:44.293Z",
+      "status": "quoted",
+      "average": 2.8,
+      "sellers": 5,
+      "sample": [
+        250,
+        250,
+        299,
+        299,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Satori-OP05-105-V3?language=2"
+    },
+    "799337": {
+      "productId": 799337,
+      "at": "2026-11-02T18:52:55.771Z",
+      "status": "quoted",
+      "average": 8.2,
+      "sellers": 5,
+      "sample": [
+        700,
+        700,
+        899,
+        900,
+        900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Satori-OP05-105-V4?language=2"
+    },
+    "799338": {
+      "productId": 799338,
+      "at": "2026-11-02T18:53:04.729Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/El-Thor-OP05-114-V2?language=2"
+    },
+    "799339": {
+      "productId": 799339,
+      "at": "2026-11-02T18:53:13.276Z",
+      "status": "quoted",
+      "average": 3.68,
+      "sellers": 5,
+      "sample": [
+        299,
+        350,
+        390,
+        400,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/El-Thor-OP05-114-V3?language=2"
+    },
+    "799340": {
+      "productId": 799340,
+      "at": "2026-11-02T18:53:22.332Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Two-Hundred-Million-Volts-Amaru-OP05-115-V2?language=2"
+    },
+    "799341": {
+      "productId": 799341,
+      "at": "2026-11-02T18:53:31.535Z",
+      "status": "quoted",
+      "average": 2.1,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        200,
+        299,
+        350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Two-Hundred-Million-Volts-Amaru-OP05-115-V3?language=2"
+    },
+    "799342": {
+      "productId": 799342,
+      "at": "2026-11-02T18:53:44.419Z",
+      "status": "quoted",
+      "average": 10.79,
+      "sellers": 5,
+      "sample": [
+        999,
+        999,
+        1000,
+        1195,
+        1200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Two-Hundred-Million-Volts-Amaru-OP05-115-V4?language=2"
+    },
+    "799343": {
+      "productId": 799343,
+      "at": "2026-11-02T18:53:53.513Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Upper-Yard-OP05-117-V2?language=2"
+    },
+    "799344": {
+      "productId": 799344,
+      "at": "2026-11-02T18:54:02.180Z",
+      "status": "quoted",
+      "average": 2.7,
+      "sellers": 5,
+      "sample": [
+        200,
+        200,
+        200,
+        350,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Upper-Yard-OP05-117-V3?language=2"
+    },
+    "799345": {
+      "productId": 799345,
+      "at": "2026-11-02T18:54:10.884Z",
+      "status": "quoted",
+      "average": 16.57,
+      "sellers": 5,
+      "sample": [
+        1600,
+        1600,
+        1685,
+        1699,
+        1700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Upper-Yard-OP05-117-V4?language=2"
+    },
+    "799346": {
+      "productId": 799346,
+      "at": "2026-11-02T18:54:19.617Z",
+      "status": "quoted",
+      "average": 1.53,
+      "sellers": 5,
+      "sample": [
+        100,
+        135,
+        139,
+        190,
+        199
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kaido-OP05-118-V1?language=2"
+    },
+    "799347": {
+      "productId": 799347,
+      "at": "2026-11-02T18:54:31.978Z",
+      "status": "quoted",
+      "average": 32.5,
+      "sellers": 5,
+      "sample": [
+        3000,
+        3150,
+        3200,
+        3400,
+        3500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kaido-OP05-118-V2?language=2"
+    },
+    "799348": {
+      "productId": 799348,
+      "at": "2026-11-02T18:54:40.666Z",
+      "status": "quoted",
+      "average": 12.32,
+      "sellers": 5,
+      "sample": [
+        900,
+        1100,
+        1300,
+        1399,
+        1460
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/MonkeyDLuffy-OP05-119-V1?language=2"
+    },
+    "799349": {
+      "productId": 799349,
+      "at": "2026-11-02T18:54:49.522Z",
+      "status": "quoted",
+      "average": 165.4,
+      "sellers": 5,
+      "sample": [
+        14999,
+        15900,
+        17000,
+        17400,
+        17400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/MonkeyDLuffy-OP05-119-V2?language=2"
+    },
+    "799350": {
+      "productId": 799350,
+      "at": "2026-11-02T18:54:58.288Z",
+      "status": "quoted",
+      "average": 7350,
+      "sellers": 5,
+      "sample": [
+        525000,
+        700000,
+        700000,
+        750000,
+        1000000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/MonkeyDLuffy-OP05-119-V3?language=2"
+    },
+    "799351": {
+      "productId": 799351,
+      "at": "2026-11-02T18:55:07.120Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/EmporioIvankov-OP06-003-V2?language=2"
+    },
+    "799352": {
+      "productId": 799352,
+      "at": "2026-11-02T18:55:19.338Z",
+      "status": "quoted",
+      "average": 10.69,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1050,
+        1095,
+        1100,
+        1100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/EmporioIvankov-OP06-003-V3?language=2"
+    },
+    "799353": {
+      "productId": 799353,
+      "at": "2026-11-02T18:55:28.687Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Arlong-OP06-023-V1?language=2"
+    },
+    "799354": {
+      "productId": 799354,
+      "at": "2026-11-02T18:55:37.961Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        3,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Arlong-OP06-023-V2?language=2"
+    },
+    "799355": {
+      "productId": 799355,
+      "at": "2026-11-02T18:55:46.510Z",
+      "status": "quoted",
+      "average": 2.94,
+      "sellers": 5,
+      "sample": [
+        249,
+        250,
+        300,
+        320,
+        350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Arlong-OP06-023-V3?language=2"
+    },
+    "799356": {
+      "productId": 799356,
+      "at": "2026-11-02T18:55:55.522Z",
+      "status": "quoted",
+      "average": 5.04,
+      "sellers": 5,
+      "sample": [
+        469,
+        500,
+        500,
+        500,
+        550
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Arlong-OP06-023-V4?language=2"
+    },
+    "799357": {
+      "productId": 799357,
+      "at": "2026-11-02T18:56:19.587Z",
+      "status": "quoted",
+      "average": 18.6,
+      "sellers": 5,
+      "sample": [
+        1800,
+        1800,
+        1800,
+        1900,
+        2000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Hody-Jones-OP06-035-V2?language=2"
+    },
+    "799358": {
+      "productId": 799358,
+      "at": "2026-11-02T18:56:28.543Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        3,
+        5,
+        5,
+        5,
+        7
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Ryuma-OP06-036-V2?language=2"
+    },
+    "799359": {
+      "productId": 799359,
+      "at": "2026-11-02T18:56:37.275Z",
+      "status": "quoted",
+      "average": 7.98,
+      "sellers": 5,
+      "sample": [
+        700,
+        800,
+        800,
+        800,
+        890
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Ryuma-OP06-036-V3?language=2"
+    },
+    "799360": {
+      "productId": 799360,
+      "at": "2026-11-02T18:56:46.026Z",
+      "status": "quoted",
+      "average": 29.6,
+      "sellers": 5,
+      "sample": [
+        1900,
+        2100,
+        2900,
+        3000,
+        4900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Ryuma-OP06-036-V4?language=2"
+    },
+    "799361": {
+      "productId": 799361,
+      "at": "2026-11-02T18:56:57.991Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/The-Billion-fold-World-Trichiliocosm-OP06-038-V2?language=2"
+    },
+    "799362": {
+      "productId": 799362,
+      "at": "2026-11-02T18:57:06.947Z",
+      "status": "quoted",
+      "average": 3.39,
+      "sellers": 5,
+      "sample": [
+        295,
+        300,
+        300,
+        399,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/The-Billion-fold-World-Trichiliocosm-OP06-038-V3?language=2"
+    },
+    "799363": {
+      "productId": 799363,
+      "at": "2026-11-02T18:57:16.264Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Ama-no-Murakumo-Sword-OP06-056-V2?language=2"
+    },
+    "799364": {
+      "productId": 799364,
+      "at": "2026-11-02T18:57:25.917Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        350,
+        400,
+        500,
+        990
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Ama-no-Murakumo-Sword-OP06-056-V3?language=2"
+    },
+    "799365": {
+      "productId": 799365,
+      "at": "2026-11-02T18:57:35.937Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Ichiji-OP06-060-V2?language=2"
+    },
+    "799366": {
+      "productId": 799366,
+      "at": "2026-11-02T18:57:50.181Z",
+      "status": "quoted",
+      "average": 8.76,
+      "sellers": 5,
+      "sample": [
+        800,
+        800,
+        899,
+        899,
+        980
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Ichiji-OP06-060-V3?language=2"
+    },
+    "799367": {
+      "productId": 799367,
+      "at": "2026-11-02T18:57:59.248Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Niji-OP06-064-V2?language=2"
+    },
+    "799368": {
+      "productId": 799368,
+      "at": "2026-11-02T18:58:07.933Z",
+      "status": "quoted",
+      "average": 4.04,
+      "sellers": 5,
+      "sample": [
+        350,
+        350,
+        380,
+        450,
+        489
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Niji-OP06-064-V3?language=2"
+    },
+    "799369": {
+      "productId": 799369,
+      "at": "2026-11-02T18:58:17.291Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Niji-OP06-065-V2?language=2"
+    },
     "799370": {
       "productId": 799370,
       "at": "2026-10-29T23:33:40.758Z",
@@ -34,6 +2603,1055 @@
         400
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Niji-OP06-065-V3?language=2"
+    },
+    "799371": {
+      "productId": 799371,
+      "at": "2026-11-02T18:58:27.048Z",
+      "status": "quoted",
+      "average": 4.79,
+      "sellers": 5,
+      "sample": [
+        400,
+        494,
+        499,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Niji-OP06-065-V4?language=2"
+    },
+    "799372": {
+      "productId": 799372,
+      "at": "2026-11-02T18:58:43.403Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Yonji-OP06-066-V2?language=2"
+    },
+    "799373": {
+      "productId": 799373,
+      "at": "2026-11-02T18:58:52.077Z",
+      "status": "quoted",
+      "average": 4.04,
+      "sellers": 5,
+      "sample": [
+        399,
+        400,
+        400,
+        400,
+        420
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Yonji-OP06-066-V3?language=2"
+    },
+    "799374": {
+      "productId": 799374,
+      "at": "2026-11-02T18:59:01.009Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Yonji-OP06-067-V2?language=2"
+    },
+    "799375": {
+      "productId": 799375,
+      "at": "2026-11-02T18:59:09.838Z",
+      "status": "quoted",
+      "average": 2.9,
+      "sellers": 5,
+      "sample": [
+        250,
+        300,
+        300,
+        300,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Yonji-OP06-067-V3?language=2"
+    },
+    "799376": {
+      "productId": 799376,
+      "at": "2026-11-02T18:59:18.731Z",
+      "status": "quoted",
+      "average": 2.5,
+      "sellers": 5,
+      "sample": [
+        210,
+        250,
+        250,
+        250,
+        290
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Yonji-OP06-067-V4?language=2"
+    },
+    "799377": {
+      "productId": 799377,
+      "at": "2026-11-02T18:59:30.782Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Reiju-OP06-068-V2?language=2"
+    },
+    "799378": {
+      "productId": 799378,
+      "at": "2026-11-02T18:59:39.463Z",
+      "status": "quoted",
+      "average": 14.38,
+      "sellers": 5,
+      "sample": [
+        1300,
+        1400,
+        1490,
+        1499,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Reiju-OP06-068-V3?language=2"
+    },
+    "799379": {
+      "productId": 799379,
+      "at": "2026-11-02T18:59:48.268Z",
+      "status": "quoted",
+      "average": 19.88,
+      "sellers": 5,
+      "sample": [
+        1850,
+        1990,
+        2000,
+        2000,
+        2100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Vinsmoke-Reiju-OP06-069?language=2"
+    },
+    "799380": {
+      "productId": 799380,
+      "at": "2026-11-02T18:59:57.438Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kingdom-of-GERMA-OP06-079-V2?language=2"
+    },
+    "799381": {
+      "productId": 799381,
+      "at": "2026-11-02T19:00:06.351Z",
+      "status": "quoted",
+      "average": 1.5,
+      "sellers": 5,
+      "sample": [
+        50,
+        80,
+        100,
+        240,
+        280
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kingdom-of-GERMA-OP06-079-V3?language=2"
+    },
+    "799382": {
+      "productId": 799382,
+      "at": "2026-11-02T19:00:23.717Z",
+      "status": "quoted",
+      "average": 10.31,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1000,
+        1000,
+        1075,
+        1079
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kingdom-of-GERMA-OP06-079-V4?language=2"
+    },
+    "799383": {
+      "productId": 799383,
+      "at": "2026-11-02T19:00:32.730Z",
+      "status": "quoted",
+      "average": 24.6,
+      "sellers": 5,
+      "sample": [
+        1400,
+        2000,
+        2500,
+        2900,
+        3500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Gecko-Moria-OP06-086-V2?language=2"
+    },
+    "799384": {
+      "productId": 799384,
+      "at": "2026-11-02T19:00:41.689Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Victoria-Cindry-OP06-091-V2?language=2"
+    },
+    "799385": {
+      "productId": 799385,
+      "at": "2026-11-02T19:00:50.317Z",
+      "status": "quoted",
+      "average": 17.7,
+      "sellers": 5,
+      "sample": [
+        1700,
+        1750,
+        1799,
+        1800,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Victoria-Cindry-OP06-091-V3?language=2"
+    },
+    "799386": {
+      "productId": 799386,
+      "at": "2026-11-02T19:00:59.487Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Inuarashi-OP06-100-V2?language=2"
+    },
+    "799387": {
+      "productId": 799387,
+      "at": "2026-11-02T19:01:14.000Z",
+      "status": "quoted",
+      "average": 4.57,
+      "sellers": 5,
+      "sample": [
+        400,
+        445,
+        450,
+        490,
+        499
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Inuarashi-OP06-100-V3?language=2"
+    },
+    "799388": {
+      "productId": 799388,
+      "at": "2026-11-02T19:01:22.619Z",
+      "status": "quoted",
+      "average": 35.7,
+      "sellers": 5,
+      "sample": [
+        3200,
+        3300,
+        3650,
+        3700,
+        4000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kouzuki-Hiyori-OP06-106-V2?language=2"
+    },
+    "799389": {
+      "productId": 799389,
+      "at": "2026-11-02T19:01:31.887Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Nekomamushi-OP06-110-V2?language=2"
+    },
+    "799390": {
+      "productId": 799390,
+      "at": "2026-11-02T19:01:41.032Z",
+      "status": "quoted",
+      "average": 4.69,
+      "sellers": 5,
+      "sample": [
+        398,
+        400,
+        499,
+        500,
+        550
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Nekomamushi-OP06-110-V3?language=2"
+    },
+    "799391": {
+      "productId": 799391,
+      "at": "2026-11-02T19:01:50.113Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Wyper-OP06-114-V2?language=2"
+    },
+    "799392": {
+      "productId": 799392,
+      "at": "2026-11-02T19:02:04.384Z",
+      "status": "quoted",
+      "average": 7.19,
+      "sellers": 5,
+      "sample": [
+        595,
+        600,
+        650,
+        800,
+        950
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Wyper-OP06-114-V3?language=2"
+    },
+    "799393": {
+      "productId": 799393,
+      "at": "2026-11-02T19:02:13.466Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Koby-P-014-V1?language=2"
+    },
+    "799394": {
+      "productId": 799394,
+      "at": "2026-11-02T19:02:22.569Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        9
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Koby-P-014-V2?language=2"
+    },
+    "799395": {
+      "productId": 799395,
+      "at": "2026-11-02T19:02:31.116Z",
+      "status": "quoted",
+      "average": 22.49,
+      "sellers": 5,
+      "sample": [
+        1995,
+        2000,
+        2000,
+        2599,
+        2650
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Koby-P-014-V3?language=2"
+    },
+    "799396": {
+      "productId": 799396,
+      "at": "2026-11-02T19:02:40.540Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Bartolomeo-P-029-V1?language=2"
+    },
+    "799397": {
+      "productId": 799397,
+      "at": "2026-11-02T19:02:53.849Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        3,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Bartolomeo-P-029-V2?language=2"
+    },
+    "799398": {
+      "productId": 799398,
+      "at": "2026-11-02T19:03:02.730Z",
+      "status": "quoted",
+      "average": 3.65,
+      "sellers": 5,
+      "sample": [
+        290,
+        345,
+        390,
+        400,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Bartolomeo-P-029-V3?language=2"
+    },
+    "799400": {
+      "productId": 799400,
+      "at": "2026-11-02T19:03:20.673Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Nami-P-053-V2?language=2"
+    },
+    "799401": {
+      "productId": 799401,
+      "at": "2026-11-02T19:03:30.308Z",
+      "status": "quoted",
+      "average": 23.7,
+      "sellers": 5,
+      "sample": [
+        2100,
+        2350,
+        2399,
+        2500,
+        2500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Nami-P-053-V3?language=2"
+    },
+    "799412": {
+      "productId": 799412,
+      "at": "2026-11-02T19:03:45.444Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        3,
+        5,
+        5,
+        5,
+        9
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/MonkeyDLuffy-P-055-V2?language=2"
+    },
+    "799413": {
+      "productId": 799413,
+      "at": "2026-11-02T19:03:54.019Z",
+      "status": "quoted",
+      "average": 30,
+      "sellers": 5,
+      "sample": [
+        2999,
+        2999,
+        3000,
+        3000,
+        3000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/MonkeyDLuffy-P-055-V3?language=2"
+    },
+    "799414": {
+      "productId": 799414,
+      "at": "2026-11-02T18:28:37.009Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sanji-PRB01-001-V1?language=2"
+    },
+    "799415": {
+      "productId": 799415,
+      "at": "2026-11-02T18:28:50.379Z",
+      "status": "quoted",
+      "average": 62.6,
+      "sellers": 5,
+      "sample": [
+        5900,
+        5900,
+        5999,
+        6500,
+        7000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sanji-PRB01-001-V2?language=2"
+    },
+    "799416": {
+      "productId": 799416,
+      "at": "2026-11-02T19:04:02.815Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Tony-TonyChopper-ST01-006-V2?language=2"
+    },
+    "799417": {
+      "productId": 799417,
+      "at": "2026-11-02T19:04:11.419Z",
+      "status": "quoted",
+      "average": 19.7,
+      "sellers": 5,
+      "sample": [
+        1850,
+        1999,
+        2000,
+        2000,
+        2000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Tony-TonyChopper-ST01-006-V3?language=2"
+    },
+    "799418": {
+      "productId": 799418,
+      "at": "2026-11-02T19:04:20.120Z",
+      "status": "quoted",
+      "average": 18.2,
+      "sellers": 5,
+      "sample": [
+        1600,
+        1700,
+        1800,
+        2000,
+        2000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Tony-TonyChopper-ST01-006-V4?language=2"
+    },
+    "799419": {
+      "productId": 799419,
+      "at": "2026-11-02T19:04:33.195Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        3,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Guard-Point-ST01-014-V2?language=2"
+    },
+    "799420": {
+      "productId": 799420,
+      "at": "2026-11-02T19:04:41.688Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        690,
+        700,
+        750,
+        800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Guard-Point-ST01-014-V3?language=2"
+    },
+    "799421": {
+      "productId": 799421,
+      "at": "2026-11-02T19:04:50.431Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/CaponeGangBege-ST02-004-V2?language=2"
+    },
+    "799422": {
+      "productId": 799422,
+      "at": "2026-11-02T19:04:58.970Z",
+      "status": "quoted",
+      "average": 2.46,
+      "sellers": 5,
+      "sample": [
+        100,
+        250,
+        290,
+        290,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/CaponeGangBege-ST02-004-V3?language=2"
+    },
+    "799423": {
+      "productId": 799423,
+      "at": "2026-11-02T19:05:07.615Z",
+      "status": "quoted",
+      "average": 2.85,
+      "sellers": 5,
+      "sample": [
+        200,
+        250,
+        300,
+        300,
+        375
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/CaponeGangBege-ST02-004-V4?language=2"
+    },
+    "799424": {
+      "productId": 799424,
+      "at": "2026-11-02T19:05:20.187Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Dracule-Mihawk-ST03-005-V2?language=2"
+    },
+    "799425": {
+      "productId": 799425,
+      "at": "2026-11-02T19:05:30.367Z",
+      "status": "quoted",
+      "average": 4.53,
+      "sellers": 5,
+      "sample": [
+        435,
+        438,
+        440,
+        450,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Dracule-Mihawk-ST03-005-V3?language=2"
+    },
+    "799426": {
+      "productId": 799426,
+      "at": "2026-11-02T19:05:40.750Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Trafalgar-Law-ST03-008-V2?language=2"
+    },
+    "799427": {
+      "productId": 799427,
+      "at": "2026-11-02T19:05:49.586Z",
+      "status": "quoted",
+      "average": 4.2,
+      "sellers": 5,
+      "sample": [
+        350,
+        400,
+        440,
+        450,
+        460
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Trafalgar-Law-ST03-008-V3?language=2"
+    },
+    "799428": {
+      "productId": 799428,
+      "at": "2026-11-02T19:05:58.559Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Boa-Hancock-ST03-013-V2?language=2"
+    },
+    "799429": {
+      "productId": 799429,
+      "at": "2026-11-02T19:06:20.884Z",
+      "status": "quoted",
+      "average": 19.4,
+      "sellers": 5,
+      "sample": [
+        1799,
+        1900,
+        1950,
+        2000,
+        2050
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Boa-Hancock-ST03-013-V3?language=2"
+    },
+    "799430": {
+      "productId": 799430,
+      "at": "2026-11-02T19:06:29.640Z",
+      "status": "quoted",
+      "average": 34.4,
+      "sellers": 5,
+      "sample": [
+        3300,
+        3400,
+        3500,
+        3500,
+        3500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Boa-Hancock-ST03-013-V4?language=2"
+    },
+    "799431": {
+      "productId": 799431,
+      "at": "2026-11-02T19:06:38.217Z",
+      "status": "quoted",
+      "average": 11.59,
+      "sellers": 5,
+      "sample": [
+        999,
+        1198,
+        1198,
+        1199,
+        1200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kaido-ST04-003-V2?language=2"
+    },
+    "799432": {
+      "productId": 799432,
+      "at": "2026-11-02T19:06:47.028Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Queen-ST04-005-V2?language=2"
+    },
+    "799433": {
+      "productId": 799433,
+      "at": "2026-11-02T19:06:55.816Z",
+      "status": "quoted",
+      "average": 1.28,
+      "sellers": 5,
+      "sample": [
+        100,
+        130,
+        130,
+        130,
+        150
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Queen-ST04-005-V3?language=2"
+    },
+    "799434": {
+      "productId": 799434,
+      "at": "2026-11-02T19:07:08.059Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Blast-Breath-ST04-016-V2?language=2"
+    },
+    "799435": {
+      "productId": 799435,
+      "at": "2026-11-02T19:07:16.918Z",
+      "status": "quoted",
+      "average": 1.8,
+      "sellers": 5,
+      "sample": [
+        150,
+        150,
+        199,
+        199,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Blast-Breath-ST04-016-V3?language=2"
+    },
+    "799436": {
+      "productId": 799436,
+      "at": "2026-11-02T19:07:25.777Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Helmeppo-ST06-010-V1?language=2"
+    },
+    "799437": {
+      "productId": 799437,
+      "at": "2026-11-02T19:07:35.028Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Helmeppo-ST06-010-V2?language=2"
+    },
+    "799438": {
+      "productId": 799438,
+      "at": "2026-11-02T19:07:44.091Z",
+      "status": "quoted",
+      "average": 2.98,
+      "sellers": 5,
+      "sample": [
+        293,
+        295,
+        300,
+        300,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Helmeppo-ST06-010-V3?language=2"
+    },
+    "799439": {
+      "productId": 799439,
+      "at": "2026-11-02T19:07:55.781Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Shockwave-ST06-014-V2?language=2"
+    },
+    "799440": {
+      "productId": 799440,
+      "at": "2026-11-02T19:08:04.280Z",
+      "status": "quoted",
+      "average": 1.9,
+      "sellers": 5,
+      "sample": [
+        150,
+        199,
+        200,
+        200,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Shockwave-ST06-014-V3?language=2"
+    },
+    "799441": {
+      "productId": 799441,
+      "at": "2026-11-02T19:08:13.043Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Charlotte-Brulee-ST07-007-V2?language=2"
+    },
+    "799442": {
+      "productId": 799442,
+      "at": "2026-11-02T19:08:21.769Z",
+      "status": "quoted",
+      "average": 3.12,
+      "sellers": 5,
+      "sample": [
+        270,
+        290,
+        300,
+        300,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Charlotte-Brulee-ST07-007-V3?language=2"
+    },
+    "799443": {
+      "productId": 799443,
+      "at": "2026-11-02T19:08:30.740Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Narikabura-Arrow-ST09-014-V2?language=2"
+    },
+    "799444": {
+      "productId": 799444,
+      "at": "2026-11-02T19:08:45.857Z",
+      "status": "quoted",
+      "average": 3.76,
+      "sellers": 5,
+      "sample": [
+        150,
+        399,
+        400,
+        430,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Narikabura-Arrow-ST09-014-V3?language=2"
+    },
+    "799445": {
+      "productId": 799445,
+      "at": "2026-11-02T19:08:54.365Z",
+      "status": "quoted",
+      "average": 4.85,
+      "sellers": 5,
+      "sample": [
+        440,
+        450,
+        499,
+        518,
+        520
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Trafalgar-Law-ST10-010-V1?language=2"
+    },
+    "799446": {
+      "productId": 799446,
+      "at": "2026-11-02T19:09:03.034Z",
+      "status": "quoted",
+      "average": 57.6,
+      "sellers": 5,
+      "sample": [
+        5300,
+        5500,
+        6000,
+        6000,
+        6000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Trafalgar-Law-ST10-010-V2?language=2"
+    },
+    "799447": {
+      "productId": 799447,
+      "at": "2026-11-02T19:09:11.850Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Duval-ST12-014-V2?language=2"
+    },
+    "799448": {
+      "productId": 799448,
+      "at": "2026-11-02T19:09:20.501Z",
+      "status": "quoted",
+      "average": 3.18,
+      "sellers": 5,
+      "sample": [
+        300,
+        320,
+        320,
+        320,
+        329
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Duval-ST12-014-V3?language=2"
+    },
+    "800784": {
+      "productId": 800784,
+      "at": "2026-11-02T18:46:10.730Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sanji-OP04-104-V1?language=2"
+    },
+    "800788": {
+      "productId": 800788,
+      "at": "2026-11-02T18:35:26.503Z",
+      "status": "quoted",
+      "average": 0.08,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        10,
+        10,
+        15
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Kuzan-OP02-096-V1?language=2"
+    },
+    "800789": {
+      "productId": 800789,
+      "at": "2026-11-02T18:35:49.615Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sakazuki-OP02-099-V1?language=2"
     },
     "802851": {
       "productId": 802851,
@@ -4677,6 +8295,51 @@
         53000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Perona-OP09-034?language=2"
+    },
+    "818036": {
+      "productId": 818036,
+      "at": "2026-11-02T18:45:28.770Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/CaponeGangBege-OP04-100-V1?language=2"
+    },
+    "818045": {
+      "productId": 818045,
+      "at": "2026-11-02T18:56:10.853Z",
+      "status": "quoted",
+      "average": 1.22,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        125,
+        140,
+        145
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Hody-Jones-OP06-035-V1?language=2"
+    },
+    "818063": {
+      "productId": 818063,
+      "at": "2026-11-02T19:03:11.532Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Nami-P-053-V1?language=2"
     },
     "823420": {
       "productId": 823420,
@@ -13519,6 +17182,21 @@
         8000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Carrot-OP11-049?language=2"
+    },
+    "862075": {
+      "productId": 862075,
+      "at": "2026-11-02T18:50:03.599Z",
+      "status": "quoted",
+      "average": 1359.99,
+      "sellers": 5,
+      "sample": [
+        100000,
+        119995,
+        135000,
+        150000,
+        175000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Trafalgar-Law-OP05-069?language=2"
     },
     "865118": {
       "productId": 865118,

@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T22:35:14.679Z",
+  "updatedAt": "2026-11-02T22:55:36.453Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -94,6 +94,66 @@
         2
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Paramount-War/Bartholomew-Kuma-OP02-057?language=2"
+    },
+    "701050": {
+      "productId": 701050,
+      "at": "2026-11-02T22:54:59.564Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        3,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Paramount-War/Donquixote-Rosinante-OP02-108-V1?language=2"
+    },
+    "701053": {
+      "productId": 701053,
+      "at": "2026-11-02T22:55:12.129Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Paramount-War/JaguarDSaul-OP02-109?language=2"
+    },
+    "701059": {
+      "productId": 701059,
+      "at": "2026-11-02T22:55:24.275Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        3,
+        9
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Paramount-War/Helmeppo-OP02-113?language=2"
+    },
+    "701066": {
+      "productId": 701066,
+      "at": "2026-11-02T22:55:36.453Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Paramount-War/Yamakaji-OP02-116?language=2"
     },
     "719930": {
       "productId": 719930,
@@ -753,6 +813,126 @@
         120
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-MonkeyDLuffy/Luffy-Tarou-ST18-005?language=2"
+    },
+    "794665": {
+      "productId": 794665,
+      "at": "2026-11-02T22:54:29.173Z",
+      "status": "quoted",
+      "average": 1.04,
+      "sellers": 5,
+      "sample": [
+        40,
+        90,
+        99,
+        100,
+        190
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Smoker/Smoker-OP02-093?language=2"
+    },
+    "794666": {
+      "productId": 794666,
+      "at": "2026-11-02T22:54:37.650Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        3,
+        5,
+        5,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Smoker/Koby-OP02-098?language=2"
+    },
+    "794667": {
+      "productId": 794667,
+      "at": "2026-11-02T22:54:46.521Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Smoker/Brannew-OP03-089?language=2"
+    },
+    "794668": {
+      "productId": 794668,
+      "at": "2026-11-02T22:53:39.292Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        9
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Smoker/Smoker-ST19-001?language=2"
+    },
+    "794669": {
+      "productId": 794669,
+      "at": "2026-11-02T22:53:47.706Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        4,
+        5,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Smoker/Sengoku-ST19-002?language=2"
+    },
+    "794670": {
+      "productId": 794670,
+      "at": "2026-11-02T22:53:56.324Z",
+      "status": "quoted",
+      "average": 0.57,
+      "sellers": 5,
+      "sample": [
+        50,
+        50,
+        50,
+        50,
+        87
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Smoker/Tashigi-ST19-003?language=2"
+    },
+    "794671": {
+      "productId": 794671,
+      "at": "2026-11-02T22:54:05.434Z",
+      "status": "quoted",
+      "average": 0.48,
+      "sellers": 5,
+      "sample": [
+        40,
+        50,
+        50,
+        50,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Smoker/Hina-ST19-004?language=2"
+    },
+    "794672": {
+      "productId": 794672,
+      "at": "2026-11-02T22:54:20.522Z",
+      "status": "quoted",
+      "average": 0.08,
+      "sellers": 5,
+      "sample": [
+        2,
+        8,
+        10,
+        10,
+        12
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Smoker/MonkeyDGarp-ST19-005?language=2"
     },
     "795690": {
       "productId": 795690,

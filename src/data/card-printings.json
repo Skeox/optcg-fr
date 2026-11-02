@@ -1,4 +1,89 @@
 {
+  "OP03-106_p1": {
+    "series": "622020",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 720047,
+      "expansion": 5364,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
+    "verifiedAt": "2026-11-02T23:15:06.685Z",
+    "note": "Illustration et absence de marquage spécial comparées visuellement à la carte officielle française. La fiche d’origine affiche des offres françaises NM/MT, dont une annonce explicitement ST20. Ce code ne compte qu’une impression française dans le catalogue, appartenant à ST20 ; cette fiche partagée est documentée individuellement.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622020",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Charlotte-Opera-OP03-106?language=2"
+    ]
+  },
+  "OP03-107_p1": {
+    "series": "622020",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 720048,
+      "expansion": 5364,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
+    "verifiedAt": "2026-11-02T23:15:18.295Z",
+    "note": "Illustration et absence de marquage spécial comparées visuellement à la carte officielle française. La fiche d’origine affiche des offres françaises NM/MT, dont une annonce explicitement ST20. Ce code ne compte qu’une impression française dans le catalogue, appartenant à ST20 ; cette fiche partagée est documentée individuellement.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622020",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Charlotte-Galette-OP03-107?language=2"
+    ]
+  },
+  "OP03-118_p1": {
+    "series": "622020",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 720055,
+      "expansion": 5364,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
+    "verifiedAt": "2026-11-02T23:17:18.310Z",
+    "note": "Illustration et absence de marquage spécial comparées visuellement à la carte officielle française. La fiche d’origine affiche des offres françaises NM/MT, dont une annonce explicitement ST20. Ce code ne compte qu’une impression française dans le catalogue, appartenant à ST20 ; cette fiche partagée est documentée individuellement.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622020",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Ikoku-Sovereignty-OP03-118?language=2"
+    ]
+  },
+  "ST07-005_p1": {
+    "series": "622020",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 721216,
+      "expansion": 5377,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
+    "verifiedAt": "2026-11-02T23:17:47.585Z",
+    "note": "Illustration et absence de marquage spécial comparées visuellement à la carte officielle française. La fiche d’origine affiche des offres françaises NM/MT, dont une annonce explicitement ST20. Ce code ne compte qu’une impression française dans le catalogue, appartenant à ST20 ; cette fiche partagée est documentée individuellement.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622020",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Big-Mom-Pirates/Charlotte-Daifuku-ST07-005?language=2"
+    ]
+  },
+  "ST07-014_p1": {
+    "series": "622020",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 721225,
+      "expansion": 5377,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
+    "verifiedAt": "2026-11-02T23:17:59.865Z",
+    "note": "Illustration et absence de marquage spécial comparées visuellement à la carte officielle française. La fiche d’origine affiche des offres françaises NM/MT, dont une annonce explicitement ST20. Ce code ne compte qu’une impression française dans le catalogue, appartenant à ST20 ; cette fiche partagée est documentée individuellement.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622020",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Big-Mom-Pirates/Pekoms-ST07-014?language=2"
+    ]
+  },
   "OP02-108_p1": {
     "series": "622019",
     "label": "Version du deck",

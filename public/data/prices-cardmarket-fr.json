@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T17:42:11.320Z",
+  "updatedAt": "2026-11-02T18:14:41.993Z",
   "products": {
     "799250": {
       "productId": 799250,
@@ -16500,6 +16500,1356 @@
         85000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/Roronoa-Zoro-OP12-113?language=2"
+    },
+    "871952": {
+      "productId": 871952,
+      "at": "2026-11-02T17:59:42.613Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nefeltari-Vivi-EB03-001-V1?language=2"
+    },
+    "871953": {
+      "productId": 871953,
+      "at": "2026-11-02T17:59:57.575Z",
+      "status": "quoted",
+      "average": 7.6,
+      "sellers": 5,
+      "sample": [
+        700,
+        700,
+        799,
+        799,
+        800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nefeltari-Vivi-EB03-001-V2?language=2"
+    },
+    "871954": {
+      "productId": 871954,
+      "at": "2026-11-02T18:00:06.456Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Ain-EB03-002-V1?language=2"
+    },
+    "871955": {
+      "productId": 871955,
+      "at": "2026-11-02T18:00:16.268Z",
+      "status": "quoted",
+      "average": 0.14,
+      "sellers": 5,
+      "sample": [
+        8,
+        10,
+        10,
+        20,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Uta-EB03-003-V1?language=2"
+    },
+    "871956": {
+      "productId": 871956,
+      "at": "2026-11-02T18:00:25.993Z",
+      "status": "quoted",
+      "average": 8.38,
+      "sellers": 5,
+      "sample": [
+        650,
+        800,
+        850,
+        900,
+        990
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Uta-EB03-003-V2?language=2"
+    },
+    "871957": {
+      "productId": 871957,
+      "at": "2026-11-02T18:00:52.192Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Carina-EB03-004-V1?language=2"
+    },
+    "871960": {
+      "productId": 871960,
+      "at": "2026-11-02T18:01:01.596Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Sugar-EB03-005-V1?language=2"
+    },
+    "871961": {
+      "productId": 871961,
+      "at": "2026-11-02T18:01:10.468Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nami-EB03-006-V1?language=2"
+    },
+    "871964": {
+      "productId": 871964,
+      "at": "2026-11-02T18:01:19.301Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Baccarat-EB03-007-V1?language=2"
+    },
+    "871965": {
+      "productId": 871965,
+      "at": "2026-11-02T18:01:28.116Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Hibari-EB03-008-V1?language=2"
+    },
+    "871966": {
+      "productId": 871966,
+      "at": "2026-11-02T18:01:43.885Z",
+      "status": "quoted",
+      "average": 7.3,
+      "sellers": 5,
+      "sample": [
+        600,
+        700,
+        750,
+        800,
+        800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Hibari-EB03-008-V2?language=2"
+    },
+    "871969": {
+      "productId": 871969,
+      "at": "2026-11-02T18:01:52.683Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Makino-EB03-009-V1?language=2"
+    },
+    "871970": {
+      "productId": 871970,
+      "at": "2026-11-02T18:02:01.646Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Monet-EB03-010-V1?language=2"
+    },
+    "871972": {
+      "productId": 871972,
+      "at": "2026-11-02T18:02:10.531Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/But-If-We-Ever-See-Each-Other-Again-Will-You-Call-Me-Your-Shipmate-EB03-011-V1?language=2"
+    },
+    "871976": {
+      "productId": 871976,
+      "at": "2026-11-02T18:02:19.379Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Otama-EB03-012-V1?language=2"
+    },
+    "871977": {
+      "productId": 871977,
+      "at": "2026-11-02T18:02:33.240Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Carrot-EB03-013-V1?language=2"
+    },
+    "871978": {
+      "productId": 871978,
+      "at": "2026-11-02T18:02:41.991Z",
+      "status": "quoted",
+      "average": 5.58,
+      "sellers": 5,
+      "sample": [
+        500,
+        540,
+        550,
+        600,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Carrot-EB03-013-V2?language=2"
+    },
+    "871979": {
+      "productId": 871979,
+      "at": "2026-11-02T18:02:50.865Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Kuina-EB03-014-V1?language=2"
+    },
+    "871982": {
+      "productId": 871982,
+      "at": "2026-11-02T18:02:59.756Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Camie-EB03-015-V1?language=2"
+    },
+    "871985": {
+      "productId": 871985,
+      "at": "2026-11-02T18:03:08.669Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Kouzuki-Hiyori-EB03-016-V1?language=2"
+    },
+    "871986": {
+      "productId": 871986,
+      "at": "2026-11-02T18:03:21.707Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Jewelry-Bonney-EB03-017-V1?language=2"
+    },
+    "871987": {
+      "productId": 871987,
+      "at": "2026-11-02T18:03:30.736Z",
+      "status": "quoted",
+      "average": 0.16,
+      "sellers": 5,
+      "sample": [
+        12,
+        15,
+        15,
+        20,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Tashigi-EB03-018-V1?language=2"
+    },
+    "871988": {
+      "productId": 871988,
+      "at": "2026-11-02T18:03:39.365Z",
+      "status": "quoted",
+      "average": 4.53,
+      "sellers": 5,
+      "sample": [
+        395,
+        400,
+        470,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Tashigi-EB03-018-V2?language=2"
+    },
+    "871991": {
+      "productId": 871991,
+      "at": "2026-11-02T18:03:56.816Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Wanda-EB03-019-V1?language=2"
+    },
+    "871994": {
+      "productId": 871994,
+      "at": "2026-11-02T18:04:10.510Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/There-You-Are-Sore-Loser-EB03-020-V1?language=2"
+    },
+    "871997": {
+      "productId": 871997,
+      "at": "2026-11-02T18:04:20.283Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Alvida-EB03-021-V1?language=2"
+    },
+    "871998": {
+      "productId": 871998,
+      "at": "2026-11-02T18:04:29.334Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Isuka-EB03-022-V1?language=2"
+    },
+    "872001": {
+      "productId": 872001,
+      "at": "2026-11-02T18:04:38.074Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Kaya-EB03-023-V1?language=2"
+    },
+    "872003": {
+      "productId": 872003,
+      "at": "2026-11-02T18:04:46.803Z",
+      "status": "quoted",
+      "average": 6.86,
+      "sellers": 5,
+      "sample": [
+        440,
+        600,
+        790,
+        800,
+        800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nefeltari-Vivi-EB03-024-V1?language=2"
+    },
+    "872005": {
+      "productId": 872005,
+      "at": "2026-11-02T18:05:04.858Z",
+      "status": "quoted",
+      "average": 25,
+      "sellers": 5,
+      "sample": [
+        2500,
+        2500,
+        2500,
+        2500,
+        2500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nefeltari-Vivi-EB03-024-V2?language=2"
+    },
+    "872007": {
+      "productId": 872007,
+      "at": "2026-11-02T18:05:22.156Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Hina-EB03-025-V1?language=2"
+    },
+    "872008": {
+      "productId": 872008,
+      "at": "2026-11-02T18:05:31.059Z",
+      "status": "quoted",
+      "average": 3.3,
+      "sellers": 5,
+      "sample": [
+        300,
+        300,
+        350,
+        350,
+        350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Hina-EB03-025-V2?language=2"
+    },
+    "872009": {
+      "productId": 872009,
+      "at": "2026-11-02T18:05:39.919Z",
+      "status": "quoted",
+      "average": 0.36,
+      "sellers": 5,
+      "sample": [
+        10,
+        30,
+        40,
+        50,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Boa-Hancock-EB03-026-V1?language=2"
+    },
+    "872010": {
+      "productId": 872010,
+      "at": "2026-11-02T18:05:55.192Z",
+      "status": "quoted",
+      "average": 27.18,
+      "sellers": 5,
+      "sample": [
+        2500,
+        2500,
+        2800,
+        2800,
+        2990
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Boa-Hancock-EB03-026-V2?language=2"
+    },
+    "872011": {
+      "productId": 872011,
+      "at": "2026-11-02T18:06:13.648Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Marguerite-EB03-027-V1?language=2"
+    },
+    "872164": {
+      "productId": 872164,
+      "at": "2026-11-02T18:06:22.950Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Yu-EB03-028-V1?language=2"
+    },
+    "872165": {
+      "productId": 872165,
+      "at": "2026-11-02T18:06:31.955Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Insolent-Fool-Stand-Down-EB03-029-V1?language=2"
+    },
+    "872166": {
+      "productId": 872166,
+      "at": "2026-11-02T18:06:47.276Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Viola-EB03-030-V1?language=2"
+    },
+    "872167": {
+      "productId": 872167,
+      "at": "2026-11-02T18:06:56.103Z",
+      "status": "quoted",
+      "average": 0.52,
+      "sellers": 5,
+      "sample": [
+        50,
+        50,
+        50,
+        50,
+        60
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Vinsmoke-Reiju-EB03-031-V1?language=2"
+    },
+    "872168": {
+      "productId": 872168,
+      "at": "2026-11-02T18:07:04.889Z",
+      "status": "quoted",
+      "average": 8.83,
+      "sellers": 5,
+      "sample": [
+        798,
+        800,
+        900,
+        949,
+        969
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Vinsmoke-Reiju-EB03-031-V2?language=2"
+    },
+    "872169": {
+      "productId": 872169,
+      "at": "2026-11-02T18:07:23.659Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Charlotte-Flampe-EB03-032-V1?language=2"
+    },
+    "872170": {
+      "productId": 872170,
+      "at": "2026-11-02T18:07:38.503Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Charlotte-Brulee-EB03-033-V1?language=2"
+    },
+    "872171": {
+      "productId": 872171,
+      "at": "2026-11-02T18:07:47.323Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Charlotte-Linlin-EB03-034-V1?language=2"
+    },
+    "872172": {
+      "productId": 872172,
+      "at": "2026-11-02T18:07:56.184Z",
+      "status": "quoted",
+      "average": 8,
+      "sellers": 5,
+      "sample": [
+        700,
+        800,
+        800,
+        800,
+        899
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Charlotte-Linlin-EB03-034-V2?language=2"
+    },
+    "872173": {
+      "productId": 872173,
+      "at": "2026-11-02T18:08:05.039Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Charlotte-Pudding-EB03-035-V1?language=2"
+    },
+    "872174": {
+      "productId": 872174,
+      "at": "2026-11-02T18:08:14.051Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Baby-5-EB03-036-V1?language=2"
+    },
+    "872175": {
+      "productId": 872175,
+      "at": "2026-11-02T18:08:28.917Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Lim-EB03-037-V1?language=2"
+    },
+    "872176": {
+      "productId": 872176,
+      "at": "2026-11-02T18:08:38.052Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Thanks-for-the-Treat-EB03-038-V1?language=2"
+    },
+    "872177": {
+      "productId": 872177,
+      "at": "2026-11-02T18:08:46.943Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Ulti-EB03-039-V1?language=2"
+    },
+    "872178": {
+      "productId": 872178,
+      "at": "2026-11-02T18:08:55.829Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Kalifa-EB03-040-V1?language=2"
+    },
+    "872180": {
+      "productId": 872180,
+      "at": "2026-11-02T18:09:04.860Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Kujyaku-EB03-041-V1?language=2"
+    },
+    "872181": {
+      "productId": 872181,
+      "at": "2026-11-02T18:09:16.826Z",
+      "status": "quoted",
+      "average": 5,
+      "sellers": 5,
+      "sample": [
+        400,
+        500,
+        500,
+        500,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Kujyaku-EB03-041-V2?language=2"
+    },
+    "872182": {
+      "productId": 872182,
+      "at": "2026-11-02T18:09:25.608Z",
+      "status": "quoted",
+      "average": 0.81,
+      "sellers": 5,
+      "sample": [
+        45,
+        80,
+        80,
+        99,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Koala-EB03-042-V1?language=2"
+    },
+    "872183": {
+      "productId": 872183,
+      "at": "2026-11-02T18:09:34.427Z",
+      "status": "quoted",
+      "average": 6.3,
+      "sellers": 5,
+      "sample": [
+        599,
+        600,
+        600,
+        650,
+        699
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Koala-EB03-042-V2?language=2"
+    },
+    "872184": {
+      "productId": 872184,
+      "at": "2026-11-02T18:09:51.837Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Stussy-EB03-043-V1?language=2"
+    },
+    "872185": {
+      "productId": 872185,
+      "at": "2026-11-02T18:10:04.363Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Black-Maria-EB03-044-V1?language=2"
+    },
+    "872186": {
+      "productId": 872186,
+      "at": "2026-11-02T18:10:13.207Z",
+      "status": "quoted",
+      "average": 0.44,
+      "sellers": 5,
+      "sample": [
+        40,
+        40,
+        40,
+        50,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Perona-EB03-045-V1?language=2"
+    },
+    "872187": {
+      "productId": 872187,
+      "at": "2026-11-02T18:10:21.831Z",
+      "status": "quoted",
+      "average": 13.58,
+      "sellers": 5,
+      "sample": [
+        1289,
+        1299,
+        1300,
+        1400,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Perona-EB03-045-V2?language=2"
+    },
+    "872188": {
+      "productId": 872188,
+      "at": "2026-11-02T18:10:39.289Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Miss-DoublefingerZala-EB03-046-V1?language=2"
+    },
+    "872189": {
+      "productId": 872189,
+      "at": "2026-11-02T18:10:52.663Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/MissValentineMikita-EB03-047-V1?language=2"
+    },
+    "872191": {
+      "productId": 872191,
+      "at": "2026-11-02T18:11:01.515Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Rebecca-EB03-048-V1?language=2"
+    },
+    "872192": {
+      "productId": 872192,
+      "at": "2026-11-02T18:11:10.520Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/I-Knew-You-People-Were-Behind-This-EB03-049-V1?language=2"
+    },
+    "872193": {
+      "productId": 872193,
+      "at": "2026-11-02T18:11:19.629Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Conis-EB03-050-V1?language=2"
+    },
+    "872194": {
+      "productId": 872194,
+      "at": "2026-11-02T18:11:28.828Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Charlotte-Smoothie-EB03-051-V1?language=2"
+    },
+    "872195": {
+      "productId": 872195,
+      "at": "2026-11-02T18:11:41.770Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Shirahoshi-EB03-052-V1?language=2"
+    },
+    "872196": {
+      "productId": 872196,
+      "at": "2026-11-02T18:11:51.001Z",
+      "status": "quoted",
+      "average": 10.68,
+      "sellers": 5,
+      "sample": [
+        999,
+        1000,
+        1000,
+        1150,
+        1190
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nami-EB03-053-V1?language=2"
+    },
+    "872197": {
+      "productId": 872197,
+      "at": "2026-11-02T18:11:59.734Z",
+      "status": "quoted",
+      "average": 33.38,
+      "sellers": 5,
+      "sample": [
+        3100,
+        3299,
+        3300,
+        3490,
+        3499
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nami-EB03-053-V2?language=2"
+    },
+    "872199": {
+      "productId": 872199,
+      "at": "2026-11-02T18:12:18.455Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nico-Robin-EB03-054-V1?language=2"
+    },
+    "872200": {
+      "productId": 872200,
+      "at": "2026-11-02T18:12:31.979Z",
+      "status": "quoted",
+      "average": 8.19,
+      "sellers": 5,
+      "sample": [
+        798,
+        800,
+        800,
+        800,
+        895
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nico-Robin-EB03-055-V1?language=2"
+    },
+    "872201": {
+      "productId": 872201,
+      "at": "2026-11-02T18:12:41.220Z",
+      "status": "quoted",
+      "average": 26.48,
+      "sellers": 5,
+      "sample": [
+        2600,
+        2600,
+        2650,
+        2690,
+        2700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nico-Robin-EB03-055-V2?language=2"
+    },
+    "872202": {
+      "productId": 872202,
+      "at": "2026-11-02T18:12:58.921Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Belo-Betty-EB03-056-V1?language=2"
+    },
+    "872203": {
+      "productId": 872203,
+      "at": "2026-11-02T18:13:07.897Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        4,
+        5,
+        5,
+        9,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Yamato-EB03-057-V1?language=2"
+    },
+    "872204": {
+      "productId": 872204,
+      "at": "2026-11-02T18:13:22.288Z",
+      "status": "quoted",
+      "average": 11.65,
+      "sellers": 5,
+      "sample": [
+        985,
+        1000,
+        1250,
+        1290,
+        1299
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Yamato-EB03-057-V2?language=2"
+    },
+    "872205": {
+      "productId": 872205,
+      "at": "2026-11-02T18:13:35.399Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Lilith-EB03-058-V1?language=2"
+    },
+    "872206": {
+      "productId": 872206,
+      "at": "2026-11-02T18:13:44.663Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/S-Snake-EB03-059-V1?language=2"
+    },
+    "872207": {
+      "productId": 872207,
+      "at": "2026-11-02T18:13:53.549Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Will-You-Be-My-Servant-EB03-060-V1?language=2"
+    },
+    "872208": {
+      "productId": 872208,
+      "at": "2026-11-02T18:14:02.523Z",
+      "status": "quoted",
+      "average": 4.99,
+      "sellers": 5,
+      "sample": [
+        496,
+        498,
+        500,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Uta-EB03-061-V1?language=2"
+    },
+    "872215": {
+      "productId": 872215,
+      "at": "2026-11-02T18:14:15.494Z",
+      "status": "quoted",
+      "average": 15.05,
+      "sellers": 5,
+      "sample": [
+        1450,
+        1489,
+        1490,
+        1495,
+        1600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Uta-EB03-061-V2?language=2"
+    },
+    "872216": {
+      "productId": 872216,
+      "at": "2026-11-02T18:14:24.081Z",
+      "status": "quoted",
+      "average": 677.99,
+      "sellers": 5,
+      "sample": [
+        59000,
+        59999,
+        65000,
+        74995,
+        80000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Uta-EB03-061-V3?language=2"
+    },
+    "872220": {
+      "productId": 872220,
+      "at": "2026-11-02T18:14:32.917Z",
+      "status": "quoted",
+      "average": 7.38,
+      "sellers": 5,
+      "sample": [
+        700,
+        700,
+        750,
+        750,
+        790
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Trafalgar-Law-EB03-062-V1?language=2"
+    },
+    "872222": {
+      "productId": 872222,
+      "at": "2026-11-02T18:14:41.993Z",
+      "status": "quoted",
+      "average": 14.08,
+      "sellers": 5,
+      "sample": [
+        1300,
+        1399,
+        1400,
+        1450,
+        1490
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Trafalgar-Law-EB03-062-V2?language=2"
+    },
+    "872229": {
+      "productId": 872229,
+      "at": "2026-11-02T18:00:36.488Z",
+      "status": "quoted",
+      "average": 230.8,
+      "sellers": 5,
+      "sample": [
+        21000,
+        21900,
+        23500,
+        24000,
+        24999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Uta-EB03-003-V3?language=2"
+    },
+    "872230": {
+      "productId": 872230,
+      "at": "2026-11-02T18:03:47.824Z",
+      "status": "quoted",
+      "average": 123,
+      "sellers": 5,
+      "sample": [
+        10500,
+        10500,
+        12000,
+        14000,
+        14500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Tashigi-EB03-018-V3?language=2"
+    },
+    "872231": {
+      "productId": 872231,
+      "at": "2026-11-02T18:05:13.446Z",
+      "status": "quoted",
+      "average": 380,
+      "sellers": 5,
+      "sample": [
+        34998,
+        35000,
+        40000,
+        40000,
+        40000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nefeltari-Vivi-EB03-024-V3?language=2"
+    },
+    "872232": {
+      "productId": 872232,
+      "at": "2026-11-02T18:06:04.299Z",
+      "status": "quoted",
+      "average": 943.6,
+      "sellers": 5,
+      "sample": [
+        88000,
+        89000,
+        95000,
+        99800,
+        99999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Boa-Hancock-EB03-026-V3?language=2"
+    },
+    "872233": {
+      "productId": 872233,
+      "at": "2026-11-02T18:07:13.525Z",
+      "status": "quoted",
+      "average": 184.8,
+      "sellers": 5,
+      "sample": [
+        15000,
+        16000,
+        16900,
+        22000,
+        22499
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Vinsmoke-Reiju-EB03-031-V3?language=2"
+    },
+    "872236": {
+      "productId": 872236,
+      "at": "2026-11-02T18:09:42.941Z",
+      "status": "quoted",
+      "average": 132.8,
+      "sellers": 5,
+      "sample": [
+        11000,
+        12000,
+        12900,
+        15000,
+        15500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Koala-EB03-042-V3?language=2"
+    },
+    "872237": {
+      "productId": 872237,
+      "at": "2026-11-02T18:10:30.484Z",
+      "status": "quoted",
+      "average": 365.98,
+      "sellers": 5,
+      "sample": [
+        34000,
+        35000,
+        36000,
+        37990,
+        40000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Perona-EB03-045-V3?language=2"
+    },
+    "872239": {
+      "productId": 872239,
+      "at": "2026-11-02T18:12:08.881Z",
+      "status": "quoted",
+      "average": 682.8,
+      "sellers": 5,
+      "sample": [
+        59900,
+        67899,
+        68599,
+        70000,
+        75000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nami-EB03-053-V3?language=2"
+    },
+    "872242": {
+      "productId": 872242,
+      "at": "2026-11-02T18:12:50.092Z",
+      "status": "quoted",
+      "average": 829.8,
+      "sellers": 5,
+      "sample": [
+        80000,
+        80000,
+        84900,
+        85000,
+        85000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Heroines-Edition/Nico-Robin-EB03-055-V3?language=2"
     },
     "879502": {
       "productId": 879502,

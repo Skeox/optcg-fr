@@ -35,7 +35,7 @@ La référence est la **moyenne des cinq offres françaises les moins chères re
 
 Seul le produit exact confirmé par le registre est utilisable. Le guide Cardmarket toutes langues et les anciens prix CardTrader ne sont jamais des replis. Les saisies manuelles restent prioritaires. Sans cinq vendeurs ou après 45 jours sans relevé, le prix automatique est indisponible ; les totaux signalent leur couverture partielle. Les nouveaux instantanés `cmFr` sont séparés des anciens `ctFr`. Les courbes ne comparent que des dates avec les mêmes produits couverts.
 
-**État du 2 novembre 2026 : les lots OP09 à OP17 et EB02 sont terminés.** 1 626 produits sont contrôlés sur 2 733 correspondances exactes et 2 888 cartes, avec 1 589 prix valides et 37 relevés insuffisants. EB02 compte 105 impressions contrôlées, dont 80 prix valides et 25 offres insuffisantes, réimpressions comprises.
+**État du 2 novembre 2026 : les lots OP09 à OP17, EB02 et EB03 sont terminés.** 1 716 produits sont contrôlés sur 2 733 correspondances exactes et 2 888 cartes, avec 1 679 prix valides et 37 relevés insuffisants. EB03 compte 90 impressions contrôlées et 90 prix valides, sans relevé insuffisant ni correspondance non résolue. Les 1 626 relevés antérieurs sont strictement inchangés. Les tests du collecteur passent et l'audit ne signale aucune anomalie.
 
 | Extension | Impressions contrôlées | Prix valides | Relevés insuffisants |
 | --- | ---: | ---: | ---: |
@@ -49,8 +49,9 @@ Seul le produit exact confirmé par le registre est utilisable. Le guide Cardmar
 | OP16 | 155 | 154 | 1 |
 | OP17 | 169 | 168 | 1 |
 | EB02 | 105 | 80 | 25 |
+| EB03 | 90 | 90 | 0 |
 
-Les six autres relevés valides appartiennent à PRB01 (2), PRB02 (3) et ST24 (1). Il reste 1 107 produits exacts jamais relevés ; la prochaine cible est EB03-001. Le suivi poursuivra EB03, PRB01 puis PRB02 avec au moins dix minutes entre la publication d'une extension et le début de la suivante. Les impressions sans correspondance exacte confirmée restent signalées séparément, sans prix inventé.
+Les six autres relevés valides appartiennent à PRB01 (2), PRB02 (3) et ST24 (1). Il reste 1 017 produits exacts jamais relevés ; la prochaine cible est PRB01-001. Le suivi poursuivra PRB01 puis PRB02 avec au moins dix minutes entre la publication d'une extension et le début de la suivante. PRB01 dispose actuellement de 248 correspondances exactes sur 319 impressions, et PRB02 de 314 sur 315. Les 71 impressions PRB01 et l'impression PRB02 sans correspondance exacte confirmée restent signalées séparément, sans prix inventé.
 
 Le contrôle d'EB02 a révélé que le collecteur écartait les montants Cardmarket français avec des points de milliers, comme `1.500,00 €`. Ce format est désormais reconnu, avec des tests sur les montants groupés, les séparateurs invalides et la moyenne de cinq vendeurs. Les 42 relevés insuffisants enregistrés avant la correction ont été revérifiés : les observations contenant ce format ont été réimportées. Cela rétablit 15 prix (13 dans les séries OP et 2 dans EB02). Les 1 496 prix antérieurement valides sont strictement inchangés ; 23 anciens relevés insuffisants ont été mis à jour à partir de nouvelles observations. Les quatre relevés revérifiés sans montant concerné conservent leur date d'origine. Les données actuelles et le tableau ci-dessus remplacent les anciens bilans de couverture.
 

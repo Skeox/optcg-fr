@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T16:16:52.215Z",
+  "updatedAt": "2026-11-02T16:59:30.358Z",
   "products": {
     "799250": {
       "productId": 799250,
@@ -20194,6 +20194,2529 @@
         10999
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Koby-OP16-064-V2?language=2"
+    },
+    "903879": {
+      "productId": 903879,
+      "at": "2026-11-02T16:31:19.678Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/EdwardNewgate-OP17-001-V1?language=2"
+    },
+    "903880": {
+      "productId": 903880,
+      "at": "2026-11-02T16:31:28.474Z",
+      "status": "quoted",
+      "average": 12.7,
+      "sellers": 5,
+      "sample": [
+        1200,
+        1250,
+        1299,
+        1300,
+        1300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/EdwardNewgate-OP17-001-V2?language=2"
+    },
+    "903881": {
+      "productId": 903881,
+      "at": "2026-11-02T16:31:37.329Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Atmos-OP17-002?language=2"
+    },
+    "903882": {
+      "productId": 903882,
+      "at": "2026-11-02T16:31:46.027Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Izo-OP17-003?language=2"
+    },
+    "903883": {
+      "productId": 903883,
+      "at": "2026-11-02T16:31:54.711Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Inuarashi-Nekomamushi-OP17-004?language=2"
+    },
+    "903884": {
+      "productId": 903884,
+      "at": "2026-11-02T16:32:10.770Z",
+      "status": "quoted",
+      "average": 0.1,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/EdwardNewgate-OP17-005-V1?language=2"
+    },
+    "903885": {
+      "productId": 903885,
+      "at": "2026-11-02T16:32:19.397Z",
+      "status": "quoted",
+      "average": 5.9,
+      "sellers": 5,
+      "sample": [
+        550,
+        600,
+        600,
+        600,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/EdwardNewgate-OP17-005-V2?language=2"
+    },
+    "903886": {
+      "productId": 903886,
+      "at": "2026-11-02T16:32:27.970Z",
+      "status": "quoted",
+      "average": 636,
+      "sellers": 5,
+      "sample": [
+        61000,
+        62000,
+        64999,
+        65000,
+        65000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/EdwardNewgate-OP17-005-V3?language=2"
+    },
+    "903887": {
+      "productId": 903887,
+      "at": "2026-11-02T16:32:36.767Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kingdew-OP17-006-V1?language=2"
+    },
+    "903888": {
+      "productId": 903888,
+      "at": "2026-11-02T16:32:45.536Z",
+      "status": "quoted",
+      "average": 1.22,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        110,
+        150,
+        150
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kingdew-OP17-006-V2?language=2"
+    },
+    "903889": {
+      "productId": 903889,
+      "at": "2026-11-02T16:32:59.838Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kouzuki-Oden-OP17-007?language=2"
+    },
+    "903890": {
+      "productId": 903890,
+      "at": "2026-11-02T16:33:08.563Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Jozu-OP17-008?language=2"
+    },
+    "903891": {
+      "productId": 903891,
+      "at": "2026-11-02T16:33:17.243Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Haruta-OP17-009?language=2"
+    },
+    "903892": {
+      "productId": 903892,
+      "at": "2026-11-02T16:33:26.047Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Fossa-OP17-010?language=2"
+    },
+    "903893": {
+      "productId": 903893,
+      "at": "2026-11-02T16:33:34.731Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Blamenco-OP17-011?language=2"
+    },
+    "903894": {
+      "productId": 903894,
+      "at": "2026-11-02T16:33:50.272Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Blenheim-OP17-012?language=2"
+    },
+    "903895": {
+      "productId": 903895,
+      "at": "2026-11-02T16:33:58.974Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/PortgasDAce-OP17-013?language=2"
+    },
+    "903896": {
+      "productId": 903896,
+      "at": "2026-11-02T16:34:07.775Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Whitey-Bay-OP17-014?language=2"
+    },
+    "903897": {
+      "productId": 903897,
+      "at": "2026-11-02T16:34:16.419Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Marco-OP17-015?language=2"
+    },
+    "903898": {
+      "productId": 903898,
+      "at": "2026-11-02T16:34:25.282Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Rakuyo-OP17-016?language=2"
+    },
+    "903899": {
+      "productId": 903899,
+      "at": "2026-11-02T16:34:38.968Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Ga-Ha-Ha-Ha-OP17-017?language=2"
+    },
+    "903900": {
+      "productId": 903900,
+      "at": "2026-11-02T16:34:47.661Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/The-Power-to-Destroy-the-World-OP17-018?language=2"
+    },
+    "903901": {
+      "productId": 903901,
+      "at": "2026-11-02T16:34:56.382Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/I-Dont-Have-Time-to-Chat-with-Snot-Nosed-Brats-OP17-019?language=2"
+    },
+    "903902": {
+      "productId": 903902,
+      "at": "2026-11-02T16:35:05.035Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Shanks-OP17-020-V1?language=2"
+    },
+    "903903": {
+      "productId": 903903,
+      "at": "2026-11-02T16:35:13.744Z",
+      "status": "quoted",
+      "average": 20.7,
+      "sellers": 5,
+      "sample": [
+        1999,
+        2000,
+        2000,
+        2150,
+        2199
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Shanks-OP17-020-V2?language=2"
+    },
+    "903904": {
+      "productId": 903904,
+      "at": "2026-11-02T16:35:30.467Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Crone-Oli-OP17-021?language=2"
+    },
+    "903905": {
+      "productId": 903905,
+      "at": "2026-11-02T16:35:39.298Z",
+      "status": "quoted",
+      "average": 0.95,
+      "sellers": 5,
+      "sample": [
+        75,
+        80,
+        99,
+        100,
+        120
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Shanks-OP17-022-V1?language=2"
+    },
+    "903906": {
+      "productId": 903906,
+      "at": "2026-11-02T16:35:48.059Z",
+      "status": "quoted",
+      "average": 15.16,
+      "sellers": 5,
+      "sample": [
+        1290,
+        1300,
+        1500,
+        1690,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Shanks-OP17-022-V2?language=2"
+    },
+    "903907": {
+      "productId": 903907,
+      "at": "2026-11-02T16:35:56.732Z",
+      "status": "quoted",
+      "average": 866,
+      "sellers": 5,
+      "sample": [
+        78000,
+        85000,
+        90000,
+        90000,
+        90000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Shanks-OP17-022-V3?language=2"
+    },
+    "903908": {
+      "productId": 903908,
+      "at": "2026-11-02T16:36:05.482Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Nami-OP17-023?language=2"
+    },
+    "903909": {
+      "productId": 903909,
+      "at": "2026-11-02T16:36:19.085Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Howling-Gab-OP17-024?language=2"
+    },
+    "903910": {
+      "productId": 903910,
+      "at": "2026-11-02T16:36:27.780Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Building-Snake-OP17-025-V1?language=2"
+    },
+    "903911": {
+      "productId": 903911,
+      "at": "2026-11-02T16:36:36.481Z",
+      "status": "quoted",
+      "average": 1.42,
+      "sellers": 5,
+      "sample": [
+        90,
+        100,
+        150,
+        180,
+        189
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Building-Snake-OP17-025-V2?language=2"
+    },
+    "903912": {
+      "productId": 903912,
+      "at": "2026-11-02T16:36:45.483Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Fugar-OP17-026?language=2"
+    },
+    "903913": {
+      "productId": 903913,
+      "at": "2026-11-02T16:36:54.166Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/BennBeckman-OP17-027-V1?language=2"
+    },
+    "903914": {
+      "productId": 903914,
+      "at": "2026-11-02T16:37:09.257Z",
+      "status": "quoted",
+      "average": 5.94,
+      "sellers": 5,
+      "sample": [
+        580,
+        590,
+        599,
+        600,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/BennBeckman-OP17-027-V2?language=2"
+    },
+    "903915": {
+      "productId": 903915,
+      "at": "2026-11-02T16:37:17.996Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Bonk-Punch-Monster-OP17-028?language=2"
+    },
+    "903916": {
+      "productId": 903916,
+      "at": "2026-11-02T16:37:27.019Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Hongo-OP17-029?language=2"
+    },
+    "903917": {
+      "productId": 903917,
+      "at": "2026-11-02T16:37:36.273Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MonkeyDLuffy-OP17-030?language=2"
+    },
+    "903918": {
+      "productId": 903918,
+      "at": "2026-11-02T16:37:45.001Z",
+      "status": "quoted",
+      "average": 0.1,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Yasopp-OP17-031-V1?language=2"
+    },
+    "903919": {
+      "productId": 903919,
+      "at": "2026-11-02T16:37:59.690Z",
+      "status": "quoted",
+      "average": 5.22,
+      "sellers": 5,
+      "sample": [
+        500,
+        500,
+        520,
+        540,
+        550
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Yasopp-OP17-031-V2?language=2"
+    },
+    "903920": {
+      "productId": 903920,
+      "at": "2026-11-02T16:38:08.491Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Limejuice-OP17-032?language=2"
+    },
+    "903921": {
+      "productId": 903921,
+      "at": "2026-11-02T16:38:17.375Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/LuckyRoux-OP17-033?language=2"
+    },
+    "903922": {
+      "productId": 903922,
+      "at": "2026-11-02T16:38:26.255Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Rockstar-OP17-034?language=2"
+    },
+    "903923": {
+      "productId": 903923,
+      "at": "2026-11-02T16:38:35.691Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Roronoa-Zoro-OP17-035?language=2"
+    },
+    "903924": {
+      "productId": 903924,
+      "at": "2026-11-02T16:38:49.569Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Withdraw-Now-and-Allow-Me-to-Save-Face-OP17-036?language=2"
+    },
+    "903925": {
+      "productId": 903925,
+      "at": "2026-11-02T16:38:58.399Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Are-You-That-Afraid-of-the-New-Era-OP17-037-V1?language=2"
+    },
+    "903926": {
+      "productId": 903926,
+      "at": "2026-11-02T16:39:07.333Z",
+      "status": "quoted",
+      "average": 49.6,
+      "sellers": 5,
+      "sample": [
+        4800,
+        5000,
+        5000,
+        5000,
+        5000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Are-You-That-Afraid-of-the-New-Era-OP17-037-V2?language=2"
+    },
+    "903927": {
+      "productId": 903927,
+      "at": "2026-11-02T16:39:16.130Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/I-Think-Hes-Seen-an-Ugly-Future-OP17-038?language=2"
+    },
+    "903928": {
+      "productId": 903928,
+      "at": "2026-11-02T16:39:24.843Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/RocksDXebec-OP17-039-V1?language=2"
+    },
+    "903929": {
+      "productId": 903929,
+      "at": "2026-11-02T16:39:39.242Z",
+      "status": "quoted",
+      "average": 29.54,
+      "sellers": 5,
+      "sample": [
+        2869,
+        2900,
+        2999,
+        3000,
+        3000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/RocksDXebec-OP17-039-V2?language=2"
+    },
+    "904022": {
+      "productId": 904022,
+      "at": "2026-11-02T16:39:48.059Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/EdwardNewgate-OP17-040-V1?language=2"
+    },
+    "904024": {
+      "productId": 904024,
+      "at": "2026-11-02T16:39:56.966Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Wang-Zhi-OP17-041?language=2"
+    },
+    "904027": {
+      "productId": 904027,
+      "at": "2026-11-02T16:40:05.926Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kaido-OP17-042?language=2"
+    },
+    "904029": {
+      "productId": 904029,
+      "at": "2026-11-02T16:40:15.119Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Ganzui-OP17-043?language=2"
+    },
+    "904030": {
+      "productId": 904030,
+      "at": "2026-11-02T16:40:30.828Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Captain-John-OP17-044?language=2"
+    },
+    "904032": {
+      "productId": 904032,
+      "at": "2026-11-02T16:40:41.175Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kyo-OP17-045-V1?language=2"
+    },
+    "904033": {
+      "productId": 904033,
+      "at": "2026-11-02T16:40:49.942Z",
+      "status": "quoted",
+      "average": 3.48,
+      "sellers": 5,
+      "sample": [
+        150,
+        290,
+        400,
+        400,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kyo-OP17-045-V2?language=2"
+    },
+    "904034": {
+      "productId": 904034,
+      "at": "2026-11-02T16:40:58.803Z",
+      "status": "quoted",
+      "average": 0.38,
+      "sellers": 5,
+      "sample": [
+        20,
+        30,
+        40,
+        50,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Gloriosa-OP17-046-V1?language=2"
+    },
+    "904035": {
+      "productId": 904035,
+      "at": "2026-11-02T16:41:07.420Z",
+      "status": "quoted",
+      "average": 11.49,
+      "sellers": 5,
+      "sample": [
+        1095,
+        1100,
+        1150,
+        1200,
+        1200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Gloriosa-OP17-046-V2?language=2"
+    },
+    "904036": {
+      "productId": 904036,
+      "at": "2026-11-02T16:41:20.495Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Shiki-OP17-047?language=2"
+    },
+    "904037": {
+      "productId": 904037,
+      "at": "2026-11-02T16:41:29.427Z",
+      "status": "quoted",
+      "average": 0.17,
+      "sellers": 5,
+      "sample": [
+        14,
+        15,
+        15,
+        20,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Shiki-OP17-048-V1?language=2"
+    },
+    "904038": {
+      "productId": 904038,
+      "at": "2026-11-02T16:41:38.207Z",
+      "status": "quoted",
+      "average": 6.26,
+      "sellers": 5,
+      "sample": [
+        550,
+        580,
+        650,
+        650,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Shiki-OP17-048-V2?language=2"
+    },
+    "904039": {
+      "productId": 904039,
+      "at": "2026-11-02T16:41:46.983Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Linlin-OP17-049-V1?language=2"
+    },
+    "904040": {
+      "productId": 904040,
+      "at": "2026-11-02T16:41:55.633Z",
+      "status": "quoted",
+      "average": 10,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Linlin-OP17-049-V2?language=2"
+    },
+    "904041": {
+      "productId": 904041,
+      "at": "2026-11-02T16:42:10.001Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Streusen-OP17-050?language=2"
+    },
+    "904042": {
+      "productId": 904042,
+      "at": "2026-11-02T16:42:19.532Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Jinbe-OP17-051?language=2"
+    },
+    "904043": {
+      "productId": 904043,
+      "at": "2026-11-02T16:42:28.471Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Don-Marlon-OP17-052?language=2"
+    },
+    "904044": {
+      "productId": 904044,
+      "at": "2026-11-02T16:42:37.941Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Barbell-OP17-053?language=2"
+    },
+    "904045": {
+      "productId": 904045,
+      "at": "2026-11-02T16:42:46.658Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Miss-Buckingham-Stussy-OP17-054-V1?language=2"
+    },
+    "904046": {
+      "productId": 904046,
+      "at": "2026-11-02T16:43:00.421Z",
+      "status": "quoted",
+      "average": 11.9,
+      "sellers": 5,
+      "sample": [
+        1150,
+        1200,
+        1200,
+        1200,
+        1200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Miss-Buckingham-Stussy-OP17-054-V2?language=2"
+    },
+    "904047": {
+      "productId": 904047,
+      "at": "2026-11-02T16:43:09.213Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Theres-No-Authority-in-the-World-That-Lasts-Forever-OP17-055?language=2"
+    },
+    "904048": {
+      "productId": 904048,
+      "at": "2026-11-02T16:43:18.025Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Rocks-Pirates-OP17-056?language=2"
+    },
+    "904049": {
+      "productId": 904049,
+      "at": "2026-11-02T16:43:27.488Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Fullalead-OP17-057?language=2"
+    },
+    "904050": {
+      "productId": 904050,
+      "at": "2026-11-02T16:43:37.774Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kaido-OP17-058-V1?language=2"
+    },
+    "904051": {
+      "productId": 904051,
+      "at": "2026-11-02T16:43:55.068Z",
+      "status": "quoted",
+      "average": 19.7,
+      "sellers": 5,
+      "sample": [
+        1850,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kaido-OP17-058-V2?language=2"
+    },
+    "904053": {
+      "productId": 904053,
+      "at": "2026-11-02T16:44:04.004Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Aramaki-OP17-059?language=2"
+    },
+    "904054": {
+      "productId": 904054,
+      "at": "2026-11-02T16:44:12.741Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Ulti-Page-One-OP17-060?language=2"
+    },
+    "904055": {
+      "productId": 904055,
+      "at": "2026-11-02T16:44:21.451Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Lead-Performers-OP17-061-V1?language=2"
+    },
+    "904056": {
+      "productId": 904056,
+      "at": "2026-11-02T16:44:30.117Z",
+      "status": "quoted",
+      "average": 5.8,
+      "sellers": 5,
+      "sample": [
+        499,
+        550,
+        600,
+        600,
+        650
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Lead-Performers-OP17-061-V2?language=2"
+    },
+    "904057": {
+      "productId": 904057,
+      "at": "2026-11-02T16:44:54.338Z",
+      "status": "quoted",
+      "average": 0.12,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        10,
+        14,
+        15
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kaido-OP17-062-V1?language=2"
+    },
+    "904058": {
+      "productId": 904058,
+      "at": "2026-11-02T16:45:04.890Z",
+      "status": "quoted",
+      "average": 7.18,
+      "sellers": 5,
+      "sample": [
+        690,
+        700,
+        700,
+        749,
+        750
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kaido-OP17-062-V2?language=2"
+    },
+    "904059": {
+      "productId": 904059,
+      "at": "2026-11-02T16:45:14.737Z",
+      "status": "quoted",
+      "average": 561.6,
+      "sellers": 5,
+      "sample": [
+        52900,
+        55000,
+        55000,
+        58000,
+        59900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kaido-OP17-062-V3?language=2"
+    },
+    "904060": {
+      "productId": 904060,
+      "at": "2026-11-02T16:45:24.405Z",
+      "status": "quoted",
+      "average": 154.78,
+      "sellers": 5,
+      "sample": [
+        14990,
+        15000,
+        15699,
+        15800,
+        15900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kaido-OP17-062-V4?language=2"
+    },
+    "904061": {
+      "productId": 904061,
+      "at": "2026-11-02T16:45:34.708Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        3,
+        3,
+        4,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kaido-OP17-063-V1?language=2"
+    },
+    "904062": {
+      "productId": 904062,
+      "at": "2026-11-02T16:45:47.880Z",
+      "status": "quoted",
+      "average": 5,
+      "sellers": 5,
+      "sample": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kaido-OP17-063-V2?language=2"
+    },
+    "904063": {
+      "productId": 904063,
+      "at": "2026-11-02T16:45:56.983Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/King-OP17-064?language=2"
+    },
+    "904064": {
+      "productId": 904064,
+      "at": "2026-11-02T16:46:05.834Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Queen-OP17-065?language=2"
+    },
+    "904065": {
+      "productId": 904065,
+      "at": "2026-11-02T16:46:14.987Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kurozumi-Orochi-OP17-066?language=2"
+    },
+    "904066": {
+      "productId": 904066,
+      "at": "2026-11-02T16:46:23.805Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kurozumi-Kanjuro-OP17-067?language=2"
+    },
+    "904067": {
+      "productId": 904067,
+      "at": "2026-11-02T16:46:39.530Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Sasaki-OP17-068?language=2"
+    },
+    "904068": {
+      "productId": 904068,
+      "at": "2026-11-02T16:46:48.410Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Jack-OP17-069?language=2"
+    },
+    "904069": {
+      "productId": 904069,
+      "at": "2026-11-02T16:46:57.208Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Scratchmen-Apoo-OP17-070-V1?language=2"
+    },
+    "904086": {
+      "productId": 904086,
+      "at": "2026-11-02T16:47:05.966Z",
+      "status": "quoted",
+      "average": 0.9,
+      "sellers": 5,
+      "sample": [
+        75,
+        77,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Scratchmen-Apoo-OP17-070-V2?language=2"
+    },
+    "904087": {
+      "productId": 904087,
+      "at": "2026-11-02T16:47:14.777Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/WhosWho-OP17-071?language=2"
+    },
+    "904088": {
+      "productId": 904088,
+      "at": "2026-11-02T16:47:28.390Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Black-Maria-OP17-072?language=2"
+    },
+    "904089": {
+      "productId": 904089,
+      "at": "2026-11-02T16:47:37.179Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Basil-Hawkins-OP17-073?language=2"
+    },
+    "904090": {
+      "productId": 904090,
+      "at": "2026-11-02T16:47:45.853Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Yamato-OP17-074?language=2"
+    },
+    "904091": {
+      "productId": 904091,
+      "at": "2026-11-02T16:47:54.717Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/XDrake-OP17-075?language=2"
+    },
+    "904092": {
+      "productId": 904092,
+      "at": "2026-11-02T16:48:03.459Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Wo-Ro-Ro-Ro-Ro-I-Think-Ive-Sobered-Up-OP17-076?language=2"
+    },
+    "904093": {
+      "productId": 904093,
+      "at": "2026-11-02T16:48:16.531Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kundali-Dragon-Swarm-OP17-077?language=2"
+    },
+    "904094": {
+      "productId": 904094,
+      "at": "2026-11-02T16:48:25.439Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Drunken-Dragon-Bagua-OP17-078?language=2"
+    },
+    "904095": {
+      "productId": 904095,
+      "at": "2026-11-02T16:48:34.407Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MonkeyDLuffy-OP17-079-V1?language=2"
+    },
+    "904096": {
+      "productId": 904096,
+      "at": "2026-11-02T16:48:43.553Z",
+      "status": "quoted",
+      "average": 33.6,
+      "sellers": 5,
+      "sample": [
+        3300,
+        3300,
+        3300,
+        3400,
+        3500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MonkeyDLuffy-OP17-079-V2?language=2"
+    },
+    "904097": {
+      "productId": 904097,
+      "at": "2026-11-02T16:48:52.200Z",
+      "status": "quoted",
+      "average": 824.8,
+      "sellers": 5,
+      "sample": [
+        75000,
+        78500,
+        78900,
+        90000,
+        90000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MonkeyDLuffy-OP17-079-V3?language=2"
+    },
+    "904098": {
+      "productId": 904098,
+      "at": "2026-11-02T16:49:06.245Z",
+      "status": "quoted",
+      "average": 0.18,
+      "sellers": 5,
+      "sample": [
+        15,
+        15,
+        20,
+        20,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Usopp-OP17-080-V1?language=2"
+    },
+    "904099": {
+      "productId": 904099,
+      "at": "2026-11-02T16:49:15.605Z",
+      "status": "quoted",
+      "average": 5.8,
+      "sellers": 5,
+      "sample": [
+        500,
+        599,
+        600,
+        600,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Usopp-OP17-080-V2?language=2"
+    },
+    "904100": {
+      "productId": 904100,
+      "at": "2026-11-02T16:49:25.154Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Gerd-OP17-081?language=2"
+    },
+    "904101": {
+      "productId": 904101,
+      "at": "2026-11-02T16:49:35.453Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Sanji-OP17-082?language=2"
+    },
+    "904102": {
+      "productId": 904102,
+      "at": "2026-11-02T16:49:44.586Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Jinbe-OP17-083?language=2"
+    },
+    "904103": {
+      "productId": 904103,
+      "at": "2026-11-02T16:49:57.800Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Tony-TonyChopper-OP17-084?language=2"
+    },
+    "904104": {
+      "productId": 904104,
+      "at": "2026-11-02T16:50:06.732Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Dorry-OP17-085?language=2"
+    },
+    "904105": {
+      "productId": 904105,
+      "at": "2026-11-02T16:50:16.415Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Nami-OP17-086?language=2"
+    },
+    "904106": {
+      "productId": 904106,
+      "at": "2026-11-02T16:50:25.241Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Nico-Robin-OP17-087-V1?language=2"
+    },
+    "904107": {
+      "productId": 904107,
+      "at": "2026-11-02T16:50:34.550Z",
+      "status": "quoted",
+      "average": 13.18,
+      "sellers": 5,
+      "sample": [
+        1290,
+        1300,
+        1300,
+        1350,
+        1350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Nico-Robin-OP17-087-V2?language=2"
+    },
+    "904108": {
+      "productId": 904108,
+      "at": "2026-11-02T16:50:48.877Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Hajrudin-OP17-088-V1?language=2"
+    },
+    "904109": {
+      "productId": 904109,
+      "at": "2026-11-02T16:50:58.113Z",
+      "status": "quoted",
+      "average": 1.21,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        120,
+        135,
+        150
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Hajrudin-OP17-088-V2?language=2"
+    },
+    "904110": {
+      "productId": 904110,
+      "at": "2026-11-02T16:51:06.803Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/JaguarDSaul-OP17-089?language=2"
+    },
+    "904111": {
+      "productId": 904111,
+      "at": "2026-11-02T16:51:15.695Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Franky-OP17-090?language=2"
+    },
+    "904112": {
+      "productId": 904112,
+      "at": "2026-11-02T16:51:24.495Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Brook-OP17-091?language=2"
+    },
+    "904113": {
+      "productId": 904113,
+      "at": "2026-11-02T16:51:38.047Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Brogy-OP17-092?language=2"
+    },
+    "904114": {
+      "productId": 904114,
+      "at": "2026-11-02T16:51:46.754Z",
+      "status": "quoted",
+      "average": 0.89,
+      "sellers": 5,
+      "sample": [
+        50,
+        97,
+        99,
+        99,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MonkeyDLuffy-OP17-093-V1?language=2"
+    },
+    "904115": {
+      "productId": 904115,
+      "at": "2026-11-02T16:51:55.506Z",
+      "status": "quoted",
+      "average": 17.7,
+      "sellers": 5,
+      "sample": [
+        1500,
+        1800,
+        1850,
+        1850,
+        1850
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MonkeyDLuffy-OP17-093-V2?language=2"
+    },
+    "904116": {
+      "productId": 904116,
+      "at": "2026-11-02T16:52:04.592Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Rodo-OP17-094?language=2"
+    },
+    "904117": {
+      "productId": 904117,
+      "at": "2026-11-02T16:52:13.335Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Roronoa-Zoro-OP17-095?language=2"
+    },
+    "904118": {
+      "productId": 904118,
+      "at": "2026-11-02T16:52:27.426Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Im-Luffy-The-Man-Who-Will-Be-King-of-the-Pirates-OP17-096?language=2"
+    },
+    "904119": {
+      "productId": 904119,
+      "at": "2026-11-02T16:52:36.373Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Ill-Feed-on-This-Rage-and-Use-It-to-Bring-the-World-to-Ruin-OP17-097?language=2"
+    },
+    "904120": {
+      "productId": 904120,
+      "at": "2026-11-02T16:52:45.402Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Gum-Gum-Kong-Gun-OP17-098?language=2"
+    },
+    "904121": {
+      "productId": 904121,
+      "at": "2026-11-02T16:52:54.269Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Linlin-OP17-099-V1?language=2"
+    },
+    "904122": {
+      "productId": 904122,
+      "at": "2026-11-02T16:53:03.140Z",
+      "status": "quoted",
+      "average": 12.4,
+      "sellers": 5,
+      "sample": [
+        1150,
+        1200,
+        1200,
+        1300,
+        1350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Linlin-OP17-099-V2?language=2"
+    },
+    "904123": {
+      "productId": 904123,
+      "at": "2026-11-02T16:53:16.333Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/CaponeGangBege-OP17-100?language=2"
+    },
+    "904124": {
+      "productId": 904124,
+      "at": "2026-11-02T16:53:25.307Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Caribou-OP17-101?language=2"
+    },
+    "904125": {
+      "productId": 904125,
+      "at": "2026-11-02T16:53:34.059Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Oven-OP17-102?language=2"
+    },
+    "904126": {
+      "productId": 904126,
+      "at": "2026-11-02T16:53:43.027Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Katakuri-OP17-103?language=2"
+    },
+    "904127": {
+      "productId": 904127,
+      "at": "2026-11-02T16:54:05.613Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Cracker-OP17-104?language=2"
+    },
+    "904128": {
+      "productId": 904128,
+      "at": "2026-11-02T16:54:14.352Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Chiffon-OP17-105?language=2"
+    },
+    "904129": {
+      "productId": 904129,
+      "at": "2026-11-02T16:54:23.196Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Smoothie-OP17-106?language=2"
+    },
+    "904130": {
+      "productId": 904130,
+      "at": "2026-11-02T16:54:31.950Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Daifuku-OP17-107?language=2"
+    },
+    "904131": {
+      "productId": 904131,
+      "at": "2026-11-02T16:54:40.804Z",
+      "status": "quoted",
+      "average": 2.2,
+      "sellers": 5,
+      "sample": [
+        199,
+        200,
+        200,
+        200,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Daifuku-OP17-107-V2?language=2"
+    },
+    "904132": {
+      "productId": 904132,
+      "at": "2026-11-02T16:54:57.084Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Brulee-OP17-108?language=2"
+    },
+    "904133": {
+      "productId": 904133,
+      "at": "2026-11-02T16:55:06.318Z",
+      "status": "quoted",
+      "average": 0.12,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        10,
+        10,
+        19
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Pudding-OP17-109?language=2"
+    },
+    "904134": {
+      "productId": 904134,
+      "at": "2026-11-02T16:55:15.372Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Perospero-OP17-110?language=2"
+    },
+    "904135": {
+      "productId": 904135,
+      "at": "2026-11-02T16:55:24.667Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Mont-dor-OP17-111?language=2"
+    },
+    "904136": {
+      "productId": 904136,
+      "at": "2026-11-02T16:55:34.358Z",
+      "status": "quoted",
+      "average": 0.94,
+      "sellers": 5,
+      "sample": [
+        70,
+        100,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Linlin-OP17-112-V1?language=2"
+    },
+    "904137": {
+      "productId": 904137,
+      "at": "2026-11-02T16:55:48.505Z",
+      "status": "quoted",
+      "average": 10,
+      "sellers": 5,
+      "sample": [
+        999,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Linlin-OP17-112-V2?language=2"
+    },
+    "904138": {
+      "productId": 904138,
+      "at": "2026-11-02T16:55:57.434Z",
+      "status": "quoted",
+      "average": 532.6,
+      "sellers": 5,
+      "sample": [
+        45000,
+        46500,
+        49999,
+        55000,
+        69800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Linlin-OP17-112-V3?language=2"
+    },
+    "904139": {
+      "productId": 904139,
+      "at": "2026-11-02T16:56:06.268Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Streusen-OP17-113?language=2"
+    },
+    "904140": {
+      "productId": 904140,
+      "at": "2026-11-02T16:56:15.445Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Sweet-3-Generals-OP17-114-V1?language=2"
+    },
+    "904141": {
+      "productId": 904141,
+      "at": "2026-11-02T16:56:24.243Z",
+      "status": "quoted",
+      "average": 9.3,
+      "sellers": 5,
+      "sample": [
+        800,
+        850,
+        999,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Sweet-3-Generals-OP17-114-V2?language=2"
+    },
+    "904142": {
+      "productId": 904142,
+      "at": "2026-11-02T16:56:38.159Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Dont-you-know-that-even-in-the-cruel-world-of-pirates-theres-still-a-code-of-honor-OP17-115?language=2"
+    },
+    "904143": {
+      "productId": 904143,
+      "at": "2026-11-02T16:56:46.944Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Fulgora-OP17-116?language=2"
+    },
+    "904144": {
+      "productId": 904144,
+      "at": "2026-11-02T16:56:55.957Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Maser-Saber-OP17-117?language=2"
+    },
+    "904145": {
+      "productId": 904145,
+      "at": "2026-11-02T16:57:04.613Z",
+      "status": "quoted",
+      "average": 9,
+      "sellers": 5,
+      "sample": [
+        650,
+        800,
+        999,
+        1000,
+        1050
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/RocksDXebec-OP17-118-V1?language=2"
+    },
+    "904146": {
+      "productId": 904146,
+      "at": "2026-11-02T16:57:13.416Z",
+      "status": "quoted",
+      "average": 20.8,
+      "sellers": 5,
+      "sample": [
+        1999,
+        2000,
+        2000,
+        2200,
+        2200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/RocksDXebec-OP17-118-V2?language=2"
+    },
+    "904147": {
+      "productId": 904147,
+      "at": "2026-11-02T16:57:28.211Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/RocksDXebec-OP17-118-V3?language=2"
+    },
+    "904148": {
+      "productId": 904148,
+      "at": "2026-11-02T16:57:36.946Z",
+      "status": "quoted",
+      "average": 13.2,
+      "sellers": 5,
+      "sample": [
+        1200,
+        1200,
+        1400,
+        1400,
+        1400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Loki-OP17-119-V1?language=2"
+    },
+    "904149": {
+      "productId": 904149,
+      "at": "2026-11-02T16:57:45.686Z",
+      "status": "quoted",
+      "average": 28.39,
+      "sellers": 5,
+      "sample": [
+        2795,
+        2799,
+        2800,
+        2800,
+        3000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Loki-OP17-119-V2?language=2"
+    },
+    "904150": {
+      "productId": 904150,
+      "at": "2026-11-02T16:57:54.363Z",
+      "status": "quoted",
+      "average": 228.4,
+      "sellers": 5,
+      "sample": [
+        22000,
+        22800,
+        23000,
+        23000,
+        23400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Roronoa-Zoro-EB04-007?language=2"
+    },
+    "904151": {
+      "productId": 904151,
+      "at": "2026-11-02T16:58:16.452Z",
+      "status": "quoted",
+      "average": 74,
+      "sellers": 5,
+      "sample": [
+        7000,
+        7499,
+        7500,
+        7500,
+        7500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MonkeyDGarp-OP12-056?language=2"
+    },
+    "904152": {
+      "productId": 904152,
+      "at": "2026-11-02T16:58:25.041Z",
+      "status": "quoted",
+      "average": 172.8,
+      "sellers": 5,
+      "sample": [
+        16900,
+        17000,
+        17000,
+        17500,
+        18000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Shanks-OP13-028?language=2"
+    },
+    "904153": {
+      "productId": 904153,
+      "at": "2026-11-02T16:58:33.683Z",
+      "status": "quoted",
+      "average": 85,
+      "sellers": 5,
+      "sample": [
+        8500,
+        8500,
+        8500,
+        8500,
+        8500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Silvers-Rayleigh-OP14-108?language=2"
+    },
+    "904154": {
+      "productId": 904154,
+      "at": "2026-11-02T16:58:42.230Z",
+      "status": "quoted",
+      "average": 152,
+      "sellers": 5,
+      "sample": [
+        14000,
+        15000,
+        15000,
+        16000,
+        16000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Yamato-OP16-098?language=2"
+    },
+    "904155": {
+      "productId": 904155,
+      "at": "2026-11-02T16:58:50.743Z",
+      "status": "quoted",
+      "average": 126,
+      "sellers": 5,
+      "sample": [
+        11500,
+        11999,
+        12500,
+        12999,
+        14000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Buggy-P-084?language=2"
+    },
+    "904156": {
+      "productId": 904156,
+      "at": "2026-11-02T16:59:04.271Z",
+      "status": "quoted",
+      "average": 102.6,
+      "sellers": 5,
+      "sample": [
+        9500,
+        10000,
+        10000,
+        10900,
+        10900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/GolDRoger-P-107?language=2"
+    },
+    "904157": {
+      "productId": 904157,
+      "at": "2026-11-02T16:59:12.936Z",
+      "status": "quoted",
+      "average": 164.96,
+      "sellers": 5,
+      "sample": [
+        16000,
+        16090,
+        16390,
+        17000,
+        17000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MarshallDTeach-ST27-005?language=2"
+    },
+    "904158": {
+      "productId": 904158,
+      "at": "2026-11-02T16:59:21.642Z",
+      "status": "quoted",
+      "average": 381,
+      "sellers": 5,
+      "sample": [
+        37000,
+        38000,
+        38000,
+        38500,
+        38999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MonkeyDLuffy-ST31-004?language=2"
+    },
+    "904159": {
+      "productId": 904159,
+      "at": "2026-11-02T16:59:30.358Z",
+      "status": "quoted",
+      "average": 71.8,
+      "sellers": 5,
+      "sample": [
+        6500,
+        6900,
+        7000,
+        7700,
+        7800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Kouzuki-Oden-ST32-002?language=2"
+    },
+    "904160": {
+      "productId": 904160,
+      "at": "2026-11-02T16:58:03.203Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MonkeyDLuffy-EB04-061?language=2"
+    },
+    "904428": {
+      "productId": 904428,
+      "at": "2026-11-02T16:53:51.723Z",
+      "status": "quoted",
+      "average": 109.8,
+      "sellers": 5,
+      "sample": [
+        10900,
+        11000,
+        11000,
+        11000,
+        11000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/Charlotte-Katakuri-OP17-103-V2?language=2"
     }
   }
 }

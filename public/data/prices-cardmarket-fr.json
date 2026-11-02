@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T14:38:58.178Z",
+  "updatedAt": "2026-11-02T15:32:38.300Z",
   "products": {
     "799250": {
       "productId": 799250,
@@ -14939,6 +14939,2943 @@
         85000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/Roronoa-Zoro-OP12-113?language=2"
+    },
+    "879502": {
+      "productId": 879502,
+      "at": "2026-11-02T15:22:48.105Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Jewelry-Bonney-EB04-001-V1?language=2"
+    },
+    "879503": {
+      "productId": 879503,
+      "at": "2026-11-02T15:22:57.931Z",
+      "status": "quoted",
+      "average": 33.4,
+      "sellers": 5,
+      "sample": [
+        3000,
+        3300,
+        3400,
+        3500,
+        3500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Jewelry-Bonney-EB04-001-V2?language=2"
+    },
+    "879504": {
+      "productId": 879504,
+      "at": "2026-11-02T15:23:07.640Z",
+      "status": "quoted",
+      "average": 0.16,
+      "sellers": 5,
+      "sample": [
+        5,
+        15,
+        20,
+        20,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Jewelry-Bonney-EB04-002-V1?language=2"
+    },
+    "879505": {
+      "productId": 879505,
+      "at": "2026-11-02T15:23:24.313Z",
+      "status": "quoted",
+      "average": 11.18,
+      "sellers": 5,
+      "sample": [
+        1100,
+        1100,
+        1100,
+        1100,
+        1190
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Jewelry-Bonney-EB04-002-V2?language=2"
+    },
+    "879506": {
+      "productId": 879506,
+      "at": "2026-11-02T15:23:34.214Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Smoker-Tashigi-EB04-003-V1?language=2"
+    },
+    "879507": {
+      "productId": 879507,
+      "at": "2026-11-02T15:23:43.742Z",
+      "status": "quoted",
+      "average": 83,
+      "sellers": 5,
+      "sample": [
+        7500,
+        8500,
+        8500,
+        8500,
+        8500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Smoker-Tashigi-EB04-003-V2?language=2"
+    },
+    "879508": {
+      "productId": 879508,
+      "at": "2026-11-02T15:23:54.666Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Zeff-EB04-004?language=2"
+    },
+    "879509": {
+      "productId": 879509,
+      "at": "2026-11-02T15:24:05.274Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Trafalgar-Law-EB04-005?language=2"
+    },
+    "879510": {
+      "productId": 879510,
+      "at": "2026-11-02T15:24:23.034Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Moda-EB04-006?language=2"
+    },
+    "879511": {
+      "productId": 879511,
+      "at": "2026-11-02T15:24:33.347Z",
+      "status": "quoted",
+      "average": 13.69,
+      "sellers": 5,
+      "sample": [
+        1300,
+        1350,
+        1395,
+        1400,
+        1400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Roronoa-Zoro-EB04-007-V1?language=2"
+    },
+    "879512": {
+      "productId": 879512,
+      "at": "2026-11-02T15:24:42.834Z",
+      "status": "quoted",
+      "average": 32.36,
+      "sellers": 5,
+      "sample": [
+        3180,
+        3199,
+        3200,
+        3300,
+        3300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Roronoa-Zoro-EB04-007-V2?language=2"
+    },
+    "879513": {
+      "productId": 879513,
+      "at": "2026-11-02T15:24:52.991Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Distorted-Future-EB04-008?language=2"
+    },
+    "879514": {
+      "productId": 879514,
+      "at": "2026-11-02T15:25:03.119Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Its-My-Students-Farewell-I-Want-It-to-Be-Proper-EB04-009?language=2"
+    },
+    "879515": {
+      "productId": 879515,
+      "at": "2026-11-02T15:25:19.654Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Lulucia-Kingdom-EB04-010?language=2"
+    },
+    "879516": {
+      "productId": 879516,
+      "at": "2026-11-02T15:25:29.785Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Alpha-EB04-042?language=2"
+    },
+    "879517": {
+      "productId": 879517,
+      "at": "2026-11-02T15:25:40.808Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Kaku-EB04-043-V1?language=2"
+    },
+    "879518": {
+      "productId": 879518,
+      "at": "2026-11-02T15:25:50.720Z",
+      "status": "quoted",
+      "average": 3.54,
+      "sellers": 5,
+      "sample": [
+        330,
+        340,
+        350,
+        350,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Kaku-EB04-043-V2?language=2"
+    },
+    "879519": {
+      "productId": 879519,
+      "at": "2026-11-02T15:26:01.014Z",
+      "status": "quoted",
+      "average": 0.1,
+      "sellers": 5,
+      "sample": [
+        8,
+        8,
+        10,
+        10,
+        15
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Koby-EB04-044-V1?language=2"
+    },
+    "879520": {
+      "productId": 879520,
+      "at": "2026-11-02T15:26:25.076Z",
+      "status": "quoted",
+      "average": 15.1,
+      "sellers": 5,
+      "sample": [
+        1400,
+        1500,
+        1500,
+        1500,
+        1650
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Koby-EB04-044-V2?language=2"
+    },
+    "879521": {
+      "productId": 879521,
+      "at": "2026-11-02T15:26:34.719Z",
+      "status": "quoted",
+      "average": 498.98,
+      "sellers": 5,
+      "sample": [
+        42000,
+        50000,
+        50000,
+        52500,
+        54989
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Koby-EB04-044-V3?language=2"
+    },
+    "879522": {
+      "productId": 879522,
+      "at": "2026-11-02T15:26:45.019Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Ginny-EB04-045?language=2"
+    },
+    "879523": {
+      "productId": 879523,
+      "at": "2026-11-02T15:26:55.296Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Doll-EB04-046?language=2"
+    },
+    "879524": {
+      "productId": 879524,
+      "at": "2026-11-02T15:27:05.500Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Helmeppo-EB04-047?language=2"
+    },
+    "879525": {
+      "productId": 879525,
+      "at": "2026-11-02T15:27:21.314Z",
+      "status": "quoted",
+      "average": 0.12,
+      "sellers": 5,
+      "sample": [
+        9,
+        10,
+        10,
+        10,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Rob-Lucci-EB04-048-V1?language=2"
+    },
+    "879526": {
+      "productId": 879526,
+      "at": "2026-11-02T15:27:31.383Z",
+      "status": "quoted",
+      "average": 12,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1000,
+        1000,
+        1500,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Rob-Lucci-EB04-048-V2?language=2"
+    },
+    "879527": {
+      "productId": 879527,
+      "at": "2026-11-02T15:27:41.593Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Finger-Pistol-Yellow-Lotus-EB04-049?language=2"
+    },
+    "879528": {
+      "productId": 879528,
+      "at": "2026-11-02T15:27:51.849Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Ill-Whip-You-Into-Shape-EB04-050?language=2"
+    },
+    "879529": {
+      "productId": 879529,
+      "at": "2026-11-02T15:28:02.355Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Emet-EB04-051?language=2"
+    },
+    "879530": {
+      "productId": 879530,
+      "at": "2026-11-02T15:28:28.183Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sanji-EB04-052-V1?language=2"
+    },
+    "879531": {
+      "productId": 879531,
+      "at": "2026-11-02T15:28:38.412Z",
+      "status": "quoted",
+      "average": 5.2,
+      "sellers": 5,
+      "sample": [
+        499,
+        500,
+        500,
+        500,
+        599
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sanji-EB04-052-V2?language=2"
+    },
+    "879532": {
+      "productId": 879532,
+      "at": "2026-11-02T15:28:48.734Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sentomaru-EB04-053?language=2"
+    },
+    "879533": {
+      "productId": 879533,
+      "at": "2026-11-02T15:28:59.224Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Bartholomew-Kuma-EB04-054?language=2"
+    },
+    "879534": {
+      "productId": 879534,
+      "at": "2026-11-02T15:29:09.219Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Bartholomew-Kuma-EB04-055?language=2"
+    },
+    "879535": {
+      "productId": 879535,
+      "at": "2026-11-02T15:29:30.245Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Pacifista-EB04-056?language=2"
+    },
+    "879536": {
+      "productId": 879536,
+      "at": "2026-11-02T15:29:40.462Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Vegapunk-EB04-057?language=2"
+    },
+    "879537": {
+      "productId": 879537,
+      "at": "2026-11-02T15:29:49.995Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        1900,
+        2750,
+        3000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Borsalino-EB04-058-V1?language=2"
+    },
+    "879538": {
+      "productId": 879538,
+      "at": "2026-11-02T15:29:59.549Z",
+      "status": "quoted",
+      "average": 40.4,
+      "sellers": 5,
+      "sample": [
+        3499,
+        3900,
+        3900,
+        4000,
+        4900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Borsalino-EB04-058-V2?language=2"
+    },
+    "879903": {
+      "productId": 879903,
+      "at": "2026-11-02T15:30:10.438Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Black-Rope-Dragon-Twister-EB04-059?language=2"
+    },
+    "879904": {
+      "productId": 879904,
+      "at": "2026-11-02T15:30:29.635Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Gum-Gum-Hawk-Gatling-EB04-060?language=2"
+    },
+    "879905": {
+      "productId": 879905,
+      "at": "2026-11-02T15:30:41.674Z",
+      "status": "quoted",
+      "average": 8.22,
+      "sellers": 5,
+      "sample": [
+        800,
+        800,
+        800,
+        811,
+        900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/MonkeyDLuffy-EB04-061-V1?language=2"
+    },
+    "879906": {
+      "productId": 879906,
+      "at": "2026-11-02T15:30:51.356Z",
+      "status": "quoted",
+      "average": 42,
+      "sellers": 5,
+      "sample": [
+        4000,
+        4200,
+        4200,
+        4200,
+        4400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/MonkeyDLuffy-EB04-061-V2?language=2"
+    },
+    "879908": {
+      "productId": 879908,
+      "at": "2026-11-02T14:53:59.254Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Krieg-OP15-001-V1?language=2"
+    },
+    "879909": {
+      "productId": 879909,
+      "at": "2026-11-02T14:54:07.865Z",
+      "status": "quoted",
+      "average": 11.8,
+      "sellers": 5,
+      "sample": [
+        1150,
+        1150,
+        1199,
+        1200,
+        1200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Krieg-OP15-001-V2?language=2"
+    },
+    "879910": {
+      "productId": 879910,
+      "at": "2026-11-02T14:54:17.864Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Lucy-OP15-002-V1?language=2"
+    },
+    "879911": {
+      "productId": 879911,
+      "at": "2026-11-02T14:54:28.445Z",
+      "status": "quoted",
+      "average": 24.78,
+      "sellers": 5,
+      "sample": [
+        2400,
+        2490,
+        2499,
+        2500,
+        2500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Lucy-OP15-002-V2?language=2"
+    },
+    "879912": {
+      "productId": 879912,
+      "at": "2026-11-02T14:54:40.179Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Alvida-OP15-003-V1?language=2"
+    },
+    "879913": {
+      "productId": 879913,
+      "at": "2026-11-02T14:54:57.548Z",
+      "status": "quoted",
+      "average": 4.5,
+      "sellers": 5,
+      "sample": [
+        400,
+        400,
+        400,
+        500,
+        550
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Alvida-OP15-003-V2?language=2"
+    },
+    "879914": {
+      "productId": 879914,
+      "at": "2026-11-02T14:55:08.001Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sea-Cat-OP15-004?language=2"
+    },
+    "879915": {
+      "productId": 879915,
+      "at": "2026-11-02T14:55:18.494Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Cabaji-OP15-005?language=2"
+    },
+    "879916": {
+      "productId": 879916,
+      "at": "2026-11-02T14:55:27.290Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Cavendish-OP15-006?language=2"
+    },
+    "879917": {
+      "productId": 879917,
+      "at": "2026-11-02T14:55:36.425Z",
+      "status": "quoted",
+      "average": 0.11,
+      "sellers": 5,
+      "sample": [
+        2,
+        10,
+        10,
+        15,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Gin-OP15-007-V1?language=2"
+    },
+    "879918": {
+      "productId": 879918,
+      "at": "2026-11-02T14:55:52.997Z",
+      "status": "quoted",
+      "average": 4.59,
+      "sellers": 5,
+      "sample": [
+        350,
+        450,
+        495,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Gin-OP15-007-V2?language=2"
+    },
+    "879919": {
+      "productId": 879919,
+      "at": "2026-11-02T14:56:01.859Z",
+      "status": "quoted",
+      "average": 0.11,
+      "sellers": 5,
+      "sample": [
+        9,
+        10,
+        10,
+        10,
+        15
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Krieg-OP15-008-V1?language=2"
+    },
+    "879920": {
+      "productId": 879920,
+      "at": "2026-11-02T14:56:10.762Z",
+      "status": "quoted",
+      "average": 4.8,
+      "sellers": 5,
+      "sample": [
+        400,
+        498,
+        500,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Krieg-OP15-008-V2?language=2"
+    },
+    "879921": {
+      "productId": 879921,
+      "at": "2026-11-02T14:56:20.028Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Koby-OP15-009?language=2"
+    },
+    "879922": {
+      "productId": 879922,
+      "at": "2026-11-02T14:56:29.248Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Nezumi-OP15-010?language=2"
+    },
+    "879923": {
+      "productId": 879923,
+      "at": "2026-11-02T14:56:45.957Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Pearl-OP15-011?language=2"
+    },
+    "879924": {
+      "productId": 879924,
+      "at": "2026-11-02T14:56:55.241Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Buggy-OP15-012?language=2"
+    },
+    "879925": {
+      "productId": 879925,
+      "at": "2026-11-02T14:57:04.330Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Pincers-OP15-013?language=2"
+    },
+    "879926": {
+      "productId": 879926,
+      "at": "2026-11-02T14:57:13.326Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Bartolomeo-OP15-014?language=2"
+    },
+    "879927": {
+      "productId": 879927,
+      "at": "2026-11-02T14:57:22.292Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Higuma-OP15-015?language=2"
+    },
+    "879928": {
+      "productId": 879928,
+      "at": "2026-11-02T14:57:38.902Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Fullbody-OP15-016?language=2"
+    },
+    "879929": {
+      "productId": 879929,
+      "at": "2026-11-02T14:57:48.283Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Morgan-OP15-017?language=2"
+    },
+    "879930": {
+      "productId": 879930,
+      "at": "2026-11-02T14:57:57.594Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Mohji-OP15-018?language=2"
+    },
+    "879931": {
+      "productId": 879931,
+      "at": "2026-11-02T14:58:06.428Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Barrier-Bulls-OP15-019?language=2"
+    },
+    "879932": {
+      "productId": 879932,
+      "at": "2026-11-02T14:58:15.579Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Fire-Fist-OP15-020?language=2"
+    },
+    "879933": {
+      "productId": 879933,
+      "at": "2026-11-02T14:58:35.843Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Just-Watch-Me-Ace-OP15-021?language=2"
+    },
+    "879934": {
+      "productId": 879934,
+      "at": "2026-11-02T14:58:44.821Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Brook-OP15-022-V1?language=2"
+    },
+    "879935": {
+      "productId": 879935,
+      "at": "2026-11-02T14:58:53.511Z",
+      "status": "quoted",
+      "average": 45.6,
+      "sellers": 5,
+      "sample": [
+        4499,
+        4500,
+        4500,
+        4500,
+        4800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Brook-OP15-022-V2?language=2"
+    },
+    "879936": {
+      "productId": 879936,
+      "at": "2026-11-02T14:59:02.405Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        3,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Arlong-OP15-023?language=2"
+    },
+    "879937": {
+      "productId": 879937,
+      "at": "2026-11-02T14:59:11.256Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Usopp-OP15-024?language=2"
+    },
+    "879938": {
+      "productId": 879938,
+      "at": "2026-11-02T14:59:37.011Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Kuro-OP15-025-V1?language=2"
+    },
+    "879939": {
+      "productId": 879939,
+      "at": "2026-11-02T14:59:45.808Z",
+      "status": "quoted",
+      "average": 4,
+      "sellers": 5,
+      "sample": [
+        399,
+        400,
+        400,
+        400,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Kuro-OP15-025-V2?language=2"
+    },
+    "879940": {
+      "productId": 879940,
+      "at": "2026-11-02T14:59:54.822Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Jango-OP15-026?language=2"
+    },
+    "879941": {
+      "productId": 879941,
+      "at": "2026-11-02T15:00:04.503Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Dracule-Mihawk-OP15-027?language=2"
+    },
+    "879942": {
+      "productId": 879942,
+      "at": "2026-11-02T15:00:13.597Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Meowban-Brothers-OP15-028?language=2"
+    },
+    "879943": {
+      "productId": 879943,
+      "at": "2026-11-02T15:00:27.876Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Bartholomew-Kuma-OP15-029?language=2"
+    },
+    "879944": {
+      "productId": 879944,
+      "at": "2026-11-02T15:00:36.846Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Hyouzou-OP15-030?language=2"
+    },
+    "879945": {
+      "productId": 879945,
+      "at": "2026-11-02T15:00:45.902Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Purinpurin-OP15-031?language=2"
+    },
+    "879946": {
+      "productId": 879946,
+      "at": "2026-11-02T15:00:54.666Z",
+      "status": "quoted",
+      "average": 1.98,
+      "sellers": 5,
+      "sample": [
+        150,
+        190,
+        199,
+        200,
+        250
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Brook-OP15-032-V1?language=2"
+    },
+    "879947": {
+      "productId": 879947,
+      "at": "2026-11-02T15:01:04.841Z",
+      "status": "quoted",
+      "average": 22.8,
+      "sellers": 5,
+      "sample": [
+        2000,
+        2300,
+        2300,
+        2300,
+        2500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Brook-OP15-032-V2?language=2"
+    },
+    "879948": {
+      "productId": 879948,
+      "at": "2026-11-02T15:01:23.301Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Hody-Jones-OP15-033?language=2"
+    },
+    "879949": {
+      "productId": 879949,
+      "at": "2026-11-02T15:01:33.519Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Yorki-OP15-034?language=2"
+    },
+    "879950": {
+      "productId": 879950,
+      "at": "2026-11-02T15:01:42.544Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Laboon-OP15-035?language=2"
+    },
+    "879951": {
+      "productId": 879951,
+      "at": "2026-11-02T15:01:51.491Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Ryuma-OP15-036?language=2"
+    },
+    "879952": {
+      "productId": 879952,
+      "at": "2026-11-02T15:02:00.681Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/The-Outcome-Will-Tell-Us-Whos-Strong-and-Whos-Weak-OP15-037?language=2"
+    },
+    "879953": {
+      "productId": 879953,
+      "at": "2026-11-02T15:02:17.872Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Its-an-Order-Do-Not-Defy-Me-OP15-038?language=2"
+    },
+    "879954": {
+      "productId": 879954,
+      "at": "2026-11-02T15:02:26.935Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Rebecca-OP15-039-V1?language=2"
+    },
+    "879955": {
+      "productId": 879955,
+      "at": "2026-11-02T15:02:35.559Z",
+      "status": "quoted",
+      "average": 18.58,
+      "sellers": 5,
+      "sample": [
+        1800,
+        1800,
+        1800,
+        1890,
+        1999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Rebecca-OP15-039-V2?language=2"
+    },
+    "879956": {
+      "productId": 879956,
+      "at": "2026-11-02T15:02:44.491Z",
+      "status": "quoted",
+      "average": 0.06,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        8,
+        9,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Viola-OP15-040?language=2"
+    },
+    "879957": {
+      "productId": 879957,
+      "at": "2026-11-02T15:02:53.614Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Orlumbus-OP15-041?language=2"
+    },
+    "879958": {
+      "productId": 879958,
+      "at": "2026-11-02T15:03:13.528Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Kyros-OP15-042?language=2"
+    },
+    "879959": {
+      "productId": 879959,
+      "at": "2026-11-02T15:03:22.471Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Kelly-Funk-OP15-043?language=2"
+    },
+    "879960": {
+      "productId": 879960,
+      "at": "2026-11-02T15:03:31.454Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Koala-OP15-044?language=2"
+    },
+    "879961": {
+      "productId": 879961,
+      "at": "2026-11-02T15:03:40.478Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sai-OP15-045?language=2"
+    },
+    "879962": {
+      "productId": 879962,
+      "at": "2026-11-02T15:03:49.322Z",
+      "status": "quoted",
+      "average": 0.12,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        10,
+        13,
+        15
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sabo-OP15-046-V1?language=2"
+    },
+    "879963": {
+      "productId": 879963,
+      "at": "2026-11-02T15:04:03.796Z",
+      "status": "quoted",
+      "average": 9.78,
+      "sellers": 5,
+      "sample": [
+        900,
+        990,
+        999,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sabo-OP15-046-V2?language=2"
+    },
+    "879964": {
+      "productId": 879964,
+      "at": "2026-11-02T15:04:12.586Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sanji-OP15-047-V1?language=2"
+    },
+    "879965": {
+      "productId": 879965,
+      "at": "2026-11-02T15:04:21.218Z",
+      "status": "quoted",
+      "average": 8.6,
+      "sellers": 5,
+      "sample": [
+        800,
+        800,
+        899,
+        900,
+        900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sanji-OP15-047-V2?language=2"
+    },
+    "879966": {
+      "productId": 879966,
+      "at": "2026-11-02T15:04:30.234Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Chinjao-OP15-048?language=2"
+    },
+    "879967": {
+      "productId": 879967,
+      "at": "2026-11-02T15:04:39.518Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Hajrudin-OP15-049?language=2"
+    },
+    "879968": {
+      "productId": 879968,
+      "at": "2026-11-02T15:04:55.342Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Bobby-Funk-OP15-050?language=2"
+    },
+    "879969": {
+      "productId": 879969,
+      "at": "2026-11-02T15:05:18.245Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/MonkeyDLuffy-OP15-051?language=2"
+    },
+    "879970": {
+      "productId": 879970,
+      "at": "2026-11-02T15:05:29.952Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Leo-OP15-052?language=2"
+    },
+    "879971": {
+      "productId": 879971,
+      "at": "2026-11-02T15:05:39.095Z",
+      "status": "quoted",
+      "average": 0.67,
+      "sellers": 5,
+      "sample": [
+        55,
+        59,
+        70,
+        70,
+        80
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Rebecca-OP15-053-V1?language=2"
+    },
+    "879972": {
+      "productId": 879972,
+      "at": "2026-11-02T15:05:47.883Z",
+      "status": "quoted",
+      "average": 14.4,
+      "sellers": 5,
+      "sample": [
+        1200,
+        1500,
+        1500,
+        1500,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Rebecca-OP15-053-V2?language=2"
+    },
+    "879973": {
+      "productId": 879973,
+      "at": "2026-11-02T15:06:02.458Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/And-No-One-Else-Can-Have-It-Its-Our-Memento-of-Him-OP15-054?language=2"
+    },
+    "879974": {
+      "productId": 879974,
+      "at": "2026-11-02T15:06:11.427Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Go-Ahead-and-Use-Em-Mr-Luffy-OP15-055?language=2"
+    },
+    "879975": {
+      "productId": 879975,
+      "at": "2026-11-02T15:06:21.236Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Would-You-Let-Me-Eat-the-Flame-Flame-Fruit-OP15-056?language=2"
+    },
+    "879976": {
+      "productId": 879976,
+      "at": "2026-11-02T15:06:30.592Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Dressrosa-Kingdom-OP15-057?language=2"
+    },
+    "879977": {
+      "productId": 879977,
+      "at": "2026-11-02T15:06:40.228Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Enel-OP15-058-V1?language=2"
+    },
+    "879978": {
+      "productId": 879978,
+      "at": "2026-11-02T15:07:02.517Z",
+      "status": "quoted",
+      "average": 35.6,
+      "sellers": 5,
+      "sample": [
+        3200,
+        3300,
+        3700,
+        3800,
+        3800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Enel-OP15-058-V2?language=2"
+    },
+    "879979": {
+      "productId": 879979,
+      "at": "2026-11-02T15:07:13.163Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Amazon-OP15-059?language=2"
+    },
+    "879980": {
+      "productId": 879980,
+      "at": "2026-11-02T15:07:22.620Z",
+      "status": "quoted",
+      "average": 0.08,
+      "sellers": 5,
+      "sample": [
+        4,
+        5,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Enel-OP15-060-V1?language=2"
+    },
+    "879981": {
+      "productId": 879981,
+      "at": "2026-11-02T15:07:31.626Z",
+      "status": "quoted",
+      "average": 7.18,
+      "sellers": 5,
+      "sample": [
+        500,
+        700,
+        790,
+        800,
+        800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Enel-OP15-060-V2?language=2"
+    },
+    "879982": {
+      "productId": 879982,
+      "at": "2026-11-02T15:07:41.132Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Ohm-OP15-061-V1?language=2"
+    },
+    "879983": {
+      "productId": 879983,
+      "at": "2026-11-02T15:08:00.014Z",
+      "status": "quoted",
+      "average": 6.2,
+      "sellers": 5,
+      "sample": [
+        500,
+        500,
+        699,
+        700,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Ohm-OP15-061-V2?language=2"
+    },
+    "879984": {
+      "productId": 879984,
+      "at": "2026-11-02T15:08:09.446Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Captain-Seamars-OP15-062?language=2"
+    },
+    "879985": {
+      "productId": 879985,
+      "at": "2026-11-02T15:08:18.577Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Gedatsu-OP15-063?language=2"
+    },
+    "879986": {
+      "productId": 879986,
+      "at": "2026-11-02T15:08:27.816Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Kotori-OP15-064?language=2"
+    },
+    "879987": {
+      "productId": 879987,
+      "at": "2026-11-02T15:08:37.267Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Goro-OP15-065?language=2"
+    },
+    "879988": {
+      "productId": 879988,
+      "at": "2026-11-02T15:08:54.362Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Satori-OP15-066?language=2"
+    },
+    "879989": {
+      "productId": 879989,
+      "at": "2026-11-02T15:09:04.334Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Shura-OP15-067?language=2"
+    },
+    "879990": {
+      "productId": 879990,
+      "at": "2026-11-02T15:09:13.496Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Heavenly-Warriors-OP15-068?language=2"
+    },
+    "879991": {
+      "productId": 879991,
+      "at": "2026-11-02T15:09:22.494Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Nola-OP15-069?language=2"
+    },
+    "879992": {
+      "productId": 879992,
+      "at": "2026-11-02T15:09:31.334Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Fuza-OP15-070?language=2"
+    },
+    "879993": {
+      "productId": 879993,
+      "at": "2026-11-02T15:11:10.751Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Holly-OP15-071?language=2"
+    },
+    "879994": {
+      "productId": 879994,
+      "at": "2026-11-02T15:11:20.224Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Hotori-OP15-072?language=2"
+    },
+    "879995": {
+      "productId": 879995,
+      "at": "2026-11-02T15:11:29.760Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Yama-OP15-073?language=2"
+    },
+    "879996": {
+      "productId": 879996,
+      "at": "2026-11-02T15:11:38.965Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Varie-OP15-074?language=2"
+    },
+    "879997": {
+      "productId": 879997,
+      "at": "2026-11-02T15:11:48.151Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/El-Thor-OP15-075?language=2"
+    },
+    "879998": {
+      "productId": 879998,
+      "at": "2026-11-02T15:12:03.464Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Lightning-Beast-Kiten-OP15-076?language=2"
+    },
+    "879999": {
+      "productId": 879999,
+      "at": "2026-11-02T15:12:12.685Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        4,
+        5,
+        5,
+        9,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Lightning-Dragon-OP15-077-V1?language=2"
+    },
+    "880000": {
+      "productId": 880000,
+      "at": "2026-11-02T15:12:21.341Z",
+      "status": "quoted",
+      "average": 67,
+      "sellers": 5,
+      "sample": [
+        6000,
+        6500,
+        6999,
+        7000,
+        7000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Lightning-Dragon-OP15-077-V2?language=2"
+    },
+    "880001": {
+      "productId": 880001,
+      "at": "2026-11-02T15:12:29.886Z",
+      "status": "quoted",
+      "average": 18.2,
+      "sellers": 5,
+      "sample": [
+        1500,
+        1899,
+        1900,
+        1900,
+        1900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Mamaragan-OP15-078-V1?language=2"
+    },
+    "880002": {
+      "productId": 880002,
+      "at": "2026-11-02T15:12:38.757Z",
+      "status": "quoted",
+      "average": 29.48,
+      "sellers": 5,
+      "sample": [
+        2799,
+        2950,
+        2990,
+        2999,
+        3000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Mamaragan-OP15-078-V2?language=2"
+    },
+    "880003": {
+      "productId": 880003,
+      "at": "2026-11-02T15:12:55.152Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Absalom-OP15-079?language=2"
+    },
+    "880004": {
+      "productId": 880004,
+      "at": "2026-11-02T15:13:04.276Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Oars-OP15-080?language=2"
+    },
+    "880005": {
+      "productId": 880005,
+      "at": "2026-11-02T15:13:13.213Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sanji-OP15-081?language=2"
+    },
+    "880006": {
+      "productId": 880006,
+      "at": "2026-11-02T15:13:22.258Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Charlotte-Lola-OP15-082?language=2"
+    },
+    "880007": {
+      "productId": 880007,
+      "at": "2026-11-02T15:13:31.735Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Spoil-OP15-083?language=2"
+    },
+    "880008": {
+      "productId": 880008,
+      "at": "2026-11-02T15:13:45.903Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Dr-Hogback-OP15-084?language=2"
+    },
+    "880009": {
+      "productId": 880009,
+      "at": "2026-11-02T15:13:54.720Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Tony-TonyChopper-OP15-085?language=2"
+    },
+    "880010": {
+      "productId": 880010,
+      "at": "2026-11-02T15:14:03.768Z",
+      "status": "quoted",
+      "average": 1.34,
+      "sellers": 5,
+      "sample": [
+        70,
+        150,
+        150,
+        150,
+        150
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Nami-OP15-086-V1?language=2"
+    },
+    "880011": {
+      "productId": 880011,
+      "at": "2026-11-02T15:14:12.735Z",
+      "status": "quoted",
+      "average": 80.78,
+      "sellers": 5,
+      "sample": [
+        7000,
+        7608,
+        8490,
+        8500,
+        8790
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Nami-OP15-086-V2?language=2"
+    },
+    "880012": {
+      "productId": 880012,
+      "at": "2026-11-02T15:14:22.202Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Nico-Robin-OP15-087?language=2"
+    },
+    "880013": {
+      "productId": 880013,
+      "at": "2026-11-02T15:14:37.623Z",
+      "status": "quoted",
+      "average": 2.99,
+      "sellers": 5,
+      "sample": [
+        245,
+        250,
+        300,
+        300,
+        399
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Pirates-Docking-Six-OP15-088?language=2"
+    },
+    "880014": {
+      "productId": 880014,
+      "at": "2026-11-02T15:14:47.027Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Franky-OP15-089?language=2"
+    },
+    "880015": {
+      "productId": 880015,
+      "at": "2026-11-02T15:14:56.339Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Perona-OP15-090?language=2"
+    },
+    "880016": {
+      "productId": 880016,
+      "at": "2026-11-02T15:15:05.444Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Margarita-OP15-091?language=2"
+    },
+    "880017": {
+      "productId": 880017,
+      "at": "2026-11-02T15:15:14.744Z",
+      "status": "quoted",
+      "average": 0.89,
+      "sellers": 5,
+      "sample": [
+        44,
+        99,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/MonkeyDLuffy-OP15-092-V1?language=2"
+    },
+    "880018": {
+      "productId": 880018,
+      "at": "2026-11-02T15:15:30.891Z",
+      "status": "quoted",
+      "average": 22.5,
+      "sellers": 5,
+      "sample": [
+        2200,
+        2200,
+        2250,
+        2299,
+        2300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/MonkeyDLuffy-OP15-092-V2?language=2"
+    },
+    "880019": {
+      "productId": 880019,
+      "at": "2026-11-02T15:15:40.600Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/The-Risky-Brothers-OP15-093?language=2"
+    },
+    "880020": {
+      "productId": 880020,
+      "at": "2026-11-02T15:15:50.553Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Roronoa-Zoro-OP15-094?language=2"
+    },
+    "880021": {
+      "productId": 880021,
+      "at": "2026-11-02T15:15:59.988Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Gum-Gum-Storm-OP15-095?language=2"
+    },
+    "880022": {
+      "productId": 880022,
+      "at": "2026-11-02T15:16:09.557Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Swallow-Bond-en-Avant-OP15-096?language=2"
+    },
+    "880023": {
+      "productId": 880023,
+      "at": "2026-11-02T15:16:25.394Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/I-Find-It-Embarrassing-as-a-Human-Being-OP15-097?language=2"
+    },
+    "880024": {
+      "productId": 880024,
+      "at": "2026-11-02T15:16:35.035Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/MonkeyDLuffy-OP15-098-V1?language=2"
+    },
+    "880025": {
+      "productId": 880025,
+      "at": "2026-11-02T15:16:44.191Z",
+      "status": "quoted",
+      "average": 42.2,
+      "sellers": 5,
+      "sample": [
+        3800,
+        4200,
+        4300,
+        4399,
+        4400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/MonkeyDLuffy-OP15-098-V2?language=2"
+    },
+    "880026": {
+      "productId": 880026,
+      "at": "2026-11-02T15:16:53.099Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Urouge-OP15-099?language=2"
+    },
+    "880027": {
+      "productId": 880027,
+      "at": "2026-11-02T15:17:03.403Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Kamakiri-OP15-100?language=2"
+    },
+    "880028": {
+      "productId": 880028,
+      "at": "2026-11-02T15:17:19.610Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Kalgara-OP15-101?language=2"
+    },
+    "880029": {
+      "productId": 880029,
+      "at": "2026-11-02T15:17:30.408Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/GanFall-OP15-102?language=2"
+    },
+    "880030": {
+      "productId": 880030,
+      "at": "2026-11-02T15:17:42.320Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Genbo-OP15-103?language=2"
+    },
+    "880031": {
+      "productId": 880031,
+      "at": "2026-11-02T15:17:52.961Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Conis-OP15-104?language=2"
+    },
+    "880032": {
+      "productId": 880032,
+      "at": "2026-11-02T15:18:02.971Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Jewelry-Bonney-OP15-105?language=2"
+    },
+    "880033": {
+      "productId": 880033,
+      "at": "2026-11-02T15:18:21.843Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Octoballoon-OP15-106?language=2"
+    },
+    "880034": {
+      "productId": 880034,
+      "at": "2026-11-02T15:18:32.232Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Tony-TonyChopper-OP15-107?language=2"
+    },
+    "880035": {
+      "productId": 880035,
+      "at": "2026-11-02T15:18:42.410Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Nami-OP15-108?language=2"
+    },
+    "880036": {
+      "productId": 880036,
+      "at": "2026-11-02T15:18:52.613Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Nico-Robin-OP15-109-V1?language=2"
+    },
+    "880037": {
+      "productId": 880037,
+      "at": "2026-11-02T15:19:03.654Z",
+      "status": "quoted",
+      "average": 13.36,
+      "sellers": 5,
+      "sample": [
+        900,
+        1390,
+        1450,
+        1450,
+        1489
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Nico-Robin-OP15-109-V2?language=2"
+    },
+    "880038": {
+      "productId": 880038,
+      "at": "2026-11-02T15:19:25.437Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Braham-OP15-110?language=2"
+    },
+    "880039": {
+      "productId": 880039,
+      "at": "2026-11-02T15:19:35.505Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Mont-Blanc-Noland-OP15-111?language=2"
+    },
+    "880040": {
+      "productId": 880040,
+      "at": "2026-11-02T15:19:46.235Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Raki-OP15-112?language=2"
+    },
+    "880041": {
+      "productId": 880041,
+      "at": "2026-11-02T15:19:55.965Z",
+      "status": "quoted",
+      "average": 3.17,
+      "sellers": 5,
+      "sample": [
+        285,
+        299,
+        300,
+        350,
+        350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Roronoa-Zoro-OP15-113-V1?language=2"
+    },
+    "880042": {
+      "productId": 880042,
+      "at": "2026-11-02T15:20:05.665Z",
+      "status": "quoted",
+      "average": 19.19,
+      "sellers": 5,
+      "sample": [
+        1795,
+        1800,
+        1999,
+        2000,
+        2000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Roronoa-Zoro-OP15-113-V2?language=2"
+    },
+    "880043": {
+      "productId": 880043,
+      "at": "2026-11-02T15:20:22.016Z",
+      "status": "quoted",
+      "average": 0.34,
+      "sellers": 5,
+      "sample": [
+        24,
+        25,
+        39,
+        40,
+        40
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Wyper-OP15-114-V1?language=2"
+    },
+    "880044": {
+      "productId": 880044,
+      "at": "2026-11-02T15:20:32.421Z",
+      "status": "quoted",
+      "average": 5.4,
+      "sellers": 5,
+      "sample": [
+        300,
+        300,
+        700,
+        700,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Wyper-OP15-114-V2?language=2"
+    },
+    "880045": {
+      "productId": 880045,
+      "at": "2026-11-02T15:20:42.805Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Impact-Dial-OP15-115?language=2"
+    },
+    "880046": {
+      "productId": 880046,
+      "at": "2026-11-02T15:20:53.839Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Gum-Gum-Golden-Rifle-OP15-116-V1?language=2"
+    },
+    "880047": {
+      "productId": 880047,
+      "at": "2026-11-02T15:21:04.392Z",
+      "status": "quoted",
+      "average": 49.2,
+      "sellers": 5,
+      "sample": [
+        4800,
+        4900,
+        4900,
+        4999,
+        4999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Gum-Gum-Golden-Rifle-OP15-116-V2?language=2"
+    },
+    "880048": {
+      "productId": 880048,
+      "at": "2026-11-02T15:21:28.844Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Heso-OP15-117?language=2"
+    },
+    "880049": {
+      "productId": 880049,
+      "at": "2026-11-02T15:21:38.632Z",
+      "status": "quoted",
+      "average": 13.6,
+      "sellers": 5,
+      "sample": [
+        1300,
+        1300,
+        1400,
+        1400,
+        1400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Enel-OP15-118-V1?language=2"
+    },
+    "880050": {
+      "productId": 880050,
+      "at": "2026-11-02T15:21:48.322Z",
+      "status": "quoted",
+      "average": 24.4,
+      "sellers": 5,
+      "sample": [
+        2300,
+        2400,
+        2500,
+        2500,
+        2500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Enel-OP15-118-V2?language=2"
+    },
+    "880051": {
+      "productId": 880051,
+      "at": "2026-11-02T15:21:57.850Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        69500,
+        69900,
+        70000,
+        75000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Enel-OP15-118-V3?language=2"
+    },
+    "880052": {
+      "productId": 880052,
+      "at": "2026-11-02T15:22:07.854Z",
+      "status": "quoted",
+      "average": 10.98,
+      "sellers": 5,
+      "sample": [
+        1000,
+        1052,
+        1100,
+        1150,
+        1190
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/MonkeyDLuffy-OP15-119-V1?language=2"
+    },
+    "880053": {
+      "productId": 880053,
+      "at": "2026-11-02T15:22:28.757Z",
+      "status": "quoted",
+      "average": 32,
+      "sellers": 5,
+      "sample": [
+        2800,
+        2900,
+        3000,
+        3500,
+        3800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/MonkeyDLuffy-OP15-119-V2?language=2"
+    },
+    "880054": {
+      "productId": 880054,
+      "at": "2026-11-02T15:22:38.161Z",
+      "status": "quoted",
+      "average": 118.36,
+      "sellers": 5,
+      "sample": [
+        11000,
+        11500,
+        11678,
+        12500,
+        12500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Enel-EB02-052?language=2"
+    },
+    "880055": {
+      "productId": 880055,
+      "at": "2026-11-02T15:31:01.457Z",
+      "status": "quoted",
+      "average": 349.98,
+      "sellers": 5,
+      "sample": [
+        29000,
+        33500,
+        34990,
+        38000,
+        39499
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Zeus-OP11-106?language=2"
+    },
+    "880056": {
+      "productId": 880056,
+      "at": "2026-11-02T15:31:11.152Z",
+      "status": "quoted",
+      "average": 264,
+      "sellers": 5,
+      "sample": [
+        24000,
+        25500,
+        26000,
+        27500,
+        29000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Boa-Hancock-OP12-014?language=2"
+    },
+    "880057": {
+      "productId": 880057,
+      "at": "2026-11-02T15:31:38.303Z",
+      "status": "quoted",
+      "average": 160.76,
+      "sellers": 5,
+      "sample": [
+        14400,
+        14990,
+        15000,
+        17990,
+        17999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Trafalgar-Law-OP13-031?language=2"
+    },
+    "880058": {
+      "productId": 880058,
+      "at": "2026-11-02T15:31:49.152Z",
+      "status": "quoted",
+      "average": 116.79,
+      "sellers": 5,
+      "sample": [
+        9900,
+        10000,
+        12499,
+        12999,
+        12999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/EdwardNewgate-OP13-042?language=2"
+    },
+    "880059": {
+      "productId": 880059,
+      "at": "2026-11-02T15:32:09.000Z",
+      "status": "quoted",
+      "average": 79.3,
+      "sellers": 5,
+      "sample": [
+        7750,
+        7900,
+        7999,
+        8000,
+        8000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sabo-P-105?language=2"
+    },
+    "880060": {
+      "productId": 880060,
+      "at": "2026-11-02T15:32:19.400Z",
+      "status": "quoted",
+      "average": 192.6,
+      "sellers": 5,
+      "sample": [
+        18500,
+        18999,
+        19000,
+        19899,
+        19900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Sabo-PRB02-014?language=2"
+    },
+    "880061": {
+      "productId": 880061,
+      "at": "2026-11-02T15:32:38.300Z",
+      "status": "quoted",
+      "average": 285,
+      "sellers": 5,
+      "sample": [
+        27000,
+        27500,
+        29000,
+        29000,
+        30000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/MonkeyDLuffy-ST26-005?language=2"
+    },
+    "880301": {
+      "productId": 880301,
+      "at": "2026-11-02T15:31:58.818Z",
+      "status": "quoted",
+      "average": 172,
+      "sellers": 5,
+      "sample": [
+        16000,
+        17000,
+        17000,
+        18000,
+        18000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Otama-OP13-043?language=2"
     }
   }
 }

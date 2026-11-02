@@ -1,4 +1,106 @@
 {
+  "OP02-019_p1": {
+    "series": "622015",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 700840,
+      "expansion": 5263,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
+    "verifiedAt": "2026-11-02T21:33:12.316Z",
+    "note": "Illustration comparée visuellement à la carte officielle française. Plusieurs offres françaises de cette fiche portent explicitement le commentaire ST15. Ce code n'a qu'une impression dans le catalogue français ; Cardmarket regroupe ces offres sur la fiche OP d'origine.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622015",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Paramount-War/Rakuyo-OP02-019?language=2"
+    ]
+  },
+  "OP02-023_p1": {
+    "series": "622015",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 700852,
+      "expansion": 5263,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
+    "verifiedAt": "2026-11-02T21:33:43.883Z",
+    "note": "Illustration comparée visuellement à la carte officielle française. Plusieurs offres françaises de cette fiche portent explicitement le commentaire ST15. Ce code n'a qu'une impression dans le catalogue français ; Cardmarket regroupe ces offres sur la fiche OP d'origine.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622015",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Paramount-War/You-May-Be-a-Foolbut-I-Still-Love-You-OP02-023?language=2"
+    ]
+  },
+  "OP03-006_p1": {
+    "series": "622015",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 719930,
+      "expansion": 5364,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
+    "verifiedAt": "2026-11-02T21:33:59.799Z",
+    "note": "Illustration comparée visuellement à la carte officielle française. Plusieurs offres françaises de cette fiche portent explicitement le commentaire ST15. Ce code n'a qu'une impression dans le catalogue français ; Cardmarket regroupe ces offres sur la fiche OP d'origine.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622015",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Speed-Jil-OP03-006?language=2"
+    ]
+  },
+  "OP03-007_p1": {
+    "series": "622015",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 719931,
+      "expansion": 5364,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
+    "verifiedAt": "2026-11-02T21:34:20.528Z",
+    "note": "Illustration comparée visuellement à la carte officielle française. Plusieurs offres françaises de cette fiche portent explicitement le commentaire ST15. Ce code n'a qu'une impression dans le catalogue français ; Cardmarket regroupe ces offres sur la fiche OP d'origine.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622015",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Namule-OP03-007?language=2"
+    ]
+  },
+  "OP03-009_p1": {
+    "series": "622015",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 719933,
+      "expansion": 5364,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
+    "verifiedAt": "2026-11-02T21:34:40.172Z",
+    "note": "Illustration comparée visuellement à la carte officielle française. Plusieurs offres françaises de cette fiche portent explicitement le commentaire ST15. Ce code n'a qu'une impression dans le catalogue français ; Cardmarket regroupe ces offres sur la fiche OP d'origine.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622015",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Haruta-OP03-009?language=2"
+    ]
+  },
+  "OP03-010_p1": {
+    "series": "622015",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 719934,
+      "expansion": 5364,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
+    "verifiedAt": "2026-11-02T21:34:59.469Z",
+    "note": "Illustration comparée visuellement à la carte officielle française. Plusieurs offres françaises de cette fiche portent explicitement le commentaire ST15. Ce code n'a qu'une impression dans le catalogue français ; Cardmarket regroupe ces offres sur la fiche OP d'origine.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622015",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Fossa-OP03-010?language=2"
+    ]
+  },
   "OP03-079_r1": {
     "series": "622301",
     "label": "Illustration d’origine",

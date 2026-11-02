@@ -12,6 +12,33 @@ const idx = buildIndexes(catalogue);
 const card = (id: string) => idx.byId.get(id)!;
 const ctx = { qty: () => 0, price: () => null, keep: 1 };
 
+it('accepte les fiches OP partagées documentées pour les six réimpressions françaises ST15', () => {
+  for (const [id, productId] of [
+    ['OP02-019_p1', 700840], ['OP02-023_p1', 700852], ['OP03-006_p1', 719930],
+    ['OP03-007_p1', 719931], ['OP03-009_p1', 719933], ['OP03-010_p1', 719934],
+  ] as const) {
+    expect(defaultProductFor(card(id), idx, prices)?.product.id).toBe(productId);
+    expect(card(id).series).toEqual(['622015']);
+  }
+});
+
+it('suspend une fiche partagée si une seconde impression française du code apparaît', () => {
+  const original = card('OP02-019_p1');
+  const second = { ...original, id: 'OP02-019_p2', series: ['622302'] };
+  const ambiguous = buildIndexes({ ...catalogue, cards: [...catalogue.cards, second] });
+  expect(defaultProductFor(original, ambiguous, prices)).toBeUndefined();
+  const multiSeries = { ...original, series: ['622015', '622302'] };
+  expect(defaultProductFor(multiSeries, idx, prices)).toBeUndefined();
+});
+
+it('refuse une fiche partagée dont le code, l’édition ou la région change', () => {
+  const original = prices.products[700840];
+  for (const bad of [undefined, { ...original, code: 'OP02-023' }, { ...original, foreign: true }, { ...original, exp: 5300 }]) {
+    const changed = { ...prices, products: { ...prices.products, 700840: bad } } as Prices;
+    expect(defaultProductFor(card('OP02-019_p1'), idx, changed)).toBeUndefined();
+  }
+});
+
 it.each([
   ['OP03-079_p4', 799250],
   ['OP06-065_p3', 799370],

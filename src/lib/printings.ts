@@ -7,7 +7,7 @@ interface Printing {
   series: string;
   label: string;
   base: boolean;
-  cardmarket?: { id: number; expansion: number; version: number };
+  cardmarket?: { id: number; expansion: number; version: number; sharedFrenchListing?: true };
   sources: string[];
 }
 

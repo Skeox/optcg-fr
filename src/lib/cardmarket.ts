@@ -56,10 +56,14 @@ export function defaultProductFor(card: Card, idx: Indexes, prices: Prices): { p
   const verified = printing?.cardmarket;
   if (verified) {
     const product = prices.products[verified.id];
+    // Certaines réimpressions FR sont vendues sur la fiche de l'édition originale.
+    // Exception documentée individuellement, suspendue dès qu'une autre impression FR apparaît.
+    const sharedFrenchListing = verified.sharedFrenchListing === true && card.series.length === 1
+      && idx.byCode.get(card.code)?.length === 1 && idx.seriesById.has(printing.series);
     // Un changement de catalogue ne doit pas rabattre une correspondance vérifiée
     // sur une autre finition. Le rang interne product.version n'intervient jamais.
     return product && product.code === card.code && !product.foreign && product.exp === verified.expansion
-      && idx.seriesById.get(printing.series)?.cm.includes(product.exp)
+      && (idx.seriesById.get(printing.series)?.cm.includes(product.exp) || sharedFrenchListing)
       ? { product, sure: true } : undefined;
   }
   const evidence = merchantMappingFor(card);

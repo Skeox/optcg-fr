@@ -27,9 +27,13 @@ it.each(catalogue.series)('$code : chaque ancienne association doit prouver la m
       expect(p.code).toBe(card.code);
       expect(p.foreign).toBe(false);
       const evidence = merchantMappingFor(card);
-      if (series.cm.length) expect(series.cm).toContain(p.exp);
-      else expect(evidence?.expansion).toBe(p.exp);
       const verified = printingFor(card)?.cardmarket;
+      if (verified?.sharedFrenchListing === true) {
+        expect(card.series).toEqual([series.id]);
+        expect(printingFor(card)?.series).toBe(series.id);
+        expect(idx.byCode.get(card.code)).toHaveLength(1);
+      } else if (series.cm.length) expect(series.cm).toContain(p.exp);
+      else expect(evidence?.expansion).toBe(p.exp);
       if (verified) {
         expect(p.id).toBe(verified.id);
         expect(p.exp).toBe(verified.expansion);

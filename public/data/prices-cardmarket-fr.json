@@ -3,8 +3,218 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T20:24:49.821Z",
+  "updatedAt": "2026-11-02T21:34:59.469Z",
   "products": {
+    "700840": {
+      "productId": 700840,
+      "at": "2026-11-02T21:33:12.316Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Paramount-War/Rakuyo-OP02-019?language=2"
+    },
+    "700852": {
+      "productId": 700852,
+      "at": "2026-11-02T21:33:43.883Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Paramount-War/You-May-Be-a-Foolbut-I-Still-Love-You-OP02-023?language=2"
+    },
+    "719930": {
+      "productId": 719930,
+      "at": "2026-11-02T21:33:59.799Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Speed-Jil-OP03-006?language=2"
+    },
+    "719931": {
+      "productId": 719931,
+      "at": "2026-11-02T21:34:20.528Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Namule-OP03-007?language=2"
+    },
+    "719933": {
+      "productId": 719933,
+      "at": "2026-11-02T21:34:40.172Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Haruta-OP03-009?language=2"
+    },
+    "719934": {
+      "productId": 719934,
+      "at": "2026-11-02T21:34:59.469Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Fossa-OP03-010?language=2"
+    },
+    "794626": {
+      "productId": 794626,
+      "at": "2026-11-02T21:31:39.594Z",
+      "status": "quoted",
+      "average": 0.96,
+      "sellers": 5,
+      "sample": [
+        90,
+        90,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EdwardNewgate/EdwardNewgate-OP02-001?language=2"
+    },
+    "794627": {
+      "productId": 794627,
+      "at": "2026-11-02T21:31:49.304Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EdwardNewgate/Jozu-OP02-008?language=2"
+    },
+    "794628": {
+      "productId": 794628,
+      "at": "2026-11-02T21:31:59.507Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EdwardNewgate/Marco-OP02-018?language=2"
+    },
+    "794629": {
+      "productId": 794629,
+      "at": "2026-11-02T21:32:09.676Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EdwardNewgate/Izo-OP03-003?language=2"
+    },
+    "794630": {
+      "productId": 794630,
+      "at": "2026-11-02T21:30:36.121Z",
+      "status": "quoted",
+      "average": 0.2,
+      "sellers": 5,
+      "sample": [
+        8,
+        10,
+        20,
+        25,
+        35
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EdwardNewgate/EdwardNewgate-ST15-002?language=2"
+    },
+    "794631": {
+      "productId": 794631,
+      "at": "2026-11-02T21:30:46.031Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EdwardNewgate/Kingdew-ST15-003?language=2"
+    },
+    "794632": {
+      "productId": 794632,
+      "at": "2026-11-02T21:30:55.945Z",
+      "status": "quoted",
+      "average": 1.76,
+      "sellers": 5,
+      "sample": [
+        100,
+        181,
+        199,
+        200,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EdwardNewgate/Thatch-ST15-004?language=2"
+    },
+    "794633": {
+      "productId": 794633,
+      "at": "2026-11-02T21:31:05.965Z",
+      "status": "quoted",
+      "average": 1.68,
+      "sellers": 5,
+      "sample": [
+        140,
+        150,
+        150,
+        199,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EdwardNewgate/PortgasDAce-ST15-005?language=2"
+    },
     "799186": {
       "productId": 799186,
       "at": "2026-11-02T18:28:59.094Z",
@@ -3607,6 +3817,21 @@
         329
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Duval-ST12-014-V3?language=2"
+    },
+    "799550": {
+      "productId": 799550,
+      "at": "2026-11-02T21:30:25.304Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EdwardNewgate/Atmos-ST15-001?language=2"
     },
     "800784": {
       "productId": 800784,

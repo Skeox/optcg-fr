@@ -56,6 +56,17 @@
       "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDAce-OP13-119-V3?language=2"
     ]
   },
+  "ST20-003_p1": {
+    "series": "622302",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": { "id": 852615, "expansion": 6242, "version": 2 },
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622302",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best-Vol2/Charlotte-Brulee-ST20-003-V2?language=2",
+      "https://product-images.s3.cardmarket.com/1621/PRB02/852615/852615.jpg"
+    ]
+  },
   "OP06-065_p4": {
     "series": "622301",
     "label": "Illustration alternative",

@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T21:34:59.469Z",
+  "updatedAt": "2026-11-02T21:56:33.660Z",
   "products": {
     "700840": {
       "productId": 700840,
@@ -214,6 +214,231 @@
         200
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EdwardNewgate/PortgasDAce-ST15-005?language=2"
+    },
+    "794634": {
+      "productId": 794634,
+      "at": "2026-11-02T21:54:39.351Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Bartolomeo-P-029?language=2"
+    },
+    "794635": {
+      "productId": 794635,
+      "at": "2026-11-02T21:54:48.058Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Fleeting-Lullaby-P-057?language=2"
+    },
+    "794636": {
+      "productId": 794636,
+      "at": "2026-11-02T21:54:56.691Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        4,
+        7,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Where-the-Wind-Blows-P-058?language=2"
+    },
+    "794637": {
+      "productId": 794637,
+      "at": "2026-11-02T21:55:07.624Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        9
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/The-Worlds-Continuation-P-059?language=2"
+    },
+    "794638": {
+      "productId": 794638,
+      "at": "2026-11-02T21:55:16.532Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Tot-Musica-P-060?language=2"
+    },
+    "794639": {
+      "productId": 794639,
+      "at": "2026-11-02T21:56:33.660Z",
+      "status": "quoted",
+      "average": 0.84,
+      "sellers": 5,
+      "sample": [
+        50,
+        70,
+        99,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Uta-ST11-001?language=2"
+    },
+    "794640": {
+      "productId": 794640,
+      "at": "2026-11-02T21:55:34.022Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Backlight-ST11-003?language=2"
+    },
+    "794641": {
+      "productId": 794641,
+      "at": "2026-11-02T21:55:46.176Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/New-Genesis-ST11-004?language=2"
+    },
+    "794642": {
+      "productId": 794642,
+      "at": "2026-11-02T21:55:55.058Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Im-invincible-ST11-005?language=2"
+    },
+    "794643": {
+      "productId": 794643,
+      "at": "2026-11-02T21:53:43.340Z",
+      "status": "quoted",
+      "average": 0.22,
+      "sellers": 5,
+      "sample": [
+        18,
+        20,
+        20,
+        23,
+        30
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Uta-ST16-001?language=2"
+    },
+    "794644": {
+      "productId": 794644,
+      "at": "2026-11-02T21:53:52.440Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Gordon-ST16-002?language=2"
+    },
+    "794645": {
+      "productId": 794645,
+      "at": "2026-11-02T21:54:01.226Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Charlotte-Katakuri-ST16-003?language=2"
+    },
+    "794646": {
+      "productId": 794646,
+      "at": "2026-11-02T21:54:09.995Z",
+      "status": "quoted",
+      "average": 2.1,
+      "sellers": 5,
+      "sample": [
+        200,
+        200,
+        200,
+        200,
+        250
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Shanks-ST16-004?language=2"
+    },
+    "794647": {
+      "productId": 794647,
+      "at": "2026-11-02T21:54:30.604Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/MonkeyDLuffy-ST16-005?language=2"
+    },
+    "795690": {
+      "productId": 795690,
+      "at": "2026-11-02T21:55:25.457Z",
+      "status": "quoted",
+      "average": 0.95,
+      "sellers": 5,
+      "sample": [
+        90,
+        90,
+        99,
+        99,
+        99
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/MonkeyDLuffy-P-061?language=2"
     },
     "799186": {
       "productId": 799186,

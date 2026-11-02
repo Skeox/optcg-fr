@@ -16,9 +16,11 @@ export function euroCents(text) {
 /** Input is a DOM observation, never the page's mixed-language price guide. */
 export function summarizeCardmarketPage(page, target, now = new Date()) {
   const url = new URL(page.url);
+  const hasExactCode = [...String(page.title).matchAll(/\(([^()]*)\)/g)]
+    .some(match => match[1].trim() === target.code);
   if (url.origin !== 'https://www.cardmarket.com' || !url.pathname.startsWith('/fr/OnePiece/Products/Singles/')
     || url.searchParams.get('language') !== '2' || page.productId !== target.productId
-    || !String(page.title).includes(`(${target.code})`) || !Array.isArray(page.offers) || typeof page.hasMore !== 'boolean') {
+    || !hasExactCode || !Array.isArray(page.offers) || typeof page.hasMore !== 'boolean') {
     throw new Error('Page produit, identité ou langue non vérifiable');
   }
   const at = Date.parse(page.at);

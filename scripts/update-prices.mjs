@@ -6,6 +6,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { parseCardmarketName } from './lib/cardmarket-catalogue.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'public', 'data');
@@ -28,14 +29,13 @@ async function getJson(url) {
 const [productsFile, pricesFile] = await Promise.all([getJson(PRODUCTS_URL), getJson(PRICES_URL)]);
 const priceById = new Map(pricesFile.priceGuides.map((p) => [p.idProduct, p]));
 
-const codeRe = /\(([A-Z]+-?\d*-\d{3})\)\s*$/;
 const products = {};
 const byCode = {};
 let unknownExp = new Set();
 for (const p of productsFile.products) {
-  const m = p.name.match(codeRe);
-  if (!m) continue;
-  const code = m[1];
+  const parsed = parseCardmarketName(p.name);
+  if (!parsed) continue;
+  const code = parsed.code;
   if (!codes.has(code)) continue;
   const exp = expansions[p.idExpansion];
   if (!exp) unknownExp.add(p.idExpansion);
@@ -43,7 +43,7 @@ for (const p of productsFile.products) {
   const r = (x) => (x == null ? null : Math.round(x * 100) / 100);
   products[p.idProduct] = {
     id: p.idProduct,
-    name: p.name.replace(codeRe, '').trim(),
+    name: parsed.name,
     code,
     exp: p.idExpansion,
     expName: exp?.name ?? `Extension ${p.idExpansion}`,

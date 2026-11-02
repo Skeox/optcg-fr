@@ -11,6 +11,16 @@ const page = () => ({ ...target, at, url: 'https://www.cardmarket.com/fr/OnePiec
   offers: [offer('a'), offer('b', '44,99 €'), offer('c', '44,99 €'), offer('d', '45,00 €'), offer('e', '45,00 €')] });
 
 describe('collecte Cardmarket FR', () => {
+  it('accepte les espaces autour du code exact sans accepter les codes voisins', () => {
+    const uta = { productId: 794639, code: 'ST11-001' };
+    const observation = { ...page(), productId: uta.productId,
+      url: 'https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Uta-ST11-001?language=2',
+      title: 'Uta ( ST11-001)\nStarter Deck: Green Uta - Cartes' };
+    expect(summarizeCardmarketPage(observation, uta, now).status).toBe('quoted');
+    for (const title of ['Uta ( ST11-0010)', 'Uta ( ST11-002)', 'Uta ( ST11-001 / ST11-002)', 'Uta ST11-001']) {
+      expect(() => summarizeCardmarketPage({ ...observation, title }, uta, now)).toThrow();
+    }
+  });
   it('calcule 44,80 € avec cinq vendeurs, sans pondérer par le stock', () => {
     const p = page(); p.offers[0].quantity = 100;
     expect(summarizeCardmarketPage(p, target, now)).toMatchObject({ status: 'quoted', average: 44.8, sellers: 5, sample: [4400, 4499, 4499, 4500, 4500] });

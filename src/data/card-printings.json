@@ -1,4 +1,16 @@
 {
+  "ST11-001_p1": {
+    "series": "622016",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": { "id": 794639, "expansion": 5748, "version": 1 },
+    "verifiedAt": "2026-11-02T21:56:33.660Z",
+    "note": "Illustration du Leader Uta comparée visuellement à la carte officielle française et à la fiche Starter Deck: Green Uta. L’espace avant ST11-001 dans le nom du catalogue Cardmarket masquait ce produit ; l’identifiant 794639, le code et l’édition ST16 sont confirmés sur la fiche.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622016",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Uta/Uta-ST11-001?language=2"
+    ]
+  },
   "OP02-019_p1": {
     "series": "622015",
     "label": "Version du deck",

@@ -1,4 +1,16 @@
 {
+  "OP05-061_p1": {
+    "series": "622018",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": { "id": 747519, "expansion": 5426, "version": 1, "sharedFrenchListing": true },
+    "verifiedAt": "2026-11-02T22:35:14.679Z",
+    "note": "Illustration et absence de marquage spécial comparées visuellement à la carte officielle française. La fiche OP05 d’origine affiche quatre vendeurs français NM, dont une annonce explicitement ST18. Ce code ne compte qu’une impression française dans le catalogue, appartenant à ST18. La correspondance est confirmée, mais quatre vendeurs ne suffisent pas à publier un prix.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622018",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Awakening-of-the-New-Era/Uso-Hachi-OP05-061?language=2"
+    ]
+  },
   "OP02-054_p1": {
     "series": "622017",
     "label": "Version du deck",

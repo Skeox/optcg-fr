@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T22:16:11.691Z",
+  "updatedAt": "2026-11-02T22:35:14.679Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -154,6 +154,20 @@
         2
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Pillars-of-Strength/Fossa-OP03-010?language=2"
+    },
+    "747519": {
+      "productId": 747519,
+      "at": "2026-11-02T22:35:14.679Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        2,
+        2,
+        3,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Awakening-of-the-New-Era/Uso-Hachi-OP05-061?language=2"
     },
     "794626": {
       "productId": 794626,
@@ -619,6 +633,126 @@
         2
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Donquixote-Doflamingo/MarshallDTeach-ST17-005?language=2"
+    },
+    "794657": {
+      "productId": 794657,
+      "at": "2026-11-02T22:34:31.946Z",
+      "status": "quoted",
+      "average": 3.82,
+      "sellers": 5,
+      "sample": [
+        350,
+        380,
+        380,
+        399,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-MonkeyDLuffy/MonkeyDLuffy-OP05-060?language=2"
+    },
+    "794658": {
+      "productId": 794658,
+      "at": "2026-11-02T22:34:41.105Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        4,
+        5,
+        5,
+        5,
+        8
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-MonkeyDLuffy/Zoro-Juurou-OP05-067?language=2"
+    },
+    "794659": {
+      "productId": 794659,
+      "at": "2026-11-02T22:34:49.723Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-MonkeyDLuffy/When-Youre-at-Sea-You-Fight-against-Pirates-OP05-076?language=2"
+    },
+    "794660": {
+      "productId": 794660,
+      "at": "2026-11-02T22:33:44.220Z",
+      "status": "quoted",
+      "average": 0.53,
+      "sellers": 5,
+      "sample": [
+        43,
+        44,
+        50,
+        60,
+        70
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-MonkeyDLuffy/Uso-Hachi-ST18-001?language=2"
+    },
+    "794661": {
+      "productId": 794661,
+      "at": "2026-11-02T22:33:52.766Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        3,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-MonkeyDLuffy/O-Nami-ST18-002?language=2"
+    },
+    "794662": {
+      "productId": 794662,
+      "at": "2026-11-02T22:34:01.643Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-MonkeyDLuffy/San-Gorou-ST18-003?language=2"
+    },
+    "794663": {
+      "productId": 794663,
+      "at": "2026-11-02T22:34:10.762Z",
+      "status": "quoted",
+      "average": 0.99,
+      "sellers": 5,
+      "sample": [
+        95,
+        99,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-MonkeyDLuffy/Zoro-Juurou-ST18-004?language=2"
+    },
+    "794664": {
+      "productId": 794664,
+      "at": "2026-11-02T22:34:23.474Z",
+      "status": "quoted",
+      "average": 1.08,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        100,
+        120,
+        120
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-MonkeyDLuffy/Luffy-Tarou-ST18-005?language=2"
     },
     "795690": {
       "productId": 795690,
@@ -32115,6 +32249,21 @@
         10999
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Koby-OP16-064-V2?language=2"
+    },
+    "892387": {
+      "productId": 892387,
+      "at": "2026-11-02T22:35:01.048Z",
+      "status": "quoted",
+      "average": 2.75,
+      "sellers": 5,
+      "sample": [
+        250,
+        260,
+        285,
+        290,
+        290
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-MonkeyDLuffy/MonkeyDLuffy-P-041?language=2"
     },
     "903879": {
       "productId": 903879,

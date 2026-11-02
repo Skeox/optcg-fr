@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T23:38:32.562Z",
+  "updatedAt": "2026-11-02T23:58:37.252Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -16172,6 +16172,471 @@
         9900
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/Sabo-OP10-049?language=2"
+    },
+    "846352": {
+      "productId": 846352,
+      "at": "2026-11-02T23:53:36.879Z",
+      "status": "quoted",
+      "average": 0.47,
+      "sellers": 5,
+      "sample": [
+        43,
+        44,
+        50,
+        50,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Ace-Newgate-ST22-001-V1?language=2"
+    },
+    "846353": {
+      "productId": 846353,
+      "at": "2026-11-02T23:53:45.438Z",
+      "status": "quoted",
+      "average": 17.58,
+      "sellers": 5,
+      "sample": [
+        1700,
+        1700,
+        1790,
+        1800,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Ace-Newgate-ST22-001-V2?language=2"
+    },
+    "846354": {
+      "productId": 846354,
+      "at": "2026-11-02T23:53:54.282Z",
+      "status": "quoted",
+      "average": 0.33,
+      "sellers": 5,
+      "sample": [
+        30,
+        30,
+        31,
+        34,
+        39
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Izo-ST22-002-V1?language=2"
+    },
+    "846355": {
+      "productId": 846355,
+      "at": "2026-11-02T23:54:02.916Z",
+      "status": "quoted",
+      "average": 5,
+      "sellers": 5,
+      "sample": [
+        499,
+        500,
+        500,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Izo-ST22-002-V2?language=2"
+    },
+    "846356": {
+      "productId": 846356,
+      "at": "2026-11-02T23:54:14.226Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/EdwardNewgate-ST22-003-V1?language=2"
+    },
+    "846357": {
+      "productId": 846357,
+      "at": "2026-11-02T23:54:22.720Z",
+      "status": "quoted",
+      "average": 3.4,
+      "sellers": 5,
+      "sample": [
+        200,
+        350,
+        350,
+        399,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/EdwardNewgate-ST22-003-V2?language=2"
+    },
+    "846358": {
+      "productId": 846358,
+      "at": "2026-11-02T23:54:31.398Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Elmy-ST22-004-V1?language=2"
+    },
+    "846359": {
+      "productId": 846359,
+      "at": "2026-11-02T23:54:40.058Z",
+      "status": "quoted",
+      "average": 0.6,
+      "sellers": 5,
+      "sample": [
+        39,
+        50,
+        55,
+        70,
+        85
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Elmy-ST22-004-V2?language=2"
+    },
+    "846360": {
+      "productId": 846360,
+      "at": "2026-11-02T23:54:52.371Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        4,
+        4,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Kouzuki-Oden-ST22-005-V1?language=2"
+    },
+    "846361": {
+      "productId": 846361,
+      "at": "2026-11-02T23:55:01.033Z",
+      "status": "quoted",
+      "average": 2.3,
+      "sellers": 5,
+      "sample": [
+        200,
+        200,
+        200,
+        250,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Kouzuki-Oden-ST22-005-V2?language=2"
+    },
+    "846362": {
+      "productId": 846362,
+      "at": "2026-11-02T23:55:09.735Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Jozu-ST22-006-V1?language=2"
+    },
+    "846363": {
+      "productId": 846363,
+      "at": "2026-11-02T23:55:18.551Z",
+      "status": "quoted",
+      "average": 0.9,
+      "sellers": 5,
+      "sample": [
+        70,
+        80,
+        99,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Jozu-ST22-006-V2?language=2"
+    },
+    "846364": {
+      "productId": 846364,
+      "at": "2026-11-02T23:55:31.856Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Squard-ST22-007-V1?language=2"
+    },
+    "846365": {
+      "productId": 846365,
+      "at": "2026-11-02T23:55:41.826Z",
+      "status": "quoted",
+      "average": 0.99,
+      "sellers": 5,
+      "sample": [
+        95,
+        100,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Squard-ST22-007-V2?language=2"
+    },
+    "846366": {
+      "productId": 846366,
+      "at": "2026-11-02T23:55:51.421Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Decalvan-Brothers-ST22-008-V1?language=2"
+    },
+    "846367": {
+      "productId": 846367,
+      "at": "2026-11-02T23:56:00.927Z",
+      "status": "quoted",
+      "average": 0.45,
+      "sellers": 5,
+      "sample": [
+        40,
+        40,
+        45,
+        49,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Decalvan-Brothers-ST22-008-V2?language=2"
+    },
+    "846368": {
+      "productId": 846368,
+      "at": "2026-11-02T23:56:14.170Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Vista-ST22-009-V1?language=2"
+    },
+    "846369": {
+      "productId": 846369,
+      "at": "2026-11-02T23:56:23.810Z",
+      "status": "quoted",
+      "average": 1,
+      "sellers": 5,
+      "sample": [
+        99,
+        100,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Vista-ST22-009-V2?language=2"
+    },
+    "846370": {
+      "productId": 846370,
+      "at": "2026-11-02T23:56:33.279Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/PortgasDAce-ST22-010-V1?language=2"
+    },
+    "846371": {
+      "productId": 846371,
+      "at": "2026-11-02T23:56:42.665Z",
+      "status": "quoted",
+      "average": 3.1,
+      "sellers": 5,
+      "sample": [
+        250,
+        299,
+        300,
+        300,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/PortgasDAce-ST22-010-V2?language=2"
+    },
+    "846372": {
+      "productId": 846372,
+      "at": "2026-11-02T23:56:55.367Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Whitey-Bay-ST22-011-V1?language=2"
+    },
+    "846373": {
+      "productId": 846373,
+      "at": "2026-11-02T23:57:04.931Z",
+      "status": "quoted",
+      "average": 0.98,
+      "sellers": 5,
+      "sample": [
+        90,
+        98,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Whitey-Bay-ST22-011-V2?language=2"
+    },
+    "846374": {
+      "productId": 846374,
+      "at": "2026-11-02T23:57:15.054Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Marco-ST22-012-V1?language=2"
+    },
+    "846375": {
+      "productId": 846375,
+      "at": "2026-11-02T23:57:24.523Z",
+      "status": "quoted",
+      "average": 3.19,
+      "sellers": 5,
+      "sample": [
+        299,
+        299,
+        300,
+        349,
+        350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Marco-ST22-012-V2?language=2"
+    },
+    "846376": {
+      "productId": 846376,
+      "at": "2026-11-02T23:57:36.756Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/LittleOars-Jr-ST22-013-V1?language=2"
+    },
+    "846377": {
+      "productId": 846377,
+      "at": "2026-11-02T23:57:46.351Z",
+      "status": "quoted",
+      "average": 0.79,
+      "sellers": 5,
+      "sample": [
+        45,
+        80,
+        88,
+        90,
+        94
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/LittleOars-Jr-ST22-013-V2?language=2"
+    },
+    "846378": {
+      "productId": 846378,
+      "at": "2026-11-02T23:57:55.959Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/AO-ST22-014-V1?language=2"
+    },
+    "846379": {
+      "productId": 846379,
+      "at": "2026-11-02T23:58:05.324Z",
+      "status": "quoted",
+      "average": 0.41,
+      "sellers": 5,
+      "sample": [
+        20,
+        40,
+        45,
+        50,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/AO-ST22-014-V2?language=2"
+    },
+    "846380": {
+      "productId": 846380,
+      "at": "2026-11-02T23:58:18.299Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/I-Am-Whitebeard-ST22-015?language=2"
+    },
+    "846381": {
+      "productId": 846381,
+      "at": "2026-11-02T23:58:27.772Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Take-That-Back-Take-Back-What-You-Said-ST22-016?language=2"
+    },
+    "846382": {
+      "productId": 846382,
+      "at": "2026-11-02T23:58:37.252Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Ace-Newgate/Fire-Fist-ST22-017?language=2"
     },
     "852302": {
       "productId": 852302,

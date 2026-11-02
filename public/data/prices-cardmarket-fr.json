@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T13:42:41.352Z",
+  "updatedAt": "2026-11-02T13:57:17.235Z",
   "products": {
     "799250": {
       "productId": 799250,
@@ -12111,6 +12111,92 @@
         39
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/Trafalgar-Law-OP14-009-V1?language=2"
+    },
+    "865412": {
+      "productId": 865412,
+      "at": "2026-11-02T13:55:56.624Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 2,
+      "sample": [
+        1700,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/Trafalgar-Law-OP14-009-V2?language=2"
+    },
+    "865413": {
+      "productId": 865413,
+      "at": "2026-11-02T13:56:19.601Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/Basil-Hawkins-OP14-010?language=2"
+    },
+    "865414": {
+      "productId": 865414,
+      "at": "2026-11-02T13:56:31.760Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/Bartolomeo-OP14-011?language=2"
+    },
+    "865415": {
+      "productId": 865415,
+      "at": "2026-11-02T13:56:43.819Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/Bepo-OP14-012?language=2"
+    },
+    "865416": {
+      "productId": 865416,
+      "at": "2026-11-02T13:56:55.093Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        7,
+        100,
+        300,
+        390
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/MonkeyDLuffy-OP14-013-V1?language=2"
+    },
+    "865417": {
+      "productId": 865417,
+      "at": "2026-11-02T13:57:17.235Z",
+      "status": "quoted",
+      "average": 14.2,
+      "sellers": 5,
+      "sample": [
+        1100,
+        1499,
+        1500,
+        1500,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/MonkeyDLuffy-OP14-013-V2?language=2"
     }
   }
 }

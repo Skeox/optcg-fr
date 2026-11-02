@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T23:17:59.865Z",
+  "updatedAt": "2026-11-02T23:38:32.562Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -7199,6 +7199,486 @@
         42500
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Sanji-OP06-119?language=2"
+    },
+    "816813": {
+      "productId": 816813,
+      "at": "2026-11-02T23:33:37.749Z",
+      "status": "quoted",
+      "average": 1.98,
+      "sellers": 5,
+      "sample": [
+        179,
+        180,
+        200,
+        200,
+        230
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/MonkeyDLuffy-ST21-001-V1?language=2"
+    },
+    "816814": {
+      "productId": 816814,
+      "at": "2026-11-02T23:33:50.910Z",
+      "status": "quoted",
+      "average": 65.6,
+      "sellers": 5,
+      "sample": [
+        5999,
+        6000,
+        6900,
+        6949,
+        6950
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/MonkeyDLuffy-ST21-001-V2?language=2"
+    },
+    "816815": {
+      "productId": 816815,
+      "at": "2026-11-02T23:33:59.598Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Usopp-ST21-002-V1?language=2"
+    },
+    "816816": {
+      "productId": 816816,
+      "at": "2026-11-02T23:34:08.596Z",
+      "status": "quoted",
+      "average": 1.7,
+      "sellers": 5,
+      "sample": [
+        100,
+        149,
+        199,
+        200,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Usopp-ST21-002-V2?language=2"
+    },
+    "816817": {
+      "productId": 816817,
+      "at": "2026-11-02T23:34:19.512Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Sanji-ST21-003-V1?language=2"
+    },
+    "816818": {
+      "productId": 816818,
+      "at": "2026-11-02T23:34:28.063Z",
+      "status": "quoted",
+      "average": 5.57,
+      "sellers": 5,
+      "sample": [
+        500,
+        500,
+        590,
+        598,
+        599
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Sanji-ST21-003-V2?language=2"
+    },
+    "816819": {
+      "productId": 816819,
+      "at": "2026-11-02T23:34:36.855Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Jewelry-Bonney-ST21-004-V1?language=2"
+    },
+    "816820": {
+      "productId": 816820,
+      "at": "2026-11-02T23:34:45.368Z",
+      "status": "quoted",
+      "average": 2.9,
+      "sellers": 5,
+      "sample": [
+        250,
+        250,
+        250,
+        349,
+        350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Jewelry-Bonney-ST21-004-V2?language=2"
+    },
+    "816821": {
+      "productId": 816821,
+      "at": "2026-11-02T23:34:58.884Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Jinbe-ST21-005-V1?language=2"
+    },
+    "816822": {
+      "productId": 816822,
+      "at": "2026-11-02T23:35:07.479Z",
+      "status": "quoted",
+      "average": 2,
+      "sellers": 5,
+      "sample": [
+        199,
+        200,
+        200,
+        200,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Jinbe-ST21-005-V2?language=2"
+    },
+    "816823": {
+      "productId": 816823,
+      "at": "2026-11-02T23:35:16.277Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Stussy-ST21-006-V1?language=2"
+    },
+    "816824": {
+      "productId": 816824,
+      "at": "2026-11-02T23:35:24.973Z",
+      "status": "quoted",
+      "average": 1.6,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        199,
+        199,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Stussy-ST21-006-V2?language=2"
+    },
+    "816825": {
+      "productId": 816825,
+      "at": "2026-11-02T23:35:36.554Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Sentomaru-ST21-007-V1?language=2"
+    },
+    "816826": {
+      "productId": 816826,
+      "at": "2026-11-02T23:35:45.404Z",
+      "status": "quoted",
+      "average": 0.72,
+      "sellers": 5,
+      "sample": [
+        50,
+        50,
+        60,
+        99,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Sentomaru-ST21-007-V2?language=2"
+    },
+    "816827": {
+      "productId": 816827,
+      "at": "2026-11-02T23:35:54.063Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Tony-TonyChopper-ST21-008-V1?language=2"
+    },
+    "816828": {
+      "productId": 816828,
+      "at": "2026-11-02T23:36:02.625Z",
+      "status": "quoted",
+      "average": 10.2,
+      "sellers": 5,
+      "sample": [
+        999,
+        1000,
+        1000,
+        1000,
+        1099
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Tony-TonyChopper-ST21-008-V2?language=2"
+    },
+    "816829": {
+      "productId": 816829,
+      "at": "2026-11-02T23:36:13.789Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Nami-ST21-009-V1?language=2"
+    },
+    "816830": {
+      "productId": 816830,
+      "at": "2026-11-02T23:36:22.348Z",
+      "status": "quoted",
+      "average": 6.9,
+      "sellers": 5,
+      "sample": [
+        650,
+        650,
+        650,
+        700,
+        799
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Nami-ST21-009-V2?language=2"
+    },
+    "816831": {
+      "productId": 816831,
+      "at": "2026-11-02T23:36:30.920Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Nico-Robin-ST21-010-V1?language=2"
+    },
+    "816832": {
+      "productId": 816832,
+      "at": "2026-11-02T23:36:39.790Z",
+      "status": "quoted",
+      "average": 6.6,
+      "sellers": 5,
+      "sample": [
+        600,
+        600,
+        700,
+        700,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Nico-Robin-ST21-010-V2?language=2"
+    },
+    "816833": {
+      "productId": 816833,
+      "at": "2026-11-02T23:36:50.986Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Franky-ST21-011-V1?language=2"
+    },
+    "816834": {
+      "productId": 816834,
+      "at": "2026-11-02T23:36:59.789Z",
+      "status": "quoted",
+      "average": 1.4,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        150,
+        150,
+        199
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Franky-ST21-011-V2?language=2"
+    },
+    "816835": {
+      "productId": 816835,
+      "at": "2026-11-02T23:37:08.484Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Brook-ST21-012-V1?language=2"
+    },
+    "816836": {
+      "productId": 816836,
+      "at": "2026-11-02T23:37:17.502Z",
+      "status": "quoted",
+      "average": 2.44,
+      "sellers": 5,
+      "sample": [
+        200,
+        200,
+        250,
+        280,
+        290
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Brook-ST21-012-V2?language=2"
+    },
+    "816837": {
+      "productId": 816837,
+      "at": "2026-11-02T23:37:28.563Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Vegapunk-ST21-013-V1?language=2"
+    },
+    "816838": {
+      "productId": 816838,
+      "at": "2026-11-02T23:37:37.243Z",
+      "status": "quoted",
+      "average": 1.49,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        150,
+        198,
+        199
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Vegapunk-ST21-013-V2?language=2"
+    },
+    "816839": {
+      "productId": 816839,
+      "at": "2026-11-02T23:37:45.844Z",
+      "status": "quoted",
+      "average": 6.03,
+      "sellers": 5,
+      "sample": [
+        599,
+        600,
+        600,
+        609,
+        609
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/MonkeyDLuffy-ST21-014-V1?language=2"
+    },
+    "816840": {
+      "productId": 816840,
+      "at": "2026-11-02T23:37:54.300Z",
+      "status": "quoted",
+      "average": 17.76,
+      "sellers": 5,
+      "sample": [
+        1500,
+        1789,
+        1790,
+        1800,
+        1999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/MonkeyDLuffy-ST21-014-V2?language=2"
+    },
+    "816841": {
+      "productId": 816841,
+      "at": "2026-11-02T23:38:06.601Z",
+      "status": "quoted",
+      "average": 0.43,
+      "sellers": 5,
+      "sample": [
+        40,
+        40,
+        40,
+        45,
+        49
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Roronoa-Zoro-ST21-015-V1?language=2"
+    },
+    "816842": {
+      "productId": 816842,
+      "at": "2026-11-02T23:38:15.145Z",
+      "status": "quoted",
+      "average": 16.8,
+      "sellers": 5,
+      "sample": [
+        1500,
+        1500,
+        1800,
+        1800,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Roronoa-Zoro-ST21-015-V2?language=2"
+    },
+    "816843": {
+      "productId": 816843,
+      "at": "2026-11-02T23:38:24.064Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Gum-Gum-Dawn-Whip-ST21-016?language=2"
+    },
+    "816844": {
+      "productId": 816844,
+      "at": "2026-11-02T23:38:32.562Z",
+      "status": "quoted",
+      "average": 0.46,
+      "sellers": 5,
+      "sample": [
+        10,
+        34,
+        35,
+        50,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Ultra-Deck-EX-Gear-5/Gum-Gum-Mole-Pistol-ST21-017?language=2"
     },
     "816999": {
       "productId": 816999,

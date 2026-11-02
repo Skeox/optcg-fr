@@ -41,7 +41,17 @@ describe('collecte Cardmarket FR', () => {
   });
   it('lit les euros sans confondre devise, séparateurs et prix nul', () => {
     expect(euroCents('1 234,56 €')).toBe(123456);
-    for (const text of ['0,00 €', '1,25 $', '12abc €', '1,234.56 €', 'NaN €']) expect(euroCents(text)).toBeNull();
+    expect(euroCents('1.500,00 €')).toBe(150000);
+    expect(euroCents('12.345.678,90 €')).toBe(1234567890);
+    expect(euroCents('12.50 €')).toBe(1250);
+    for (const text of ['0,00 €', '1,25 $', '12abc €', '1,234.56 €', '12.34,56 €', '1.23.456,78 €', 'NaN €']) expect(euroCents(text)).toBeNull();
+  });
+  it('conserve les offres françaises au-dessus de mille euros dans les cinq vendeurs', () => {
+    const p = page();
+    p.offers = ['900,00 €', '1.000,00 €', '1.250,00 €', '1.500,00 €', '3.000,00 €', '4.000,00 €']
+      .map((price, i) => offer(`seller${i}`, price));
+    expect(summarizeCardmarketPage(p, target, now)).toMatchObject({ status: 'quoted', average: 1530,
+      sellers: 5, sample: [90000, 100000, 125000, 150000, 300000] });
   });
 });
 

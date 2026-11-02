@@ -5,7 +5,9 @@ export function emptyPrices() {
 }
 
 export function euroCents(text) {
-  const s = String(text ?? '').replace(/[\s\u00a0\u202f]/g, '');
+  const raw = String(text ?? '').replace(/[\s\u00a0\u202f]/g, '');
+  // Cardmarket's French UI uses dots for thousands and a comma for cents.
+  const s = /^\d{1,3}(?:\.\d{3})+,\d{2}€$/.test(raw) ? raw.replaceAll('.', '') : raw;
   if (!/^\d+(?:[.,]\d{2})?€$/.test(s)) return null;
   const n = Math.round(Number(s.slice(0, -1).replace(',', '.')) * 100);
   return Number.isSafeInteger(n) && n > 0 ? n : null;

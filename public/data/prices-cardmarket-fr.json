@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T16:59:30.358Z",
+  "updatedAt": "2026-11-02T17:42:11.320Z",
   "products": {
     "799250": {
       "productId": 799250,
@@ -262,13 +262,16 @@
     },
     "802866": {
       "productId": 802866,
-      "at": "2026-10-31T18:31:20.440Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 2,
+      "at": "2026-11-02T17:35:13.692Z",
+      "status": "quoted",
+      "average": 1639.6,
+      "sellers": 5,
       "sample": [
         89900,
-        90000
+        90000,
+        150000,
+        190000,
+        299900
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Shanks-OP09-004-V4?language=2"
     },
@@ -1144,12 +1147,13 @@
     },
     "802925": {
       "productId": 802925,
-      "at": "2026-10-31T18:41:26.816Z",
+      "at": "2026-11-02T17:35:22.360Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 1,
+      "sellers": 2,
       "sample": [
-        99500
+        99500,
+        160000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Buggy-OP09-051-V4?language=2"
     },
@@ -1905,11 +1909,14 @@
     },
     "802976": {
       "productId": 802976,
-      "at": "2026-10-31T18:49:54.689Z",
+      "at": "2026-11-02T17:35:31.167Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 0,
-      "sample": [],
+      "sellers": 2,
+      "sample": [
+        160000,
+        250000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MarshallDTeach-OP09-093-V4?language=2"
     },
     "802977": {
@@ -2334,11 +2341,16 @@
     },
     "803005": {
       "productId": 803005,
-      "at": "2026-10-31T18:55:05.355Z",
+      "at": "2026-11-02T17:35:39.862Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 0,
-      "sample": [],
+      "sellers": 4,
+      "sample": [
+        799900,
+        800000,
+        800000,
+        1200000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/GolDRoger-OP09-118-V3?language=2"
     },
     "803006": {
@@ -2373,11 +2385,17 @@
     },
     "803008": {
       "productId": 803008,
-      "at": "2026-10-31T18:55:30.794Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 0,
-      "sample": [],
+      "at": "2026-11-02T17:35:48.609Z",
+      "status": "quoted",
+      "average": 9940,
+      "sellers": 5,
+      "sample": [
+        235000,
+        260000,
+        275000,
+        1000000,
+        3200000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MonkeyDLuffy-OP09-119-V3?language=2"
     },
     "814438": {
@@ -4660,6 +4678,1512 @@
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Royal-Blood/Perona-OP09-034?language=2"
     },
+    "823420": {
+      "productId": 823420,
+      "at": "2026-11-02T17:39:42.285Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 2,
+      "sample": [
+        150000,
+        150000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Kouzuki-Oden-EB01-001?language=2"
+    },
+    "823421": {
+      "productId": 823421,
+      "at": "2026-11-02T17:39:51.052Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        50000,
+        50000,
+        100000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Hannyabal-EB01-021?language=2"
+    },
+    "823422": {
+      "productId": 823422,
+      "at": "2026-11-02T17:39:59.736Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 1,
+      "sample": [
+        100000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Kyros-EB01-040?language=2"
+    },
+    "823423": {
+      "productId": 823423,
+      "at": "2026-11-02T17:14:14.103Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Karoo-EB02-001?language=2"
+    },
+    "823424": {
+      "productId": 823424,
+      "at": "2026-11-02T17:14:22.814Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Sabo-EB02-002?language=2"
+    },
+    "823425": {
+      "productId": 823425,
+      "at": "2026-11-02T17:14:31.811Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Tony-TonyChopper-EB02-003-V1?language=2"
+    },
+    "823426": {
+      "productId": 823426,
+      "at": "2026-11-02T17:14:40.678Z",
+      "status": "quoted",
+      "average": 29.19,
+      "sellers": 5,
+      "sample": [
+        2800,
+        2800,
+        2998,
+        2999,
+        2999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Tony-TonyChopper-EB02-003-V2?language=2"
+    },
+    "823427": {
+      "productId": 823427,
+      "at": "2026-11-02T17:14:49.635Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Don-Accino-EB02-004?language=2"
+    },
+    "823428": {
+      "productId": 823428,
+      "at": "2026-11-02T17:15:04.060Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Fake-Straw-Hat-Crew-EB02-005?language=2"
+    },
+    "823429": {
+      "productId": 823429,
+      "at": "2026-11-02T17:15:13.076Z",
+      "status": "quoted",
+      "average": 2.65,
+      "sellers": 5,
+      "sample": [
+        210,
+        239,
+        285,
+        290,
+        299
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Yamato-EB02-006-V1?language=2"
+    },
+    "823430": {
+      "productId": 823430,
+      "at": "2026-11-02T17:15:22.153Z",
+      "status": "quoted",
+      "average": 21.8,
+      "sellers": 5,
+      "sample": [
+        1800,
+        2200,
+        2200,
+        2300,
+        2400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Yamato-EB02-006-V2?language=2"
+    },
+    "823431": {
+      "productId": 823431,
+      "at": "2026-11-02T17:15:32.636Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Cloven-Rose-Blizzard-EB02-007?language=2"
+    },
+    "823432": {
+      "productId": 823432,
+      "at": "2026-11-02T17:15:42.737Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        2,
+        5,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/The-Peak-EB02-008?language=2"
+    },
+    "823433": {
+      "productId": 823433,
+      "at": "2026-11-02T17:15:56.261Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Thousand-Sunny-EB02-009?language=2"
+    },
+    "823434": {
+      "productId": 823434,
+      "at": "2026-11-02T17:16:05.209Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/MonkeyDLuffy-EB02-010-V1?language=2"
+    },
+    "823435": {
+      "productId": 823435,
+      "at": "2026-11-02T17:16:15.499Z",
+      "status": "quoted",
+      "average": 912.4,
+      "sellers": 5,
+      "sample": [
+        82000,
+        89800,
+        89999,
+        94500,
+        99900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/MonkeyDLuffy-EB02-010-V2?language=2"
+    },
+    "823436": {
+      "productId": 823436,
+      "at": "2026-11-02T17:16:24.325Z",
+      "status": "quoted",
+      "average": 0.97,
+      "sellers": 5,
+      "sample": [
+        80,
+        80,
+        98,
+        100,
+        125
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Arlong-EB02-011-V1?language=2"
+    },
+    "823437": {
+      "productId": 823437,
+      "at": "2026-11-02T17:16:32.940Z",
+      "status": "quoted",
+      "average": 6.58,
+      "sellers": 5,
+      "sample": [
+        599,
+        600,
+        690,
+        700,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Arlong-EB02-011-V2?language=2"
+    },
+    "823438": {
+      "productId": 823438,
+      "at": "2026-11-02T17:16:46.055Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Gaimon-EB02-012?language=2"
+    },
+    "823439": {
+      "productId": 823439,
+      "at": "2026-11-02T17:16:55.026Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Carrot-EB02-013?language=2"
+    },
+    "823440": {
+      "productId": 823440,
+      "at": "2026-11-02T17:17:04.171Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Sarfunkel-EB02-014?language=2"
+    },
+    "823441": {
+      "productId": 823441,
+      "at": "2026-11-02T17:17:12.975Z",
+      "status": "quoted",
+      "average": 0.37,
+      "sellers": 5,
+      "sample": [
+        30,
+        30,
+        35,
+        40,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Jewelry-Bonney-EB02-015-V1?language=2"
+    },
+    "823442": {
+      "productId": 823442,
+      "at": "2026-11-02T17:17:21.862Z",
+      "status": "quoted",
+      "average": 14.7,
+      "sellers": 5,
+      "sample": [
+        1400,
+        1450,
+        1498,
+        1500,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Jewelry-Bonney-EB02-015-V2?language=2"
+    },
+    "823443": {
+      "productId": 823443,
+      "at": "2026-11-02T17:17:37.505Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Chopperman-EB02-016?language=2"
+    },
+    "823444": {
+      "productId": 823444,
+      "at": "2026-11-02T17:17:46.083Z",
+      "status": "quoted",
+      "average": 6.58,
+      "sellers": 5,
+      "sample": [
+        540,
+        650,
+        700,
+        700,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Nami-EB02-017-V1?language=2"
+    },
+    "823445": {
+      "productId": 823445,
+      "at": "2026-11-02T17:17:55.022Z",
+      "status": "quoted",
+      "average": 64.18,
+      "sellers": 5,
+      "sample": [
+        6200,
+        6400,
+        6490,
+        6500,
+        6500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Nami-EB02-017-V2?language=2"
+    },
+    "823446": {
+      "productId": 823446,
+      "at": "2026-11-02T17:18:03.999Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Buggy-EB02-018?language=2"
+    },
+    "823447": {
+      "productId": 823447,
+      "at": "2026-11-02T17:18:13.134Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Roronoa-Zoro-EB02-019?language=2"
+    },
+    "823448": {
+      "productId": 823448,
+      "at": "2026-11-02T17:18:27.009Z",
+      "status": "quoted",
+      "average": 1.02,
+      "sellers": 5,
+      "sample": [
+        90,
+        99,
+        100,
+        100,
+        120
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/We-Are-EB02-020?language=2"
+    },
+    "823449": {
+      "productId": 823449,
+      "at": "2026-11-02T17:18:35.892Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Gum-Gum-Giant-Pistol-EB02-021?language=2"
+    },
+    "823450": {
+      "productId": 823450,
+      "at": "2026-11-02T17:18:45.024Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Usopp-EB02-022-V1?language=2"
+    },
+    "823451": {
+      "productId": 823451,
+      "at": "2026-11-02T17:18:53.638Z",
+      "status": "quoted",
+      "average": 15.47,
+      "sellers": 5,
+      "sample": [
+        1395,
+        1490,
+        1599,
+        1600,
+        1650
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Usopp-EB02-022-V2?language=2"
+    },
+    "823452": {
+      "productId": 823452,
+      "at": "2026-11-02T17:19:02.601Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Crocodile-EB02-023?language=2"
+    },
+    "823453": {
+      "productId": 823453,
+      "at": "2026-11-02T17:19:15.834Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Sogeking-EB02-024?language=2"
+    },
+    "823454": {
+      "productId": 823454,
+      "at": "2026-11-02T17:19:25.087Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Donquixote-Rosinante-EB02-025?language=2"
+    },
+    "823455": {
+      "productId": 823455,
+      "at": "2026-11-02T17:19:33.789Z",
+      "status": "quoted",
+      "average": 2,
+      "sellers": 5,
+      "sample": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Nefeltari-Vivi-EB02-026-V1?language=2"
+    },
+    "823457": {
+      "productId": 823457,
+      "at": "2026-11-02T17:19:42.280Z",
+      "status": "quoted",
+      "average": 21.18,
+      "sellers": 5,
+      "sample": [
+        1990,
+        2000,
+        2199,
+        2200,
+        2200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Nefeltari-Vivi-EB02-026-V2?language=2"
+    },
+    "823458": {
+      "productId": 823458,
+      "at": "2026-11-02T17:19:51.145Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Vista-EB02-027?language=2"
+    },
+    "823459": {
+      "productId": 823459,
+      "at": "2026-11-02T17:20:05.184Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/PortgasDAce-EB02-028?language=2"
+    },
+    "823460": {
+      "productId": 823460,
+      "at": "2026-11-02T17:20:14.556Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Grandpa-Ryu-EB02-029?language=2"
+    },
+    "823461": {
+      "productId": 823461,
+      "at": "2026-11-02T17:20:23.462Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/And-Thats-When-Somebody-Makes-Fun-of-Their-Friends-Dream-EB02-030?language=2"
+    },
+    "823462": {
+      "productId": 823462,
+      "at": "2026-11-02T17:20:32.632Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        3,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Hope-EB02-031?language=2"
+    },
+    "823464": {
+      "productId": 823464,
+      "at": "2026-11-02T17:20:41.834Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Iceburg-EB02-032?language=2"
+    },
+    "823465": {
+      "productId": 823465,
+      "at": "2026-11-02T17:20:56.270Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Klabautermann-EB02-033?language=2"
+    },
+    "823466": {
+      "productId": 823466,
+      "at": "2026-11-02T17:21:05.427Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Komei-EB02-034?language=2"
+    },
+    "823467": {
+      "productId": 823467,
+      "at": "2026-11-02T17:21:14.098Z",
+      "status": "quoted",
+      "average": 6.4,
+      "sellers": 5,
+      "sample": [
+        500,
+        650,
+        650,
+        699,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Sanji-Pudding-EB02-035-V1?language=2"
+    },
+    "823468": {
+      "productId": 823468,
+      "at": "2026-11-02T17:21:23.561Z",
+      "status": "quoted",
+      "average": 24.6,
+      "sellers": 5,
+      "sample": [
+        2000,
+        2100,
+        2200,
+        2500,
+        3500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Sanji-Pudding-EB02-035-V2?language=2"
+    },
+    "823469": {
+      "productId": 823469,
+      "at": "2026-11-02T17:21:32.936Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Nico-Robin-EB02-036-V1?language=2"
+    },
+    "823470": {
+      "productId": 823470,
+      "at": "2026-11-02T17:21:46.418Z",
+      "status": "quoted",
+      "average": 29.39,
+      "sellers": 5,
+      "sample": [
+        2899,
+        2900,
+        2945,
+        2950,
+        3000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Nico-Robin-EB02-036-V2?language=2"
+    },
+    "823471": {
+      "productId": 823471,
+      "at": "2026-11-02T17:21:55.325Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Franky-EB02-037?language=2"
+    },
+    "823472": {
+      "productId": 823472,
+      "at": "2026-11-02T17:22:04.429Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Magellan-EB02-038?language=2"
+    },
+    "823473": {
+      "productId": 823473,
+      "at": "2026-11-02T17:22:13.346Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/GERMA-66-EB02-039?language=2"
+    },
+    "823474": {
+      "productId": 823474,
+      "at": "2026-11-02T17:22:22.184Z",
+      "status": "quoted",
+      "average": 0.1,
+      "sellers": 5,
+      "sample": [
+        8,
+        10,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/BRAND-NEW-WORLD-EB02-040?language=2"
+    },
+    "823475": {
+      "productId": 823475,
+      "at": "2026-11-02T17:22:36.631Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        3,
+        5,
+        5,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Merry-Go-EB02-041?language=2"
+    },
+    "823477": {
+      "productId": 823477,
+      "at": "2026-11-02T17:22:45.649Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/All-Hunt-Grount-EB02-042?language=2"
+    },
+    "823478": {
+      "productId": 823478,
+      "at": "2026-11-02T17:22:54.657Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Jonathan-EB02-043?language=2"
+    },
+    "823479": {
+      "productId": 823479,
+      "at": "2026-11-02T17:23:03.568Z",
+      "status": "quoted",
+      "average": 0.58,
+      "sellers": 5,
+      "sample": [
+        50,
+        50,
+        50,
+        50,
+        90
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Sengoku-EB02-044-V1?language=2"
+    },
+    "823480": {
+      "productId": 823480,
+      "at": "2026-11-02T17:23:12.161Z",
+      "status": "quoted",
+      "average": 7.06,
+      "sellers": 5,
+      "sample": [
+        640,
+        650,
+        700,
+        750,
+        789
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Sengoku-EB02-044-V2?language=2"
+    },
+    "823481": {
+      "productId": 823481,
+      "at": "2026-11-02T17:23:26.150Z",
+      "status": "quoted",
+      "average": 0.38,
+      "sellers": 5,
+      "sample": [
+        25,
+        25,
+        40,
+        50,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Trafalgar-Law-EB02-045-V1?language=2"
+    },
+    "823482": {
+      "productId": 823482,
+      "at": "2026-11-02T17:23:34.683Z",
+      "status": "quoted",
+      "average": 18.49,
+      "sellers": 5,
+      "sample": [
+        1798,
+        1800,
+        1848,
+        1850,
+        1950
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Trafalgar-Law-EB02-045-V2?language=2"
+    },
+    "823483": {
+      "productId": 823483,
+      "at": "2026-11-02T17:23:43.541Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Hildon-EB02-046?language=2"
+    },
+    "823484": {
+      "productId": 823484,
+      "at": "2026-11-02T17:23:52.513Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Blueno-EB02-047?language=2"
+    },
+    "823485": {
+      "productId": 823485,
+      "at": "2026-11-02T17:24:01.406Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Brook-EB02-048-V1?language=2"
+    },
+    "823486": {
+      "productId": 823486,
+      "at": "2026-11-02T17:24:15.975Z",
+      "status": "quoted",
+      "average": 14,
+      "sellers": 5,
+      "sample": [
+        1250,
+        1250,
+        1499,
+        1500,
+        1500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Brook-EB02-048-V2?language=2"
+    },
+    "823488": {
+      "productId": 823488,
+      "at": "2026-11-02T17:24:25.005Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        3,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/MonkeyDGarp-EB02-049?language=2"
+    },
+    "823489": {
+      "productId": 823489,
+      "at": "2026-11-02T17:24:33.831Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Kokoro-no-Chizu-EB02-050?language=2"
+    },
+    "823490": {
+      "productId": 823490,
+      "at": "2026-11-02T17:24:43.542Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Three-Pace-Hum-Soul-Notch-Slash-EB02-051?language=2"
+    },
+    "823491": {
+      "productId": 823491,
+      "at": "2026-11-02T17:24:52.132Z",
+      "status": "quoted",
+      "average": 7.5,
+      "sellers": 5,
+      "sample": [
+        700,
+        700,
+        700,
+        750,
+        900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Enel-EB02-052-V1?language=2"
+    },
+    "823492": {
+      "productId": 823492,
+      "at": "2026-11-02T17:25:04.824Z",
+      "status": "quoted",
+      "average": 19.1,
+      "sellers": 5,
+      "sample": [
+        1898,
+        1900,
+        1900,
+        1900,
+        1950
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Enel-EB02-052-V2?language=2"
+    },
+    "823500": {
+      "productId": 823500,
+      "at": "2026-11-02T17:25:13.859Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Myskina-Olga-EB02-053?language=2"
+    },
+    "823501": {
+      "productId": 823501,
+      "at": "2026-11-02T17:25:22.762Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        5,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Sanji-EB02-054-V1?language=2"
+    },
+    "823502": {
+      "productId": 823502,
+      "at": "2026-11-02T17:25:31.459Z",
+      "status": "quoted",
+      "average": 9.6,
+      "sellers": 5,
+      "sample": [
+        800,
+        999,
+        999,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Sanji-EB02-054-V2?language=2"
+    },
+    "823503": {
+      "productId": 823503,
+      "at": "2026-11-02T17:25:40.947Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Jinbe-EB02-055?language=2"
+    },
+    "823509": {
+      "productId": 823509,
+      "at": "2026-11-02T17:25:54.398Z",
+      "status": "quoted",
+      "average": 1.49,
+      "sellers": 5,
+      "sample": [
+        120,
+        120,
+        150,
+        165,
+        190
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Vegapunk-EB02-056-V1?language=2"
+    },
+    "823510": {
+      "productId": 823510,
+      "at": "2026-11-02T17:26:03.462Z",
+      "status": "quoted",
+      "average": 9.79,
+      "sellers": 5,
+      "sample": [
+        949,
+        950,
+        999,
+        999,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Vegapunk-EB02-056-V2?language=2"
+    },
+    "823511": {
+      "productId": 823511,
+      "at": "2026-11-02T17:26:12.452Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Mad-Treasure-EB02-057?language=2"
+    },
+    "823512": {
+      "productId": 823512,
+      "at": "2026-11-02T17:26:21.618Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/UUUUUS-EB02-058?language=2"
+    },
+    "823513": {
+      "productId": 823513,
+      "at": "2026-11-02T17:26:31.391Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Without-Your-Help-I-Cant-Become-the-King-of-the-Pirates-EB02-059?language=2"
+    },
+    "823514": {
+      "productId": 823514,
+      "at": "2026-11-02T17:26:45.892Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Merry-Go-EB02-060?language=2"
+    },
+    "823515": {
+      "productId": 823515,
+      "at": "2026-11-02T17:26:54.622Z",
+      "status": "quoted",
+      "average": 4.8,
+      "sellers": 5,
+      "sample": [
+        400,
+        500,
+        500,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/MonkeyDLuffy-EB02-061-V1?language=2"
+    },
+    "823516": {
+      "productId": 823516,
+      "at": "2026-11-02T17:27:03.442Z",
+      "status": "quoted",
+      "average": 49.6,
+      "sellers": 5,
+      "sample": [
+        4800,
+        4999,
+        5000,
+        5000,
+        5000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/MonkeyDLuffy-EB02-061-V2?language=2"
+    },
+    "823517": {
+      "productId": 823517,
+      "at": "2026-11-02T17:39:33.531Z",
+      "status": "quoted",
+      "average": 3060,
+      "sellers": 5,
+      "sample": [
+        250000,
+        265000,
+        320000,
+        345000,
+        350000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/MonkeyDLuffy-EB02-061-V3?language=2"
+    },
+    "823518": {
+      "productId": 823518,
+      "at": "2026-11-02T17:27:52.402Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 1,
+      "sample": [
+        85000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Sabo-OP05-001?language=2"
+    },
+    "823519": {
+      "productId": 823519,
+      "at": "2026-11-02T17:40:21.952Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        49999,
+        69900,
+        120000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Belo-Betty-OP05-002?language=2"
+    },
+    "823520": {
+      "productId": 823520,
+      "at": "2026-11-02T17:40:31.378Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        90000,
+        95000,
+        150000,
+        250000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Donquixote-Rosinante-OP05-022?language=2"
+    },
+    "823521": {
+      "productId": 823521,
+      "at": "2026-11-02T17:40:40.150Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/MonkeyDLuffy-OP05-060?language=2"
+    },
+    "823522": {
+      "productId": 823522,
+      "at": "2026-11-02T17:40:48.786Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        120000,
+        150000,
+        500000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Enel-OP05-098?language=2"
+    },
+    "823523": {
+      "productId": 823523,
+      "at": "2026-11-02T17:28:41.795Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 2,
+      "sample": [
+        79000,
+        85000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Uta-OP06-001?language=2"
+    },
+    "823524": {
+      "productId": 823524,
+      "at": "2026-11-02T17:41:10.436Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        40000,
+        50000,
+        200000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Hody-Jones-OP06-020?language=2"
+    },
+    "823525": {
+      "productId": 823525,
+      "at": "2026-11-02T17:41:19.133Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 2,
+      "sample": [
+        80000,
+        100000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Perona-OP06-021?language=2"
+    },
+    "823526": {
+      "productId": 823526,
+      "at": "2026-11-02T17:41:28.770Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 1,
+      "sample": [
+        200000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Yamato-OP06-022?language=2"
+    },
+    "823527": {
+      "productId": 823527,
+      "at": "2026-11-02T17:41:38.174Z",
+      "status": "quoted",
+      "average": 1540,
+      "sellers": 5,
+      "sample": [
+        120000,
+        150000,
+        150000,
+        150000,
+        200000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Vinsmoke-Reiju-OP06-042?language=2"
+    },
+    "823528": {
+      "productId": 823528,
+      "at": "2026-11-02T17:41:46.885Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        69000,
+        69000,
+        219000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Gecko-Moria-OP06-080?language=2"
+    },
+    "823529": {
+      "productId": 823529,
+      "at": "2026-11-02T17:42:01.631Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        250000,
+        250000,
+        300000,
+        320000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/MonkeyDDragon-OP07-001?language=2"
+    },
+    "823530": {
+      "productId": 823530,
+      "at": "2026-11-02T17:42:11.320Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        89595,
+        150000,
+        150000,
+        195000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Jewelry-Bonney-OP07-019?language=2"
+    },
+    "823531": {
+      "productId": 823531,
+      "at": "2026-11-02T17:32:39.569Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 2,
+      "sample": [
+        108989,
+        850000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Boa-Hancock-OP07-038?language=2"
+    },
+    "823532": {
+      "productId": 823532,
+      "at": "2026-11-02T17:32:48.249Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 1,
+      "sample": [
+        60000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Foxy-OP07-059?language=2"
+    },
+    "823533": {
+      "productId": 823533,
+      "at": "2026-11-02T17:32:56.740Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        40000,
+        41999,
+        67000,
+        190000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Rob-Lucci-OP07-079?language=2"
+    },
+    "823534": {
+      "productId": 823534,
+      "at": "2026-11-02T17:33:05.161Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        90000,
+        90000,
+        100000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Vegapunk-OP07-097?language=2"
+    },
+    "823535": {
+      "productId": 823535,
+      "at": "2026-11-02T17:33:13.872Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        350000,
+        390000,
+        840000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Tony-TonyChopper-OP08-001?language=2"
+    },
+    "823536": {
+      "productId": 823536,
+      "at": "2026-11-02T17:33:35.123Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 0,
+      "sample": [],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Marco-OP08-002?language=2"
+    },
+    "823537": {
+      "productId": 823537,
+      "at": "2026-11-02T17:33:43.472Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 1,
+      "sample": [
+        79900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Carrot-OP08-021?language=2"
+    },
+    "823538": {
+      "productId": 823538,
+      "at": "2026-11-02T17:33:52.176Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        269599,
+        699000,
+        720000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/King-OP08-057?language=2"
+    },
+    "823539": {
+      "productId": 823539,
+      "at": "2026-11-02T17:34:00.590Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 2,
+      "sample": [
+        245000,
+        250000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Charlotte-Pudding-OP08-058?language=2"
+    },
+    "823540": {
+      "productId": 823540,
+      "at": "2026-11-02T17:34:09.347Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        180000,
+        234900,
+        1000000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Kalgara-OP08-098?language=2"
+    },
     "827077": {
       "productId": 827077,
       "at": "2026-11-01T17:58:46.620Z",
@@ -6822,13 +8346,16 @@
     },
     "827259": {
       "productId": 827259,
-      "at": "2026-11-01T18:18:20.691Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 2,
+      "at": "2026-11-02T17:36:07.257Z",
+      "status": "quoted",
+      "average": 1019.99,
+      "sellers": 5,
       "sample": [
         69998,
-        79995
+        79995,
+        110000,
+        120000,
+        130000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP11-118-V3?language=2"
     },
@@ -6954,20 +8481,31 @@
     },
     "827268": {
       "productId": 827268,
-      "at": "2026-11-01T18:18:58.842Z",
+      "at": "2026-11-02T17:36:15.688Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 0,
-      "sample": [],
+      "sellers": 4,
+      "sample": [
+        250000,
+        260000,
+        500000,
+        620000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP05-119-V1?language=2"
     },
     "827269": {
       "productId": 827269,
-      "at": "2026-11-01T18:19:05.368Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 0,
-      "sample": [],
+      "at": "2026-11-02T17:36:24.544Z",
+      "status": "quoted",
+      "average": 10800,
+      "sellers": 5,
+      "sample": [
+        599999,
+        600000,
+        700000,
+        700000,
+        2800000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP05-119-V2?language=2"
     },
     "829117": {
@@ -9237,11 +10775,15 @@
     },
     "843037": {
       "productId": 843037,
-      "at": "2026-11-01T18:53:02.558Z",
+      "at": "2026-11-02T17:36:33.063Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 0,
-      "sample": [],
+      "sellers": 3,
+      "sample": [
+        159900,
+        180000,
+        200000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/MarshallDTeach-OP09-093-V1?language=2"
     },
     "843038": {
@@ -11646,20 +13188,28 @@
     },
     "857339": {
       "productId": 857339,
-      "at": "2026-11-01T19:21:18.219Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 0,
-      "sample": [],
+      "at": "2026-11-02T17:36:41.916Z",
+      "status": "quoted",
+      "average": 1700,
+      "sellers": 5,
+      "sample": [
+        119999,
+        130000,
+        200000,
+        200000,
+        200000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDLuffy-OP13-118-V4?language=2"
     },
     "857340": {
       "productId": 857340,
-      "at": "2026-11-01T19:21:25.015Z",
+      "at": "2026-11-02T17:36:59.951Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 0,
-      "sample": [],
+      "sellers": 1,
+      "sample": [
+        1900000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDLuffy-OP13-118-V5?language=2"
     },
     "857341": {
@@ -11739,7 +13289,7 @@
     },
     "857347": {
       "productId": 857347,
-      "at": "2026-11-01T19:22:02.560Z",
+      "at": "2026-11-02T17:37:08.503Z",
       "status": "insufficient",
       "average": null,
       "sellers": 0,
@@ -11808,11 +13358,16 @@
     },
     "857352": {
       "productId": 857352,
-      "at": "2026-11-01T19:22:33.337Z",
+      "at": "2026-11-02T17:37:16.957Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 0,
-      "sample": [],
+      "sellers": 4,
+      "sample": [
+        355000,
+        375000,
+        390000,
+        580000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sabo-OP13-120-V5?language=2"
     },
     "857353": {
@@ -11862,13 +13417,16 @@
     },
     "857356": {
       "productId": 857356,
-      "at": "2026-11-01T19:23:07.643Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 2,
+      "at": "2026-11-02T17:37:26.061Z",
+      "status": "quoted",
+      "average": 939,
+      "sellers": 5,
       "sample": [
         79500,
-        80000
+        80000,
+        100000,
+        105000,
+        105000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Shanks-OP09-004-V1?language=2"
     },
@@ -14855,28 +16413,31 @@
     },
     "865555": {
       "productId": 865555,
-      "at": "2026-11-02T14:38:05.811Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 4,
+      "at": "2026-11-02T17:37:58.873Z",
+      "status": "quoted",
+      "average": 924,
+      "sellers": 5,
       "sample": [
         85000,
         89000,
         93000,
-        95000
+        95000,
+        100000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/Buggy-OP09-051-V1?language=2"
     },
     "865556": {
       "productId": 865556,
-      "at": "2026-11-02T14:38:14.873Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 3,
+      "at": "2026-11-02T17:38:07.633Z",
+      "status": "quoted",
+      "average": 960,
+      "sellers": 5,
       "sample": [
         75000,
         85000,
-        90000
+        90000,
+        110000,
+        120000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/Buggy-OP09-051-V2?language=2"
     },
@@ -15467,14 +17028,16 @@
     },
     "879537": {
       "productId": 879537,
-      "at": "2026-11-02T15:29:49.995Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 3,
+      "at": "2026-11-02T17:38:24.733Z",
+      "status": "quoted",
+      "average": 4015.1,
+      "sellers": 5,
       "sample": [
         1900,
         2750,
-        3000
+        3000,
+        999900,
+        1000000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Borsalino-EB04-058-V1?language=2"
     },
@@ -17700,15 +19263,16 @@
     },
     "880051": {
       "productId": 880051,
-      "at": "2026-11-02T15:21:57.850Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 4,
+      "at": "2026-11-02T17:38:16.180Z",
+      "status": "quoted",
+      "average": 768.8,
+      "sellers": 5,
       "sample": [
         69500,
         69900,
         70000,
-        75000
+        75000,
+        100000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Enel-OP15-118-V3?language=2"
     },
@@ -19049,14 +20613,16 @@
     },
     "890753": {
       "productId": 890753,
-      "at": "2026-11-02T16:00:11.722Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 3,
+      "at": "2026-11-02T17:38:42.631Z",
+      "status": "quoted",
+      "average": 959.8,
+      "sellers": 5,
       "sample": [
         79999,
         90000,
-        99900
+        99900,
+        100000,
+        110000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Kuzan-OP16-063-V3?language=2"
     },
@@ -19107,15 +20673,16 @@
     },
     "890757": {
       "productId": 890757,
-      "at": "2026-11-02T16:01:04.245Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 4,
+      "at": "2026-11-02T17:38:51.379Z",
+      "status": "quoted",
+      "average": 861.6,
+      "sellers": 5,
       "sample": [
         69900,
         77999,
         85000,
-        89900
+        89900,
+        108000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Sakazuki-OP16-065-V3?language=2"
     },
@@ -19256,12 +20823,13 @@
     },
     "890767": {
       "productId": 890767,
-      "at": "2026-11-02T16:03:01.977Z",
+      "at": "2026-11-02T17:38:59.913Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 1,
+      "sellers": 2,
       "sample": [
-        65000
+        65000,
+        120000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Borsalino-OP16-073-V3?language=2"
     },
@@ -22507,11 +24075,17 @@
     },
     "904147": {
       "productId": 904147,
-      "at": "2026-11-02T16:57:28.211Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 0,
-      "sample": [],
+      "at": "2026-11-02T17:39:08.718Z",
+      "status": "quoted",
+      "average": 4200,
+      "sellers": 5,
+      "sample": [
+        370000,
+        380000,
+        399999,
+        400000,
+        550000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/RocksDXebec-OP17-118-V3?language=2"
     },
     "904148": {
@@ -22696,11 +24270,15 @@
     },
     "904160": {
       "productId": 904160,
-      "at": "2026-11-02T16:58:03.203Z",
+      "at": "2026-11-02T17:39:17.147Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 0,
-      "sample": [],
+      "sellers": 3,
+      "sample": [
+        449900,
+        1000000,
+        2000000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MonkeyDLuffy-EB04-061?language=2"
     },
     "904428": {

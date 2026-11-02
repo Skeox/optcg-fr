@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T15:32:38.300Z",
+  "updatedAt": "2026-11-02T16:03:10.828Z",
   "products": {
     "799250": {
       "productId": 799250,
@@ -17876,6 +17876,1424 @@
         18000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Adventure-on-Kamis-Island/Otama-OP13-043?language=2"
+    },
+    "890525": {
+      "productId": 890525,
+      "at": "2026-11-02T15:46:54.543Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/PortgasDAce-OP16-001-V1?language=2"
+    },
+    "890526": {
+      "productId": 890526,
+      "at": "2026-11-02T15:47:03.498Z",
+      "status": "quoted",
+      "average": 35.8,
+      "sellers": 5,
+      "sample": [
+        2500,
+        3800,
+        3800,
+        3900,
+        3900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/PortgasDAce-OP16-001-V2?language=2"
+    },
+    "890527": {
+      "productId": 890527,
+      "at": "2026-11-02T15:47:12.306Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Izo-OP16-002?language=2"
+    },
+    "890528": {
+      "productId": 890528,
+      "at": "2026-11-02T15:47:21.071Z",
+      "status": "quoted",
+      "average": 0.88,
+      "sellers": 5,
+      "sample": [
+        39,
+        100,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/EdwardNewgate-OP16-003-V1?language=2"
+    },
+    "890529": {
+      "productId": 890529,
+      "at": "2026-11-02T15:47:29.592Z",
+      "status": "quoted",
+      "average": 15.7,
+      "sellers": 5,
+      "sample": [
+        1250,
+        1498,
+        1500,
+        1800,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/EdwardNewgate-OP16-003-V2?language=2"
+    },
+    "890530": {
+      "productId": 890530,
+      "at": "2026-11-02T15:47:44.314Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Curiel-OP16-004?language=2"
+    },
+    "890531": {
+      "productId": 890531,
+      "at": "2026-11-02T15:47:53.259Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Thatch-OP16-005?language=2"
+    },
+    "890532": {
+      "productId": 890532,
+      "at": "2026-11-02T15:48:02.359Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Shanks-OP16-006?language=2"
+    },
+    "890533": {
+      "productId": 890533,
+      "at": "2026-11-02T15:48:11.290Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Jozu-OP16-007?language=2"
+    },
+    "890534": {
+      "productId": 890534,
+      "at": "2026-11-02T15:48:20.182Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Squard-OP16-008?language=2"
+    },
+    "890535": {
+      "productId": 890535,
+      "at": "2026-11-02T15:48:35.947Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Speed-Jil-OP16-009?language=2"
+    },
+    "890536": {
+      "productId": 890536,
+      "at": "2026-11-02T15:48:44.734Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Namule-OP16-010?language=2"
+    },
+    "890537": {
+      "productId": 890537,
+      "at": "2026-11-02T15:48:53.502Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Vista-OP16-011-V1?language=2"
+    },
+    "890539": {
+      "productId": 890539,
+      "at": "2026-11-02T15:49:02.275Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/BennBeckman-OP16-012?language=2"
+    },
+    "890611": {
+      "productId": 890611,
+      "at": "2026-11-02T15:49:11.121Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/McGuy-OP16-013?language=2"
+    },
+    "890612": {
+      "productId": 890612,
+      "at": "2026-11-02T15:49:27.130Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Marco-OP16-014-V1?language=2"
+    },
+    "890613": {
+      "productId": 890613,
+      "at": "2026-11-02T15:49:35.795Z",
+      "status": "quoted",
+      "average": 6.57,
+      "sellers": 5,
+      "sample": [
+        399,
+        649,
+        650,
+        790,
+        799
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Marco-OP16-014-V2?language=2"
+    },
+    "890614": {
+      "productId": 890614,
+      "at": "2026-11-02T15:49:44.669Z",
+      "status": "quoted",
+      "average": 0.81,
+      "sellers": 5,
+      "sample": [
+        70,
+        75,
+        85,
+        85,
+        90
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/MonkeyDLuffy-OP16-015-V1?language=2"
+    },
+    "890615": {
+      "productId": 890615,
+      "at": "2026-11-02T15:49:53.433Z",
+      "status": "quoted",
+      "average": 20,
+      "sellers": 5,
+      "sample": [
+        1999,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/MonkeyDLuffy-OP16-015-V2?language=2"
+    },
+    "890616": {
+      "productId": 890616,
+      "at": "2026-11-02T15:50:02.440Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Ramba-OP16-016?language=2"
+    },
+    "890617": {
+      "productId": 890617,
+      "at": "2026-11-02T15:50:17.343Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/LittleOars-Jr-OP16-017?language=2"
+    },
+    "890618": {
+      "productId": 890618,
+      "at": "2026-11-02T15:50:26.551Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Rockstar-OP16-018?language=2"
+    },
+    "890619": {
+      "productId": 890619,
+      "at": "2026-11-02T15:50:36.518Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Lets-Show-Em-What-Were-Made-Of-OP16-019?language=2"
+    },
+    "890620": {
+      "productId": 890620,
+      "at": "2026-11-02T15:50:46.223Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/If-Youre-Coming-with-Me-Kiss-Your-Lives-Goodbye-OP16-020?language=2"
+    },
+    "890621": {
+      "productId": 890621,
+      "at": "2026-11-02T15:50:55.016Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Moby-Dick-OP16-021-V1?language=2"
+    },
+    "890622": {
+      "productId": 890622,
+      "at": "2026-11-02T15:51:09.812Z",
+      "status": "quoted",
+      "average": 10.18,
+      "sellers": 5,
+      "sample": [
+        900,
+        1000,
+        1000,
+        1000,
+        1190
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Moby-Dick-OP16-021-V2?language=2"
+    },
+    "890623": {
+      "productId": 890623,
+      "at": "2026-11-02T15:51:18.701Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/MonkeyDLuffy-OP16-022-V1?language=2"
+    },
+    "890624": {
+      "productId": 890624,
+      "at": "2026-11-02T15:51:27.366Z",
+      "status": "quoted",
+      "average": 47.86,
+      "sellers": 5,
+      "sample": [
+        4750,
+        4780,
+        4800,
+        4800,
+        4800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/MonkeyDLuffy-OP16-022-V2?language=2"
+    },
+    "890625": {
+      "productId": 890625,
+      "at": "2026-11-02T15:51:36.239Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Arlong-OP16-023?language=2"
+    },
+    "890626": {
+      "productId": 890626,
+      "at": "2026-11-02T15:51:45.077Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Inazuma-OP16-024?language=2"
+    },
+    "890627": {
+      "productId": 890627,
+      "at": "2026-11-02T15:51:59.702Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Bunkov-OP16-025?language=2"
+    },
+    "890628": {
+      "productId": 890628,
+      "at": "2026-11-02T15:52:08.517Z",
+      "status": "quoted",
+      "average": 0.11,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        10,
+        10,
+        15
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/EmporioIvankov-OP16-026-V1?language=2"
+    },
+    "890629": {
+      "productId": 890629,
+      "at": "2026-11-02T15:52:17.156Z",
+      "status": "quoted",
+      "average": 4.4,
+      "sellers": 5,
+      "sample": [
+        400,
+        400,
+        400,
+        499,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/EmporioIvankov-OP16-026-V2?language=2"
+    },
+    "890630": {
+      "productId": 890630,
+      "at": "2026-11-02T15:52:25.926Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Jinbe-OP16-027?language=2"
+    },
+    "890631": {
+      "productId": 890631,
+      "at": "2026-11-02T15:52:34.654Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Smoker-OP16-028?language=2"
+    },
+    "890632": {
+      "productId": 890632,
+      "at": "2026-11-02T15:52:52.063Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Antlerkov-OP16-029?language=2"
+    },
+    "890633": {
+      "productId": 890633,
+      "at": "2026-11-02T15:53:00.896Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Trafalgar-Law-OP16-030?language=2"
+    },
+    "890634": {
+      "productId": 890634,
+      "at": "2026-11-02T15:53:09.719Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Buggy-OP16-031?language=2"
+    },
+    "890635": {
+      "productId": 890635,
+      "at": "2026-11-02T15:53:18.705Z",
+      "status": "quoted",
+      "average": 0.21,
+      "sellers": 5,
+      "sample": [
+        10,
+        10,
+        25,
+        30,
+        31
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Boa-Hancock-OP16-032-V1?language=2"
+    },
+    "890636": {
+      "productId": 890636,
+      "at": "2026-11-02T15:53:28.184Z",
+      "status": "quoted",
+      "average": 16.54,
+      "sellers": 5,
+      "sample": [
+        1499,
+        1500,
+        1669,
+        1800,
+        1800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Boa-Hancock-OP16-032-V2?language=2"
+    },
+    "890637": {
+      "productId": 890637,
+      "at": "2026-11-02T15:53:42.745Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Morley-OP16-033?language=2"
+    },
+    "890638": {
+      "productId": 890638,
+      "at": "2026-11-02T15:53:51.700Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/MonkeyDLuffy-OP16-034-V1?language=2"
+    },
+    "890639": {
+      "productId": 890639,
+      "at": "2026-11-02T15:54:00.319Z",
+      "status": "quoted",
+      "average": 7.19,
+      "sellers": 5,
+      "sample": [
+        500,
+        699,
+        798,
+        800,
+        800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/MonkeyDLuffy-OP16-034-V2?language=2"
+    },
+    "890672": {
+      "productId": 890672,
+      "at": "2026-11-02T15:54:09.046Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Roronoa-Zoro-OP16-035?language=2"
+    },
+    "890673": {
+      "productId": 890673,
+      "at": "2026-11-02T15:54:18.121Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Mr2BonKureiBentham-OP16-036?language=2"
+    },
+    "890675": {
+      "productId": 890675,
+      "at": "2026-11-02T15:54:32.216Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Mr3Galdino-OP16-037?language=2"
+    },
+    "890676": {
+      "productId": 890676,
+      "at": "2026-11-02T15:54:40.998Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Lets-Go-To-the-Navy-Headquarters-OP16-038?language=2"
+    },
+    "890678": {
+      "productId": 890678,
+      "at": "2026-11-02T15:54:50.071Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Gum-Gum-Twin-Jet-Pistol-OP16-039?language=2"
+    },
+    "890679": {
+      "productId": 890679,
+      "at": "2026-11-02T15:54:58.893Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Gum-Gum-Hammer-Rifle-OP16-040?language=2"
+    },
+    "890681": {
+      "productId": 890681,
+      "at": "2026-11-02T15:55:07.696Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Buggy-OP16-041-V1?language=2"
+    },
+    "890683": {
+      "productId": 890683,
+      "at": "2026-11-02T15:55:22.743Z",
+      "status": "quoted",
+      "average": 22.4,
+      "sellers": 5,
+      "sample": [
+        2000,
+        2199,
+        2200,
+        2300,
+        2500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Buggy-OP16-041-V2?language=2"
+    },
+    "890684": {
+      "productId": 890684,
+      "at": "2026-11-02T15:55:31.494Z",
+      "status": "quoted",
+      "average": 0.89,
+      "sellers": 5,
+      "sample": [
+        70,
+        75,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Prisoner-of-Impel-Down-OP16-042?language=2"
+    },
+    "890690": {
+      "productId": 890690,
+      "at": "2026-11-02T15:55:40.891Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Usopp-OP16-043?language=2"
+    },
+    "890693": {
+      "productId": 890693,
+      "at": "2026-11-02T15:55:49.859Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/EmporioIvankov-OP16-044?language=2"
+    },
+    "890707": {
+      "productId": 890707,
+      "at": "2026-11-02T15:55:58.710Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Crocodile-OP16-045?language=2"
+    },
+    "890730": {
+      "productId": 890730,
+      "at": "2026-11-02T15:56:14.448Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Jinbe-OP16-046?language=2"
+    },
+    "890731": {
+      "productId": 890731,
+      "at": "2026-11-02T15:56:23.879Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Donquixote-Doflamingo-OP16-047?language=2"
+    },
+    "890732": {
+      "productId": 890732,
+      "at": "2026-11-02T15:56:32.739Z",
+      "status": "quoted",
+      "average": 0.23,
+      "sellers": 5,
+      "sample": [
+        20,
+        20,
+        20,
+        25,
+        30
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Buggy-OP16-048-V1?language=2"
+    },
+    "890733": {
+      "productId": 890733,
+      "at": "2026-11-02T15:56:41.430Z",
+      "status": "quoted",
+      "average": 5.2,
+      "sellers": 5,
+      "sample": [
+        500,
+        500,
+        500,
+        500,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Buggy-OP16-048-V2?language=2"
+    },
+    "890734": {
+      "productId": 890734,
+      "at": "2026-11-02T15:56:50.267Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/PortgasDAce-OP16-049?language=2"
+    },
+    "890735": {
+      "productId": 890735,
+      "at": "2026-11-02T15:57:08.365Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Miss-Olive-OP16-050?language=2"
+    },
+    "890736": {
+      "productId": 890736,
+      "at": "2026-11-02T15:57:17.284Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Mohji-Cabaji-OP16-051?language=2"
+    },
+    "890737": {
+      "productId": 890737,
+      "at": "2026-11-02T15:57:26.122Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/MonkeyDLuffy-OP16-052?language=2"
+    },
+    "890738": {
+      "productId": 890738,
+      "at": "2026-11-02T15:57:35.048Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Roronoa-Zoro-OP16-053?language=2"
+    },
+    "890739": {
+      "productId": 890739,
+      "at": "2026-11-02T15:57:43.741Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Mr1DazBonez-OP16-054?language=2"
+    },
+    "890740": {
+      "productId": 890740,
+      "at": "2026-11-02T15:58:00.401Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Mr2BonKureiBentham-OP16-055-V1?language=2"
+    },
+    "890741": {
+      "productId": 890741,
+      "at": "2026-11-02T15:58:09.217Z",
+      "status": "quoted",
+      "average": 4.6,
+      "sellers": 5,
+      "sample": [
+        399,
+        400,
+        500,
+        500,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Mr2BonKureiBentham-OP16-055-V2?language=2"
+    },
+    "890742": {
+      "productId": 890742,
+      "at": "2026-11-02T15:58:17.857Z",
+      "status": "quoted",
+      "average": 5.78,
+      "sellers": 5,
+      "sample": [
+        540,
+        550,
+        600,
+        600,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Mr3Galdino-OP16-056-V1?language=2"
+    },
+    "890743": {
+      "productId": 890743,
+      "at": "2026-11-02T15:58:26.458Z",
+      "status": "quoted",
+      "average": 12.6,
+      "sellers": 5,
+      "sample": [
+        1200,
+        1200,
+        1300,
+        1300,
+        1300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Mr3Galdino-OP16-056-V2?language=2"
+    },
+    "890744": {
+      "productId": 890744,
+      "at": "2026-11-02T15:58:35.444Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Captain-Buggys-Our-Savior-OP16-057?language=2"
+    },
+    "890745": {
+      "productId": 890745,
+      "at": "2026-11-02T15:58:53.401Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/The-Prisoners-Are-Rioting-OP16-058?language=2"
+    },
+    "890746": {
+      "productId": 890746,
+      "at": "2026-11-02T15:59:02.177Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Well-Change-This-Mission-from-Sneaky-to-Flashy-OP16-059?language=2"
+    },
+    "890747": {
+      "productId": 890747,
+      "at": "2026-11-02T15:59:10.978Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Sengoku-OP16-060-V1?language=2"
+    },
+    "890748": {
+      "productId": 890748,
+      "at": "2026-11-02T15:59:19.595Z",
+      "status": "quoted",
+      "average": 17.49,
+      "sellers": 5,
+      "sample": [
+        1700,
+        1749,
+        1750,
+        1750,
+        1798
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Sengoku-OP16-060-V2?language=2"
+    },
+    "890749": {
+      "productId": 890749,
+      "at": "2026-11-02T15:59:28.434Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Older-Brother-Marine-OP16-061?language=2"
+    },
+    "890750": {
+      "productId": 890750,
+      "at": "2026-11-02T15:59:45.368Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Younger-Brother-Marine-OP16-062?language=2"
+    },
+    "890751": {
+      "productId": 890751,
+      "at": "2026-11-02T15:59:54.450Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Kuzan-OP16-063-V1?language=2"
+    },
+    "890752": {
+      "productId": 890752,
+      "at": "2026-11-02T16:00:03.205Z",
+      "status": "quoted",
+      "average": 4,
+      "sellers": 5,
+      "sample": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Kuzan-OP16-063-V2?language=2"
+    },
+    "890753": {
+      "productId": 890753,
+      "at": "2026-11-02T16:00:11.722Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 3,
+      "sample": [
+        79999,
+        90000,
+        99900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Kuzan-OP16-063-V3?language=2"
+    },
+    "890754": {
+      "productId": 890754,
+      "at": "2026-11-02T16:00:20.568Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Koby-OP16-064-V1?language=2"
+    },
+    "890755": {
+      "productId": 890755,
+      "at": "2026-11-02T16:00:46.032Z",
+      "status": "quoted",
+      "average": 0.17,
+      "sellers": 5,
+      "sample": [
+        13,
+        14,
+        20,
+        20,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Sakazuki-OP16-065-V1?language=2"
+    },
+    "890756": {
+      "productId": 890756,
+      "at": "2026-11-02T16:00:54.891Z",
+      "status": "quoted",
+      "average": 9.48,
+      "sellers": 5,
+      "sample": [
+        850,
+        900,
+        990,
+        1000,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Sakazuki-OP16-065-V2?language=2"
+    },
+    "890757": {
+      "productId": 890757,
+      "at": "2026-11-02T16:01:04.245Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        69900,
+        77999,
+        85000,
+        89900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Sakazuki-OP16-065-V3?language=2"
+    },
+    "890758": {
+      "productId": 890758,
+      "at": "2026-11-02T16:01:12.996Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Sengoku-OP16-066?language=2"
+    },
+    "890759": {
+      "productId": 890759,
+      "at": "2026-11-02T16:01:42.910Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Tsuru-OP16-067?language=2"
+    },
+    "890760": {
+      "productId": 890760,
+      "at": "2026-11-02T16:01:52.378Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Trafalgar-Law-OP16-068?language=2"
+    },
+    "890761": {
+      "productId": 890761,
+      "at": "2026-11-02T16:02:01.227Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Donquixote-Doflamingo-OP16-069?language=2"
+    },
+    "890762": {
+      "productId": 890762,
+      "at": "2026-11-02T16:02:10.167Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Donquixote-Rosinante-OP16-070?language=2"
+    },
+    "890763": {
+      "productId": 890763,
+      "at": "2026-11-02T16:02:18.998Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Benevolent-King-of-the-Waves-OP16-071?language=2"
+    },
+    "890764": {
+      "productId": 890764,
+      "at": "2026-11-02T16:02:35.777Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Hannyabal-OP16-072?language=2"
+    },
+    "890765": {
+      "productId": 890765,
+      "at": "2026-11-02T16:02:44.590Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Borsalino-OP16-073-V1?language=2"
+    },
+    "890766": {
+      "productId": 890766,
+      "at": "2026-11-02T16:02:53.281Z",
+      "status": "quoted",
+      "average": 5.59,
+      "sellers": 5,
+      "sample": [
+        499,
+        500,
+        597,
+        599,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Borsalino-OP16-073-V2?language=2"
+    },
+    "890767": {
+      "productId": 890767,
+      "at": "2026-11-02T16:03:01.977Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 1,
+      "sample": [
+        65000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Borsalino-OP16-073-V3?language=2"
+    },
+    "890768": {
+      "productId": 890768,
+      "at": "2026-11-02T16:03:10.828Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Magellan-OP16-074?language=2"
+    },
+    "892386": {
+      "productId": 892386,
+      "at": "2026-11-02T16:00:37.172Z",
+      "status": "quoted",
+      "average": 109.73,
+      "sellers": 5,
+      "sample": [
+        10890,
+        10989,
+        10990,
+        10995,
+        10999
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Koby-OP16-064-V2?language=2"
     }
   }
 }

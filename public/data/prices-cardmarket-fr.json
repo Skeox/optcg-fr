@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T10:59:38.348Z",
+  "updatedAt": "2026-11-03T11:25:34.001Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -82,7 +82,7 @@
     },
     "692222": {
       "productId": 692222,
-      "at": "2026-11-03T05:38:17.573Z",
+      "at": "2026-11-03T11:19:54.126Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,
@@ -96,13 +96,14 @@
     },
     "692225": {
       "productId": 692225,
-      "at": "2026-11-03T05:38:25.924Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 4,
+      "at": "2026-11-03T11:20:04.662Z",
+      "status": "quoted",
+      "average": 12.4,
+      "sellers": 5,
       "sample": [
         500,
         800,
+        1400,
         1500,
         2000
       ],
@@ -1264,11 +1265,14 @@
     },
     "794683": {
       "productId": 794683,
-      "at": "2026-11-03T05:04:23.930Z",
+      "at": "2026-11-03T11:20:18.094Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 0,
-      "sample": [],
+      "sellers": 2,
+      "sample": [
+        40000,
+        50000
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Unnumbered-Promos/Whitebeard-Pirates-OP02-022-V2?language=2"
     },
     "794684": {
@@ -1288,11 +1292,12 @@
     },
     "794685": {
       "productId": 794685,
-      "at": "2026-11-03T05:04:40.713Z",
+      "at": "2026-11-03T11:20:33.248Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 3,
+      "sellers": 4,
       "sample": [
+        5000,
         6900,
         7000,
         37999
@@ -1346,11 +1351,13 @@
     },
     "794689": {
       "productId": 794689,
-      "at": "2026-11-03T05:07:29.151Z",
+      "at": "2026-11-03T11:20:45.959Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 0,
-      "sample": [],
+      "sellers": 1,
+      "sample": [
+        2500
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Unnumbered-Promos/Crocodile-OP07-040-V2?language=2"
     },
     "794690": {
@@ -1370,7 +1377,7 @@
     },
     "794691": {
       "productId": 794691,
-      "at": "2026-11-03T05:39:45.953Z",
+      "at": "2026-11-03T11:20:56.908Z",
       "status": "insufficient",
       "average": null,
       "sellers": 3,
@@ -1398,7 +1405,7 @@
     },
     "794693": {
       "productId": 794693,
-      "at": "2026-11-03T05:16:02.665Z",
+      "at": "2026-11-03T11:21:09.042Z",
       "status": "insufficient",
       "average": null,
       "sellers": 2,
@@ -10552,7 +10559,7 @@
     },
     "817584": {
       "productId": 817584,
-      "at": "2026-11-03T05:03:55.444Z",
+      "at": "2026-11-03T11:21:21.491Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,
@@ -11676,7 +11683,7 @@
     },
     "818083": {
       "productId": 818083,
-      "at": "2026-11-03T05:16:42.408Z",
+      "at": "2026-11-03T11:21:31.014Z",
       "status": "insufficient",
       "average": null,
       "sellers": 0,
@@ -11700,7 +11707,7 @@
     },
     "818085": {
       "productId": 818085,
-      "at": "2026-11-03T05:16:59.854Z",
+      "at": "2026-11-03T11:21:41.832Z",
       "status": "insufficient",
       "average": null,
       "sellers": 1,
@@ -11711,7 +11718,7 @@
     },
     "818086": {
       "productId": 818086,
-      "at": "2026-11-03T05:17:11.549Z",
+      "at": "2026-11-03T11:21:48.884Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,
@@ -11725,7 +11732,7 @@
     },
     "818087": {
       "productId": 818087,
-      "at": "2026-11-03T05:17:20.093Z",
+      "at": "2026-11-03T11:23:58.820Z",
       "status": "insufficient",
       "average": null,
       "sellers": 1,
@@ -11751,7 +11758,7 @@
     },
     "818089": {
       "productId": 818089,
-      "at": "2026-11-03T05:17:48.846Z",
+      "at": "2026-11-03T11:24:12.749Z",
       "status": "insufficient",
       "average": null,
       "sellers": 0,
@@ -11775,7 +11782,7 @@
     },
     "818091": {
       "productId": 818091,
-      "at": "2026-11-03T05:18:13.804Z",
+      "at": "2026-11-03T11:24:35.030Z",
       "status": "insufficient",
       "average": null,
       "sellers": 3,
@@ -11803,7 +11810,7 @@
     },
     "818093": {
       "productId": 818093,
-      "at": "2026-11-03T05:18:30.986Z",
+      "at": "2026-11-03T11:24:44.801Z",
       "status": "insufficient",
       "average": null,
       "sellers": 2,
@@ -19429,15 +19436,16 @@
     },
     "843120": {
       "productId": 843120,
-      "at": "2026-11-03T05:11:07.838Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 4,
+      "at": "2026-11-03T11:24:55.632Z",
+      "status": "quoted",
+      "average": 27.29,
+      "sellers": 5,
       "sample": [
         2350,
         2398,
         2400,
-        2499
+        2499,
+        4000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Winner-Cards/Koby-P-092-V1?language=2"
     },
@@ -27415,7 +27423,7 @@
     },
     "858526": {
       "productId": 858526,
-      "at": "2026-11-03T05:06:37.920Z",
+      "at": "2026-11-03T11:25:09.804Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,
@@ -27609,7 +27617,7 @@
     },
     "858539": {
       "productId": 858539,
-      "at": "2026-11-03T05:40:51.890Z",
+      "at": "2026-11-03T11:25:20.453Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,
@@ -32841,7 +32849,7 @@
     },
     "875033": {
       "productId": 875033,
-      "at": "2026-11-03T05:14:25.061Z",
+      "at": "2026-11-03T11:25:34.001Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,

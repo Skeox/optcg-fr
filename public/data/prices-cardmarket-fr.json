@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T00:35:45.111Z",
+  "updatedAt": "2026-11-03T00:56:00.601Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -14269,6 +14269,230 @@
         2
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/XDrake-ST24-005?language=2"
+    },
+    "829127": {
+      "productId": 829127,
+      "at": "2026-11-03T00:54:26.819Z",
+      "status": "quoted",
+      "average": 0.7,
+      "sellers": 5,
+      "sample": [
+        50,
+        50,
+        75,
+        75,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Buggy-OP09-042?language=2"
+    },
+    "829128": {
+      "productId": 829128,
+      "at": "2026-11-03T00:54:35.226Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Alvida-OP09-043?language=2"
+    },
+    "829129": {
+      "productId": 829129,
+      "at": "2026-11-03T00:54:44.680Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Cabaji-OP09-045?language=2"
+    },
+    "829130": {
+      "productId": 829130,
+      "at": "2026-11-03T00:54:55.997Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Buggy-OP09-051?language=2"
+    },
+    "829131": {
+      "productId": 829131,
+      "at": "2026-11-03T00:55:04.840Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Mohji-OP09-053?language=2"
+    },
+    "829132": {
+      "productId": 829132,
+      "at": "2026-11-03T00:55:13.355Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Richie-OP09-054?language=2"
+    },
+    "829133": {
+      "productId": 829133,
+      "at": "2026-11-03T00:55:21.825Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Mr1DazBonez-OP09-055?language=2"
+    },
+    "829134": {
+      "productId": 829134,
+      "at": "2026-11-03T00:55:43.547Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Mr3Galdino-OP09-056?language=2"
+    },
+    "829135": {
+      "productId": 829135,
+      "at": "2026-11-03T00:55:52.110Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Cross-Guild-OP09-057?language=2"
+    },
+    "829136": {
+      "productId": 829136,
+      "at": "2026-11-03T00:56:00.601Z",
+      "status": "quoted",
+      "average": 0.31,
+      "sellers": 5,
+      "sample": [
+        19,
+        30,
+        30,
+        35,
+        40
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Buggy-P-084?language=2"
+    },
+    "829137": {
+      "productId": 829137,
+      "at": "2026-11-03T00:53:38.734Z",
+      "status": "quoted",
+      "average": 4.78,
+      "sellers": 5,
+      "sample": [
+        250,
+        500,
+        500,
+        550,
+        588
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Alvida-ST25-001?language=2"
+    },
+    "829138": {
+      "productId": 829138,
+      "at": "2026-11-03T00:53:47.964Z",
+      "status": "quoted",
+      "average": 0.08,
+      "sellers": 5,
+      "sample": [
+        2,
+        10,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Cabaji-ST25-002?language=2"
+    },
+    "829139": {
+      "productId": 829139,
+      "at": "2026-11-03T00:53:56.570Z",
+      "status": "insufficient",
+      "average": null,
+      "sellers": 4,
+      "sample": [
+        650,
+        697,
+        699,
+        700
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Crocodile-Mihawk-ST25-003?language=2"
+    },
+    "829140": {
+      "productId": 829140,
+      "at": "2026-11-03T00:54:05.053Z",
+      "status": "quoted",
+      "average": 0.79,
+      "sellers": 5,
+      "sample": [
+        40,
+        60,
+        96,
+        99,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Buggy-ST25-004?language=2"
+    },
+    "829141": {
+      "productId": 829141,
+      "at": "2026-11-03T00:54:18.339Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        2,
+        5,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Mohji-ST25-005?language=2"
     },
     "830578": {
       "productId": 830578,

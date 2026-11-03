@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T00:56:00.601Z",
+  "updatedAt": "2026-11-03T01:16:50.395Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -14493,6 +14493,231 @@
         10
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Blue-Buggy/Mohji-ST25-005?language=2"
+    },
+    "829142": {
+      "productId": 829142,
+      "at": "2026-11-03T01:15:02.635Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        5,
+        5,
+        7,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/San-Gorou-OP05-065?language=2"
+    },
+    "829143": {
+      "productId": 829143,
+      "at": "2026-11-03T01:15:11.225Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/Jinbe-OP05-066?language=2"
+    },
+    "829144": {
+      "productId": 829144,
+      "at": "2026-11-03T01:15:19.769Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/Fra-Nosuke-OP05-070?language=2"
+    },
+    "829145": {
+      "productId": 829145,
+      "at": "2026-11-03T01:15:43.504Z",
+      "status": "quoted",
+      "average": 8.4,
+      "sellers": 5,
+      "sample": [
+        798,
+        800,
+        800,
+        900,
+        900
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/MonkeyDLuffy-OP09-061?language=2"
+    },
+    "829146": {
+      "productId": 829146,
+      "at": "2026-11-03T01:15:52.082Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/Usopp-OP09-063?language=2"
+    },
+    "829147": {
+      "productId": 829147,
+      "at": "2026-11-03T01:16:00.505Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        6
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/Nami-OP09-070?language=2"
+    },
+    "829148": {
+      "productId": 829148,
+      "at": "2026-11-03T01:16:09.041Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/Roronoa-Zoro-OP09-076?language=2"
+    },
+    "829149": {
+      "productId": 829149,
+      "at": "2026-11-03T01:16:33.656Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        9
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/Gum-Gum-Lightning-OP09-077?language=2"
+    },
+    "829150": {
+      "productId": 829150,
+      "at": "2026-11-03T01:16:42.028Z",
+      "status": "quoted",
+      "average": 0.13,
+      "sellers": 5,
+      "sample": [
+        5,
+        5,
+        15,
+        18,
+        20
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/Gum-Gum-Giant-OP09-078?language=2"
+    },
+    "829151": {
+      "productId": 829151,
+      "at": "2026-11-03T01:16:50.395Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/Brook-ST14-010?language=2"
+    },
+    "829152": {
+      "productId": 829152,
+      "at": "2026-11-03T01:14:03.318Z",
+      "status": "quoted",
+      "average": 0.14,
+      "sellers": 5,
+      "sample": [
+        8,
+        13,
+        15,
+        16,
+        19
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/Soba-Mask-ST26-001?language=2"
+    },
+    "829153": {
+      "productId": 829153,
+      "at": "2026-11-03T01:14:11.703Z",
+      "status": "quoted",
+      "average": 0.48,
+      "sellers": 5,
+      "sample": [
+        40,
+        40,
+        50,
+        50,
+        60
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/Tony-TonyChopper-ST26-002?language=2"
+    },
+    "829154": {
+      "productId": 829154,
+      "at": "2026-11-03T01:14:20.237Z",
+      "status": "quoted",
+      "average": 1.25,
+      "sellers": 5,
+      "sample": [
+        99,
+        100,
+        130,
+        148,
+        149
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/Nico-Robin-ST26-003?language=2"
+    },
+    "829155": {
+      "productId": 829155,
+      "at": "2026-11-03T01:14:28.968Z",
+      "status": "quoted",
+      "average": 0.09,
+      "sellers": 5,
+      "sample": [
+        4,
+        5,
+        10,
+        10,
+        14
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/General-Franky-ST26-004?language=2"
+    },
+    "829156": {
+      "productId": 829156,
+      "at": "2026-11-03T01:14:54.209Z",
+      "status": "quoted",
+      "average": 3.17,
+      "sellers": 5,
+      "sample": [
+        298,
+        299,
+        328,
+        330,
+        330
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/MonkeyDLuffy-ST26-005?language=2"
     },
     "830578": {
       "productId": 830578,

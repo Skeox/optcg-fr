@@ -1,6 +1,49 @@
 {
   "phase": "completion-2026-11-02",
-  "insufficientRechecked": [],
+  "insufficientRechecked": [
+    {
+      "productId": 802925,
+      "card": "OP09-051_p2",
+      "series": "622109",
+      "collection": "OP09",
+      "checkedAt": "2026-11-03T06:59:51.668Z",
+      "status": "insufficient",
+      "sellers": 1,
+      "average": null,
+      "previousAt": "2026-11-02T17:35:22.360Z",
+      "previousSellers": 2,
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Buggy-OP09-051-V4?language=2",
+      "note": "Manga Baggy rouge, fond noir et blanc, 10/12000 : identité 802925 V.4 et édition OP09 confirmées. Quatre offres FR visibles, aucune pagination ; EX, BGS 9.5 et PCA 10 exclus, un vendeur admissible."
+    },
+    {
+      "productId": 802976,
+      "card": "OP09-093_p2",
+      "series": "622109",
+      "collection": "OP09",
+      "checkedAt": "2026-11-03T07:00:48.968Z",
+      "status": "insufficient",
+      "sellers": 3,
+      "average": null,
+      "previousAt": "2026-11-02T17:35:31.167Z",
+      "previousSellers": 2,
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MarshallDTeach-OP09-093-V4?language=2",
+      "note": "Manga Teach, fond noir et blanc, 10/12000 : identité 802976 V.4 et édition OP09 confirmées. Quatre offres FR visibles, aucune pagination ; Beckett 10 exclu. La photo est un lien de scan, pas un attribut spécial : trois vendeurs admissibles."
+    },
+    {
+      "productId": 803005,
+      "card": "OP09-118_p2",
+      "series": "622109",
+      "collection": "OP09",
+      "checkedAt": "2026-11-03T07:00:53.584Z",
+      "status": "insufficient",
+      "sellers": 0,
+      "average": null,
+      "previousAt": "2026-11-02T17:35:39.862Z",
+      "previousSellers": 4,
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/GolDRoger-OP09-118-V3?language=2",
+      "note": "Roger manga doré, 10/13000 : identité 803005 V.3 et édition OP09 confirmées. Six offres FR visibles, aucune pagination ; toutes décrites comme gradées CCC, PSA ou PCA. Aucun vendeur admissible et aucune moyenne."
+    }
+  ],
   "promoReviews": [
     {
       "card": "EB01-014_p1",

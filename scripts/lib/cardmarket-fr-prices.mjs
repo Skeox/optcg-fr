@@ -36,7 +36,7 @@ export function summarizeCardmarketPage(page, target, now = new Date()) {
   for (const row of page.offers) {
     const cents = euroCents(row.price);
     // Reject extras and descriptions mentioning grading, lots, signatures or alterations.
-    const exceptional = /\b(graded|gradée?|PSA|BGS|CGC|beckett|slab|lot|playset|signed|signée?|altered|altérée?|proxy)\b/i.test(row.comment ?? '');
+    const exceptional = /\b(graded|gradée?|PSA|BGS|CGC|PCA|CCC|beckett|slab|lot|playset|signed|signée?|altered|altérée?|proxy)\b/i.test(row.comment ?? '');
     if (row.language !== 'Français' || !['NM', 'MT'].includes(row.condition) || !cents
       || !Number.isSafeInteger(row.quantity) || row.quantity < 1 || !Array.isArray(row.extras) || row.extras.length
       || exceptional || !/^\/fr\/OnePiece\/Users\/[A-Za-z0-9_-]+$/.test(row.seller ?? '')) continue;

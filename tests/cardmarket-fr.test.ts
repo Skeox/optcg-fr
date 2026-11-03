@@ -48,6 +48,12 @@ describe('collecte Cardmarket FR', () => {
     expect(summarizeCardmarketPage(p, target, now).average).toBe(44.8);
     expect(summarizeCardmarketPage({ ...p, offers: Array(20).fill(offer('same', '10000,64 €')) }, target, now)).toMatchObject({ average: null, sellers: 1, status: 'insufficient' });
   });
+  it('exclut les annonces PCA et CCC même déclarées NM ou MT sans attribut spécial', () => {
+    const p = page();
+    p.offers = [offer('raw'), ...['PCA 10', 'CCC 9.5', 'CCC 9,5', 'Unique 9 CCC de France.'].map((comment, i) =>
+      ({ ...offer(`graded${i}`, '0,01 €'), condition: i % 2 ? 'MT' : 'NM', comment }))];
+    expect(summarizeCardmarketPage(p, target, now)).toMatchObject({ status: 'insufficient', average: null, sellers: 1, sample: [4400] });
+  });
   it('ne publie jamais un prix provenant du mauvais produit ou d’une page bloquée', () => {
     for (const changes of [{ productId: 123 }, { title: 'Autre carte (OP10-001)' }, { url: 'https://www.cardmarket.com/fr/OnePiece/Products?language=2' }, { offers: [] }, { hasMore: true, offers: [offer('a')] }]) {
       expect(() => summarizeCardmarketPage({ ...page(), ...changes }, target, now)).toThrow();

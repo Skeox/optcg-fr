@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T06:44:37.233Z",
+  "updatedAt": "2026-11-03T07:00:53.584Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -6318,13 +6318,12 @@
     },
     "802925": {
       "productId": 802925,
-      "at": "2026-11-02T17:35:22.360Z",
+      "at": "2026-11-03T06:59:51.668Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 2,
+      "sellers": 1,
       "sample": [
-        99500,
-        160000
+        99500
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/Buggy-OP09-051-V4?language=2"
     },
@@ -7080,12 +7079,13 @@
     },
     "802976": {
       "productId": 802976,
-      "at": "2026-11-02T17:35:31.167Z",
+      "at": "2026-11-03T07:00:48.968Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 2,
+      "sellers": 3,
       "sample": [
         160000,
+        225000,
         250000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/MarshallDTeach-OP09-093-V4?language=2"
@@ -7512,16 +7512,11 @@
     },
     "803005": {
       "productId": 803005,
-      "at": "2026-11-02T17:35:39.862Z",
+      "at": "2026-11-03T07:00:53.584Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 4,
-      "sample": [
-        799900,
-        800000,
-        800000,
-        1200000
-      ],
+      "sellers": 0,
+      "sample": [],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Emperors-in-the-New-World/GolDRoger-OP09-118-V3?language=2"
     },
     "803006": {

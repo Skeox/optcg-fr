@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T07:39:38.337Z",
+  "updatedAt": "2026-11-03T08:04:16.436Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -27012,12 +27012,12 @@
     },
     "857340": {
       "productId": 857340,
-      "at": "2026-11-02T17:36:59.951Z",
+      "at": "2026-11-03T07:59:39.587Z",
       "status": "insufficient",
       "average": null,
       "sellers": 1,
       "sample": [
-        1900000
+        1200000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/MonkeyDLuffy-OP13-118-V5?language=2"
     },
@@ -27098,11 +27098,15 @@
     },
     "857347": {
       "productId": 857347,
-      "at": "2026-11-02T17:37:08.503Z",
+      "at": "2026-11-03T08:00:03.620Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 0,
-      "sample": [],
+      "sellers": 3,
+      "sample": [
+        530000,
+        600000,
+        999999
+      ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/PortgasDAce-OP13-119-V6?language=2"
     },
     "857348": {
@@ -27167,15 +27171,14 @@
     },
     "857352": {
       "productId": 857352,
-      "at": "2026-11-02T17:37:16.957Z",
+      "at": "2026-11-03T08:04:16.436Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 4,
+      "sellers": 3,
       "sample": [
         355000,
         375000,
-        390000,
-        580000
+        390000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Carrying-on-his-Will/Sabo-OP13-120-V5?language=2"
     },

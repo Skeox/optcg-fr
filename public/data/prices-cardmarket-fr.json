@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T07:19:39.607Z",
+  "updatedAt": "2026-11-03T07:39:38.337Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -19318,14 +19318,16 @@
     },
     "843037": {
       "productId": 843037,
-      "at": "2026-11-02T17:36:33.063Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 3,
+      "at": "2026-11-03T07:39:38.337Z",
+      "status": "quoted",
+      "average": 1404.8,
+      "sellers": 5,
       "sample": [
-        159900,
-        180000,
-        200000
+        112500,
+        135000,
+        144999,
+        150000,
+        159900
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Legacy-of-the-Master/MarshallDTeach-OP09-093-V1?language=2"
     },

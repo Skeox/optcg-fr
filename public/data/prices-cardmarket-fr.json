@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T01:56:03.047Z",
+  "updatedAt": "2026-11-03T02:19:00.917Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -28291,6 +28291,471 @@
         84999
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Azure-Seas-Seven/Roronoa-Zoro-PRB02-006?language=2"
+    },
+    "865561": {
+      "productId": 865561,
+      "at": "2026-11-03T02:13:45.630Z",
+      "status": "quoted",
+      "average": 0.49,
+      "sellers": 5,
+      "sample": [
+        48,
+        49,
+        49,
+        49,
+        49
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/MonkeyDLuffy-ST29-001-V1?language=2"
+    },
+    "865562": {
+      "productId": 865562,
+      "at": "2026-11-03T02:13:54.182Z",
+      "status": "quoted",
+      "average": 12.58,
+      "sellers": 5,
+      "sample": [
+        1200,
+        1200,
+        1290,
+        1299,
+        1300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/MonkeyDLuffy-ST29-001-V2?language=2"
+    },
+    "865563": {
+      "productId": 865563,
+      "at": "2026-11-03T02:14:02.776Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Usopp-ST29-002-V1?language=2"
+    },
+    "865564": {
+      "productId": 865564,
+      "at": "2026-11-03T02:14:11.657Z",
+      "status": "quoted",
+      "average": 1.3,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        150,
+        150,
+        150
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Usopp-ST29-002-V2?language=2"
+    },
+    "865565": {
+      "productId": 865565,
+      "at": "2026-11-03T02:14:27.063Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Kaku-ST29-003-V1?language=2"
+    },
+    "865566": {
+      "productId": 865566,
+      "at": "2026-11-03T02:14:35.693Z",
+      "status": "quoted",
+      "average": 0.48,
+      "sellers": 5,
+      "sample": [
+        45,
+        45,
+        50,
+        50,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Kaku-ST29-003-V2?language=2"
+    },
+    "865567": {
+      "productId": 865567,
+      "at": "2026-11-03T02:14:44.381Z",
+      "status": "quoted",
+      "average": 0.06,
+      "sellers": 5,
+      "sample": [
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Sanji-ST29-004-V1?language=2"
+    },
+    "865568": {
+      "productId": 865568,
+      "at": "2026-11-03T02:14:52.997Z",
+      "status": "quoted",
+      "average": 2.79,
+      "sellers": 5,
+      "sample": [
+        272,
+        275,
+        275,
+        285,
+        290
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Sanji-ST29-004-V2?language=2"
+    },
+    "865569": {
+      "productId": 865569,
+      "at": "2026-11-03T02:15:07.299Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Jinbe-ST29-005-V1?language=2"
+    },
+    "865570": {
+      "productId": 865570,
+      "at": "2026-11-03T02:15:15.894Z",
+      "status": "quoted",
+      "average": 1.27,
+      "sellers": 5,
+      "sample": [
+        124,
+        125,
+        125,
+        130,
+        131
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Jinbe-ST29-005-V2?language=2"
+    },
+    "865571": {
+      "productId": 865571,
+      "at": "2026-11-03T02:15:24.722Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Stussy-ST29-006-V1?language=2"
+    },
+    "865572": {
+      "productId": 865572,
+      "at": "2026-11-03T02:15:33.289Z",
+      "status": "quoted",
+      "average": 0.95,
+      "sellers": 5,
+      "sample": [
+        75,
+        100,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Stussy-ST29-006-V2?language=2"
+    },
+    "865573": {
+      "productId": 865573,
+      "at": "2026-11-03T02:15:52.575Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Tony-TonyChopper-ST29-007-V1?language=2"
+    },
+    "865574": {
+      "productId": 865574,
+      "at": "2026-11-03T02:16:01.155Z",
+      "status": "quoted",
+      "average": 3.08,
+      "sellers": 5,
+      "sample": [
+        260,
+        280,
+        300,
+        350,
+        350
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Tony-TonyChopper-ST29-007-V2?language=2"
+    },
+    "865575": {
+      "productId": 865575,
+      "at": "2026-11-03T02:16:09.703Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Nami-ST29-008-V1?language=2"
+    },
+    "865576": {
+      "productId": 865576,
+      "at": "2026-11-03T02:16:18.397Z",
+      "status": "quoted",
+      "average": 9.28,
+      "sellers": 5,
+      "sample": [
+        800,
+        900,
+        950,
+        990,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Nami-ST29-008-V2?language=2"
+    },
+    "865577": {
+      "productId": 865577,
+      "at": "2026-11-03T02:16:35.020Z",
+      "status": "quoted",
+      "average": 0.13,
+      "sellers": 5,
+      "sample": [
+        4,
+        5,
+        10,
+        15,
+        30
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Nico-Robin-ST29-009-V1?language=2"
+    },
+    "865578": {
+      "productId": 865578,
+      "at": "2026-11-03T02:16:43.695Z",
+      "status": "quoted",
+      "average": 5.6,
+      "sellers": 5,
+      "sample": [
+        499,
+        500,
+        599,
+        600,
+        600
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Nico-Robin-ST29-009-V2?language=2"
+    },
+    "865579": {
+      "productId": 865579,
+      "at": "2026-11-03T02:16:52.375Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Franky-ST29-010-V1?language=2"
+    },
+    "865580": {
+      "productId": 865580,
+      "at": "2026-11-03T02:17:00.855Z",
+      "status": "quoted",
+      "average": 1,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Franky-ST29-010-V2?language=2"
+    },
+    "865581": {
+      "productId": 865581,
+      "at": "2026-11-03T02:17:15.671Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Brook-ST29-011-V1?language=2"
+    },
+    "865582": {
+      "productId": 865582,
+      "at": "2026-11-03T02:17:24.195Z",
+      "status": "quoted",
+      "average": 1.1,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        100,
+        100,
+        150
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Brook-ST29-011-V2?language=2"
+    },
+    "865583": {
+      "productId": 865583,
+      "at": "2026-11-03T02:17:32.849Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/MonkeyDLuffy-ST29-012-V1?language=2"
+    },
+    "865584": {
+      "productId": 865584,
+      "at": "2026-11-03T02:17:41.420Z",
+      "status": "quoted",
+      "average": 2,
+      "sellers": 5,
+      "sample": [
+        198,
+        200,
+        200,
+        200,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/MonkeyDLuffy-ST29-012-V2?language=2"
+    },
+    "865585": {
+      "productId": 865585,
+      "at": "2026-11-03T02:18:01.301Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Rob-Lucci-ST29-013-V1?language=2"
+    },
+    "865586": {
+      "productId": 865586,
+      "at": "2026-11-03T02:18:10.040Z",
+      "status": "quoted",
+      "average": 0.93,
+      "sellers": 5,
+      "sample": [
+        65,
+        99,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Rob-Lucci-ST29-013-V2?language=2"
+    },
+    "865587": {
+      "productId": 865587,
+      "at": "2026-11-03T02:18:18.750Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        4,
+        5,
+        7,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Roronoa-Zoro-ST29-014-V1?language=2"
+    },
+    "865588": {
+      "productId": 865588,
+      "at": "2026-11-03T02:18:27.454Z",
+      "status": "quoted",
+      "average": 4.88,
+      "sellers": 5,
+      "sample": [
+        450,
+        490,
+        499,
+        499,
+        500
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Roronoa-Zoro-ST29-014-V2?language=2"
+    },
+    "865589": {
+      "productId": 865589,
+      "at": "2026-11-03T02:18:43.689Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Raw-Heat-Strike-ST29-015?language=2"
+    },
+    "865590": {
+      "productId": 865590,
+      "at": "2026-11-03T02:18:52.251Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Kizaru-Compared-to-Two-Years-Ago-Were-a-Hundred-Times-Stronger-Now-ST29-016?language=2"
+    },
+    "865591": {
+      "productId": 865591,
+      "at": "2026-11-03T02:19:00.917Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Egghead/Iai-Death-Lion-Song-ST29-017?language=2"
     },
     "868221": {
       "productId": 868221,

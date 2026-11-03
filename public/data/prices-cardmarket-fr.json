@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T08:04:16.436Z",
+  "updatedAt": "2026-11-03T08:19:59.062Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -28397,11 +28397,12 @@
     },
     "865412": {
       "productId": 865412,
-      "at": "2026-11-02T13:55:56.624Z",
+      "at": "2026-11-03T08:19:37.409Z",
       "status": "insufficient",
       "average": null,
-      "sellers": 2,
+      "sellers": 3,
       "sample": [
+        1690,
         1700,
         1800
       ],
@@ -28454,13 +28455,14 @@
     },
     "865416": {
       "productId": 865416,
-      "at": "2026-11-02T13:56:55.093Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 4,
+      "at": "2026-11-03T08:19:59.062Z",
+      "status": "quoted",
+      "average": 2.18,
+      "sellers": 5,
       "sample": [
         7,
         100,
+        295,
         300,
         390
       ],

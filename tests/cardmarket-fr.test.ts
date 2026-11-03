@@ -11,6 +11,22 @@ const page = () => ({ ...target, at, url: 'https://www.cardmarket.com/fr/OnePiec
   offers: [offer('a'), offer('b', '44,99 €'), offer('c', '44,99 €'), offer('d', '45,00 €'), offer('e', '45,00 €')] });
 
 describe('collecte Cardmarket FR', () => {
+  it('exige le numéro et l’édition affichés pour le titre erroné de Koala ST35', () => {
+    const koala = { productId: 900561, code: 'OP13-081' };
+    const observation = { ...page(), productId: koala.productId,
+      url: 'https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-RedBlack-Sabo/Koala-OP13-019?language=2',
+      title: 'Koala (OP13-019)\nStarter Deck: Red/Black Sabo - Cartes',
+      cardNumber: 'OP13-081', expansionName: 'Starter Deck: Red/Black Sabo' };
+    expect(summarizeCardmarketPage(observation, koala, now).status).toBe('quoted');
+    for (const changes of [{ cardNumber: undefined }, { cardNumber: 'OP13-019' },
+      { expansionName: 'Carrying on his Will' }, { title: 'Sabo (OP13-019)' }, { productId: 900560 },
+      { url: observation.url.replace('language=2', 'language=1') },
+      { url: observation.url.replace('Koala-OP13-019', 'Sabo-OP13-019') }]) {
+      expect(() => summarizeCardmarketPage({ ...observation, ...changes }, koala, now)).toThrow();
+    }
+    expect(() => summarizeCardmarketPage(observation, { ...koala, productId: 900560 }, now)).toThrow();
+    expect(() => summarizeCardmarketPage(observation, { ...koala, code: 'OP13-082' }, now)).toThrow();
+  });
   it('accepte les espaces autour du code exact sans accepter les codes voisins', () => {
     const uta = { productId: 794639, code: 'ST11-001' };
     const observation = { ...page(), productId: uta.productId,

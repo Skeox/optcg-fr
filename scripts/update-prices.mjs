@@ -33,7 +33,7 @@ const products = {};
 const byCode = {};
 let unknownExp = new Set();
 for (const p of productsFile.products) {
-  const parsed = parseCardmarketName(p.name);
+  const parsed = parseCardmarketName(p.name, p.idProduct, p.idExpansion);
   if (!parsed) continue;
   const code = parsed.code;
   if (!codes.has(code)) continue;

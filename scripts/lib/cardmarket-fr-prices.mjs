@@ -1,3 +1,5 @@
+import { KOALA_ST35 } from './cardmarket-product-corrections.mjs';
+
 export const METHOD = 'five-lowest-distinct-sellers-nm-v1';
 
 export function emptyPrices() {
@@ -18,9 +20,14 @@ export function summarizeCardmarketPage(page, target, now = new Date()) {
   const url = new URL(page.url);
   const hasExactCode = [...String(page.title).matchAll(/\(([^()]*)\)/g)]
     .some(match => match[1].trim() === target.code);
+  // Exception limitée à cette fiche : le vrai code doit être relu dans le DOM.
+  const verifiedTitleError = target.productId === KOALA_ST35.id && target.code === KOALA_ST35.code
+    && page.title === `${KOALA_ST35.catalogueName}\n${KOALA_ST35.expansionName} - Cartes`
+    && url.pathname === KOALA_ST35.path && page.cardNumber === KOALA_ST35.code
+    && page.expansionName === KOALA_ST35.expansionName;
   if (url.origin !== 'https://www.cardmarket.com' || !url.pathname.startsWith('/fr/OnePiece/Products/Singles/')
     || url.searchParams.get('language') !== '2' || page.productId !== target.productId
-    || !hasExactCode || !Array.isArray(page.offers) || typeof page.hasMore !== 'boolean') {
+    || (!hasExactCode && !verifiedTitleError) || !Array.isArray(page.offers) || typeof page.hasMore !== 'boolean') {
     throw new Error('Page produit, identité ou langue non vérifiable');
   }
   const at = Date.parse(page.at);

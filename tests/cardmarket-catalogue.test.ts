@@ -1,6 +1,15 @@
 import { expect, it } from 'vitest';
 import { parseCardmarketName } from '../scripts/lib/cardmarket-catalogue.mjs';
 
+it('corrige uniquement le titre erroné vérifié de Koala ST35', () => {
+  expect(parseCardmarketName('Koala (OP13-019)', 900561, 6646)).toEqual({ name: 'Koala', code: 'OP13-081' });
+  for (const [id, exp] of [[900560, 6646], [900561, 6187]]) {
+    expect(parseCardmarketName('Koala (OP13-019)', id, exp)?.code).toBe('OP13-019');
+  }
+  expect(parseCardmarketName('Sabo (OP13-019)', 900561, 6646)?.code).toBe('OP13-019');
+  expect(parseCardmarketName('Koala (OP13-081)', 900561, 6646)?.code).toBe('OP13-081');
+});
+
 it('conserve le Leader Uta malgré l’espace ajouté au nom du catalogue Cardmarket', () => {
   expect(parseCardmarketName('Uta ( ST11-001)')).toEqual({ name: 'Uta', code: 'ST11-001' });
   expect(parseCardmarketName('Uta (\u00a0ST11-001\u00a0) ')).toEqual({ name: 'Uta', code: 'ST11-001' });

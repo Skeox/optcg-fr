@@ -419,5 +419,21 @@
     "label": "Illustration alternative",
     "base": false,
     "sources": ["https://fr.onepiece-cardgame.com/cardlist/?series=622301"]
+  },
+  "OP13-081_r1": {
+    "series": "622035",
+    "label": "Version du deck",
+    "base": true,
+    "cardmarket": {
+      "id": 900561,
+      "expansion": 6646,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T04:26:00Z",
+    "note": "Illustration et bordures comparées visuellement à la carte officielle française : Koala noire, coût 5, puissance 6000, OP13-081. La fiche ST35 900561 affiche un titre erroné Koala (OP13-019), mais son champ Nombre et son image indiquent OP13-081, dans Starter Deck: Red/Black Sabo, avec des offres françaises. Correction strictement limitée à ce produit et cette édition ; le collecteur exige la relecture du champ Nombre et de l’édition en plus de l’identité produit. Aucune exception de fiche partagée.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622035",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-RedBlack-Sabo/Koala-OP13-019?language=2"
+    ]
   }
 }

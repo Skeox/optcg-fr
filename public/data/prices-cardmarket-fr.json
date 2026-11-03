@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T10:03:46.042Z",
+  "updatedAt": "2026-11-03T10:19:50.579Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -395,7 +395,7 @@
     },
     "747519": {
       "productId": 747519,
-      "at": "2026-11-02T22:35:14.679Z",
+      "at": "2026-11-03T10:19:50.579Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,

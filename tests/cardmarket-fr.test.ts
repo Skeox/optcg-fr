@@ -54,12 +54,19 @@ describe('collecte Cardmarket FR', () => {
       ({ ...offer(`graded${i}`, '0,01 €'), condition: i % 2 ? 'MT' : 'NM', comment }))];
     expect(summarizeCardmarketPage(p, target, now)).toMatchObject({ status: 'insufficient', average: null, sellers: 1, sample: [4400] });
   });
-  it('ne complète pas cinq vendeurs avec une note de grading accolée à son sigle', () => {
-    for (const comment of ['Bgs10', 'PSA10', 'PCA9.5', 'PG10 : 9-10-9.5-10']) {
+  it('ne complète pas cinq vendeurs avec une annonce gradée, même sans espace avant la note', () => {
+    for (const comment of ['Bgs10', 'PSA10', 'PCA9.5', 'PG10 : 9-10-9.5-10', 'CollectAura 9, open on trades', 'Collect Aura 9.5', 'CollectAura10']) {
       const p = page();
       p.offers[4].comment = comment;
       expect(summarizeCardmarketPage(p, target, now)).toMatchObject({ status: 'insufficient', average: null, sellers: 4 });
     }
+  });
+  it('exclut une mention explicite d’encre sans exclure un mot contenant ink', () => {
+    const p = page();
+    p.offers[4].comment = 'UGRed-Foreign - ink';
+    expect(summarizeCardmarketPage(p, target, now)).toMatchObject({ status: 'insufficient', average: null, sellers: 4 });
+    p.offers[4].comment = 'Pink sleeve';
+    expect(summarizeCardmarketPage(p, target, now).sellers).toBe(5);
   });
   it('ne publie jamais un prix provenant du mauvais produit ou d’une page bloquée', () => {
     for (const changes of [{ productId: 123 }, { title: 'Autre carte (OP10-001)' }, { url: 'https://www.cardmarket.com/fr/OnePiece/Products?language=2' }, { offers: [] }, { hasMore: true, offers: [offer('a')] }]) {

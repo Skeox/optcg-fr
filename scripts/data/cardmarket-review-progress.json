@@ -635,5 +635,13 @@
         "https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=P-099&language=2"
       ]
     }
-  ]
+  ],
+  "collectionPass": {
+    "completedAt": "2026-11-03T05:57:41.857Z",
+    "lastCollection": "AUTRE",
+    "observedExactProducts": 2795,
+    "unobservedExactProducts": 0,
+    "nextPhase": "PRB01-unresolved-review",
+    "prb01Unresolved": 71
+  }
 }

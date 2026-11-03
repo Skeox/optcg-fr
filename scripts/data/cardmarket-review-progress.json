@@ -2027,5 +2027,17 @@
       "previousAt": "2026-11-02T17:39:17.147Z",
       "previousSellers": 3
     }
-  ]
+  ],
+  "activeBlock": {
+    "collection": "EB02",
+    "series": "622202",
+    "productId": 823420,
+    "card": "EB01-001_p1",
+    "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Anime-25th-Collection/Kouzuki-Oden-EB01-001?language=2",
+    "tabId": 236,
+    "detectedAt": "2026-11-03T09:20:35.062719+00:00",
+    "kind": "cardmarket-security-check",
+    "rayId": "a54a4c9cef39d62e",
+    "note": "Verification de securite persistante apres attente et lecture seule. Aucun releve importe, produit non ajoute a insufficientRechecked. Collecteur arrete ; conserver onglet 236. Aux passages suivants, lecture seule sans rechargement ni navigation, reprendre seulement si accessible ou utilisateur debloque."
+  }
 }

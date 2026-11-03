@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T08:39:40.392Z",
+  "updatedAt": "2026-11-03T08:59:39.214Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -42762,14 +42762,16 @@
     },
     "904160": {
       "productId": 904160,
-      "at": "2026-11-02T17:39:17.147Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 3,
+      "at": "2026-11-03T08:59:39.214Z",
+      "status": "quoted",
+      "average": 5799.6,
+      "sellers": 5,
       "sample": [
         449900,
-        1000000,
-        2000000
+        450000,
+        499900,
+        500000,
+        1000000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP17/MonkeyDLuffy-EB04-061?language=2"
     },

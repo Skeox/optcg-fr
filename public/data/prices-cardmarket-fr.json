@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T07:00:53.584Z",
+  "updatedAt": "2026-11-03T07:19:39.607Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -15660,15 +15660,15 @@
     },
     "827268": {
       "productId": 827268,
-      "at": "2026-11-02T17:36:15.688Z",
+      "at": "2026-11-03T07:19:39.607Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,
       "sample": [
         250000,
         260000,
-        500000,
-        620000
+        350000,
+        500000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP05-119-V1?language=2"
     },

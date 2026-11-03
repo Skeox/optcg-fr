@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T08:19:59.062Z",
+  "updatedAt": "2026-11-03T08:39:40.392Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -37424,13 +37424,16 @@
     },
     "890767": {
       "productId": 890767,
-      "at": "2026-11-02T17:38:59.913Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 2,
+      "at": "2026-11-03T08:39:40.392Z",
+      "status": "quoted",
+      "average": 659.8,
+      "sellers": 5,
       "sample": [
+        59900,
+        59999,
+        60000,
         65000,
-        120000
+        85000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/Borsalino-OP16-073-V3?language=2"
     },

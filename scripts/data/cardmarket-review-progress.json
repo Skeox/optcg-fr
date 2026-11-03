@@ -2851,7 +2851,15 @@
     "totalPrintings": 2888,
     "unresolvedMappings": 23,
     "unobservedExactProducts": 0,
-    "temporaryFollowup": "disable-after-publication-verification",
-    "monthlyFollowup": "unchanged"
+    "temporaryFollowup": "disabled",
+    "monthlyFollowup": "unchanged",
+    "publicationVerifiedAt": "2026-11-03T11:29:05Z",
+    "earliestNextCollectionAt": "2026-11-03T11:39:05Z",
+    "nextCollection": null,
+    "collectionCommit": "64cc99ec11b7e718d1f46eed4daa378d4aa3895d",
+    "publishedDataMatchesLocal": true,
+    "testsPassed": 146,
+    "auditIssues": 0,
+    "build": "success"
   }
 }

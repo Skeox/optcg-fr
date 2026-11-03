@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T03:06:10.418Z",
+  "updatedAt": "2026-11-03T03:26:01.557Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -36133,6 +36133,231 @@
         750
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-MonkeyDLuffy/Thousand-Sunny-ST31-005?language=2"
+    },
+    "900288": {
+      "productId": 900288,
+      "at": "2026-11-03T03:24:34.769Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Perona-OP10-036?language=2"
+    },
+    "900289": {
+      "productId": 900289,
+      "at": "2026-11-03T03:24:43.213Z",
+      "status": "quoted",
+      "average": 1,
+      "sellers": 5,
+      "sample": [
+        99,
+        99,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Roronoa-Zoro-OP12-020?language=2"
+    },
+    "900290": {
+      "productId": 900290,
+      "at": "2026-11-03T03:24:51.578Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Kawamatsu-OP12-023?language=2"
+    },
+    "900291": {
+      "productId": 900291,
+      "at": "2026-11-03T03:25:07.027Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Kuina-OP12-026?language=2"
+    },
+    "900292": {
+      "productId": 900292,
+      "at": "2026-11-03T03:25:15.412Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Koushirou-OP12-027?language=2"
+    },
+    "900293": {
+      "productId": 900293,
+      "at": "2026-11-03T03:25:23.841Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Kouzuki-Hiyori-OP12-028?language=2"
+    },
+    "900294": {
+      "productId": 900294,
+      "at": "2026-11-03T03:25:32.316Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        3,
+        7
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Tashigi-OP12-031?language=2"
+    },
+    "900295": {
+      "productId": 900295,
+      "at": "2026-11-03T03:25:44.762Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Luffy-Is-the-Man-Who-Will-Become-the-King-of-Pirates-OP12-039?language=2"
+    },
+    "900296": {
+      "productId": 900296,
+      "at": "2026-11-03T03:25:53.168Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Ryuma-OP15-036?language=2"
+    },
+    "900297": {
+      "productId": 900297,
+      "at": "2026-11-03T03:26:01.557Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/XDrake-ST24-005?language=2"
+    },
+    "900298": {
+      "productId": 900298,
+      "at": "2026-11-03T03:23:47.861Z",
+      "status": "quoted",
+      "average": 0.06,
+      "sellers": 5,
+      "sample": [
+        4,
+        4,
+        5,
+        8,
+        9
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Kinemon-ST32-001?language=2"
+    },
+    "900299": {
+      "productId": 900299,
+      "at": "2026-11-03T03:23:56.370Z",
+      "status": "quoted",
+      "average": 7.66,
+      "sellers": 5,
+      "sample": [
+        700,
+        750,
+        785,
+        795,
+        800
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Kouzuki-Oden-ST32-002?language=2"
+    },
+    "900300": {
+      "productId": 900300,
+      "at": "2026-11-03T03:24:04.870Z",
+      "status": "quoted",
+      "average": 1.13,
+      "sellers": 5,
+      "sample": [
+        90,
+        100,
+        125,
+        125,
+        125
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Dracule-Mihawk-ST32-003?language=2"
+    },
+    "900301": {
+      "productId": 900301,
+      "at": "2026-11-03T03:24:13.363Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        4,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Silvers-Rayleigh-ST32-004?language=2"
+    },
+    "900302": {
+      "productId": 900302,
+      "at": "2026-11-03T03:24:26.390Z",
+      "status": "quoted",
+      "average": 0.45,
+      "sellers": 5,
+      "sample": [
+        25,
+        50,
+        50,
+        50,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Roronoa-Zoro/Roronoa-Zoro-ST32-005?language=2"
     },
     "903879": {
       "productId": 903879,

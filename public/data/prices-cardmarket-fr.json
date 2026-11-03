@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-02T23:58:37.252Z",
+  "updatedAt": "2026-11-03T00:15:48.068Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -13819,6 +13819,231 @@
         2800000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/A-Fist-of-Divine-Speed/MonkeyDLuffy-OP05-119-V2?language=2"
+    },
+    "829097": {
+      "productId": 829097,
+      "at": "2026-11-03T00:14:20.844Z",
+      "status": "quoted",
+      "average": 1.01,
+      "sellers": 5,
+      "sample": [
+        95,
+        99,
+        100,
+        100,
+        110
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Shanks-OP09-001?language=2"
+    },
+    "829098": {
+      "productId": 829098,
+      "at": "2026-11-03T00:14:29.608Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Howling-Gab-OP09-006?language=2"
+    },
+    "829099": {
+      "productId": 829099,
+      "at": "2026-11-03T00:14:38.061Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Bonk-Punch-OP09-010?language=2"
+    },
+    "829100": {
+      "productId": 829100,
+      "at": "2026-11-03T00:14:51.239Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        4,
+        4,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Hongo-OP09-011?language=2"
+    },
+    "829101": {
+      "productId": 829101,
+      "at": "2026-11-03T00:14:59.998Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Monster-OP09-012?language=2"
+    },
+    "829102": {
+      "productId": 829102,
+      "at": "2026-11-03T00:15:08.607Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        5,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Yasopp-OP09-013?language=2"
+    },
+    "829103": {
+      "productId": 829103,
+      "at": "2026-11-03T00:15:18.171Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Limejuice-OP09-014?language=2"
+    },
+    "829104": {
+      "productId": 829104,
+      "at": "2026-11-03T00:15:30.871Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        4,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/LuckyRoux-OP09-015?language=2"
+    },
+    "829105": {
+      "productId": 829105,
+      "at": "2026-11-03T00:15:39.588Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Rockstar-OP09-016?language=2"
+    },
+    "829106": {
+      "productId": 829106,
+      "at": "2026-11-03T00:15:48.068Z",
+      "status": "quoted",
+      "average": 0.05,
+      "sellers": 5,
+      "sample": [
+        4,
+        4,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Come-On-Well-Fight-You-OP09-020?language=2"
+    },
+    "829107": {
+      "productId": 829107,
+      "at": "2026-11-03T00:13:35.043Z",
+      "status": "quoted",
+      "average": 7.65,
+      "sellers": 5,
+      "sample": [
+        700,
+        725,
+        750,
+        800,
+        850
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Uta-ST23-001?language=2"
+    },
+    "829108": {
+      "productId": 829108,
+      "at": "2026-11-03T00:13:43.536Z",
+      "status": "quoted",
+      "average": 1.05,
+      "sellers": 5,
+      "sample": [
+        97,
+        99,
+        100,
+        105,
+        125
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Shanks-ST23-002?language=2"
+    },
+    "829109": {
+      "productId": 829109,
+      "at": "2026-11-03T00:13:51.978Z",
+      "status": "quoted",
+      "average": 0.11,
+      "sellers": 5,
+      "sample": [
+        5,
+        10,
+        10,
+        15,
+        15
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/BennBeckman-ST23-003?language=2"
+    },
+    "829110": {
+      "productId": 829110,
+      "at": "2026-11-03T00:14:00.480Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/MonkeyDLuffy-ST23-004?language=2"
+    },
+    "829111": {
+      "productId": 829111,
+      "at": "2026-11-03T00:14:12.341Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Yasopp-ST23-005?language=2"
     },
     "829117": {
       "productId": 829117,

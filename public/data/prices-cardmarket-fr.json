@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T00:15:48.068Z",
+  "updatedAt": "2026-11-03T00:35:45.111Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -14045,6 +14045,81 @@
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Red-Shanks/Yasopp-ST23-005?language=2"
     },
+    "829112": {
+      "productId": 829112,
+      "at": "2026-11-03T00:34:26.715Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        4,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Scratchmen-Apoo-EB01-015?language=2"
+    },
+    "829113": {
+      "productId": 829113,
+      "at": "2026-11-03T00:34:35.268Z",
+      "status": "quoted",
+      "average": 0.62,
+      "sellers": 5,
+      "sample": [
+        25,
+        40,
+        45,
+        99,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Jewelry-Bonney-OP07-019?language=2"
+    },
+    "829114": {
+      "productId": 829114,
+      "at": "2026-11-03T00:34:44.187Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Urouge-OP07-021?language=2"
+    },
+    "829115": {
+      "productId": 829115,
+      "at": "2026-11-03T00:34:57.669Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Caribou-OP07-023?language=2"
+    },
+    "829116": {
+      "productId": 829116,
+      "at": "2026-11-03T00:35:06.284Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Coribou-OP07-025?language=2"
+    },
     "829117": {
       "productId": 829117,
       "at": "2026-10-29T23:33:59.109Z",
@@ -14059,6 +14134,141 @@
         2
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Bartolomeo-OP07-031?language=2"
+    },
+    "829118": {
+      "productId": 829118,
+      "at": "2026-11-03T00:35:14.860Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/MonkeyDLuffy-OP07-033?language=2"
+    },
+    "829119": {
+      "productId": 829119,
+      "at": "2026-11-03T00:35:23.362Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Roronoa-Zoro-OP07-034?language=2"
+    },
+    "829120": {
+      "productId": 829120,
+      "at": "2026-11-03T00:35:36.632Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Demonic-Aura-Nine-Sword-Style-Asura-Demon-Nine-Flash-OP07-036?language=2"
+    },
+    "829121": {
+      "productId": 829121,
+      "at": "2026-11-03T00:35:45.111Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/More-Pizza-OP07-037?language=2"
+    },
+    "829122": {
+      "productId": 829122,
+      "at": "2026-11-03T00:33:36.675Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/CaponeGangBege-ST24-001?language=2"
+    },
+    "829123": {
+      "productId": 829123,
+      "at": "2026-11-03T00:33:45.288Z",
+      "status": "quoted",
+      "average": 0.96,
+      "sellers": 5,
+      "sample": [
+        89,
+        90,
+        99,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Kid-Killer-ST24-002?language=2"
+    },
+    "829124": {
+      "productId": 829124,
+      "at": "2026-11-03T00:33:58.422Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Basil-Hawkins-ST24-003?language=2"
+    },
+    "829125": {
+      "productId": 829125,
+      "at": "2026-11-03T00:34:06.893Z",
+      "status": "quoted",
+      "average": 2.68,
+      "sellers": 5,
+      "sample": [
+        249,
+        250,
+        250,
+        290,
+        299
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/Law-Bepo-ST24-004?language=2"
+    },
+    "829126": {
+      "productId": 829126,
+      "at": "2026-11-03T00:34:18.183Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Green-Jewlery-Bonney/XDrake-ST24-005?language=2"
     },
     "830578": {
       "productId": 830578,

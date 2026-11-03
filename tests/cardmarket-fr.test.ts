@@ -55,7 +55,7 @@ describe('collecte Cardmarket FR', () => {
     expect(summarizeCardmarketPage(p, target, now)).toMatchObject({ status: 'insufficient', average: null, sellers: 1, sample: [4400] });
   });
   it('ne complète pas cinq vendeurs avec une annonce gradée, même sans espace avant la note', () => {
-    for (const comment of ['Bgs10', 'PSA10', 'PCA9.5', 'PG10 : 9-10-9.5-10', 'CollectAura 9, open on trades', 'Collect Aura 9.5', 'CollectAura10']) {
+    for (const comment of ['Bgs10', 'PSA10', 'PCA9.5', 'PG10 : 9-10-9.5-10', 'CollectAura 9, open on trades', 'Collect Aura 9.5', 'CollectAura10', 'BECKETTE 9.5']) {
       const p = page();
       p.offers[4].comment = comment;
       expect(summarizeCardmarketPage(p, target, now)).toMatchObject({ status: 'insufficient', average: null, sellers: 4 });

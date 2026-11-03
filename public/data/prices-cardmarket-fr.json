@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T09:45:24.697Z",
+  "updatedAt": "2026-11-03T10:03:46.042Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -1635,7 +1635,7 @@
     },
     "799200": {
       "productId": 799200,
-      "at": "2026-11-02T18:31:27.010Z",
+      "at": "2026-11-03T09:59:47.248Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,
@@ -2099,7 +2099,7 @@
     },
     "799233": {
       "productId": 799233,
-      "at": "2026-11-02T18:36:48.278Z",
+      "at": "2026-11-03T09:59:56.346Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,
@@ -2233,7 +2233,7 @@
     },
     "799242": {
       "productId": 799242,
-      "at": "2026-11-02T18:38:07.893Z",
+      "at": "2026-11-03T10:00:09.013Z",
       "status": "insufficient",
       "average": null,
       "sellers": 2,
@@ -2575,13 +2575,13 @@
     },
     "799265": {
       "productId": 799265,
-      "at": "2026-11-02T18:41:52.662Z",
+      "at": "2026-11-03T10:00:20.221Z",
       "status": "insufficient",
       "average": null,
       "sellers": 3,
       "sample": [
+        90000,
         95000,
-        99900,
         100000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/Sogeking-OP03-122?language=2"
@@ -2948,7 +2948,7 @@
     },
     "799292": {
       "productId": 799292,
-      "at": "2026-11-02T18:46:19.475Z",
+      "at": "2026-11-03T10:00:34.739Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,
@@ -3262,7 +3262,7 @@
     },
     "799318": {
       "productId": 799318,
-      "at": "2026-11-02T18:49:46.276Z",
+      "at": "2026-11-03T10:00:45.269Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,
@@ -3366,13 +3366,13 @@
     },
     "799325": {
       "productId": 799325,
-      "at": "2026-11-02T18:50:59.631Z",
+      "at": "2026-11-03T10:02:56.497Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,
       "sample": [
         90000,
-        130000,
+        90000,
         180000,
         185000
       ],
@@ -3950,12 +3950,13 @@
     },
     "799364": {
       "productId": 799364,
-      "at": "2026-11-02T18:57:25.917Z",
-      "status": "insufficient",
-      "average": null,
-      "sellers": 4,
+      "at": "2026-11-03T10:03:37.278Z",
+      "status": "quoted",
+      "average": 5.28,
+      "sellers": 5,
       "sample": [
         350,
+        400,
         400,
         500,
         990
@@ -4624,7 +4625,7 @@
     },
     "799420": {
       "productId": 799420,
-      "at": "2026-11-02T19:04:41.688Z",
+      "at": "2026-11-03T10:03:46.042Z",
       "status": "insufficient",
       "average": null,
       "sellers": 4,

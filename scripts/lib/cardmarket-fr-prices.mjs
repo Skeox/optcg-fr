@@ -37,7 +37,7 @@ export function summarizeCardmarketPage(page, target, now = new Date()) {
     const cents = euroCents(row.price);
     // Reject extras and descriptions mentioning grading, lots, signatures or alterations.
     const comment = row.comment ?? '';
-    const grading = /\b(?:PSA|BGS|CGC|PCA|CCC|beckett|Collect\s*Aura)(?:\b|(?=\d))|\bPG\s*\d{1,2}(?:[.,]\d)?\b/i.test(comment);
+    const grading = /\b(?:PSA|BGS|CGC|PCA|CCC|beckette?|Collect\s*Aura)(?:\b|(?=\d))|\bPG\s*\d{1,2}(?:[.,]\d)?\b/i.test(comment);
     const exceptional = grading || /\b(graded|gradée?|slab|lot|playset|signed|signée?|altered|altérée?|proxy|ink(?:ed)?)\b/i.test(comment);
     if (row.language !== 'Français' || !['NM', 'MT'].includes(row.condition) || !cents
       || !Number.isSafeInteger(row.quantity) || row.quantity < 1 || !Array.isArray(row.extras) || row.extras.length

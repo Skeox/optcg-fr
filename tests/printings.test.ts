@@ -12,6 +12,27 @@ const idx = buildIndexes(catalogue);
 const card = (id: string) => idx.byId.get(id)!;
 const ctx = { qty: () => 0, price: () => null, keep: 1 };
 
+it('associe les promotions vérifiées individuellement et sépare leurs finitions', () => {
+  expect(defaultProductFor(card('EB01-014_p1'), idx, prices)?.product.id).toBe(806194);
+  expect(defaultProductFor(card('P-045_p1'), idx, prices)?.product.id).toBe(794690);
+  expect(defaultProductFor(card('P-045_p2'), idx, prices)?.product.id).toBe(794691);
+  for (const id of ['P-099', 'OP05-076_p2', 'EB02-017_p2']) {
+    expect(defaultProductFor(card(id), idx, prices)).toBeUndefined();
+  }
+});
+
+it('refuse une promotion vérifiée dont le produit ou la collection devient incohérent', () => {
+  const original = prices.products[806194];
+  for (const bad of [undefined, { ...original, code: 'EB01-015' }, { ...original, foreign: true }, { ...original, exp: 5230 }]) {
+    const changed = { ...prices, products: { ...prices.products, 806194: bad } } as Prices;
+    expect(defaultProductFor(card('EB01-014_p1'), idx, changed)).toBeUndefined();
+  }
+  for (const change of [{ code: 'AUTRE' }, { kind: 'starter' as const }]) {
+    const changed = buildIndexes({ ...catalogue, series: catalogue.series.map(s => s.id === '622901' ? { ...s, ...change } : s) });
+    expect(defaultProductFor(card('EB01-014_p1'), changed, prices)).toBeUndefined();
+  }
+});
+
 it('accepte les fiches OP partagées documentées pour les six réimpressions françaises ST15', () => {
   for (const [id, productId] of [
     ['OP02-019_p1', 700840], ['OP02-023_p1', 700852], ['OP03-006_p1', 719930],

@@ -32,6 +32,10 @@ it.each(catalogue.series)('$code : chaque ancienne association doit prouver la m
         expect(card.series).toEqual([series.id]);
         expect(printingFor(card)?.series).toBe(series.id);
         expect(idx.byCode.get(card.code)).toHaveLength(1);
+      } else if (verified?.promotionalListing === true) {
+        expect(series.code).toBe('PROMO');
+        expect(series.kind).toBe('promo');
+        expect(printingFor(card)?.sources.length).toBeGreaterThan(0);
       } else if (series.cm.length) expect(series.cm).toContain(p.exp);
       else expect(evidence?.expansion).toBe(p.exp);
       if (verified) {

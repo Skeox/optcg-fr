@@ -94,7 +94,9 @@ const series = catalogue.series.map((s) => {
     const p = match.product;
     const sharedFrenchListing = printingFor(card)?.cardmarket?.sharedFrenchListing === true
       && card.series.length === 1 && idx.byCode.get(card.code)?.length === 1;
-    check(p.code === card.code && !p.foreign && (s.cm.includes(p.exp) || sharedFrenchListing || (!s.cm.length && merchantMappingFor(card)?.expansion === p.exp)), `Association hors collection/code : ${card.id}/${p.id}`);
+    const promotionalListing = printingFor(card)?.cardmarket?.promotionalListing === true
+      && s.code === 'PROMO' && s.kind === 'promo';
+    check(p.code === card.code && !p.foreign && (s.cm.includes(p.exp) || sharedFrenchListing || promotionalListing || (!s.cm.length && merchantMappingFor(card)?.expansion === p.exp)), `Association hors collection/code : ${card.id}/${p.id}`);
     return [{ card: card.id, product: p.id, evidence: (printingFor(card)?.cardmarket || merchantMappingFor(card)) ? 'verified' : 'unique-in-expansion' }];
   });
   check(new Set(resolved.map((r) => r.product)).size === resolved.length, `Prix partagé entre variantes de ${s.code}`);

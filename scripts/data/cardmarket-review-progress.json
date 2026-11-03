@@ -1,0 +1,639 @@
+{
+  "phase": "completion-2026-11-02",
+  "insufficientRechecked": [],
+  "promoReviews": [
+    {
+      "card": "EB01-014_p1",
+      "status": "confirmed",
+      "product": 806194,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:21:26.308Z",
+      "note": "Illustration Sanji aux éclats bleus, cadre blanc, coût 4 et puissance 5000 identiques à l’image officielle FR ; aucun tampon Winner/Championship. Fiche 806194 V.1 Unnumbered Promos et offres françaises visibles. Candidate 842363 V.3 écartée : cadre étendu et tampon Championship.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Unnumbered-Promos/Sanji-EB01-014-V1?language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Unnumbered-Promos/Sanji-EB01-014-V3?language=2"
+      ]
+    },
+    {
+      "card": "OP05-076_p2",
+      "status": "unresolved",
+      "checkedAt": "2026-11-03T05:21:43.569Z",
+      "candidates": [
+        828349,
+        828350,
+        850913
+      ],
+      "note": "Les trois fiches promotionnelles examinées montrent Kidd/Luffy/Law dans trois panneaux verticaux avec petites scènes colorées en haut ; l’image officielle du Pack de bienvenue Vol.1 comporte une bande manga en noir et blanc en haut et des bulles dans les trois portraits. 828350 a aussi une finition étendue ; 850913 est explicitement TEXTURED. Aucune de ces fiches ne correspond à l’illustration française. Pas d’association ni de prix.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=828349&language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=828350&language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=850913&language=2"
+      ]
+    },
+    {
+      "card": "OP06-076_p1",
+      "status": "confirmed",
+      "product": 806198,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:22:06.193Z",
+      "note": "Illustration Kamazo bandé penché, faux et fourrure rose, cadre blanc, coût 4/5000 identiques à la carte officielle du Pack Tournoi 2025 Vol.1 ; aucun tampon Winner/Championship. Fiche V.1 Unnumbered Promos, identité 806198 et offres françaises visibles.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Unnumbered-Promos/Hitokiri-Kamazo-OP06-076-V1?language=2"
+      ]
+    },
+    {
+      "card": "OP07-080_p1",
+      "status": "confirmed",
+      "product": 806200,
+      "expansion": 6677,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:22:25.094Z",
+      "note": "Kaku en costume et haut-de-forme blancs sur fond vert, cadre blanc/noir sans tampon Winner, coût 4/5000 : illustration et bordures identiques à la carte officielle Pack Tournoi 2025 Vol.1. Fiche Store Tournament Promos V.1, identité 806200, offres FR visibles.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Store-Tournament-Promos/Kaku-OP07-080-V1?language=2"
+      ]
+    },
+    {
+      "card": "OP08-047_p1",
+      "status": "confirmed",
+      "product": 818078,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:22:39.516Z",
+      "note": "Image française sur la fiche : Joz frappant avec éclats jaunes sur fond vert, cadre blanc/bleu, coût 6/7000, aucun tampon. Correspondance visuelle exacte avec le Pack Bienvenue Vol.1 ; édition Unnumbered Promos V.1 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Unnumbered-Promos/Jozu-OP08-047-V1?language=2"
+      ]
+    },
+    {
+      "card": "OP08-082_p1",
+      "status": "confirmed",
+      "product": 818079,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:22:48.892Z",
+      "note": "Image française identique : Sasaki aux cheveux verts, manteau blanc et fond orange, cadre blanc/noir, coût 1/1000 sans tampon. Fiche Unnumbered Promos V.1 et identité 818079, offres françaises.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Unnumbered-Promos/Sasaki-OP08-082-V1?language=2"
+      ]
+    },
+    {
+      "card": "OP14-014_p1",
+      "status": "confirmed",
+      "product": 867182,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:23:05.268Z",
+      "note": "Kidd souriant de biais, manteau à fourrure et bras repliés, fond métallique et illustration étendue coût 4/5000 identiques au Dash OP14-EB04. V.1 867182 Unnumbered Promos avec offres FR ; V.2 900586 écartée après comparaison : Kidd face à nous main tendue et équipage sur fond vert.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=867182&language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=900586&language=2"
+      ]
+    },
+    {
+      "card": "OP14-029_p2",
+      "status": "confirmed",
+      "product": 867183,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:23:14.560Z",
+      "note": "Tashigi de dos, manteau rose Marine et katana levé, fond bleu, illustration étendue sans tampon, coût 5/6000 : correspond au Dash OP14-EB04. Fiche Unnumbered Promos V.1 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=867183&language=2"
+      ]
+    },
+    {
+      "card": "OP14-074_p1",
+      "status": "confirmed",
+      "product": 867185,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:23:24.544Z",
+      "note": "Monet ailes déployées et lapins de neige, haut HAPPY et chaussettes rayées, illustration étendue sans tampon, coût 5/6000 : image identique au Dash OP14-EB04. Identité 867185 Unnumbered Promos V.1, offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=867185&language=2"
+      ]
+    },
+    {
+      "card": "OP14-087_p1",
+      "status": "confirmed",
+      "product": 867186,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:23:36.005Z",
+      "note": "Mikita souriante sous une ombrelle verte, robe citron et chapeau jaune, illustration étendue sans tampon, coût 1/2000 : image identique au Dash OP14-EB04. Identité 867186 Unnumbered Promos V.1, offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=867186&language=2"
+      ]
+    },
+    {
+      "card": "OP14-108_p1",
+      "status": "confirmed",
+      "product": 867187,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:23:49.135Z",
+      "note": "Rayleigh âgé penché en avant, manteau blanc/noir et lumière diagonale, illustration étendue sans tampon, coût 6/6000 : image identique au Dash OP14-EB04. Identité 867187 Unnumbered Promos V.1 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=867187&language=2"
+      ]
+    },
+    {
+      "card": "P-008",
+      "status": "confirmed",
+      "product": 691239,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:24:06.088Z",
+      "note": "Yamato levant sa massue, jambes repliées, fond rose avec éclairs blancs, sans tampon Winner : composition et cadre identiques à la promotion Dash Vol.2. Fiche Promos V.1 et offres FR ; V.2 692240 écartée, fond vert et Winner.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=691239&language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=692240&language=2"
+      ]
+    },
+    {
+      "card": "P-009",
+      "status": "confirmed",
+      "product": 691240,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:24:13.642Z",
+      "note": "Law katana sur l’épaule, main tendue avec sphère bleue, manteau noir, illustration étendue sans Winner ; coût 6/7000 identique au Dash Vol.2. Fiche Promos V.1, identité 691240 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=691240&language=2"
+      ]
+    },
+    {
+      "card": "P-023_p1",
+      "status": "confirmed",
+      "product": 692221,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:24:23.952Z",
+      "note": "Yasopp bras croisés, cape étoilée et pantalon jaune, cadre blanc/rouge sans marquage, coût 6/8000 : illustration identique au Pack Bienvenue Vol.1. Fiche Promos 692221 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=692221&language=2"
+      ]
+    },
+    {
+      "card": "P-028",
+      "status": "confirmed",
+      "product": 692222,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:24:34.722Z",
+      "note": "Ace souriant avec chapeau orange, flammes sur les doigts, fond beige, illustration étendue sans tampon Winner, coût 5/6000 : correspond au Dash Vol.2. Fiche Promos V.1 692222 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=692222&language=2"
+      ]
+    },
+    {
+      "card": "P-031",
+      "status": "confirmed",
+      "product": 692225,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:24:48.471Z",
+      "note": "Uta avec armure dorée et col rose/violet sur portée musicale, illustration étendue sans tampon Winner, coût 5/6000 : correspond au Dash Vol.2. Fiche Promos V.1 692225 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=692225&language=2"
+      ]
+    },
+    {
+      "card": "P-034",
+      "status": "confirmed",
+      "product": 696721,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:24:56.037Z",
+      "note": "Sanji en attaque au milieu des flammes, cape rouge, illustration étendue sans tampon, coût 3/4000 : image identique au Dash Vol.2. Fiche Promos 696721 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=696721&language=2"
+      ]
+    },
+    {
+      "card": "P-035",
+      "status": "confirmed",
+      "product": 704113,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:25:07.758Z",
+      "note": "Luffy en coup de pied circulaire, veste rouge, fond de navire, illustration étendue sans tampon, coût 6/6000 : image identique au Dash Vol.2. Fiche Promos 704113 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=704113&language=2"
+      ]
+    },
+    {
+      "card": "P-043_p1",
+      "status": "confirmed",
+      "product": 818080,
+      "expansion": 5230,
+      "version": 3,
+      "checkedAt": "2026-11-03T05:25:17.450Z",
+      "note": "Luffy roi sur trône doré ; image française et tampon 2nd Anniversary ONE PIECE CARD GAME à droite correspondent exactement à l’impression OP09 sortie spéciale, coût 7/7000. Fiche Promos V.3 818080 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818080&language=2"
+      ]
+    },
+    {
+      "card": "P-045_p1",
+      "status": "confirmed",
+      "product": 794690,
+      "expansion": 5230,
+      "version": 2,
+      "checkedAt": "2026-11-03T05:25:29.364Z",
+      "note": "Zoro trois sabres et flammes vertes, cadre blanc/violet et tampon Release Event / Événement de Sortie sans Winner : correspond à ST15–20 sortie. Fiche Promos V.2 794690 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=794690&language=2"
+      ]
+    },
+    {
+      "card": "P-045_p2",
+      "status": "confirmed",
+      "product": 794691,
+      "expansion": 5230,
+      "version": 3,
+      "checkedAt": "2026-11-03T05:25:50.610Z",
+      "note": "Même illustration Zoro et tampon Événement de Sortie que la version ordinaire, mais la fiche V.3 montre la finition brillante arc-en-ciel. L’impression officielle est classée ST15–20 Winner ; annonces françaises explicitement « sortie de booster winner » et « FRENCH FOIL ». Identité 794691 distincte de la V.2 794690. Les images officielles seules ne séparent pas les finitions.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=794691&language=2"
+      ]
+    },
+    {
+      "card": "ST13-001_p1",
+      "status": "confirmed",
+      "product": 803087,
+      "expansion": 5303,
+      "version": 2,
+      "checkedAt": "2026-11-03T05:25:59.994Z",
+      "note": "Sabo haut-de-forme et tuyau sur fond rouge/vert, Leader 5000/4 et tampon doré 2nd Anniversary : tous les éléments correspondent à OP09 sortie spéciale. Fiche Unnumbered Promos V.2 803087 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=803087&language=2"
+      ]
+    },
+    {
+      "card": "ST13-002_p1",
+      "status": "confirmed",
+      "product": 803088,
+      "expansion": 5303,
+      "version": 2,
+      "checkedAt": "2026-11-03T05:26:10.640Z",
+      "note": "Ace chapeau orange bras tendu, fond rouge/noir/vert, Leader 5000/4 et tampon doré 2nd Anniversary à gauche : correspond à OP09 sortie spéciale. Fiche Unnumbered Promos V.2 803088 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=803088&language=2"
+      ]
+    },
+    {
+      "card": "ST13-003_p1",
+      "status": "confirmed",
+      "product": 803089,
+      "expansion": 5303,
+      "version": 2,
+      "checkedAt": "2026-11-03T05:26:22.441Z",
+      "note": "Luffy poing levé et chapeau dans le dos, fond vert/rouge, Leader 5000/4 et tampon doré 2nd Anniversary à droite : correspond à OP09 sortie spéciale. Fiche Unnumbered Promos V.2 803089 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=803089&language=2"
+      ]
+    },
+    {
+      "card": "P-101",
+      "status": "confirmed",
+      "product": 858533,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:26:39.394Z",
+      "note": "Chopper entouré de bonbons et barbe à papa, cadre blanc/rouge sans tampon, coût 4/5000 : correspond au Store Tournament 2025 Vol.4. V.1 858533 Promos avec offres FR. V.2 884245 écartée : Chopper penché depuis un rebord bleu, composition différente.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=858533&language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=884245&language=2"
+      ]
+    },
+    {
+      "card": "P-102",
+      "status": "confirmed",
+      "product": 858534,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:26:49.804Z",
+      "note": "Nami tenue Egghead blanche SSG et casque, machines en arrière-plan, cadre blanc/vert sans tampon, coût 4/4000 : image identique au Store Tournament 2025 Vol.4. Fiche Promos V.1 858534 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=858534&language=2"
+      ]
+    },
+    {
+      "card": "P-103",
+      "status": "confirmed",
+      "product": 858535,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:27:02.308Z",
+      "note": "Ace de dos, chapeau dans le dos, tourbillons bleus/orangés, cadre blanc/bleu sans tampon, coût 4/6000 : image identique au Store Tournament 2025 Vol.4. Fiche Promos V.1 858535 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=858535&language=2"
+      ]
+    },
+    {
+      "card": "P-104",
+      "status": "confirmed",
+      "product": 858536,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:27:10.941Z",
+      "note": "Shanks manteau noir sur fond rouge strié, cadre blanc/violet sans tampon, coût 8/10000 : image identique au Store Tournament 2025 Vol.4. Fiche Promos V.1 858536 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=858536&language=2"
+      ]
+    },
+    {
+      "card": "P-105",
+      "status": "confirmed",
+      "product": 858537,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:27:22.146Z",
+      "note": "Sabo de profil/dos avec tuyau en diagonale et traînées multicolores, cadre blanc/noir sans tampon, coût 4/6000 : image identique au Store Tournament 2025 Vol.4. Fiche Promos V.1 858537 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=858537&language=2"
+      ]
+    },
+    {
+      "card": "P-106",
+      "status": "confirmed",
+      "product": 858538,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:27:31.535Z",
+      "note": "Luffy tenue Egghead rouge et casque, jambe levée, cadre blanc/jaune sans tampon, coût 5/6000 : image identique au Store Tournament 2025 Vol.4. Fiche Promos V.1 858538 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=858538&language=2"
+      ]
+    },
+    {
+      "card": "P-107",
+      "status": "confirmed",
+      "product": 858539,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:27:51.040Z",
+      "note": "Roger levant son sabre parmi les éclairs rouges, cadre blanc/violet sans tampon, coût 8/10000 : image identique au Store Tournament 2025 Vol.4. Fiche Promos V.1 858539 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=858539&language=2"
+      ]
+    },
+    {
+      "card": "P-117",
+      "status": "confirmed",
+      "product": 858532,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:28:01.773Z",
+      "note": "Nami cheveux courts faisant un clin d’œil devant une carte bleue, Leader 5000/5 sans tampon : image identique au Store Tournament 2025 Vol.4. Fiche Promos V.1 858532 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=858532&language=2"
+      ]
+    },
+    {
+      "card": "P-155",
+      "status": "confirmed",
+      "product": 896418,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:28:12.612Z",
+      "note": "Law bonnet blanc tacheté et sweat jaune, vue en contre-plongée sous plafond à croisillons dorés, cadre blanc/jaune sans tampon, coût 4/5000 : correspond à Pirates Party 2026 Vol.2. Fiche Promos V.1 896418 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=896418&language=2"
+      ]
+    },
+    {
+      "card": "P-110",
+      "status": "confirmed",
+      "product": 904171,
+      "expansion": 5230,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:28:23.604Z",
+      "note": "Luffy casque à cornes devant briques multicolores, illustration étendue, logo 4th Anniversary en bas à gauche et absence de Winner ; coût 7/9000. Correspond à l’image officielle normale. Fiche Promos V.1 904171 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=904171&language=2"
+      ]
+    },
+    {
+      "card": "P-110_p1",
+      "status": "confirmed",
+      "product": 904170,
+      "expansion": 6684,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:28:33.908Z",
+      "note": "Luffy casque à cornes devant briques multicolores, logo 4th Anniversary et tampon doré Release Event Winner en bas à droite, caractères dorés : correspond exactement à la version officielle Winner. Fiche Winner Cards V.1 904170 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=904170&language=2"
+      ]
+    },
+    {
+      "card": "P-041",
+      "status": "confirmed",
+      "product": 816881,
+      "expansion": 5230,
+      "version": 3,
+      "checkedAt": "2026-11-03T05:28:59.985Z",
+      "note": "La fiche V.3 affiche une carte française : Luffy Gear 5 en contre-plongée, main tendue et jambe vers l’avant, éclairs jaunes, fond bleu/rouge, illustration étendue sans tampon ; composition et cadre correspondent à Cannes. V.1 750655 écartée : portrait frontal différent. Fiche promotionnelle distincte du ST18, identité 816881 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=816881&language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=750655&language=2"
+      ]
+    },
+    {
+      "card": "ST07-010_p1",
+      "status": "confirmed",
+      "product": 818081,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:29:12.887Z",
+      "note": "Linlin riante levant des pâtisseries, robe rose à pois et fond confiserie, illustration étendue sans tampon, coût 7/8000 : image française identique au Dash Vol.1. Fiche Unnumbered Promos V.1 818081 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818081&language=2"
+      ]
+    },
+    {
+      "card": "ST06-004_p1",
+      "status": "confirmed",
+      "product": 850410,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:29:23.675Z",
+      "note": "Smoker penché avec deux cigares, col vert et fumée, illustration étendue sans tampon, coût 5/7000 : image française identique au Dash Vol.1. Fiche Unnumbered Promos 850410 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=850410&language=2"
+      ]
+    },
+    {
+      "card": "ST04-005_p1",
+      "status": "confirmed",
+      "product": 871468,
+      "expansion": 5303,
+      "version": 1,
+      "checkedAt": "2026-11-03T05:29:33.933Z",
+      "note": "Queen bras levés, pantalon rayé et fond gris/noir, illustration étendue sans tampon, coût 5/6000 : image française identique au Dash Vol.1. Fiche promotionnelle Unnumbered Promos V.1 871468 distincte de PRB01, offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=871468&language=2"
+      ]
+    },
+    {
+      "card": "ST01-007_p1",
+      "status": "confirmed",
+      "product": 836705,
+      "expansion": 5303,
+      "version": 5,
+      "checkedAt": "2026-11-03T05:30:07.499Z",
+      "note": "Nami tenant une bourse au milieu des pièces, image étendue jusqu’aux bords et absence de tampon : la fiche V.5 affiche l’image française identique au Dash Vol.1, coût 1/1000. V.2 696715 écartée (cadre blanc), V.1 732342 écartée (autre illustration japonaise). Identité 836705 et offres FR.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=836705&language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=696715&language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=732342&language=2"
+      ]
+    },
+    {
+      "card": "EB02-017_p2",
+      "status": "unresolved",
+      "checkedAt": "2026-11-03T05:30:46.700Z",
+      "candidates": [
+        823444,
+        823445,
+        853519
+      ],
+      "note": "Recherche Cardmarket complète : cinq fiches, seulement deux occidentales, toutes deux Anime 25th Collection EB02. La V.1 823444 reprend la même illustration Nami parmi les feuilles que la promotion, mais appartient à EB02 et ne sépare pas la réimpression Promo Chapeau de paille. V.2 823445 : autre illustration au coucher du soleil. UP-JP 853519 est japonais avec une autre illustration. Pas de fiche promotionnelle occidentale exacte confirmée ; aucun partage entre impressions.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=EB02-017&language=2"
+      ]
+    },
+    {
+      "card": "EB02-037_p1",
+      "status": "unresolved",
+      "checkedAt": "2026-11-03T05:30:56.360Z",
+      "candidates": [
+        823471
+      ],
+      "note": "Recherche complète : uniquement Franky EB02 occidental et EB02 japonais. Illustration Franky de profil, chemise violette, identique à la réimpression Promo Chapeau de paille ; aucune fiche ne sépare cette impression d’EB02. Ne pas partager le produit 823471 entre variantes.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=EB02-037&language=2"
+      ]
+    },
+    {
+      "card": "EB02-055_p1",
+      "status": "unresolved",
+      "checkedAt": "2026-11-03T05:31:10.145Z",
+      "candidates": [
+        823503,
+        828340,
+        828341
+      ],
+      "note": "Recherche complète : EB02, Store Tournament, Winner et deux fiches asiatiques. Image Promo Chapeau de paille (Jinbe kimono jaune, bras tendu horizontal, motifs vagues) identique à EB02 823503 ; Store Tournament/Winner montrent une autre pose. Aucune fiche exacte séparant la réimpression d’EB02 ; pas de partage entre impressions.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=EB02-055&language=2"
+      ]
+    },
+    {
+      "card": "OP09-105_p1",
+      "status": "unresolved",
+      "checkedAt": "2026-11-03T05:31:20.049Z",
+      "candidates": [
+        802989,
+        803074
+      ],
+      "note": "Recherche complète : trois fiches, OP09 occidental/japonais et OP09 Pre-Release. La promotion Chapeau de paille reprend l’image Sanji au coup de pied enflammé sans tampon, identique à OP09 802989. Candidate 803074 écartée par tampon Pre-Release. Aucune fiche distincte de la promotion ; pas de partage.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=OP09-105&language=2"
+      ]
+    },
+    {
+      "card": "OP11-009_p1",
+      "status": "unresolved",
+      "checkedAt": "2026-11-03T05:31:31.041Z",
+      "candidates": [
+        827088,
+        828501,
+        900276
+      ],
+      "note": "Recherche complète : OP11, ST31, leurs éditions asiatiques et OP11 Pre-Release. Même illustration Robin lunettes sur le front devant des ruines pour OP11/ST31 et la promotion Chapeau de paille. Aucune fiche propre à cette dernière ; plusieurs impressions françaises empêchent un partage. 910904 correspond à ST31 Asia Region Legal.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=OP11-009&language=2"
+      ]
+    },
+    {
+      "card": "OP11-053_p1",
+      "status": "unresolved",
+      "checkedAt": "2026-11-03T05:31:43.530Z",
+      "candidates": [
+        827142,
+        828624,
+        878031
+      ],
+      "note": "Recherche complète : OP11, OP11 japonais, Pre-Release et Judge. Chopper sautant dans les rubans et cadeaux : image de base identique à la promotion Chapeau de paille ; la fiche Judge porte le tampon doré absent de l’officielle. Aucune fiche séparant la réimpression d’OP11, pas de partage.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=OP11-053&language=2"
+      ]
+    },
+    {
+      "card": "OP12-036_p1",
+      "status": "unresolved",
+      "checkedAt": "2026-11-03T05:31:56.777Z",
+      "candidates": [
+        842931,
+        843057,
+        852828
+      ],
+      "note": "Recherche complète : OP12, OP12 japonais, Release Event, Learn Together et promo japonaise. Zoro trois sabres sur fond violet : image Promo Chapeau de paille identique à OP12 842931 sans tampon. Release Event et Learn Together portent des marquages absents de l’officielle ; UP-JP a une autre illustration. Aucune fiche exacte séparant la réimpression.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=OP12-036&language=2"
+      ]
+    },
+    {
+      "card": "ST14-010_p2",
+      "status": "unresolved",
+      "checkedAt": "2026-11-03T05:32:07.607Z",
+      "candidates": [
+        783333,
+        829151,
+        852583,
+        852584
+      ],
+      "note": "Recherche complète : ST14, ST26, PRB02 V.1/V.2 et éditions asiatiques. Même Brook devant grille et ciel bleu pour plusieurs éditions ; la V.2 PRB porte la finition PRB Foil. Aucune fiche Promo Chapeau de paille séparée : ni image ni code ne permettent de partager une fiche existante entre ces impressions.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=ST14-010&language=2"
+      ]
+    },
+    {
+      "card": "ST21-002_p2",
+      "status": "unresolved",
+      "checkedAt": "2026-11-03T05:32:20.349Z",
+      "candidates": [
+        816815,
+        816816
+      ],
+      "note": "Recherche complète : quatre fiches ST21 occidentales/japonaises, V.1 cadre blanc et V.2 étendue. La promotion Chapeau de paille reprend Usopp devant le gréement avec cadre blanc de la V.1 ; aucune fiche distincte de la promotion. Pas de partage avec ST21.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=ST21-002&language=2"
+      ]
+    },
+    {
+      "card": "P-099",
+      "status": "unresolved",
+      "checkedAt": "2026-11-03T05:35:02.177Z",
+      "candidates": [
+        878020,
+        901335,
+        902492,
+        904388,
+        904389
+      ],
+      "note": "Illustration officielle du Pack Promo Équipage de Chapeau de paille identique aux fiches Promos 878020 V.1 et 901335 V.3, cette dernière explicitement Non-Foil ; les offres françaises de la V.3 comprennent une mention 4th anniversary. La fiche 902492 V.2 est monochrome avec tampon 4th Anniversary, et les fiches Special Tournaments portent leurs marquages propres. L’image officielle seule ne sépare pas la finition des deux fiches colorées sans tampon ni ne prouve leur appartenance au pack français. Association laissée non résolue, aucun prix importé.",
+      "sources": [
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=878020&language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=901335&language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=902492&language=2",
+        "https://www.cardmarket.com/fr/OnePiece/Products/Search?searchString=P-099&language=2"
+      ]
+    }
+  ]
+}

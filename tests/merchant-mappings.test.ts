@@ -30,8 +30,9 @@ it('ne confond ni une métadonnée de finition absente, ni le manga rouge, ni le
   expect(product('OP13-119_p3')).toBe(857347);
   expect(product('OP02-022_p1')).toBe(794682);
   expect(product('OP02-022_p2')).toBe(794683);
-  // Illustration identique, mais la promo d'origine ne prouve pas le deck non foil.
-  expect(product('P-105')).toBeUndefined();
+  // La promo relue individuellement reste séparée de la réimpression du deck.
+  expect(product('P-105')).toBe(858537);
+  expect(product('P-105_r1')).not.toBe(858537);
 });
 
 it('permet le prix exact de Vergo standard sans lui inventer un produit Cardmarket', () => {

@@ -23,8 +23,8 @@ it('sépare Jolly Roger, illustration étendue, Pirate Foil et impression ordina
   expect(product('EB01-009_p1')).toBe(852303);
 });
 
-it('ne confond ni une métadonnée de finition absente, ni le manga rouge, ni le tampon Winner', () => {
-  expect(product('OP01-024_p1')).toBeUndefined();
+it('sépare les finitions PRB01 confirmées, le manga rouge et le tampon Winner', () => {
+  expect(product('OP01-024_p1')).toBe(818010);
   expect(product('OP01-024_p2')).toBe(799192);
   expect(product('OP13-119_p2')).toBe(857346);
   expect(product('OP13-119_p3')).toBe(857347);
@@ -35,8 +35,9 @@ it('ne confond ni une métadonnée de finition absente, ni le manga rouge, ni le
   expect(product('P-105_r1')).not.toBe(858537);
 });
 
-it('permet le prix exact de Vergo standard sans lui inventer un produit Cardmarket', () => {
-  expect(product('OP03-079_r1')).toBeUndefined();
+it('associe Vergo standard à sa fiche PRB01 dédiée sans confondre ST19', () => {
+  expect(product('OP03-079_r1')).toBe(818024);
+  expect(product('OP03-079_p1')).toBeUndefined();
   expect(blueprintFor(card('OP03-079_r1'))).toBe(310673);
 });
 

@@ -156,7 +156,12 @@
     "series": "622018",
     "label": "Version du deck",
     "base": true,
-    "cardmarket": { "id": 747519, "expansion": 5426, "version": 1, "sharedFrenchListing": true },
+    "cardmarket": {
+      "id": 747519,
+      "expansion": 5426,
+      "version": 1,
+      "sharedFrenchListing": true
+    },
     "verifiedAt": "2026-11-02T22:35:14.679Z",
     "note": "Illustration et absence de marquage spécial comparées visuellement à la carte officielle française. La fiche OP05 d’origine affiche quatre vendeurs français NM, dont une annonce explicitement ST18. Ce code ne compte qu’une impression française dans le catalogue, appartenant à ST18. La correspondance est confirmée, mais quatre vendeurs ne suffisent pas à publier un prix.",
     "sources": [
@@ -236,7 +241,11 @@
     "series": "622016",
     "label": "Version du deck",
     "base": true,
-    "cardmarket": { "id": 794639, "expansion": 5748, "version": 1 },
+    "cardmarket": {
+      "id": 794639,
+      "expansion": 5748,
+      "version": 1
+    },
     "verifiedAt": "2026-11-02T21:56:33.660Z",
     "note": "Illustration du Leader Uta comparée visuellement à la carte officielle française et à la fiche Starter Deck: Green Uta. L’espace avant ST11-001 dans le nom du catalogue Cardmarket masquait ce produit ; l’identifiant 794639, le code et l’édition ST16 sont confirmés sur la fiche.",
     "sources": [
@@ -350,19 +359,35 @@
     "series": "622301",
     "label": "Illustration d’origine",
     "base": true,
-    "sources": ["https://fr.onepiece-cardgame.com/cardlist/?series=622301"]
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818024&language=2"
+    ],
+    "cardmarket": {
+      "id": 818024,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:20:57.144Z",
+    "note": "Vergo corps violet en frappe, cadre blanc simple, 5/5000. Fiche dédiée The Best distincte de l’OP03 partagé. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés."
   },
   "OP03-079_p3": {
     "series": "622301",
     "label": "Jolly Roger",
     "base": false,
-    "sources": ["https://fr.onepiece-cardgame.com/cardlist/?series=622301"]
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301"
+    ]
   },
   "OP03-079_p4": {
     "series": "622301",
     "label": "Illustration étendue",
     "base": false,
-    "cardmarket": { "id": 799250, "expansion": 5805, "version": 3 },
+    "cardmarket": {
+      "id": 799250,
+      "expansion": 5805,
+      "version": 3
+    },
     "sources": [
       "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
       "https://www.cardmarket.com/en/OnePiece/Products/Singles/The-Best/Vergo-OP03-079-V3",
@@ -373,19 +398,35 @@
     "series": "622301",
     "label": "Illustration d’origine",
     "base": true,
-    "sources": ["https://fr.onepiece-cardgame.com/cardlist/?series=622301"]
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818050&language=2"
+    ],
+    "cardmarket": {
+      "id": 818050,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:26:35.213Z",
+    "note": "Niji uniforme bleu gants jaunes et éclairs ; cadre blanc simple, 5/6000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés."
   },
   "OP06-065_p2": {
     "series": "622301",
     "label": "Jolly Roger",
     "base": false,
-    "sources": ["https://fr.onepiece-cardgame.com/cardlist/?series=622301"]
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301"
+    ]
   },
   "OP06-065_p3": {
     "series": "622301",
     "label": "Illustration étendue",
     "base": false,
-    "cardmarket": { "id": 799370, "expansion": 5805, "version": 3 },
+    "cardmarket": {
+      "id": 799370,
+      "expansion": 5805,
+      "version": 3
+    },
     "sources": [
       "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
       "https://www.cardmarket.com/en/OnePiece/Products/Singles/The-Best/Vinsmoke-Niji-OP06-065-V3",
@@ -396,7 +437,11 @@
     "series": "622113",
     "label": "Affiche Wanted",
     "base": false,
-    "cardmarket": { "id": 857344, "expansion": 6187, "version": 3 },
+    "cardmarket": {
+      "id": 857344,
+      "expansion": 6187,
+      "version": 3
+    },
     "sources": [
       "https://fr.onepiece-cardgame.com/cardlist/?series=622113",
       "https://fr.onepiece-cardgame.com/images/cardlist/card/OP13-119_p4.webp?261016",
@@ -407,7 +452,11 @@
     "series": "622302",
     "label": "Illustration d’origine",
     "base": true,
-    "cardmarket": { "id": 852615, "expansion": 6242, "version": 2 },
+    "cardmarket": {
+      "id": 852615,
+      "expansion": 6242,
+      "version": 2
+    },
     "sources": [
       "https://fr.onepiece-cardgame.com/cardlist/?series=622302",
       "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best-Vol2/Charlotte-Brulee-ST20-003-V2?language=2",
@@ -418,7 +467,9 @@
     "series": "622301",
     "label": "Illustration alternative",
     "base": false,
-    "sources": ["https://fr.onepiece-cardgame.com/cardlist/?series=622301"]
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301"
+    ]
   },
   "OP13-081_r1": {
     "series": "622035",
@@ -1104,6 +1155,1094 @@
       "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=836705&language=2",
       "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=696715&language=2",
       "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=732342&language=2"
+    ]
+  },
+  "OP01-024_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818010,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:17:25.483Z",
+    "note": "Luffy veste rouge, jambe au premier plan, cadre argenté à motifs identiques à l’image officielle FR ; coût 2, puissance 3000, code OP01-024. Fiche The Best V.1 818010, édition et offres françaises contrôlées. Le rang interne du catalogue n’est pas utilisé.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products/Singles/The-Best/MonkeyDLuffy-OP01-024-V1?language=2"
+    ]
+  },
+  "OP01-029_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818011,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:17:55.752Z",
+    "note": "Rayon de Franky en case manga, grande onomatopée jaune, cadre doré à motifs ; coût 1. Illustration et bordures comparées à l’image officielle FR. Fiche The Best V.1, identité produit, édition et offres françaises contrôlées.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818011&language=2"
+    ]
+  },
+  "OP01-033_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818012,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:17:55.752Z",
+    "note": "Gros plan du visage d’Izo, cadre blanc simple, coût 3, puissance 3000. Illustration et bordures comparées à l’image officielle FR. Fiche The Best V.1, identité produit, édition et offres françaises contrôlées.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818012&language=2"
+    ]
+  },
+  "OP01-047_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 799202,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:17:55.752Z",
+    "note": "Law manteau noir et sabre, fond bleu, cadre argenté à motifs, coût 5, puissance 6000. Illustration et bordures comparées à l’image officielle FR. Fiche The Best V.1, identité produit, édition et offres françaises contrôlées.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=799202&language=2"
+    ]
+  },
+  "OP01-051_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818013,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:18:35.276Z",
+    "note": "Kidd manteau rouge et bras métallique, fond violet, cadre argenté à motifs, 8/8000. Le champ Nombre de la fiche porte OP01-033 par erreur ; le titre, l’image et son code imprimé portent OP01-051. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818013&language=2"
+    ]
+  },
+  "OP01-070_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 800785,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:18:35.276Z",
+    "note": "Mihawk tenant le grand sabre en diagonale, chapeau rouge/noir, cadre argenté à motifs, 9/9000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=800785&language=2"
+    ]
+  },
+  "OP01-078_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 800786,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:18:35.276Z",
+    "note": "Hancock main sur la joue devant le serpent, cadre argenté à motifs, 4/5000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=800786&language=2"
+    ]
+  },
+  "OP02-004_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 800787,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:18:35.276Z",
+    "note": "Newgate arme à l’épaule devant la glace, cadre argenté à motifs, 9/10000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=800787&language=2"
+    ]
+  },
+  "OP02-015_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818014,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:19:11.945Z",
+    "note": "Makino coiffée d’un foulard jaune, portrait rose doublé en fond, cadre blanc simple, 1/0. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818014&language=2"
+    ]
+  },
+  "OP02-018_r1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818015,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:19:11.945Z",
+    "note": "Marco entouré de flammes bleues, torse découvert, cadre blanc simple, 4/5000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818015&language=2"
+    ]
+  },
+  "OP02-089_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818016,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:19:11.945Z",
+    "note": "Magellan rouge sombre au milieu des vapeurs, case manga et cadre doré à motifs, coût 2. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818016&language=2"
+    ]
+  },
+  "OP02-106_r1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818017,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:19:11.945Z",
+    "note": "Tsuru mains jointes, manteau Marine, fond lumineux, cadre blanc simple, 1/0. Fiche dédiée The Best, distincte de la fiche OP02 partagée non retenue pour ST19. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818017&language=2"
+    ]
+  },
+  "OP02-114_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 800790,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:19:46.517Z",
+    "note": "Borsalino pointant un doigt lumineux, costume jaune, cadre argenté à motifs, 4/5000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=800790&language=2"
+    ]
+  },
+  "OP02-117_r1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818018,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:19:46.517Z",
+    "note": "Navires pris dans la glace sous ciel bleu, case manga, cadre doré à motifs, coût 1. Fiche dédiée The Best. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818018&language=2"
+    ]
+  },
+  "OP02-121_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 799234,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:19:46.517Z",
+    "note": "Kuzan manteau vert, main au bonnet, cadre et texte dorés, 10/10000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=799234&language=2"
+    ]
+  },
+  "OP03-003_r1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818019,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:19:46.517Z",
+    "note": "Izo deux pistolets et kimono rose, cadre blanc simple, 1/2000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818019&language=2"
+    ]
+  },
+  "OP03-055_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818020,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:20:24.434Z",
+    "note": "Coup de Luffy sur Don Krieg, case manga aux onomatopées rouges, cadre doré à motifs, coût 1. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818020&language=2"
+    ]
+  },
+  "OP03-056_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818021,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:20:24.434Z",
+    "note": "Gin mangeant le riz en pleurant, bol rayé rouge, cadre doré à motifs, coût 3. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818021&language=2"
+    ]
+  },
+  "OP03-057_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818022,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:20:24.434Z",
+    "note": "Zoro trois sabres en combat, case manga aux onomatopées bleues, cadre doré à motifs, coût 4. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818022&language=2"
+    ]
+  },
+  "OP03-060_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818023,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:20:24.434Z",
+    "note": "Kalifa lunettes et veste orange devant une fenêtre, cadre blanc simple, 4/4000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818023&language=2"
+    ]
+  },
+  "OP03-089_r1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818025,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:20:57.144Z",
+    "note": "Brandnew lunettes noires et chemise rayée, vue plongeante, cadre blanc simple, 2/3000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818025&language=2"
+    ]
+  },
+  "OP03-094_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818026,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:20:57.144Z",
+    "note": "Porte invisible devant Luffy dans une pièce blanche, case manga, cadre doré à motifs, coût 4. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818026&language=2"
+    ]
+  },
+  "OP03-108_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 800791,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:20:57.144Z",
+    "note": "Cracker sortant de son armure biscuit, cadre argenté à motifs, 4/5000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=800791&language=2"
+    ]
+  },
+  "OP03-110_p2": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818027,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:21:30.621Z",
+    "note": "Smoothie armure rose, cape jaune et cheveux lavande sous ciel bleu, cadre blanc simple, 4/5000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818027&language=2"
+    ]
+  },
+  "OP03-113_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 800792,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:21:30.621Z",
+    "note": "Slurp chapeau rayé jaune/rouge, canne violette en diagonale, cadre argenté à motifs, 3/5000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=800792&language=2"
+    ]
+  },
+  "OP03-116_p3": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818028,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:21:30.621Z",
+    "note": "Shirahoshi nageant entourée de poissons, fond bleu et cadre blanc simple, 5/0. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818028&language=2"
+    ]
+  },
+  "OP03-121_p2": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818029,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:21:30.621Z",
+    "note": "Linlin appelant la foudre dans une case manga, cadre doré à motifs, coût 2. Fiche dédiée The Best distincte de l’OP03 partagé non retenu pour ST20. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818029&language=2"
+    ]
+  },
+  "OP04-029_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818030,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:22:05.769Z",
+    "note": "Dellinger blond à cornes en mouvement, tourbillon blanc, cadre blanc simple, 3/4000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818030&language=2"
+    ]
+  },
+  "OP04-032_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818031,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:22:05.769Z",
+    "note": "Baby 5 en robe de servante rouge, bras levés et explosions, cadre blanc simple, 1/1000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818031&language=2"
+    ]
+  },
+  "OP04-036_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818032,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:22:05.769Z",
+    "note": "Portrait collectif de la famille Don Quijote avec bulles manga, cadre doré à motifs, coût 1. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818032&language=2"
+    ]
+  },
+  "OP04-056_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818033,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:22:05.769Z",
+    "note": "Coup enflammé de Luffy sur Kaido, case manga, cadre doré à motifs, coût 6. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818033&language=2"
+    ]
+  },
+  "OP04-089_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818034,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:25:03.980Z",
+    "note": "Bartolomeo allongé, pantalon à damier, fond bleu ; bordure blanche simple, coût 3, puissance 3000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818034&language=2"
+    ]
+  },
+  "OP04-095_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818035,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:25:03.980Z",
+    "note": "Barrière manga, personnage devant mur et onomatopées rouges ; cadre doré à motifs, coût 1. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818035&language=2"
+    ]
+  },
+  "OP05-057_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818038,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:25:22.515Z",
+    "note": "Chien ardent, chien de lave rouge et cases manga ; cadre doré à motifs, coût 2. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818038&language=2"
+    ]
+  },
+  "OP05-114_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818041,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:25:22.515Z",
+    "note": "El Thor, colonne jaune verticale et onomatopées violettes manga ; cadre doré à motifs, coût 1. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818041&language=2"
+    ]
+  },
+  "OP05-115_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818042,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:25:48.449Z",
+    "note": "Amal, divinité électrique et grande main, manga ; bordure dorée à motifs, coût 2. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818042&language=2"
+    ]
+  },
+  "OP05-117_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818043,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:25:48.449Z",
+    "note": "Upper Yard, grands arbres et cases manga ; cadre bleu à motifs, coût 1. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818043&language=2"
+    ]
+  },
+  "OP06-003_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818044,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:25:48.449Z",
+    "note": "Ivankov riant, cheveux violets et boules disco ; cadre blanc simple, 5/6000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818044&language=2"
+    ]
+  },
+  "OP06-036_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818046,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:26:12.936Z",
+    "note": "Ryuma lame diagonale, fond bleu sombre ; cadre blanc simple, 4/6000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818046&language=2"
+    ]
+  },
+  "OP06-038_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818047,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:26:12.936Z",
+    "note": "Pica tranché en deux, manga et onomatopées rouges ; cadre doré à motifs, coût 1. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818047&language=2"
+    ]
+  },
+  "OP06-056_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818048,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:26:12.936Z",
+    "note": "Duel Rayleigh/Borsalino, épée lumineuse diagonale ; cadre doré à motifs, coût 2. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818048&language=2"
+    ]
+  },
+  "OP06-060_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818049,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:26:35.213Z",
+    "note": "Ichiji cheveux rouges, veste blanche, silhouettes bleues ; cadre blanc simple, 4/4000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818049&language=2"
+    ]
+  },
+  "OP06-064_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818051,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:26:35.213Z",
+    "note": "Niji assis devant fenêtre, cheveux bleus ; cadre blanc simple, 3/3000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818051&language=2"
+    ]
+  },
+  "OP06-066_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818052,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:26:59.290Z",
+    "note": "Yonji bras croisés devant numéro 66 ; cadre blanc simple, 2/2000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818052&language=2"
+    ]
+  },
+  "OP06-067_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818053,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:26:59.290Z",
+    "note": "Yonji combinaison verte, poing tendu en plongée ; cadre blanc simple, 4/5000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818053&language=2"
+    ]
+  },
+  "OP06-068_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818054,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:26:59.290Z",
+    "note": "Reiju robe blanche, cheveux roses et main à la tête ; cadre blanc simple, 2/2000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818054&language=2"
+    ]
+  },
+  "OP06-069_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818055,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:27:25.897Z",
+    "note": "Reiju en combinaison rose, main gantée violette ; bordure argentée à motifs, 4/5000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818055&language=2"
+    ]
+  },
+  "OP06-079_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818056,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:27:25.897Z",
+    "note": "Royaume de Germa château et cases manga ; bordure bleue à motifs, coût 1. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818056&language=2"
+    ]
+  },
+  "OP06-086_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818057,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:27:25.897Z",
+    "note": "Moria avec chauves-souris violettes ; bordure argentée à motifs, 8/9000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818057&language=2"
+    ]
+  },
+  "OP06-091_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818058,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:27:49.704Z",
+    "note": "Cindry blonde tenant des assiettes, fleurs rouges ; bordure blanche simple, 1/2000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818058&language=2"
+    ]
+  },
+  "OP06-100_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818059,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:27:49.704Z",
+    "note": "Caborage casque et cape rouge, épée à droite ; bordure blanche simple, 4/5000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818059&language=2"
+    ]
+  },
+  "OP06-106_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818060,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:27:49.704Z",
+    "note": "Hiyori cheveux verts et fleurs roses, kimono rose/vert ; bordure argentée à motifs, 2/0. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818060&language=2"
+    ]
+  },
+  "OP06-110_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818061,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:28:14.571Z",
+    "note": "Chavipère jaune bouche ouverte ; bordure blanche simple, 4/5000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818061&language=2"
+    ]
+  },
+  "OP06-114_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818062,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:28:14.571Z",
+    "note": "Wiper bazooka sur épaule, visage tatoué ; bordure blanche simple, 5/7000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818062&language=2"
+    ]
+  },
+  "P-055": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818064,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:28:14.571Z",
+    "note": "Luffy coup de poing en avant, ciel bleu ; bordure blanche simple, 4/5000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818064&language=2"
+    ]
+  },
+  "ST01-006_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818065,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:28:38.935Z",
+    "note": "Chopper avec barbe à papa rose, fond bleu ; cadre blanc simple, 1/1000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818065&language=2"
+    ]
+  },
+  "ST01-014_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818066,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:28:38.935Z",
+    "note": "Chopper boule de poils et bulle Guard Point manga ; cadre doré à motifs, coût 1. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818066&language=2"
+    ]
+  },
+  "ST02-004_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818067,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:28:38.935Z",
+    "note": "Bege gros plan chapeau noir, dents serrées ; cadre blanc simple, 1/1000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818067&language=2"
+    ]
+  },
+  "ST03-005_p2": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818068,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:29:04.593Z",
+    "note": "Mihawk chemise blanche, épée levée, fond bleu noir ; cadre blanc simple, 4/5000. Fiche PRB01 dédiée, distincte de la fiche ST17 ambiguë. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818068&language=2"
+    ]
+  },
+  "ST03-008_p2": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818069,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:29:04.593Z",
+    "note": "Law main tatouée tendue, manteau noir et fond bleu ; cadre blanc simple, 1/1000. Fiche PRB01 dédiée, distincte de la fiche ST17 ambiguë. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818069&language=2"
+    ]
+  },
+  "ST03-013_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818070,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:29:04.593Z",
+    "note": "Hancock robe rouge et cape blanche sur fond rose à cœurs ; cadre blanc simple, 3/1000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818070&language=2"
+    ]
+  },
+  "ST04-003_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818071,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:29:30.624Z",
+    "note": "Kaido torse nu, masse sur épaule et grandes cornes ; bordure argentée à motifs, 9/10000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818071&language=2"
+    ]
+  },
+  "ST04-005_p2": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818072,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:29:30.624Z",
+    "note": "Queen poing levé, rayures noir et blanc ; cadre blanc simple, 5/6000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818072&language=2"
+    ]
+  },
+  "ST04-016_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 829732,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:29:30.624Z",
+    "note": "Kaido dragon soufflant sur falaise, manga ; cadre doré à motifs, coût 1. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=829732&language=2"
+    ]
+  },
+  "ST06-014_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818073,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:30:04.831Z",
+    "note": "Sengoku doré, paume tendue, cases manga ; cadre doré à motifs, coût 2. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818073&language=2"
+    ]
+  },
+  "ST07-007_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818074,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:30:04.831Z",
+    "note": "Brûlée robe blanche, faux et cape verte ; cadre blanc simple, 3/1000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818074&language=2"
+    ]
+  },
+  "ST09-014_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818075,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:30:04.831Z",
+    "note": "Flèche sonore, manga et grande main en avant ; cadre doré à motifs, coût 1. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818075&language=2"
+    ]
+  },
+  "ST12-014_p1": {
+    "series": "622301",
+    "label": "Illustration d’origine",
+    "base": true,
+    "cardmarket": {
+      "id": 818076,
+      "expansion": 5805,
+      "version": 1
+    },
+    "verifiedAt": "2026-11-03T06:30:04.831Z",
+    "note": "Duval casque métallique, fusil et cape à pointes ; cadre blanc simple, 2/1000. Illustration et bordures comparées à l’image officielle FR ; édition The Best, titre, identité produit et offres françaises contrôlés.",
+    "sources": [
+      "https://fr.onepiece-cardgame.com/cardlist/?series=622301",
+      "https://www.cardmarket.com/fr/OnePiece/Products?idProduct=818076&language=2"
     ]
   }
 }

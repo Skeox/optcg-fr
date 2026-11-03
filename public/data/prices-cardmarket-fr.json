@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T01:16:50.395Z",
+  "updatedAt": "2026-11-03T01:36:06.646Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -14718,6 +14718,231 @@
         330
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Purple-Black-MonkeyDLuffy/MonkeyDLuffy-ST26-005?language=2"
+    },
+    "829157": {
+      "productId": 829157,
+      "at": "2026-11-03T01:34:38.704Z",
+      "status": "quoted",
+      "average": 0.84,
+      "sellers": 5,
+      "sample": [
+        60,
+        65,
+        97,
+        99,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/MarshallDTeach-OP09-081?language=2"
+    },
+    "829158": {
+      "productId": 829158,
+      "at": "2026-11-03T01:34:47.926Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/Van-Augur-OP09-083?language=2"
+    },
+    "829159": {
+      "productId": 829159,
+      "at": "2026-11-03T01:34:56.223Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/Jesus-Burgess-OP09-086?language=2"
+    },
+    "829160": {
+      "productId": 829160,
+      "at": "2026-11-03T01:35:09.805Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/Shiryu-OP09-088?language=2"
+    },
+    "829161": {
+      "productId": 829161,
+      "at": "2026-11-03T01:35:18.284Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/Stronger-OP09-089?language=2"
+    },
+    "829162": {
+      "productId": 829162,
+      "at": "2026-11-03T01:35:27.104Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/Doc-Q-OP09-090?language=2"
+    },
+    "829163": {
+      "productId": 829163,
+      "at": "2026-11-03T01:35:35.566Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/Vasco-Shot-OP09-091?language=2"
+    },
+    "829164": {
+      "productId": 829164,
+      "at": "2026-11-03T01:35:49.458Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        5,
+        5,
+        6
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/Laffitte-OP09-095?language=2"
+    },
+    "829165": {
+      "productId": 829165,
+      "at": "2026-11-03T01:35:58.246Z",
+      "status": "quoted",
+      "average": 0.04,
+      "sellers": 5,
+      "sample": [
+        2,
+        4,
+        4,
+        4,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/Fullalead-OP09-099?language=2"
+    },
+    "829166": {
+      "productId": 829166,
+      "at": "2026-11-03T01:36:06.646Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/SanjuanWolf-OP10-084?language=2"
+    },
+    "829167": {
+      "productId": 829167,
+      "at": "2026-11-03T01:33:46.311Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/Avalo-Pizarro-ST27-001?language=2"
+    },
+    "829168": {
+      "productId": 829168,
+      "at": "2026-11-03T01:33:54.719Z",
+      "status": "quoted",
+      "average": 0.03,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        4,
+        5
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/Catarina-Devon-ST27-002?language=2"
+    },
+    "829169": {
+      "productId": 829169,
+      "at": "2026-11-03T01:34:07.817Z",
+      "status": "quoted",
+      "average": 2.49,
+      "sellers": 5,
+      "sample": [
+        150,
+        250,
+        250,
+        295,
+        299
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/Kuzan-ST27-003?language=2"
+    },
+    "829170": {
+      "productId": 829170,
+      "at": "2026-11-03T01:34:16.246Z",
+      "status": "quoted",
+      "average": 0.07,
+      "sellers": 5,
+      "sample": [
+        2,
+        5,
+        10,
+        10,
+        10
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/SanjuanWolf-ST27-004?language=2"
+    },
+    "829171": {
+      "productId": 829171,
+      "at": "2026-11-03T01:34:30.383Z",
+      "status": "quoted",
+      "average": 0.92,
+      "sellers": 5,
+      "sample": [
+        80,
+        89,
+        90,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-Black-MarshallDTeach/MarshallDTeach-ST27-005?language=2"
     },
     "830578": {
       "productId": 830578,

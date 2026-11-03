@@ -3,7 +3,7 @@
   "currency": "EUR",
   "language": "fr",
   "method": "five-lowest-distinct-sellers-nm-v1",
-  "updatedAt": "2026-11-03T02:19:00.917Z",
+  "updatedAt": "2026-11-03T02:39:19.841Z",
   "products": {
     "691055": {
       "productId": 691055,
@@ -35368,6 +35368,516 @@
         15000
       ],
       "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/OP16/PortgasDAce-ST15-005?language=2"
+    },
+    "891016": {
+      "productId": 891016,
+      "at": "2026-11-03T02:33:48.977Z",
+      "status": "quoted",
+      "average": 1.62,
+      "sellers": 5,
+      "sample": [
+        150,
+        150,
+        165,
+        170,
+        175
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Luffy-Ace-ST30-001-V1?language=2"
+    },
+    "891017": {
+      "productId": 891017,
+      "at": "2026-11-03T02:33:57.520Z",
+      "status": "quoted",
+      "average": 33.13,
+      "sellers": 5,
+      "sample": [
+        3279,
+        3288,
+        3299,
+        3300,
+        3400
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Luffy-Ace-ST30-001-V2?language=2"
+    },
+    "891018": {
+      "productId": 891018,
+      "at": "2026-11-03T02:34:10.633Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Inazuma-ST30-002-V1?language=2"
+    },
+    "891019": {
+      "productId": 891019,
+      "at": "2026-11-03T02:34:19.447Z",
+      "status": "quoted",
+      "average": 0.94,
+      "sellers": 5,
+      "sample": [
+        80,
+        89,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Inazuma-ST30-002-V2?language=2"
+    },
+    "891020": {
+      "productId": 891020,
+      "at": "2026-11-03T02:34:32.760Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/EdwardNewgate-ST30-003-V1?language=2"
+    },
+    "891021": {
+      "productId": 891021,
+      "at": "2026-11-03T02:34:41.169Z",
+      "status": "quoted",
+      "average": 1.68,
+      "sellers": 5,
+      "sample": [
+        150,
+        150,
+        150,
+        190,
+        199
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/EdwardNewgate-ST30-003-V2?language=2"
+    },
+    "891022": {
+      "productId": 891022,
+      "at": "2026-11-03T02:34:49.589Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/EmporioIvankov-ST30-004-V1?language=2"
+    },
+    "891023": {
+      "productId": 891023,
+      "at": "2026-11-03T02:34:58.001Z",
+      "status": "quoted",
+      "average": 1.29,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        145,
+        150,
+        150
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/EmporioIvankov-ST30-004-V2?language=2"
+    },
+    "891024": {
+      "productId": 891024,
+      "at": "2026-11-03T02:35:11.565Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Jozu-ST30-005-V1?language=2"
+    },
+    "891025": {
+      "productId": 891025,
+      "at": "2026-11-03T02:35:20.196Z",
+      "status": "quoted",
+      "average": 1.39,
+      "sellers": 5,
+      "sample": [
+        135,
+        140,
+        140,
+        140,
+        140
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Jozu-ST30-005-V2?language=2"
+    },
+    "891026": {
+      "productId": 891026,
+      "at": "2026-11-03T02:35:28.868Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Jinbe-ST30-006-V1?language=2"
+    },
+    "891027": {
+      "productId": 891027,
+      "at": "2026-11-03T02:35:37.305Z",
+      "status": "quoted",
+      "average": 1.98,
+      "sellers": 5,
+      "sample": [
+        190,
+        200,
+        200,
+        200,
+        200
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Jinbe-ST30-006-V2?language=2"
+    },
+    "891028": {
+      "productId": 891028,
+      "at": "2026-11-03T02:35:52.468Z",
+      "status": "quoted",
+      "average": 0.21,
+      "sellers": 5,
+      "sample": [
+        16,
+        20,
+        20,
+        23,
+        25
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/PortgasDAce-ST30-007-V1?language=2"
+    },
+    "891029": {
+      "productId": 891029,
+      "at": "2026-11-03T02:36:00.896Z",
+      "status": "quoted",
+      "average": 2.8,
+      "sellers": 5,
+      "sample": [
+        250,
+        250,
+        299,
+        299,
+        300
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/PortgasDAce-ST30-007-V2?language=2"
+    },
+    "891030": {
+      "productId": 891030,
+      "at": "2026-11-03T02:36:09.571Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Marco-ST30-008-V1?language=2"
+    },
+    "891031": {
+      "productId": 891031,
+      "at": "2026-11-03T02:36:18.160Z",
+      "status": "quoted",
+      "average": 1.26,
+      "sellers": 5,
+      "sample": [
+        100,
+        100,
+        100,
+        149,
+        180
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Marco-ST30-008-V2?language=2"
+    },
+    "891032": {
+      "productId": 891032,
+      "at": "2026-11-03T02:36:33.288Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/LittleOars-Jr-ST30-009-V1?language=2"
+    },
+    "891033": {
+      "productId": 891033,
+      "at": "2026-11-03T02:36:41.819Z",
+      "status": "quoted",
+      "average": 1,
+      "sellers": 5,
+      "sample": [
+        99,
+        99,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/LittleOars-Jr-ST30-009-V2?language=2"
+    },
+    "891034": {
+      "productId": 891034,
+      "at": "2026-11-03T02:36:50.506Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Crocodile-ST30-010-V1?language=2"
+    },
+    "891035": {
+      "productId": 891035,
+      "at": "2026-11-03T02:36:59.024Z",
+      "status": "quoted",
+      "average": 1.7,
+      "sellers": 5,
+      "sample": [
+        160,
+        169,
+        170,
+        170,
+        180
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Crocodile-ST30-010-V2?language=2"
+    },
+    "891036": {
+      "productId": 891036,
+      "at": "2026-11-03T02:37:12.556Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Buggy-ST30-011-V1?language=2"
+    },
+    "891037": {
+      "productId": 891037,
+      "at": "2026-11-03T02:37:21.081Z",
+      "status": "quoted",
+      "average": 2.44,
+      "sellers": 5,
+      "sample": [
+        200,
+        239,
+        240,
+        240,
+        299
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Buggy-ST30-011-V2?language=2"
+    },
+    "891038": {
+      "productId": 891038,
+      "at": "2026-11-03T02:37:29.883Z",
+      "status": "quoted",
+      "average": 2.34,
+      "sellers": 5,
+      "sample": [
+        200,
+        239,
+        240,
+        240,
+        250
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/MonkeyDLuffy-ST30-012-V1?language=2"
+    },
+    "891039": {
+      "productId": 891039,
+      "at": "2026-11-03T02:37:38.374Z",
+      "status": "quoted",
+      "average": 9.58,
+      "sellers": 5,
+      "sample": [
+        900,
+        900,
+        990,
+        999,
+        1000
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/MonkeyDLuffy-ST30-012-V2?language=2"
+    },
+    "891040": {
+      "productId": 891040,
+      "at": "2026-11-03T02:37:50.331Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Mr2BonKureiBentham-ST30-013-V1?language=2"
+    },
+    "891041": {
+      "productId": 891041,
+      "at": "2026-11-03T02:37:59.035Z",
+      "status": "quoted",
+      "average": 0.77,
+      "sellers": 5,
+      "sample": [
+        40,
+        50,
+        95,
+        99,
+        99
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Mr2BonKureiBentham-ST30-013-V2?language=2"
+    },
+    "891042": {
+      "productId": 891042,
+      "at": "2026-11-03T02:38:07.681Z",
+      "status": "quoted",
+      "average": 0.99,
+      "sellers": 5,
+      "sample": [
+        95,
+        100,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Mr3Galdino-ST30-014-V1?language=2"
+    },
+    "891043": {
+      "productId": 891043,
+      "at": "2026-11-03T02:38:16.163Z",
+      "status": "quoted",
+      "average": 2.7,
+      "sellers": 5,
+      "sample": [
+        239,
+        250,
+        280,
+        289,
+        290
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Mr3Galdino-ST30-014-V2?language=2"
+    },
+    "891044": {
+      "productId": 891044,
+      "at": "2026-11-03T02:38:28.124Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/The-Name-of-This-Era-Is-Whitebeard-ST30-015-V1?language=2"
+    },
+    "891045": {
+      "productId": 891045,
+      "at": "2026-11-03T02:38:37.457Z",
+      "status": "quoted",
+      "average": 0.31,
+      "sellers": 5,
+      "sample": [
+        10,
+        14,
+        33,
+        50,
+        50
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/The-Name-of-This-Era-Is-Whitebeard-ST30-015-V2?language=2"
+    },
+    "891046": {
+      "productId": 891046,
+      "at": "2026-11-03T02:38:46.131Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Can-You-Still-Fight-Luffy-Of-Course-ST30-016-V1?language=2"
+    },
+    "891047": {
+      "productId": 891047,
+      "at": "2026-11-03T02:38:54.546Z",
+      "status": "quoted",
+      "average": 0.98,
+      "sellers": 5,
+      "sample": [
+        90,
+        100,
+        100,
+        100,
+        100
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/Can-You-Still-Fight-Luffy-Of-Course-ST30-016-V2?language=2"
+    },
+    "891048": {
+      "productId": 891048,
+      "at": "2026-11-03T02:39:11.162Z",
+      "status": "quoted",
+      "average": 0.02,
+      "sellers": 5,
+      "sample": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/And-You-Get-Yourself-in-Big-Trouble-ST30-017-V1?language=2"
+    },
+    "891049": {
+      "productId": 891049,
+      "at": "2026-11-03T02:39:19.841Z",
+      "status": "quoted",
+      "average": 0.36,
+      "sellers": 5,
+      "sample": [
+        30,
+        35,
+        35,
+        40,
+        40
+      ],
+      "url": "https://www.cardmarket.com/fr/OnePiece/Products/Singles/Starter-Deck-EX-Luffy-Ace/And-You-Get-Yourself-in-Big-Trouble-ST30-017-V2?language=2"
     },
     "892386": {
       "productId": 892386,

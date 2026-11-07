@@ -37,7 +37,7 @@ export function ColorDots({ colors, size = 'h-2.5 w-2.5' }: { colors: string[]; 
 
 type CardSelection = { selected: ReadonlySet<string>; toggle: (id: string) => void; disabled?: boolean };
 
-export function CardTile({ card, showQty = true, selection }: { card: Card; showQty?: boolean; selection?: CardSelection }) {
+export function CardTile({ card, showQty = true, selection, quantityControls = false }: { card: Card; showQty?: boolean; selection?: CardSelection; quantityControls?: boolean }) {
   const { owned } = useData();
   const qty = owned.get(card.id)?.qty ?? 0;
   const content = <>
@@ -63,10 +63,20 @@ export function CardTile({ card, showQty = true, selection }: { card: Card; show
         </div>
       </div>
     </>;
-  const className = 'block h-full w-full min-w-0 overflow-hidden rounded-xl border bg-bg-2 text-left focus-visible:outline-2 focus-visible:outline-accent ';
-  return selection ? (
-    <button type="button" className={className + (selection.selected.has(card.id) ? 'border-accent ring-2 ring-accent' : 'border-line')} aria-pressed={selection.selected.has(card.id)} aria-label={`Sélectionner ${card.name} (${card.id})`} disabled={selection.disabled} onClick={() => selection.toggle(card.id)}>{content}</button>
-  ) : <Link to={`/carte/${encodeURIComponent(card.id)}`} className={className + 'border-line'}>{content}</Link>;
+  const frameClass = `overflow-hidden rounded-xl border bg-bg-2 ${selection?.selected.has(card.id) ? 'border-accent ring-2 ring-accent' : 'border-line'}`;
+  const className = `block w-full min-w-0 text-left focus-visible:outline-2 focus-visible:outline-accent ${quantityControls ? 'flex-1 rounded-t-xl focus-visible:-outline-offset-2' : `h-full ${frameClass}`}`;
+  const tile = selection ? (
+    <button type="button" className={className} aria-pressed={selection.selected.has(card.id)} aria-label={`Sélectionner ${card.name} (${card.id})`} disabled={selection.disabled} onClick={() => selection.toggle(card.id)}>{content}</button>
+  ) : <Link to={`/carte/${encodeURIComponent(card.id)}`} className={className}>{content}</Link>;
+  if (!quantityControls) return tile;
+  return (
+    <div className={`flex h-full min-w-0 flex-col ${frameClass}`}>
+      {tile}
+      <div className="mx-2 flex justify-center border-t border-line/60">
+        <QtyControl cardId={card.id} subtle label={`${card.name} (${card.id})`} disabled={selection?.disabled} />
+      </div>
+    </div>
+  );
 }
 
 export function CardGrid({ cards, pageSize = 60, selection, quantityControls = false }: { cards: Card[]; pageSize?: number; selection?: CardSelection; quantityControls?: boolean }) {
@@ -77,14 +87,7 @@ export function CardGrid({ cards, pageSize = 60, selection, quantityControls = f
   return (
     <>
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        {shown.map((c) => quantityControls ? (
-          <div key={c.id} className="flex min-w-0 flex-col gap-1">
-            <CardTile card={c} selection={selection} />
-            <div className="flex justify-center">
-              <QtyControl cardId={c.id} subtle label={`${c.name} (${c.id})`} disabled={selection?.disabled} />
-            </div>
-          </div>
-        ) : <CardTile key={c.id} card={c} selection={selection} />)}
+        {shown.map((c) => <CardTile key={c.id} card={c} selection={selection} quantityControls={quantityControls} />)}
       </div>
       {cards.length === 0 && <p className="py-10 text-center text-ink-2">Aucune carte.</p>}
       {limit < cards.length && (

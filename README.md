@@ -29,6 +29,8 @@ Le site GitHub Pages et la base Turso ne suffisent pas seuls : le service Node d
 
 La version française a démarré avec OP-09 et ST-15 (février 2025). Les cartes plus anciennes (OP-01 à OP-08) n'existent en VF que via les réimpressions des Premium Boosters *The Best* (PRB-01/02) : elles figurent donc dans le catalogue sous ces séries.
 
+OP18 — **La Domination de Dieu** : les 159 cartes et variantes du [catalogue officiel français](https://fr.onepiece-cardgame.com/cardlist/?series=622118) sont intégrées depuis le 20 novembre 2026, avec leurs textes français, miniatures et empreintes pour le scanner. Les associations et prix Cardmarket français de cette extension restent à vérifier ; aucun prix automatique n'est attribué en attendant.
+
 ### Collecte mensuelle Cardmarket FR
 
 La référence est la **moyenne des cinq offres françaises les moins chères relevées auprès de cinq vendeurs distincts, en état NM/MT, en EUR et hors port**. Ce sont des prix demandés, pas une moyenne de ventes réalisées. Le pays du vendeur ne détermine jamais la langue de la carte. Les offres sans stock, avec attribut supplémentaire (signature, modification) ou description de lot/carte gradée sont exclues. La moyenne est arrondie au centime, sans pondération par la quantité disponible.
